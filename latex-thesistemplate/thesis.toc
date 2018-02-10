@@ -1,0 +1,44 @@
+\hfill {\bf Page}
+\contentsline {chapter}{Acknowledgements}{v}
+\contentsline {chapter}{Abstract}{vii}
+\contentsline {chapter}{Table of Contents}{ix}
+\noindent {\bf Chapter}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Data Processing}{1}
+\contentsline {section}{\numberline {1.2}Estimating the Accuracy of the Results of Data Processing}{1}
+\contentsline {section}{\numberline {1.3}Traditionally, Statistical Methods Are Used}{2}
+\contentsline {section}{\numberline {1.4}Statistical Methods Are Not Always Applicable}{3}
+\contentsline {section}{\numberline {1.5}Interval Computations}{3}
+\contentsline {section}{\numberline {1.6}A Typical Data Processing Problem: Solving Linear Systems}{4}
+\contentsline {section}{\numberline {1.7}Interval Linear Systems}{5}
+\contentsline {section}{\numberline {1.8}Example}{6}
+\contentsline {section}{\numberline {1.9}Solving Interval Linear Systems Is NP-Hard}{7}
+\contentsline {section}{\numberline {1.10}What If Intervals Are Narrow?}{8}
+\contentsline {section}{\numberline {1.11}Our Result}{8}
+\contentsline {chapter}{\numberline {2}NP-Hard Problems}{9}
+\contentsline {section}{\numberline {2.1}What Is a Problem?}{9}
+\contentsline {section}{\numberline {2.2}Turing Machines}{11}
+\contentsline {section}{\numberline {2.3}The Classes P and NP}{13}
+\contentsline {section}{\numberline {2.4}NP-Complete, NP-Hard, and Reductions}{13}
+\contentsline {chapter}{\numberline {3}Solving Interval Linear Systems Is NP-Hard: Known Result}{16}
+\contentsline {section}{\numberline {3.1}Definitions}{16}
+\contentsline {section}{\numberline {3.2}Theorem}{18}
+\contentsline {section}{\numberline {3.3}What If Intervals Are Narrow?}{18}
+\contentsline {chapter}{\numberline {4}Solving Most Narrow-Interval Linear Systems Is Easy: Known Result}{19}
+\contentsline {section}{\numberline {4.1}Definitions}{19}
+\contentsline {section}{\numberline {4.2}Theorem}{20}
+\contentsline {section}{\numberline {4.3}Open Problem}{21}
+\contentsline {chapter}{\numberline {5}Solving Narrow-Interval Linear Systems Is NP-Hard: New Result}{22}
+\contentsline {section}{\numberline {5.1}Definitions}{22}
+\contentsline {section}{\numberline {5.2}Theorem}{23}
+\contentsline {section}{\numberline {5.3}Proof}{24}
+\contentsline {subsection}{\numberline {5.3.1}Part I: Reduction of Interval Linear System to Narrow-Interval Linear System}{24}
+\contentsline {subsection}{\numberline {5.3.2}Part II: The Two Systems Are ``Equivalent''}{27}
+\contentsline {subsubsection}{Proof of Claim 1}{27}
+\contentsline {subsubsection}{Proof of Claim 2}{32}
+\contentsline {subsection}{\numberline {5.3.3}Conclusion}{35}
+\contentsline {chapter}{\numberline {6}Concluding Remarks}{36}
+\contentsline {section}{\numberline {6.1}Significance of the Result}{36}
+\contentsline {section}{\numberline {6.2}Future Work}{36}
+\contentsline {chapter}{References}{37}
+\contentsline {chapter}{Curriculum Vitae}{39}
