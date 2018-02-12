@@ -60,7 +60,6 @@
       <file>standard.bbx</file>
       <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
       <file>french.lbx</file>
     </requires>
   </internal>
@@ -85,7 +84,7 @@
       <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>example.bib</file>
+      <file>biblio.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
