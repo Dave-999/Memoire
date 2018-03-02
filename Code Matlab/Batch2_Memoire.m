@@ -108,16 +108,14 @@ rho7_x2=[mean(rho7(1,7:9)) mean(rho7(1,10:12)) mean(rho7(1,13:15))];
     plot([1.5,4.1,6.7] , rho7_x2);
     legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
 xlabel('x [cm]')
-ylabel('Densité relative apparente [%]')  
-ylim([99.25 99.5])
+ylabel('Densité relative apparente [%]')    
 %Evolution selon y
 figure;
 rho7_y=[(rho7(1,1)+rho7(1,4))/2 (rho7(1,2)+rho7(1,5))/2 (rho7(1,3)+rho7(1,6))/2 (rho7(1,7)+rho7(1,10)+rho7(1,13))/3 (rho7(1,8)+rho7(1,11)+rho7(1,14))/3  (rho7(1,9)+rho7(1,12)+rho7(1,15))/3];
     plot([8.9 7.1 5.5] , rho7_y(1:3));
     hold on
     plot([3.45 2.35 1.25], rho7_y(4:6));
-            line([4.5 4.5 ], [99.3 99.5])
-ylim([99.25 99.5])
+            line([4.5 4.5 ], [99 99.6])
 xlabel('y [cm]')
 ylabel('Densité relative apparente [%]')  
     legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
@@ -185,7 +183,7 @@ rho8_y=[(rho8(1,1)+rho8(1,4))/2 (rho8(1,2)+rho8(1,5))/2 (rho8(1,3)+rho8(1,6))/2 
         line([4.5 4.5 ], [99 99.6])
 ylabel('Densité relative apparente [%]')    
     legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
-ylim([99.25 99.5])
+
 % %LES DEUX
 % figure
 % tri = delaunay([X7 X8],[Y7 Y8]);
@@ -302,7 +300,7 @@ scatter3(X7,Y7,H7_low)
 %plot(X,Y,'*')
 xlim([0,10])
 ylim([0,10])
-zlim([137,143])
+zlim([135,143])
 
 newmap = jet;                    %starting map
 ncol = size(newmap,1);           %how big is it?
@@ -367,7 +365,7 @@ scatter3(X8,Y8,H8_low)
 %plot(X,Y,'*')
 xlim([0,10])
 ylim([0,10])
-zlim([131,141])
+zlim([135,143])
 
 newmap = jet;                    %starting map
 ncol = size(newmap,1);           %how big is it?
