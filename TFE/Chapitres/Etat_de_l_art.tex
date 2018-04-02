@@ -4,8 +4,10 @@ Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (refl
 
 Microstructure homogène, diagramme de phase\\
 
+Fonctionnement du SLM\\
+
 The properties of parts produced trough selective laser melting (SLM) stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
-Results are very sensitive to their variations, which must thus be monitored thoroughly. These reasons complicate the optimisation of the process parameters, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
+Results are very sensitive to their variations. The process parameters must thus be monitored thoroughly. This complicates the search for their optimisation, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
 \begin{figure}[th]
 \centering
 \includegraphics[scale=0.42]{Images/Param}
@@ -15,9 +17,9 @@ Results are very sensitive to their variations, which must thus be monitored tho
 \label{fig:param}
 \end{figure}
 
-In recent years, works aiming at meeting this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication trough SLM abound in the literature.\\
+In recent years, works aiming at facing this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication trough SLM abound in the literature.\\
 
-The analysis of the coupled impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so as the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
+The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so as the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
 A popular approach is to regroup multiple operating parameters into one, the volumetric energy density E. It is estimated trough the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
@@ -35,13 +37,13 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \centering
 \includegraphics[scale=0.32]{Images/Pvs2}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the depth and height of the track]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al, 2011)}
+\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al, 2011)}
 \label{fig:Pvs2}
 \end{figure}
 
-The other process parameters will be covered for the sake of completeness. To begin with, the particle size $D_a$ of the powder should be as small as possible to ensure a good flowability and allow for thin layers \parencite{Kempen110817}. Typical values stretch from 15 to 60 [$\mu m$]. The size distribution is more delicate to outline. On one hand, wider distributions often generate better bed density and parts with higher density and better surface finish. On the other hand, narrower ones usually provide better flowability and parts with better strength and hardness \parencite{Liu1101}. In most cases, a middle ground between the two should be sought.\\
+The other process parameters will be covered for the sake of completeness. First, the particle size $D_a$ of the powder should be as small as possible to ensure a good flowability and allow for thin layers \parencite{Kempen110817}. Typical values stretch from 15 to 60 [$\mu m$]. The size distribution is more delicate to outline. On one hand, wider distributions often generate better bed density and parts with higher density and better surface finish. On the other hand, narrower ones usually provide better flowability and parts with better strength and hardness \parencite{Liu1101}. In most cases, a middle ground between the two should be sought.\\
 
-Then scan pattern... Building direction...\\
+Second, the scan pattern... Building direction...\\
 
 Other laser-related parameters - the spot size and the pulse properties - can also be tuned. Only the laser spot size at the 99\% contour $\phi_{99\%}$ is frequently cited in literature. Its value lies between 100 and 200 $\mu m$.\\
 
