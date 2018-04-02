@@ -27,7 +27,7 @@
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
 %oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
-french, % ngerman for German
+british, % ngerman for German
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
@@ -44,8 +44,9 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{abstract}
 \usepackage{mathpazo} % Use the Palatino font by default
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
-
+\usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 \addbibresource{biblio.bib} % The filename of the bibliography
 %\renewcommand\acknowledgementsname{Remerciements}
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -88,18 +89,22 @@ headsepline, % Uncomment to get a line under the header
 %\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
 
 \HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries {Etude d'optimisation de la fabrication additive de l'aluminium AlSi10Mg}\par}%\vspace{0.3cm}  Thesis title
+\begin{changemargin}{-0.5cm}{-0.5cm} 
+{\huge \bfseries {Study of the stress relieve heat-treatment of}\\
+ \vspace{0.2cm}\hspace{0.2cm} \huge \bfseries {additively manufactured AlSi10Mg alloy:}}\vspace{0.3cm}
 
+\LARGE{Influence on microstructure and mechanical properties}\par
+\end{changemargin} 
 \HRule \\[1.5cm] % Horizontal line
  \vspace{1cm}
-\large \textit{Mémoire présenté par}\\
+\large \textit{Dissertation presented by}\\
 \vspace{0.5cm}
 \begin{minipage}[t]{0.35\textwidth}
 \begin{flushleft} \large
 David DISPAS
 \end{flushleft}
 \end{minipage}
-\large \textit{et}
+\large \textit{and}
 \begin{minipage}[t]{0.35\textwidth}
 \begin{flushright} \large
 Arthur BOUILLOT
@@ -107,30 +112,31 @@ Arthur BOUILLOT
 \end{minipage}\\%[3cm]
  
 \vspace{0.6cm}
-\large \textit{en vue de l'obtention des grades respectifs de Master en}\\[0.3cm] 
+\large \textit{for obtaining the Master’s degree in}\\[0.3cm] 
 \vspace{0.20cm}
 \begin{minipage}[t]{0.41\textwidth}
 \begin{flushleft} \large
-Ingénieur civil mécanicien
+Mechanical Engineering
 \end{flushleft}
 \end{minipage}
-\large \textit{et}
+\large \textit{and}
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushright} \large
-Ingénieur civil en chimie \\ et science des matériaux
+Chemical and Materials \\
+\centering \hspace{0.7cm} Engineering
 \end{flushright}
 \end{minipage}\\%[1cm]
 \vspace{0.7cm}
-\large \textit{à l'Ecole Polytchnique de Louvain (EPL)}\\[1.3cm]
+\large \textit{at Ecole Polytchnique de Louvain (EPL)}\\[1.3cm]
 \vfill
-\large {\textit{Promoteur:} Aude SIMAR}
+\large {\textit{Supervisor:} Aude SIMAR}
 %\textit{in the}\\[0.4cm]
 \vfill
 %\groupname\\\deptname\\[2cm] % Research group name and department name
- \large {\textit{Lecteurs:} Stephen HAWKING, Elon MUSK}
+ \large {\textit{Readers:} Laurent DELANNAY, Anne MERTENS, Camille VAN DER REST}
 %\vfill
 \vfill
-{\large Année académique 2017-2018}\\%[1cm] % Date
+{\large Academic year 2017-2018}\\%[1cm] % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
  
 
@@ -160,7 +166,7 @@ Ingénieur civil en chimie \\ et science des matériaux
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
 
-\chapter*{Remerciements}
+\chapter*{Acknowledgements}
 
 %\addchaptertocentry{Remerciements} % Add the acknowledgements to the table of contents
 Gros betch à mes poules Aude Simar et Camille Van Der Rest et aux potos du labo
@@ -180,12 +186,12 @@ Gros betch à mes poules Aude Simar et Camille Van Der Rest et aux potos du labo
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
 
-%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 %
-%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+\textbf{SLM} & \textbf{S}elective \textbf{L}aser \textbf{M}elting\\
 %\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
 %
-%\end{abbreviations}
+\end{abbreviations}
 
 %----------------------------------------------------------------------------------------
 %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
@@ -204,17 +210,24 @@ Gros betch à mes poules Aude Simar et Camille Van Der Rest et aux potos du labo
 %	SYMBOLS
 %----------------------------------------------------------------------------------------
 
-\chapter*{Liste des abréviations et symboles}%{lll} % Include a list of Symbols (a three column table)
+\chapter*{Abbreviations and symbols}%{lll} % Include a list of Symbols (a three column table)
 \begin{tabular}{lll}
 
 \centering
-$a$ & distance & \si{\meter} \\
-$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
-%Symbol & Name & Unit \\
 
+$D_a$ & Average particle size & $[\mu m]$\\ 
+$E_d$ & Volumetric energy density & $[\frac{J}{mm^3}]$\\
+$h$ & Hatch space & $[\mu m]$\\
+$P$ & Laser power & $[W]$ \\
+$p_{Ar}$ & Argon pressure & $[mbar]$\\
+$t$ & Layer thickness & $[\mu m]$\\
+$v_s$ & Scanning speed & $[\frac{mm}{s}]$ \\
+\addlinespace
+$\phi_{99\%}$ & Laser spot size at the 99\% contour & $[\mu m]$\\
+$\rho_{rel}$ & Apparent relative density & $[-]$ \\
 %\addlinespace % Gap to separate the Roman symbols from the Greek
 
-$\omega$ & angular frequency & \si{\radian} \\
+%$\omega$ & angular frequency & \si{\radian} \\
 \end{tabular}
 %\end{symbols}
 

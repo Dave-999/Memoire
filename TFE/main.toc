@@ -1,10 +1,10 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\select@language {french}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.8}
-\contentsline {chapter}{\numberline {2}Etat de l'art}{3}{chapter.9}
-\contentsline {chapter}{\numberline {3}Mat\IeC {\'e}riel et m\IeC {\'e}thodes}{5}{chapter.11}
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}sultats}{7}{chapter.12}
-\contentsline {chapter}{\numberline {5}Discussion}{9}{chapter.13}
-\contentsline {chapter}{\numberline {6}Conclusion}{11}{chapter.15}
-\contentsline {chapter}{Bibliographie}{13}{appendix*.16}
+\select@language {british}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
+\contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
+\contentsline {chapter}{\numberline {3}Materials and methods}{7}{chapter.15}
+\contentsline {chapter}{\numberline {4}Results}{9}{chapter.16}
+\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.17}
+\contentsline {chapter}{\numberline {6}Conclusion}{13}{chapter.19}
+\contentsline {chapter}{Bibliography}{15}{appendix*.20}

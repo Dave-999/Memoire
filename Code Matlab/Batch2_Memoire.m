@@ -224,8 +224,27 @@ ylabel('Densité relative apparente [%]')
 % zlabel('Densité relative apparente')
 
 %
+%Densité en fonction de l'ordre de fabrication
 
+ordre7=[1,3,4,13,14,15,2,7,10,5,8,11,6,9,12]
+ordre8=[16,18,19,28,29,30,17,22,25,20,23,26,21,24,27]
+P7 = polyfit(ordre7,rho7,1);
+    yfit7 = P7(1)*ordre7+P7(2);
+    P8 = polyfit(ordre8,rho8,1);
+    yfit8 = P8(1)*ordre8+P8(2);
+figure
+err7 = [0.019,0.016,0.083,0.027,0.039,0.065,0.045,0.068,0.069,0.025,0.029,0.059,0.066,0.083,0.030]
+err8 = [0.066,0.095,0.062,0.040,0.013,0.077,0.100,0.074,0.033,0.062,0.040,0.034,0.084,0.033,0.070]
+errorbar(ordre7,rho7,err7,'o')
+hold on
+errorbar(ordre8,rho8,err8,'o')
+hold on
 
+plot(ordre7,yfit7)
+plot(ordre8,yfit8)
+xlabel('Ordre de scan [-]')
+ylabel('Densité relative apparente [%]')
+legend('Type 7', 'Type 8', 'Approximation linéaire (type 7)', 'Approximation linéaire (type 8)')
 %%%%%%%%%%%%
 %% DURETE %%
 %%%%%%%%%%%%
