@@ -245,6 +245,35 @@ plot(ordre8,yfit8)
 xlabel('Ordre de scan [-]')
 ylabel('Densité relative apparente [%]')
 legend('Type 7', 'Type 8', 'Approximation linéaire (type 7)', 'Approximation linéaire (type 8)')
+
+ %Comparaison des techniques de mesure de densité
+ figure;
+ c = categorical({'7c','7h','7m','7n','7o'});
+ hold on
+Densite = [99.33 99.77 99.77;99.52 99.32 99.76;99.29 99.49 99.68;99.24 99.49 99.51;99.49 99.48 99.52];
+ bar(Densite);
+ %bar([1 2 3 4 5],Archp);
+errorbar([0.77 1 1.23;1.77 2 2.23;2.77 3 3.23;3.77 4 4.23;4.77 5 5.23;],Densite,[0.019 0.1 0.09; 0.065 0.17 0.03; 0.029 0.11 0.11; 0.059 0.19 0.10; 0.066 0.12 0.08],'o');
+%errorbar([1 2 3 4 5],Archp,[0.1,0.17,0.11,0.19,0.12],'o');
+set(gca, 'XTick', 1:5,'XTickLabel',{'7c';'7h';'7m';'7n';'7o'});
+ylim([99 100])
+legend('Archimède "as built"', 'Archimède après polissage', 'Microscope optique');
+%set(gca,'xticklabel',{'7c';'7h';'7m';'7n';'7o'})
+
+ %scatter(
+
+
+
+
+
+
+
+
+
+
+
+
+
 %%%%%%%%%%%%
 %% DURETE %%
 %%%%%%%%%%%%
@@ -417,3 +446,4 @@ H8_y=[(H8(1,1)+H8(1,4))/2 (H8(1,2)+H8(1,5))/2 (H8(1,3)+H8(1,6))/2 (H8(1,7)+H8(1,
     xlabel('y [cm]')
 ylabel('Dureté Vickers [HV]')  
     legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+   
