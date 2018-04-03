@@ -64,6 +64,56 @@
     \field{year}{2014}
   \endentry
 
+  \entry{aboulkhair2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ANT}{%
+         family={Aboulkhair},
+         familyi={A\bibinitperiod},
+         given={Nesma\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=ENM}{%
+         family={Everitt},
+         familyi={E\bibinitperiod},
+         given={Nicola\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maskery},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTENMMIAITC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{4}
+    \field{pages}{311–319}
+    \field{title}{Selective laser melting of aluminum alloys}
+    \field{volume}{42}
+    \field{journaltitle}{MRS Bulletin}
+    \field{year}{2017}
+  \endentry
+
   \entry{Brandl121509}{article}{}
     \name{author}{4}{}{%
       {{hash=BE}{%
@@ -297,6 +347,102 @@
     \endverb
     \field{volume}{65}
     \field{journaltitle}{Materials \& Design (1980-2015)}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Tang170309}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TM}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PPC}{%
+         family={Pistorius},
+         familyi={P\bibinitperiod},
+         given={P.\bibnamedelima Chris},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BJL}{%
+         family={Beuth},
+         familyi={B\bibinitperiod},
+         given={Jack\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Powder bed fusion, Porosity, Simulation, Melt pool, Lack of fusion}
+    \strng{namehash}{TMPPCBJL1}
+    \strng{fullhash}{TMPPCBJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{39 \bibrangedash  48}
+    \field{title}{Prediction of lack-of-fusion porosity for powder bed fusion}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S2214860416300471
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Weingarten151102}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WC}{%
+         family={Weingarten},
+         familyi={W\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Buchbinder},
+         familyi={B\bibinitperiod},
+         given={Damien},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Pirch},
+         familyi={P\bibinitperiod},
+         given={Norbert},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Meiners},
+         familyi={M\bibinitperiod},
+         given={Wilhelm},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wissenbach},
+         familyi={W\bibinitperiod},
+         given={Konrad},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Poprawe},
+         familyi={P\bibinitperiod},
+         given={Reinhart},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Selective laser melting, Aluminum, Hydrogen, Porosity, Rapid
+  solidification}
+    \strng{namehash}{WC+1}
+    \strng{fullhash}{WCBDPNMWWKPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{112 \bibrangedash  120}
+    \field{title}{Formation and reduction of hydrogen porosity during selective
+  laser melting of AlSi10Mg}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0924013615000564
+    \endverb
+    \field{volume}{221}
+    \field{journaltitle}{Journal of Materials Processing Technology}
     \field{year}{2015}
   \endentry
 \enddatalist
