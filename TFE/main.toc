@@ -3,8 +3,8 @@
 \select@language {british}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
-\contentsline {chapter}{\numberline {3}Materials and methods}{7}{chapter.15}
-\contentsline {chapter}{\numberline {4}Results}{9}{chapter.16}
-\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.17}
-\contentsline {chapter}{\numberline {6}Conclusion}{13}{chapter.19}
-\contentsline {chapter}{Bibliography}{15}{appendix*.20}
+\contentsline {chapter}{\numberline {3}Materials and methods}{7}{chapter.17}
+\contentsline {chapter}{\numberline {4}Results}{9}{chapter.18}
+\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.19}
+\contentsline {chapter}{\numberline {6}Conclusion}{13}{chapter.21}
+\contentsline {chapter}{Bibliography}{15}{appendix*.22}

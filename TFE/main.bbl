@@ -17,6 +17,56 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{aboulkhair2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ANT}{%
+         family={Aboulkhair},
+         familyi={A\bibinitperiod},
+         given={Nesma\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maskery},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ENM}{%
+         family={Everitt},
+         familyi={E\bibinitperiod},
+         given={Nicola\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Additive manufacturing; Selective laser melting; Single tracks;
+  Aluminium alloys; Microstructure; Nanoindentation}
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTMITCAIENM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{Complete}
+    \field{pages}{88\bibrangedash 98}
+    \field{title}{On the formation of AlSi10Mg single tracks and layers in
+  selective laser melting: Microstructure and nano-mechanical properties}
+    \field{volume}{230}
+    \field{journaltitle}{Journal of Materials Processing Tech.}
+    \field{year}{2016}
+  \endentry
+
   \entry{Aboulkair140820}{article}{}
     \name{author}{4}{}{%
       {{hash=ANT}{%
@@ -158,6 +208,56 @@
     \field{volume}{34}
     \field{journaltitle}{Materials \& Design}
     \field{year}{2012}
+  \endentry
+
+  \entry{DELROISSE201732}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DP}{%
+         family={Delroisse},
+         familyi={D\bibinitperiod},
+         given={Pauline},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JPJ}{%
+         family={Jacques},
+         familyi={J\bibinitperiod},
+         given={Pascal\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Maire},
+         familyi={M\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Rigo},
+         familyi={R\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Simar},
+         familyi={S\bibinitperiod},
+         given={Aude},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Aluminum alloys, Rapid solidification, Three-dimensional tomography,
+  Coarsening, Selective laser melting}
+    \strng{namehash}{DP+1}
+    \strng{fullhash}{DPJPJMEROSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{issn}{1359-6462}
+    \field{pages}{32 \bibrangedash  35}
+    \field{title}{Effect of strut orientation on the microstructure
+  heterogeneities in AlSi10Mg lattices processed by selective laser melting}
+    \field{volume}{141}
+    \field{journaltitle}{Scripta Materialia}
+    \field{year}{2017}
   \endentry
 
   \entry{Kempen110817}{article}{}
@@ -302,6 +402,46 @@
     \endverb
     \field{volume}{19}
     \field{journaltitle}{Advanced Engineering Materials}
+    \field{year}{2017}
+  \endentry
+
+  \entry{PRASHANTH170205}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PK}{%
+         family={Prashanth},
+         familyi={P\bibinitperiod},
+         given={K.G.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Scudino},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Eckert},
+         familyi={E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Additive manufacturing, Selective laser melting, Al-12Si alloy,
+  Tensile property, Microstructure}
+    \strng{namehash}{PKSSEJ1}
+    \strng{fullhash}{PKSSEJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{pages}{25 \bibrangedash  35}
+    \field{title}{Defining the tensile properties of Al-12Si parts produced by
+  selective laser melting}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S135964541630982X
+    \endverb
+    \field{volume}{126}
+    \field{journaltitle}{Acta Materialia}
     \field{year}{2017}
   \endentry
 
