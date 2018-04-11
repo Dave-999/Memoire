@@ -4,7 +4,7 @@ Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (refl
 
 Microstructure homogène, diagramme de phase\\
 
-Fonctionnement du SLM\\
+Fonctionnement du SLM... The oxygen pressure $p_{O_2}$ should be kept low during the process to prevent the oxidation of the metal. A shielding gas - such as argon - is thus used to fill the build chamber and $p_{O2}$ is monitored at all time.\\ %<1000ppm\\
 
 The properties of parts produced trough selective laser melting (SLM) stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
 Results are very sensitive to their variations. The process parameters must thus be monitored thoroughly. This complicates the search for their optimisation, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
@@ -19,7 +19,7 @@ Results are very sensitive to their variations. The process parameters must thus
 
 In recent years, works aiming at facing this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication trough SLM abound in the literature.\\
 
-The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so as the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
+The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
 A popular approach is to regroup multiple operating parameters into one, the volumetric energy density E. It is estimated trough the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
@@ -42,13 +42,32 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \end{figure}
 
 The other process parameters will be covered for the sake of completeness. Let us 
-first look into the particle-related parameters. The particle size $D_a$ of the powder should be as small as possible to ensure a good flowability and allow for thin layers \parencite{Kempen110817}. Typical values stretch from 15 to 60 [$\mu m$]. The size distribution is more delicate to outline. On one hand, wider distributions often generate better bed density and parts with higher density and better surface finish. On the other hand, narrower ones usually provide better flowability and parts with better strength and hardness \parencite{Liu1101}. In most cases, a middle ground between the two should be sought. In SLM applications, powder is often successively recycled multiple times. This leads to their progressive contamination with moisture, which causes an increase of hydrogen porosity in the produced parts \parencite{Weingarten151102}. The problem can be overcome by drying the powder or using fresh one. Unfortunately - in the case of aluminium alloys - no findings were made regarding the prediction of a threshold at which measures should be taken \parencite{aboulkhair2017}.    \\
+first look into the particle-related parameters. The particle size $D_a$ of the powder should be as small as possible to ensure a good flowability and allow for thin layers \parencite{Kempen110817}. Typical values stretch from 15 to 60 [$\mu m$]. The size distribution is more delicate to outline. On one hand, wider distributions often generate better bed density, parts with higher density and better surface finish. On the other hand, narrower ones usually provide better flowability and parts with better strength and hardness \parencite{Liu1101}. In most cases, a middle ground between the two should be sought. In SLM applications, powder is often successively recycled multiple times. This leads to their progressive contamination with moisture, which causes an increase of hydrogen porosity in the produced parts \parencite{Weingarten151102}. The problem can be overcome by drying the powder or using fresh one. Unfortunately - in the case of aluminium alloys - no findings were made regarding the prediction of a threshold at which one should take action \parencite{aboulkhair2017}.    \\
 
-Second, the choice of scan pattern is also of great importance. .. Building direction...\\
+The choice of scan pattern has great importance. There exist a few strategies. The common ones use unidirectional, bidirectional or islands patterns (see figure \ref{fig:Strat}). The scan direction(s) should be rotated between successive layers to favorise isotropy, especially in the unidirectional case since it causes height variations along a layer \parencite{aboulkhair2016}. The islands pattern is based on a decomposition in small domains with short scanning tracks. Two usual strategies can be distinguished among this group: the chessboard and the hexagonal one. \\
 
-Other laser-related parameters - the spot size and the pulse properties - can also be tuned. Only the laser spot size at the 99\% contour $\phi_{99\%}$ is frequently cited in literature. Its value lies between 100 and 200 $\mu m$.\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Images/Strat}
+\decoRule
+\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al, 2017)}
+\label{fig:Strat}
+\end{figure}
 
-Finally, pressure and temperature..\\
+Furthermore, dual scanning strategies were proven to be effective. For example, a pre-scan with low $E_d$ can flatten the powder bed before it is consolidated, which leads to a reduction of porosity \parencite{Mertens170406}. It was also shown that scanning the contour of the part being built at lower $E_d$ can better the surface roughness for AlSi12Mg \parencite{PRASHANTH170205}. One should note too that the final properties of the fabricated part can strongly depend on the building direction (see figure \ref{fig:Build}) \parencite{DELROISSE201732}.\\%PLus à dire??? %Building direction?
+
+\begin{figure}[th]
+\centering
+\includegraphics[scale=0.58]{Images/Build}
+\decoRule
+\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al, 2012)}
+\label{fig:Build}
+\end{figure}
+
+
+Other laser-related parameters - the spot size and the pulse properties - can also influence the process. Only the laser spot size at the 99\% contour $\phi_{99\%}$ is frequently cited in literature. Its value lies between 100 and 200 [$\mu m$].\\
+
+Finally, the temperature of the powder bed and feeder affect the final properties of the fabricated parts as well. In particular, it was observed that pre-heating the powder at $300^\circ$ C mitigates the differences of fatigue resistance between tensile specimens built in different directions: it is possible that the slower cooling rate induced helps reducing the distortions and internal stresses \parencite{Brandl121509}.\\
 
 Comparer les résultats avec alliage coulé/forgé\\
 
