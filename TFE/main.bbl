@@ -317,6 +317,62 @@
     \field{year}{2011}
   \endentry
 
+  \entry{LEITZ2017331}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LKH}{%
+         family={Leitz},
+         familyi={L\bibinitperiod},
+         given={K.-H.},
+         giveni={K\bibinitperiod-H\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Singer},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Plankensteiner},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Tabernig},
+         familyi={T\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kestler},
+         familyi={K\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sigl},
+         familyi={S\bibinitperiod},
+         given={L.S.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LKH+1}
+    \strng{fullhash}{LKHSPPATBKHSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{5}
+    \field{pages}{331 \bibrangedash  338}
+    \field{title}{Multi-physical simulation of selective laser melting}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0026065716300200
+    \endverb
+    \field{volume}{72}
+    \field{journaltitle}{Metal Powder Report}
+    \field{year}{2017}
+  \endentry
+
   \entry{Liu1101}{article}{}
     \name{author}{5}{}{%
       {{hash=LB}{%
@@ -583,6 +639,66 @@
     \endverb
     \field{volume}{221}
     \field{journaltitle}{Journal of Materials Processing Technology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Yap}{article}{}
+    \name{author}{7}{}{%
+      {{hash=YCY}{%
+         family={Yap},
+         familyi={Y\bibinitperiod},
+         given={Chor\bibnamedelima Yen},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KCC}{%
+         family={K.\bibnamedelima Chua},
+         familyi={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=LDZ}{%
+         family={L.\bibnamedelima Dong},
+         familyi={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=HLZ}{%
+         family={H.\bibnamedelima Liu},
+         familyi={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=QZD}{%
+         family={Q.\bibnamedelima Zhang},
+         familyi={Q\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=LL}{%
+         family={Loh},
+         familyi={L\bibinitperiod},
+         given={L.E.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Sing},
+         familyi={S\bibinitperiod},
+         given={Swee\bibnamedelima Leong},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YCY+1}
+    \strng{fullhash}{YCYKCCLDZHLZQZDLLSSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{booktitle}{Applied Physics Reviews}
+    \field{pages}{041101}
+    \field{title}{Review of selective laser melting: Materials and
+  applications}
+    \field{volume}{2}
+    \field{month}{12}
     \field{year}{2015}
   \endentry
 \enddatalist
