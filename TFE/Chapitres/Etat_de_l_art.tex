@@ -1,19 +1,46 @@
 \chapter{State of the art}
 \label{Chap2}
-Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (reflectivité etc)\\
 
-Microstructure homogène, diagramme de phase\\
+Selective laser melting (SLM) - also referred to as direct metal laser sintering (DMLS) - is an additive manufacturing  (AM) technique making use of a high power-density laser that locally melts layers of powder materials. Layers are progressively piled up, in order to create a 3D part. The technique is illustrated on figure \ref{fig:SLM} \parencite{LEITZ2017331}. The materials used include mostly metals but also ceramics and composites. Parts to build must first be drawn in a computer-aided design (CAD) software and broke down in 2D slices, each one corresponding to a powder layer. During the process, the oxygen pressure $p_{O_2}$ must be kept low to prevent the oxidation of the metal. A shielding gas - such as argon - is thus used to fill the build chamber and $p_{O2}$ must be monitored at all time.   \\
 
-Fonctionnement du SLM... The oxygen pressure $p_{O_2}$ should be kept low during the process to prevent the oxidation of the metal. A shielding gas - such as argon - is thus used to fill the build chamber and $p_{O2}$ is monitored at all time.\\ %<1000ppm\\
+\begin{figure}[th]
+\centering
+\includegraphics[scale=0.7]{Images/SLM}
+\decoRule
+\caption[Selective laser melting technology principle]{Selective laser melting technology principle (from Leitz et al, 2016).}
+\label{fig:SLM}
+\end{figure}
 
-The properties of parts produced trough selective laser melting (SLM) stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
+LSM is still a young technology. Its popularity only increased significantly over the last decade, as depicted by figures \ref{fig:Evol} (a) and (b). Works concerning AlSi10Mg began to emerge noticeably in 2014. The technique usage spread rapidly in many sectors: biomedical, heat exchangers, aerospace and automotive - to name just a few \parencite{Yap}. This is due to the numerous appeals of LSM compared to the other technologies, including the following:\\
+
+\begin{itemize}
+\item Geometrical flexibility: parts can be designed with thin walls or even with hidden cavities and/or channels. This offers promising prospects regarding light-weight potentials for parts solicited mechanically \parencite{Lippert};
+\item Increased reliability of the parts \parencite{Haase};
+\item Reduced equipment costs \parencite{Hoeges};
+\item Better operational efficiency: the fabrication is quick and easy which reduces time-to-market as well as assembly times and capital tied up in stocks \parencite{Hoeges};
+\item Individual production facilitation \parencite{Haase};
+\item Reduced material waste and better energy usage: the process is  environmentally friendly as a whole \parencite{Haase}.
+\end{itemize}
+
+\begin{figure}[th]
+\centering
+\includegraphics[scale=0.47]{Images/Evol}
+\decoRule
+
+\caption[(a)Research publications on SLM of ceramics, composites and all materials types combined. (b)Research publications on SLM of different metallic materials]{(a)Research publications on SLM of ceramics, composites and all materials types combined. (b)Research publications on SLM of different metallic materials. Data are derived from the research publications on SLM, LaserCusing and DMLS existing on ScienceDirect website.}
+\label{fig:Evol}
+\end{figure}
+
+\textcolor{red}{Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (reflectivité etc)}\\
+\textcolor{red}{Microstructure homogène, diagramme de phase}\\
+The properties of parts produced trough SLM stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
 Results are very sensitive to their variations. The process parameters must thus be monitored thoroughly. This complicates the search for their optimisation, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
 \begin{figure}[th]
 \centering
-\includegraphics[scale=0.42]{Images/Param}
+\includegraphics[scale=0.37]{Images/Param}
 \decoRule
 
-\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al, 2014)}
+\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al, 2014).}
 \label{fig:param}
 \end{figure}
 
@@ -21,7 +48,7 @@ In recent years, works aiming at facing this challenge multiplied. The minimisat
 
 The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
-A popular approach is to regroup multiple operating parameters into one, the volumetric energy density E. It is estimated trough the following formula: 
+A popular approach is to regroup multiple operating parameters into one, the volumetric energy density $E_d$. It is estimated trough the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
 where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others should be considered such as melt pools overlapping \parencite{Tang170309}. Almost no studies were carried out to optimize h and t independently. Their values lie generally respectively in the intervals [20 ; 60] [$\mu m$] and [50 ; 200] [$\mu m$].\\
 
@@ -29,7 +56,7 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \centering
 \includegraphics[scale=0.32]{Images/Pvs}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al, 2011)}
+\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al, 2011).}
 \label{fig:Pvs}
 \end{figure}
 
@@ -37,20 +64,20 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \centering
 \includegraphics[scale=0.32]{Images/Pvs2}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al, 2011)}
+\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al, 2011).}
 \label{fig:Pvs2}
 \end{figure}
 
 The other process parameters will be covered for the sake of completeness. Let us 
 first look into the particle-related parameters. The particle size $D_a$ of the powder should be as small as possible to ensure a good flowability and allow for thin layers \parencite{Kempen110817}. Typical values stretch from 15 to 60 [$\mu m$]. The size distribution is more delicate to outline. On one hand, wider distributions often generate better bed density, parts with higher density and better surface finish. On the other hand, narrower ones usually provide better flowability and parts with better strength and hardness \parencite{Liu1101}. In most cases, a middle ground between the two should be sought. In SLM applications, powder is often successively recycled multiple times. This leads to their progressive contamination with moisture, which causes an increase of hydrogen porosity in the produced parts \parencite{Weingarten151102}. The problem can be overcome by drying the powder or using fresh one. Unfortunately - in the case of aluminium alloys - no findings were made regarding the prediction of a threshold at which one should take action \parencite{aboulkhair2017}.    \\
 
-The choice of scan pattern has great importance. There exist a few strategies. The common ones use unidirectional, bidirectional or islands patterns (see figure \ref{fig:Strat}). The scan direction(s) should be rotated between successive layers to favorise isotropy, especially in the unidirectional case since it causes height variations along a layer \parencite{aboulkhair2016}. The islands pattern is based on a decomposition in small domains with short scanning tracks. Two usual strategies can be distinguished among this group: the chessboard and the hexagonal one. \\
+The choice of scan pattern has great importance. There exist a few different strategies. The common ones use unidirectional, bidirectional or islands patterns (see figure \ref{fig:Strat}). The scan direction(s) should be rotated between successive layers to favorise isotropy, especially in the unidirectional case since it causes height variations along a layer \parencite{aboulkhair2016}. The islands pattern is based on a decomposition in small domains with short scanning tracks. Two usual strategies can be distinguished among this group: the chessboard and the hexagonal one. \\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{Images/Strat}
 \decoRule
-\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al, 2017)}
+\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al, 2017).}
 \label{fig:Strat}
 \end{figure}
 
@@ -60,7 +87,7 @@ Furthermore, dual scanning strategies were proven to be effective. For example, 
 \centering
 \includegraphics[scale=0.58]{Images/Build}
 \decoRule
-\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al, 2012)}
+\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al, 2012).}
 \label{fig:Build}
 \end{figure}
 
@@ -69,12 +96,11 @@ Other laser-related parameters - the spot size and the pulse properties - can al
 
 Finally, the temperature of the powder bed and feeder affect the final properties of the fabricated parts as well. In particular, it was observed that pre-heating the powder at $300^\circ$ C mitigates the differences of fatigue resistance between tensile specimens built in different directions: it is possible that the slower cooling rate induced helps reducing the distortions and internal stresses \parencite{Brandl121509}.\\
 
-Comparer les résultats avec alliage coulé/forgé\\
+\textcolor{red}{Comparer les résultats avec alliage coulé/forgé}\\
 
-Once the porosity problem is sorted out, other matters can be addressed such as productivity and surface roughness. The latter is problematic as the surface finish obtained with SLM is typically of such poor quality that all cracks initiate near the surface for a sample with apparent relative density $\rho_{rel}>99\%$ \parencite{Brandl121509}. Polir ou changement paramètres fab.\\ %Durant les dernières années, les travaux visant à optimiser les conditions de fabrication se sont multipliés. La minimisation de la porosité est au centre de l'attention: elle est en effet liée à la qualité des propriétés mécaniques. De plus au delà d'un seuil, des risques de rupture prématurée peuvent apparaitre (source). (Initiation de sites de propag ... ) On s'intéresse ensuite à optimiser d'autres caractéristiques du matériau et à la productivité de la technique.
+Once the porosity problem is sorted out, other matters can be addressed such as productivity and surface roughness. The latter is problematic as the surface finish obtained with SLM is typically of such poor quality that all cracks initiate near the surface for a sample with apparent relative density $\rho_{rel}>99\%$ \parencite{Brandl121509}. As said before, it is possible to reduce the surface roughness by mean of a dual scan strategy. However, the only options to obtain significantly better surface finish is currently to machine or polish the fabricated parts. This is one of the main weak points of SLM.\\ %Durant les dernières années, les travaux visant à optimiser les conditions de fabrication se sont multipliés. La minimisation de la porosité est au centre de l'attention: elle est en effet liée à la qualité des propriétés mécaniques. De plus au delà d'un seuil, des risques de rupture prématurée peuvent apparaitre (source). (Initiation de sites de propag ... ) On s'intéresse ensuite à optimiser d'autres caractéristiques du matériau et à la productivité de la technique.
 
-Post-traitements dont traitements thermiques, sur lesquels on se focalise. Expliquer\\
-
+\textcolor{red}{Post-traitements dont traitements thermiques, sur lesquels on se focalise. Expliquer}\\
 %Recherches biblio....
 %\section{Comment référencer?}
 %The \code{biblatex} package is used to format the bibliography and inserts references such as this one \parencite{Reference1}. The options used in the \file{main.tex} file mean that the in-text citations of references are formatted with the author(s) listed with the date of the publication. Multiple references are separated by semicolons (e.g. \parencite{Reference2, Reference1}) and references with more than three authors only show the first author with \emph{et al.} indicating there are more authors (e.g. \parencite{Reference3}). This is done automatically for you. %To see how you use references, have a look at the \file{Chapter1.tex} source file. Many reference managers allow you to simply drag the reference into the document as you type.

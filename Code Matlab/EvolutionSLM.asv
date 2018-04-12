@@ -1,0 +1,29 @@
+%% Graphes évolution technologie SLM
+close all
+Total=[46 32 53 55 77 99 112 214 278];
+%Metals
+Al=[15 16 35 30 13 17 33 60 92];
+AlSi10Mg=[0 0 3 3 3 9 19 27 53];
+Steel=[11 10 19 19 31 39 46 101 135];
+Ti=[2 4 15 14 21 27 37 77 113];
+Ni=[2 6 3 5 14 9 21 40 55];
+Cu=[0 2 4 2 6 6 9 18 31];
+%AllMetals=[6 11 23 25 33 53 74 126 201];
+%Autres
+Comp=[3 0 2 5 3 7 10 15 17];
+Ceramic=[2 5 5 4 6 14 18 21 37];
+
+x=1:9
+plot(x,Al,x,Steel,x,Ti,x,Ni,x,Cu)%x,Allmetals)
+hold on
+plot(x,AlSi10Mg,'--');
+legend('Al and Al alloys','Steels','Ti and Ti alloys','Ni and Ni alloys','Cu and Cu alloys','AlSi10Mg')
+set(gca, 'XTick', 1:9,'XTickLabel',{'2009';'2010';'2011';'2012';'2013';'2014';'2015';'2016';'2017'});
+xlabel('Year')
+ylabel('Number of research publications on SLM')
+figure
+plot (x,Total,x,Comp,x,Ceramic)
+legend('All', 'Composites','Ceramics')
+set(gca, 'XTick', 1:9,'XTickLabel',{'2009';'2010';'2011';'2012';'2013';'2014';'2015';'2016';'2017'});
+xlabel('Year')
+ylabel('Number of research publications on SLM')
