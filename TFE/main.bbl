@@ -260,6 +260,74 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Haase}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HC}{%
+         family={Haase},
+         familyi={H\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bültmann},
+         familyi={B\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hof},
+         familyi={H\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Ziegler},
+         familyi={Z\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HC+1}
+    \strng{fullhash}{HCBJHJZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{56}
+    \field{title}{Exploiting Process-Related Advantages of Selective Laser
+  Melting for the Production of High-Manganese Steel.}
+    \field{volume}{10(1)}
+    \field{journaltitle}{Materials}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Hoeges}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Hoeges},
+         familyi={H\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Additive manufacturing technologies: 6 Unique Benefits Of
+  Selective Laser Melting}
+    \verb{url}
+    \verb http://sintermedia.gkn.com/blog/the-advantages-of-selective-laser-mel
+    \verb ting
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{12}
+    \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Kempen110817}{article}{}
     \name{author}{6}{}{%
       {{hash=KK}{%
@@ -371,6 +439,34 @@
     \field{volume}{72}
     \field{journaltitle}{Metal Powder Report}
     \field{year}{2017}
+  \endentry
+
+  \entry{Lippert}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LR}{%
+         family={Lippert},
+         familyi={L\bibinitperiod},
+         given={Rene},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lachmayer},
+         familyi={L\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LRLR1}
+    \strng{fullhash}{LRLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{14\bibrangedash 23}
+    \field{title}{A Design Method for SLM-Parts Using Internal Structures in an
+  Extended Design Space}
+    \field{month}{09}
+    \field{year}{2018}
   \endentry
 
   \entry{Liu1101}{article}{}
