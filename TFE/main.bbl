@@ -328,6 +328,34 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{3D}{online}{}
+    \name{author}{1}{}{%
+      {{hash=IDS}{%
+         family={Inc},
+         familyi={I\bibinitperiod},
+         given={3D\bibnamedelima Systems},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IDS1}
+    \strng{fullhash}{IDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Direct metal printers: Metal Additive Manufacturing with the
+  ProX™ DMP 3D printers}
+    \verb{url}
+    \verb http://sintermedia.gkn.com/blog/the-advantages-of-https://www.3dsyste
+    \verb ms.com/sites/default/files/2017-01/3D-Systems_DMP_Tech_Specs_USEN_201
+    \verb 7.01.23_WEB.pdf
+    \endverb
+    \field{year}{2016}
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Kempen110817}{article}{}
     \name{author}{6}{}{%
       {{hash=KK}{%
