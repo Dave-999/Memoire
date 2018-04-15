@@ -4,7 +4,6 @@
 Selective laser melting (SLM) - also referred to as direct metal laser sintering (DMLS) - is an additive manufacturing  (AM) technique making use of a high power-density laser that locally melts powder materials.%Layers are progressively piled up, in order to create a 3D part. 
  When a layer of powder has been melted, a new layer is spread on top of the previous one, and is in turn melted, in order to progressively build a 3D object. The technique is illustrated on figure \ref{fig:SLM} \parencite{LEITZ2017331}. The materials used include mostly metals but also ceramics and composites. Parts to build must first be drawn in a computer-aided design (CAD) software and broken down in 2D slices, each one corresponding to a powder layer. During the process, the oxygen pressure $p_{O_2}$ must be kept low to prevent the oxidation of the metal. A shielding gas - such as argon - is thus used to fill the build chamber at all time, while $p_{O2}$ is monitored.   \\
 
-
 \begin{figure}[th]
 \centering
 \includegraphics[scale=0.7]{Images/SLM}
@@ -52,7 +51,7 @@ The analysis of the paired impacts of the laser power P and scan speed $v_s$ pro
 
 A popular approach is to regroup multiple operating parameters into one, the volumetric energy density $E_d$. It is estimated trough the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
-where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Almost no studies were carried out to optimize h and t independently. Their values lie generally respectively in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$].\\
+where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally respectively in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$]. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. \\
 
 \begin{figure}[th]
 \centering

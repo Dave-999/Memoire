@@ -17,6 +17,23 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{3D}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{3}
+    \field{sortinithash}{3}
+    \field{title}{{3D Systems Inc}, Direct metal printers: Metal Additive
+  Manufacturing with the ProX™ DMP 3D printers}
+    \verb{url}
+    \verb http://sintermedia.gkn.com/blog/the-advantages-of-https://www.3dsyste
+    \verb ms.com/sites/default/files/2017-01/3D-Systems_DMP_Tech_Specs_USEN_201
+    \verb 7.01.23_WEB.pdf
+    \endverb
+    \field{year}{2016}
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{aboulkhair2016}{article}{}
     \name{author}{5}{}{%
       {{hash=ANT}{%
@@ -210,6 +227,32 @@
     \field{year}{2012}
   \endentry
 
+  \entry{ADictionaryofPhysics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DJ}{%
+         family={Daintith},
+         familyi={D\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{DJ1}
+    \strng{fullhash}{DJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{A Dictionary of Physics}
+    \verb{url}
+    \verb http://www.oxfordreference.com/view/10.1093/acref/9780199233991.001.0
+    \verb 001/acref-9780199233991
+    \endverb
+    \field{year}{2009}
+  \endentry
+
   \entry{DELROISSE201732}{article}{}
     \name{author}{5}{}{%
       {{hash=DP}{%
@@ -324,34 +367,6 @@
     \endverb
     \field{year}{2017}
     \field{urlday}{12}
-    \field{urlmonth}{04}
-    \field{urlyear}{2018}
-  \endentry
-
-  \entry{3D}{online}{}
-    \name{author}{1}{}{%
-      {{hash=IDS}{%
-         family={Inc},
-         familyi={I\bibinitperiod},
-         given={3D\bibnamedelima Systems},
-         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{IDS1}
-    \strng{fullhash}{IDS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{title}{Direct metal printers: Metal Additive Manufacturing with the
-  ProX™ DMP 3D printers}
-    \verb{url}
-    \verb http://sintermedia.gkn.com/blog/the-advantages-of-https://www.3dsyste
-    \verb ms.com/sites/default/files/2017-01/3D-Systems_DMP_Tech_Specs_USEN_201
-    \verb 7.01.23_WEB.pdf
-    \endverb
-    \field{year}{2016}
-    \field{urlday}{13}
     \field{urlmonth}{04}
     \field{urlyear}{2018}
   \endentry
@@ -670,6 +685,37 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Bulk}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Renishaw plc}, AlSi10Mg-0403 powder for additive
+  manufacturing data sheet}
+    \verb{url}
+    \verb file:///E:/Downloads/H-5800-1061-01-A_AlSi10Mg-0403_400_W_material_da
+    \verb ta_sheet.pdf
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{15}
+    \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
+  \entry{Balance}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{{Sartorius AG}, Sartorius BP121S Installation And Operating
+  Instructions Manual}
+    \verb{url}
+    \verb https://www.manualslib.com/products/Sartorius-Bp121s-3748053.html
+    \endverb
+    \field{year}{2000}
+    \field{urlday}{15}
+    \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Tang170309}{article}{}
     \name{author}{3}{}{%
       {{hash=TM}{%
@@ -706,6 +752,32 @@
     \field{volume}{14}
     \field{journaltitle}{Additive Manufacturing}
     \field{year}{2017}
+  \endentry
+
+  \entry{Eau}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WRC}{%
+         family={Weast},
+         familyi={W\bibinitperiod},
+         given={Robert\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press}%
+    }
+    \strng{namehash}{WRC1}
+    \strng{fullhash}{WRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{CRC Handbook of Chemistry and Physics 53rd Edition}
+    \verb{url}
+    \verb http://jupiter.plymouth.edu/~jsduncan/courses/2012_Spring/Techniques/
+    \verb Exams/DensityOfWater-vs-Temp.pdf
+    \endverb
+    \field{year}{1973}
   \endentry
 
   \entry{Weingarten151102}{article}{}

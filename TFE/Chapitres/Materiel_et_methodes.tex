@@ -12,7 +12,7 @@ Description expériences et machines
 %\subsection{Drying}
 
 \section{Process parameters}
-The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoritical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. The actual maximal power is $P_{max}=273.6$  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
+The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoritical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. Its actual maximal power is $P_{max}=273.6$.  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
 
 \begin{figure}[th]
 \centering
@@ -22,7 +22,7 @@ The same direct metal printer (DMP) was used to fabricate all specimens througho
 \label{fig:Printer}
 \end{figure}
 
-In this thesis, argon was used as shielding gas. [Corrections, paramètres laser etc...]. Values for h and t were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The other process parameters were varied so as to optimize the properties of the built specimens. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in table \ref{tab:param}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. [Dual scan strategy] . Dimensions of the cubic and cylindrical specimens are noted in accordance with figure \ref{fig:cc}.\\
+In this thesis, argon was used as shielding gas. The composition of the gas environment was monitored so as to keep $p_{O2}$ < 1000 [ppm]. [Corrections, paramètres laser etc...]. Values for h and t were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The other process parameters were varied so as to optimize the properties of the built specimens. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in table \ref{Pparam}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. [Dual scan strategy] . Dimensions of the cubic and cylindrical specimens are noted in accordance with figure \ref{fig:cc}.\\
 
  %\begin{center}
 \begin{table}[ht]
@@ -68,8 +68,9 @@ In this thesis, argon was used as shielding gas. [Corrections, paramètres laser
     & &  &  &cyl 4  & & \\
 
     \hline
+
 \end{tabular}}
-\label{tab:param}
+    \label{Pparam}
 \caption[Process parameters used for the specimens manufacturing]{Process parameters used for the specimens manufacturing}
 \end{table}
  %\end{center}
@@ -81,8 +82,13 @@ In this thesis, argon was used as shielding gas. [Corrections, paramètres laser
 \label{fig:cc}
 \end{figure}
 
-Insérer images des positions d'échantillons.
+Insérer images des positions d'échantillons. Aller chercher les ordres de fabrication
 
+Caption des images Batch ... specimens position and order of fabrication
+
+A hexagonal scanning strategy was chosen.. Pourquoi? On nous a pas vraiment demandé notre avis.
+
+Insérer images de trajets du laser.
 
 \section{Heat treatments}
 
@@ -90,6 +96,20 @@ Insérer images des positions d'échantillons.
 \section{Characterisation}
 
 \subsection{Density}
+
+\subsubsection{Hydrostatic weighing}
+
+Multiple methods were considered to compute the apparent relative density of the fabricated specimens. The first one is hydrostatic weighting (also called hydrodensitometry). It is a direct application of the well-known Archimedes' principle, which can be stated as follows: " When a body is (partially or totally) immersed in a fluid, the upthrust on the body is equal to the weight of fluid displaced." \parencite{ADictionaryofPhysics}. By weighing each pieces in air and in water - giving respectively values of dry weight $W_a$ and underwater weight $W_w$ - one can estimate the apparent density $\rho_a$:
+
+$$\rho_a=\frac{W_a}{W_a-W_w} \cdot \rho_w $$
+
+where $\rho_w$ is the water density. The apparent relative density $\rho_{rel}$ of the specimens can then be calculated with:
+
+$$\rho_{rel} = \frac{\rho_a}{\rho_b} $$
+
+where $\rho_b = 2.68 [\frac{g}{mm^3}]$ is the theoretical bulk density of AlSi10Mg \parencite{Bulk}. All weightings were done with a \textit{Sartorius BP121S} analytical balance with precision of 0.1 [mg] \parencite{Balance}. Samples were immersed in demineralised water for more than twelve hours before the measurements to impregnate them. The weightings were also done in demineralised water. Water temperature was measured with a precision glass thermometer to compute $\rho_w$ as accurately as possible thanks to tabulated values \parencite{Eau}.\\
+
+The technique was employed with both "as-built" and polished cubes to observe potential inhomogeneous distributions of the closed porosities in the specimens. All six faces of the tested cubes were polished with P320 silicon carbide sandpaper sheets and briefly with P1200 ones.\\
 
 \subsubsection{...}
 
