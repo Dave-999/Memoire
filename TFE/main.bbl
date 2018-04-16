@@ -371,6 +371,35 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{MethArch}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KFI}{%
+         family={Katch},
+         familyi={K\bibinitperiod},
+         given={Frank\bibnamedelima I.},
+         giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KFI1}
+    \strng{fullhash}{KFI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{4}
+    \field{pages}{993\bibrangedash 999}
+    \field{title}{Apparent Body Density and Variability during Underwater
+  Weighing}
+    \verb{url}
+    \verb https://shapeamerica.tandfonline.com/doi/abs/10.1080/10671188.1968.10
+    \verb 613450
+    \endverb
+    \field{volume}{39}
+    \field{journaltitle}{Research Quarterly. American Association for Health,
+  Physical Education and Recreation}
+    \field{year}{1968}
+  \endentry
+
   \entry{Kempen110817}{article}{}
     \name{author}{6}{}{%
       {{hash=KK}{%
