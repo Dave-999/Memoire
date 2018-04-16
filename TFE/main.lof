@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {british}{}
+\defcounter {refsection}{0}\relax 
+\select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Selective laser melting technology principle}}{3}{figure.caption.12}
@@ -12,11 +13,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces ProX DMP 200 printer}}{10}{figure.caption.25}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Dimensions notations for (a) cubic specimens (b) cylindrical specimens}}{10}{figure.caption.27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}.}}{12}{figure.caption.34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {5.1}{\ignorespaces An Electron}}{17}{figure.caption.52}
-=======
-\contentsline {figure}{\numberline {5.1}{\ignorespaces An Electron}}{15}{figure.caption.53}
->>>>>>> 82cc40efcebe0397d38b2d553457b0b8f704d340
 \addvspace {10\p@ }

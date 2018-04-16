@@ -101,7 +101,7 @@ Insérer images de trajets du laser.
 
 \section{Heat treatments}
 
-The heat treatments were conducted inside a unique oven of the ... model, manufactured by ..., which is able to reach a temperature of 400\degree C. Samples temperature data was obtained through a thermocouple, welded to the sample surface. The data was displayed and saved every 10 seconds, with a precision of 0.1\degree C, thanks to a ..., connected to the thermocouple (see Fig. for both devices). \\
+The heat treatments were conducted inside a unique oven of the ... model, manufactured by ..., which is able to reach a temperature of 400$^\circ$ C. Samples temperature data was obtained through a thermocouple, welded to the sample surface. The data was displayed and saved every 10 seconds, with a precision of 0.1$^\circ$ C, thanks to a ..., connected to the thermocouple (see Fig. for both devices). \\
 
 Samples that were subject to a heat treatment were named in a particular format, to ease distinction between them. They receive the name of the batch, followed by "TT-\textit{holdingtemperature-holdingtime-specific conditions}".
 
@@ -111,27 +111,25 @@ Samples that were subject to a heat treatment were named in a particular format,
 
 \subsubsection{Hydrostatic weighing}
 
-Multiple methods were considered to compute the apparent relative density of the fabricated specimens. The first one is hydrostatic weighting (also called hydrodensitometry). It is a direct application of the well-known Archimedes' principle, which can be stated as follows: " When a body is (partially or totally) immersed in a fluid, the upthrust on the body is equal to the weight of fluid displaced." \parencite{ADictionaryofPhysics}. By weighing each pieces in air and in water - giving respectively values of dry weight $W_a$ and underwater weight $W_w$ - one can estimate the apparent density $\rho_a$ \parencite{MethArch}:
+Multiple methods were considered to estimate the relative density of the fabricated specimens. The first one is hydrostatic weighting (also called hydrodensitometry). It is a direct application of the well-known Archimedes' principle, which can be stated as follows: " When a body is (partially or totally) immersed in a fluid, the upthrust on the body is equal to the weight of fluid displaced." \parencite{ADictionaryofPhysics}. By weighing each pieces in air and in water - giving respectively values of dry weight $W_a$ and underwater weight $W_w$ - one can calculate the apparent density $\rho_a$ \parencite{MethArch}:
 
 $$\rho_a=\frac{W_a}{W_a-W_w} \cdot \rho_w $$
 
-where $\rho_w$ is the water density. The apparent relative density $\rho_{rel}$ of the specimens can then be calculated with:
+where $\rho_w$ is the water density. The apparent relative density $\rho_{a,rel}$ of the specimens can then be calculated with:
 
-$$\rho_{rel} = \frac{\rho_a}{\rho_b} $$
+$$\rho_{a,rel} = \frac{\rho_a}{\rho_b} $$
 
 where $\rho_b = 2.68 [\frac{g}{mm^3}]$ is the theoretical bulk density of AlSi10Mg \parencite{Bulk}. All weightings were done with a \textit{Sartorius BP121S} analytical balance with precision of 0.1 [mg] \parencite{Balance}. Samples were immersed in demineralised water for more than twelve hours before the measurements to impregnate them. The weightings were also done in demineralised water. Water temperature was measured with a precision glass thermometer to compute $\rho_w$ as accurately as possible thanks to tabulated values \parencite{Eau}.\\
 
-The technique was employed with both "as-built" and polished cubes, in order to mitigate possible air trapping by the surface roughness, that would distort the results. %to observe potential inhomogeneous distributions of the closed porosities in the specimens.
+The technique was employed with "as-built" and polished cubes. This second option reduces the risks of air trapping by the surface roughness, which can distort the results (by overestimating the closed porosities). \textcolor{red}{A mettre dans la discussion en fait peut-être?} %to observe potential inhomogeneous distributions of the closed porosities in the specimens.
 All six faces of the tested cubes were polished with P320 silicon carbide sandpaper sheets and briefly with P1200 ones.\\
 
-\subsubsection{Image analysis}
-
-<<<<<<< HEAD
-In order to get as close as possible to the real relative density of the various samples, a third method to estimate it was used. Pictures of the polished sections of samples were taken under the optical microscope. With the help of the ImageJ software, the surface fraction occupied by porosities could be extracted. If we approximate that the surface fraction is equal to the volumetric one, we obtain an estimation of the relative density.
-=======
 \subsubsection{Relative optical density image analysis}
 
-Relative optical density image analysis (RODIA) was performed on samples that underwent the polishing routine detailed in table \ref{tab:pol}.
+Another method was used to estimate the relative density of the various samples: the relative optical density image analysis (RODIA). For this purpose, the samples underwent the polishing routine detailed in table \ref{tab:pol}. Pictures of the polished sections were then taken under the optical microscope.[Infos sur le microscope, grossissement] The pictures were taken with a \textit{Huawei Mate 10 Lite} smart-phone trough the lens of the microscope. The used camera has a resolution of 16 [MP]. \\
+
+With the help of the \textit{ImageJ} software, the surface of both the porosities and the whole surface could be isolated for each analysed image (see figure \ref{fig:ImageJ}). The surface fraction occupied by porosities could then be obtained as the ratio between the areas of the two (in pixels). If we approximate that the porosities surface fraction is equal to the volumetric one, that method gives an estimation of the relative density $\rho_{rel}$.
+
 
  \begin{center}
 \begin{table}[ht]
@@ -152,14 +150,26 @@ Relative optical density image analysis (RODIA) was performed on samples that un
 \caption[Polishing routine for Al-Si alloys]{Polishing routine for Al-Si alloys}
 \end{table}
  \end{center}
->>>>>>> 82cc40efcebe0397d38b2d553457b0b8f704d340
 
+
+\begin{figure}[th]
+\centering
+\centerline{\includegraphics[scale=0.29]{Images/ImageJ-cub1}}
+\decoRule
+\caption[RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit{ImageJ} (c) Porosities isolation with \textit{ImageJ}.]{RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit{ImageJ} (c) Porosities isolation with \textit{ImageJ}.}
+\label{fig:ImageJ}
+\end{figure}
+
+The images isolations in "foregrounds" and "backgrounds" were done trough manual thresholding based on pixel intensity quantifications.  %https://imagej.net/Thresholding#Global_thresholding
+An optimal threshold was sought for porosities isolation so as to include only holes, and as many as possible. [Images avec 2 mauvais seuils et1 bon]
+
+Difficultés  
 \subsection{Microscopy}
 
 \subsubsection{Scanning electron microscope microscopy}
 
 \subsubsection{Optical microscopy}
-
+Mesures Taille de bains
 \subsection{Mechanical properties}
 
 \subsubsection{Hardness test}

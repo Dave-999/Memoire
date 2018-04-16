@@ -1,17 +1,12 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {british}{}
+\defcounter {refsection}{0}\relax 
+\select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-<<<<<<< HEAD
 \contentsline {table}{\numberline {3.1}{\ignorespaces Process parameters used for the specimens manufacturing}}{13}{table.caption.26}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Polishing routine for Al-Si alloys}}{13}{table.caption.33}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Composition of recycled AlSi10Mg powder as a function of the date}}{15}{table.caption.48}
-=======
-\contentsline {table}{\numberline {3.1}{\ignorespaces Process parameters used for the specimens manufacturing}}{11}{table.caption.26}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Polishing routine for Al-Si alloys}}{12}{table.caption.33}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Composition of recycled AlSi10Mg powder as a function of the date}}{13}{table.caption.49}
->>>>>>> 82cc40efcebe0397d38b2d553457b0b8f704d340
+\contentsline {table}{\numberline {4.1}{\ignorespaces Composition of recycled AlSi10Mg powder as a function of the date}}{15}{table.caption.50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
