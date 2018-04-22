@@ -12,7 +12,7 @@ Description expériences et machines
 %\subsection{Drying}
 
 \section{Process parameters}
-The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoretical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. Its actual maximal power is $P_{max}=273.6$.  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
+The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoretical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. Its actual maximal power is $P_{max}=273.6 [W]$. [QUEL EST LE SPOT SIZE?]  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
 
 \begin{figure}[th]
 \centering
@@ -22,7 +22,23 @@ The same direct metal printer (DMP) was used to fabricate all specimens througho
 \label{fig:Printer}
 \end{figure}
 
-In this thesis, argon was used as shielding gas. The composition of the gas environment was monitored so as to keep $p_{O2}$ < 1000 [ppm]. [Corrections, paramètres laser etc...]. Values for h and t were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The other process parameters were varied so as to optimize the properties of the built specimens. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in table \ref{table:Pparam}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. [Dual scan strategy] . Dimensions of the cubic and cylindrical specimens are noted in accordance with figure \ref{fig:cc}.\\
+In this thesis, argon was used as shielding gas. The composition of the gas environment was monitored so as to keep $p_{O2}$ < 500 [ppm]. Laser compensations were set to take into account the excess energy at the start and end of the scanning vectors (see figure \ref{fig:Compens}). These were chosen in accordance with the manufacturer recommendations (figure \ref{fig:Compens1}). Values for h and t were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The other process parameters were varied so as to optimize the properties of the built specimens. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in table \ref{table:Pparam}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. The samples fabricated with a contour scanning strategy. are Dimensions of the cubic and cylindrical specimens are noted in accordance with figure \ref{fig:cc}.\\
+
+\begin{figure}[th]
+\centering
+\includegraphics[scale=0.3]{Images/Compens}
+\decoRule
+\caption[Melt pool contours with and without laser compensation (exaggeration)]{Melt pool contours with and without laser compensation (exaggeration).}
+\label{fig:Compens}
+\end{figure}
+
+\begin{figure}[th]
+\centering
+\includegraphics[scale=0.45]{Images/Compens1}
+\decoRule
+\caption[Laser compensations as a function of the scanning speed (as recommended by the manufacturer)]{Laser compensations as a function of the scanning speed (as recommended by the manufacturer).}
+\label{fig:Compens}
+\end{figure}
 
  %\begin{center}
 \begin{table}[ht]
@@ -70,7 +86,7 @@ In this thesis, argon was used as shielding gas. The composition of the gas envi
   & &  & & cub 3 & &\\
   & & & & cub 4 & &\\
   & & & & cub 5 & &\\
-  & & &  L=5& TT??????? &  &\\ 
+  & & &  L=5& TT300-1-real &  &\\ 
   & &  Cylindrical & D=6, H=10&cyl 1   &  & \\
     & &  & &cyl 2 & & \\
     & &  & D=12, H=10 &cyl 3 & & \\
@@ -91,7 +107,7 @@ In this thesis, argon was used as shielding gas. The composition of the gas envi
 \label{fig:cc}
 \end{figure}
 
-Insérer images des positions d'échantillons. Aller chercher les ordres de fabrication
+All batches were first prepared on \textit{DMP ProX Manufacturing}, a dedicated CAD software. Détails... Insérer images des positions d'échantillons. Aller chercher les ordres de fabrication
 
 Caption des images Batch ... specimens position and order of fabrication
 
