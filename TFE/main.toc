@@ -15,12 +15,12 @@
 \contentsline {subsubsection}{Hydrostatic weighing}{10}{section*.33}
 \contentsline {subsubsection}{Relative optical density image analysis}{11}{section*.34}
 \contentsline {subsection}{\numberline {3.4.2}Microscopy}{12}{subsection.37}
-\contentsline {subsubsection}{Scanning electron microscope microscopy}{12}{section*.38}
+\contentsline {subsubsection}{Scanning electron microscopy}{12}{section*.38}
 \contentsline {subsubsection}{Optical microscopy}{12}{section*.39}
-\contentsline {subsection}{\numberline {3.4.3}Mechanical properties}{12}{subsection.40}
-\contentsline {subsubsection}{Hardness test}{12}{section*.41}
-\contentsline {subsubsection}{Traction test}{13}{section*.42}
-\contentsline {subsubsection}{Fatigue}{13}{section*.43}
+\contentsline {subsection}{\numberline {3.4.3}Composition}{12}{subsection.40}
+\contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{12}{subsection.41}
+\contentsline {subsubsection}{Hardness test}{12}{section*.42}
+\contentsline {subsubsection}{Traction test}{13}{section*.43}
 \contentsline {chapter}{\numberline {4}Results}{15}{chapter.44}
 \contentsline {section}{\numberline {4.1}Parameters optimisation}{15}{section.45}
 \contentsline {section}{\numberline {4.2}Reproducibility}{15}{section.46}
@@ -32,5 +32,15 @@
 \contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.53}
 \contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.54}
 \contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.55}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.56}
-\contentsline {chapter}{Bibliography}{21}{appendix*.57}
+\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.56}
+\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.57}
+\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.58}
+\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.59}
+\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.60}
+\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.61}
+\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.62}
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.63}
+\contentsline {chapter}{\numberline {A}Calculs suppl\IeC {\'e}mentaires}{21}{appendix.64}
+\contentsline {section}{\numberline {A.1}...}{21}{section.65}
+\contentsline {section}{\numberline {A.2}...}{21}{section.66}
+\contentsline {chapter}{Bibliography}{23}{appendix*.67}
