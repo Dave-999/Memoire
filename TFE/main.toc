@@ -3,44 +3,51 @@
 \select@language {british}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
-\contentsline {chapter}{\numberline {3}Materials and methods}{9}{chapter.19}
-\contentsline {section}{\numberline {3.1}Powder follow-up}{9}{section.20}
-\contentsline {subsection}{\numberline {3.1.1}Sieving}{9}{subsection.21}
-\contentsline {subsection}{\numberline {3.1.2}Grain size and distribution}{9}{subsection.22}
-\contentsline {subsection}{\numberline {3.1.3}Composition}{9}{subsection.23}
-\contentsline {section}{\numberline {3.2}Process parameters}{9}{section.24}
-\contentsline {section}{\numberline {3.3}Heat treatments}{10}{section.30}
-\contentsline {section}{\numberline {3.4}Characterisation}{10}{section.31}
-\contentsline {subsection}{\numberline {3.4.1}Density}{10}{subsection.32}
-\contentsline {subsubsection}{Hydrostatic weighing}{10}{section*.33}
-\contentsline {subsubsection}{Relative optical density image analysis}{11}{section*.34}
-\contentsline {subsection}{\numberline {3.4.2}Microscopy}{12}{subsection.37}
-\contentsline {subsubsection}{Scanning electron microscopy}{12}{section*.38}
-\contentsline {subsubsection}{Optical microscopy}{12}{section*.39}
-\contentsline {subsection}{\numberline {3.4.3}Composition}{12}{subsection.40}
-\contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{12}{subsection.41}
-\contentsline {subsubsection}{Hardness test}{12}{section*.42}
-\contentsline {subsubsection}{Traction test}{13}{section*.43}
-\contentsline {chapter}{\numberline {4}Results}{15}{chapter.44}
-\contentsline {section}{\numberline {4.1}Parameters optimisation}{15}{section.45}
-\contentsline {section}{\numberline {4.2}Reproducibility}{15}{section.46}
-\contentsline {section}{\numberline {4.3}Powder ageing}{15}{section.47}
-\contentsline {subsection}{\numberline {4.3.1}Grain size and distribution}{15}{subsection.48}
-\contentsline {subsection}{\numberline {4.3.2}Composition}{15}{subsection.49}
-\contentsline {subsubsection}{Fresh powder}{15}{section*.50}
-\contentsline {subsubsection}{Recycled powder}{15}{section*.51}
-\contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.53}
-\contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.54}
-\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.55}
-\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.56}
-\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.57}
-\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.58}
-\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.59}
-\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.60}
-\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.61}
-\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.62}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.63}
-\contentsline {chapter}{\numberline {A}Calculs suppl\IeC {\'e}mentaires}{21}{appendix.64}
-\contentsline {section}{\numberline {A.1}...}{21}{section.65}
-\contentsline {section}{\numberline {A.2}...}{21}{section.66}
-\contentsline {chapter}{Bibliography}{23}{appendix*.67}
+\contentsline {section}{\numberline {2.1}Selective laser melting technology}{3}{section.12}
+\contentsline {section}{\numberline {2.2}AlSi10Mg alloy}{5}{section.16}
+\contentsline {section}{\numberline {2.3}Process parameters}{5}{section.17}
+\contentsline {section}{\numberline {2.4}Post treatments}{8}{section.22}
+\contentsline {chapter}{\numberline {3}Materials and methods}{9}{chapter.23}
+\contentsline {section}{\numberline {3.1}Powder follow-up}{9}{section.24}
+\contentsline {subsection}{\numberline {3.1.1}Sieving}{9}{subsection.25}
+\contentsline {subsection}{\numberline {3.1.2}Grain size and distribution}{9}{subsection.26}
+\contentsline {subsection}{\numberline {3.1.3}Composition}{9}{subsection.27}
+\contentsline {section}{\numberline {3.2}Process parameters}{9}{section.28}
+\contentsline {section}{\numberline {3.3}Heat treatments}{10}{section.32}
+\contentsline {section}{\numberline {3.4}Characterisation}{10}{section.33}
+\contentsline {subsection}{\numberline {3.4.1}Density}{10}{subsection.34}
+\contentsline {subsubsection}{Hydrostatic weighing}{10}{section*.35}
+\contentsline {subsubsection}{Relative optical density image analysis}{12}{section*.36}
+\contentsline {subsection}{\numberline {3.4.2}Microscopy}{13}{subsection.39}
+\contentsline {subsubsection}{Scanning electron microscopy}{13}{section*.40}
+\contentsline {subsubsection}{Optical microscopy}{13}{section*.41}
+\contentsline {subsection}{\numberline {3.4.3}Composition}{13}{subsection.42}
+\contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{13}{subsection.43}
+\contentsline {subsubsection}{Hardness test}{13}{section*.44}
+\contentsline {subsubsection}{Traction test}{13}{section*.45}
+\contentsline {chapter}{\numberline {4}Results}{15}{chapter.46}
+\contentsline {section}{\numberline {4.1}Parameters optimisation}{15}{section.47}
+\contentsline {section}{\numberline {4.2}Reproducibility}{15}{section.48}
+\contentsline {section}{\numberline {4.3}Powder ageing}{15}{section.49}
+\contentsline {subsection}{\numberline {4.3.1}Grain size and distribution}{15}{subsection.50}
+\contentsline {subsection}{\numberline {4.3.2}Composition}{15}{subsection.51}
+\contentsline {subsubsection}{Fresh powder}{15}{section*.52}
+\contentsline {subsubsection}{Recycled powder}{15}{section*.53}
+\contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.55}
+\contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.56}
+\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.57}
+\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.58}
+\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.59}
+\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.60}
+\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.61}
+\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.62}
+\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.63}
+\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.64}
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.65}
+\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.66}
+\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.67}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.70}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.71}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.74}
+\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.75}
+\contentsline {chapter}{Bibliography}{25}{appendix*.76}
