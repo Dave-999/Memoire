@@ -22,33 +22,43 @@
 \contentsline {subsubsection}{Scanning electron microscopy}{13}{section*.40}
 \contentsline {subsubsection}{Optical microscopy}{13}{section*.41}
 \contentsline {subsection}{\numberline {3.4.3}Composition}{13}{subsection.42}
-\contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{13}{subsection.43}
-\contentsline {subsubsection}{Hardness test}{13}{section*.44}
-\contentsline {subsubsection}{Tensile test}{14}{section*.46}
-\contentsline {chapter}{\numberline {4}Results}{15}{chapter.47}
-\contentsline {section}{\numberline {4.1}Parameters optimisation}{15}{section.48}
-\contentsline {section}{\numberline {4.2}Reproducibility}{15}{section.49}
-\contentsline {section}{\numberline {4.3}Powder ageing}{15}{section.50}
-\contentsline {subsection}{\numberline {4.3.1}Grain size and distribution}{15}{subsection.51}
-\contentsline {subsection}{\numberline {4.3.2}Composition}{15}{subsection.52}
-\contentsline {subsubsection}{Fresh powder}{15}{section*.53}
-\contentsline {subsubsection}{Recycled powder}{15}{section*.54}
-\contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.56}
-\contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.57}
-\contentsline {subsection}{\numberline {4.5.1}Tensile tests}{15}{subsection.58}
-\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.60}
-\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.61}
-\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.62}
-\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.63}
-\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.64}
-\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.65}
-\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.66}
-\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.67}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.68}
-\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.69}
-\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.70}
-\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.73}
-\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.74}
-\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.77}
-\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.78}
-\contentsline {chapter}{Bibliography}{25}{appendix*.79}
+\contentsline {subsection}{\numberline {3.4.4}Internal stress}{13}{subsection.43}
+\contentsline {subsection}{\numberline {3.4.5}Mechanical properties}{13}{subsection.44}
+\contentsline {subsubsection}{Hardness test}{13}{section*.45}
+\contentsline {subsubsection}{Tensile test}{14}{section*.47}
+\contentsline {chapter}{\numberline {4}Results}{15}{chapter.48}
+\contentsline {section}{\numberline {4.1}Parameters optimisation}{15}{section.49}
+\contentsline {section}{\numberline {4.2}Reproducibility}{15}{section.50}
+\contentsline {section}{\numberline {4.3}Powder ageing}{15}{section.51}
+\contentsline {subsection}{\numberline {4.3.1}Grain size and distribution}{15}{subsection.52}
+\contentsline {subsection}{\numberline {4.3.2}Composition}{15}{subsection.53}
+\contentsline {subsubsection}{Fresh powder}{15}{section*.54}
+\contentsline {subsubsection}{Recycled powder}{15}{section*.55}
+\contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.57}
+\contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.58}
+\contentsline {subsection}{\numberline {4.5.1}Tensile tests}{15}{subsection.59}
+\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.61}
+\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.62}
+\contentsline {subsection}{\numberline {5.1.1}Melt pool size distribution}{17}{subsection.63}
+\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.64}
+\contentsline {subsection}{\numberline {5.2.1}Density}{17}{subsection.65}
+\contentsline {subsection}{\numberline {5.2.2}Hardness}{17}{subsection.66}
+\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.67}
+\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.68}
+\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.69}
+\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.70}
+\contentsline {subsection}{\numberline {5.4.1}Hydrostatic weighing}{17}{subsection.71}
+\contentsline {subsection}{\numberline {5.4.2}Relative optical density image analysis}{17}{subsection.72}
+\contentsline {section}{\numberline {5.5}Heat treatments}{17}{section.73}
+\contentsline {subsection}{\numberline {5.5.1}Microstructure}{17}{subsection.74}
+\contentsline {subsection}{\numberline {5.5.2}Mechanical properties}{17}{subsection.75}
+\contentsline {subsection}{\numberline {5.5.3}Stress release}{17}{subsection.76}
+\contentsline {subsection}{\numberline {5.5.4}Optimisation}{17}{subsection.77}
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.78}
+\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.79}
+\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.80}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.83}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.84}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.87}
+\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.88}
+\contentsline {chapter}{Bibliography}{25}{appendix*.89}
