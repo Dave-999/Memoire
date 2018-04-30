@@ -35,19 +35,20 @@
 \contentsline {subsubsection}{Recycled powder}{15}{section*.54}
 \contentsline {section}{\numberline {4.4}Heat treatments}{15}{section.56}
 \contentsline {section}{\numberline {4.5}Mechanical testing}{15}{section.57}
-\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.58}
-\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.59}
-\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.60}
-\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.61}
-\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.62}
-\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.63}
-\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.64}
-\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.65}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.66}
-\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.67}
-\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.68}
-\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.71}
-\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.72}
-\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.75}
-\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.76}
-\contentsline {chapter}{Bibliography}{25}{appendix*.77}
+\contentsline {subsection}{\numberline {4.5.1}Tensile tests}{15}{subsection.58}
+\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.60}
+\contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.61}
+\contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.62}
+\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.63}
+\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.64}
+\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.65}
+\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.66}
+\contentsline {section}{\numberline {5.5}Heat treatment optimisation}{17}{section.67}
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.68}
+\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.69}
+\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.70}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.73}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.74}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.77}
+\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.78}
+\contentsline {chapter}{Bibliography}{25}{appendix*.79}
