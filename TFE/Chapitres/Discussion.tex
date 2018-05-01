@@ -17,6 +17,58 @@ Que conclure d'après les résultats?
 \subsection{Hydrostatic weighing}
 
 \subsection{Relative optical density image analysis}
+The estimation of the relative density trough RODIA can be affected on many grounds. First, the distribution of porosities is inhomogeneous on the surfaces. Multiple photos must thus be taken in a systematic manner for each specimen to constitute a representative sample.\\
+
+Second, the quality of the photographs has a critical role. The isolation of the porosities during the thresholding requires a substantial difference of pixel intensity between the holes and the material. Since some porosities and some zones of the material can appear respectively brighter or darker than was is expected, there are risks that one isolates spots and/or not actual porosities. Additionally, the thresholding is manual and thus prone to slight human errors. \\
+
+Most importantly, the finite resolution of the camera implies that sufficiently small porosities are not visible on the pictures. The exact shape of the holes are also imperfectly transcribed due to the discretization in pixels. Results for pictures with different magnifications were compared to quantify these effects. For this purpose, a picture was taken under 50x magnification and two under 100x magnification. The former was delimited to match the visible zones on the latter (see figure \ref{fig:RODIA1}). The same two zones - named A and B - were thus analysed for different levels of resolution.\\
+
+\begin{figure}[th]
+\centering
+\centerline{\includegraphics[scale=0.075]{Images/RODIA1}}
+\decoRule
+\caption[50x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B]{50x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B}
+\label{fig:RODIA1}
+\end{figure}
+
+The comparison of figures \ref{fig:RODIA2} (b) and (d) shows that much more small porosities are isolated if the resolution is refined - as expected. This is confirmed by the histograms on figure \ref{fig:RODIAH}. The threshold of porosity area for detection in the case of 50x magnification is 7.84 [$\mu m^2$] (corresponding to a pixel) whereas it is 1.96 [$\mu m^2$] for 100x magnification.  It is also worth noting that there is an overall tendency to overestimate the areas at lower resolution, which counterbalances slightly the low number of detected porosities. \\
+
+\begin{figure}[th]
+\centering
+\centerline{\includegraphics[scale=0.5]{Images/RODIA2}}
+\decoRule
+\caption[Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 50x magnification (b) Porosities isolation from 50x magnification picture (c) Original picture under 100x magnification (d) Porosities isolation of 100x magnification picture]{Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 50x magnification (b) Porosities isolation from 50x magnification picture (c) Original picture under 100x magnification (d) Porosities isolation of 100x magnification picture}
+\label{fig:RODIA2}
+\end{figure}
+
+\begin{figure}[th]
+\centering
+\centerline{\includegraphics[scale=0.4]{Images/RODIAHist}}
+\decoRule
+\caption[Histograms of porosities areas occurrences from pictures of specimen X200-180319 on zone A under (a) 50x magnification (b) 100x magnification]{Histograms of porosities areas occurrences from pictures of specimen X200-180319 on zone A under (a) 50x magnification (b) 100x magnification. Truncation along the x axis. }
+\label{fig:RODIAH}
+\end{figure}
+
+The RODIA results for zones A and B are outlined in table \ref{tab:RODIASS}. The lack of resolution seems to be the cause of an overestimation of a few hundredths of percent for the relative density. The method is thus presumably positively biased. However, the observed effect is minor: this is due to the fact that the undetected porosities are the smallest, which influence the less the calculated density value.\\
+
+Taking pictures at refined magnification could be considered to better the precision of the method. This would, however, require to augment the number of analysed pictures to have a sample of pictures as representative. A picture with doubled magnification covers indeed four times less surface. The number of analysis should thus be quadrupled to take as much information into account.\\
+
+\begin{center}
+\begin{table}[ht]
+\centerline{\begin{tabular}{|c|c|c|}
+    \hline
+    Zone & Magnification & Measured relative density [$\%$] \\
+   \hline
+    A & 50x  & 99.87\\
+    A & 100x & 99.84\\
+    B & 50x & 99.86\\
+    B & 100x & 99.85\\
+    \hline
+\end{tabular}}
+\caption[RODIA results for zones A and B of specimen X200-180317 with 50x and 100x magnification]{RODIA results for zones A and B of specimen X200-180317 with 50x and 100x magnification}
+\label{tab:RODIASS}
+\end{table}
+ \end{center}
 
 \section{Heat treatments}
 \subsection{Microstructure}

@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.4.1}Density}{11}{subsection.34}
 \contentsline {subsubsection}{Hydrostatic weighing}{11}{section*.35}
 \contentsline {subsubsection}{Relative optical density image analysis}{12}{section*.36}
-\contentsline {subsection}{\numberline {3.4.2}Microscopy}{13}{subsection.39}
+\contentsline {subsection}{\numberline {3.4.2}Microstructure}{13}{subsection.39}
 \contentsline {subsubsection}{Scanning electron microscopy}{13}{section*.40}
 \contentsline {subsubsection}{Optical microscopy}{13}{section*.41}
 \contentsline {subsection}{\numberline {3.4.3}Composition}{13}{subsection.42}
@@ -41,24 +41,22 @@
 \contentsline {section}{\numberline {5.1}Parameters optimisation}{17}{section.62}
 \contentsline {subsection}{\numberline {5.1.1}Melt pool size distribution}{17}{subsection.63}
 \contentsline {section}{\numberline {5.2}Reproducibility}{17}{section.64}
-\contentsline {subsection}{\numberline {5.2.1}Density}{17}{subsection.65}
-\contentsline {subsection}{\numberline {5.2.2}Hardness}{17}{subsection.66}
-\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.67}
-\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.68}
-\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.69}
-\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.70}
-\contentsline {subsection}{\numberline {5.4.1}Hydrostatic weighing}{17}{subsection.71}
-\contentsline {subsection}{\numberline {5.4.2}Relative optical density image analysis}{17}{subsection.72}
-\contentsline {section}{\numberline {5.5}Heat treatments}{17}{section.73}
-\contentsline {subsection}{\numberline {5.5.1}Microstructure}{17}{subsection.74}
-\contentsline {subsection}{\numberline {5.5.2}Mechanical properties}{17}{subsection.75}
-\contentsline {subsection}{\numberline {5.5.3}Stress release}{17}{subsection.76}
-\contentsline {subsection}{\numberline {5.5.4}Optimisation}{17}{subsection.77}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.78}
-\contentsline {chapter}{\numberline {A}Batches fabrication details}{21}{appendix.79}
-\contentsline {section}{\numberline {A.1}Process parameters}{21}{section.80}
-\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{21}{section.83}
-\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{21}{subsection.84}
-\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{21}{subsection.87}
-\contentsline {subsection}{\numberline {A.2.3}...Other batches}{21}{subsection.88}
-\contentsline {chapter}{Bibliography}{25}{appendix*.89}
+\contentsline {section}{\numberline {5.3}Powder ageing}{17}{section.65}
+\contentsline {subsection}{\numberline {5.3.1}Grain size and distribution}{17}{subsection.66}
+\contentsline {subsection}{\numberline {5.3.2}Composition}{17}{subsection.67}
+\contentsline {section}{\numberline {5.4}Density measures assessments}{17}{section.68}
+\contentsline {subsection}{\numberline {5.4.1}Hydrostatic weighing}{17}{subsection.69}
+\contentsline {subsection}{\numberline {5.4.2}Relative optical density image analysis}{17}{subsection.70}
+\contentsline {section}{\numberline {5.5}Heat treatments}{19}{section.75}
+\contentsline {subsection}{\numberline {5.5.1}Microstructure}{19}{subsection.76}
+\contentsline {subsection}{\numberline {5.5.2}Mechanical properties}{19}{subsection.77}
+\contentsline {subsection}{\numberline {5.5.3}Stress release}{19}{subsection.78}
+\contentsline {subsection}{\numberline {5.5.4}Optimisation}{19}{subsection.79}
+\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.80}
+\contentsline {chapter}{\numberline {A}Batches fabrication details}{25}{appendix.81}
+\contentsline {section}{\numberline {A.1}Process parameters}{25}{section.82}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{25}{section.85}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{25}{subsection.86}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{25}{subsection.89}
+\contentsline {subsection}{\numberline {A.2.3}...Other batches}{25}{subsection.90}
+\contentsline {chapter}{Bibliography}{29}{appendix*.91}
