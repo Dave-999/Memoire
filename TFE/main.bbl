@@ -400,6 +400,52 @@
     \field{year}{1968}
   \endentry
 
+  \entry{KEMPEN2012439}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KK}{%
+         family={Kempen},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Thijs},
+         familyi={T\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HJV}{%
+         family={Humbeeck},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima Van},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=KJP}{%
+         family={Kruth},
+         familyi={K\bibinitperiod},
+         given={J.-P.},
+         giveni={J\bibinitperiod-P\bibinitperiod},
+      }}%
+    }
+    \keyw{Selective Laser Melting, AlSi10Mg, hardness, Tensile strength}
+    \strng{namehash}{KK+1}
+    \strng{fullhash}{KKTLHJVKJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{note}{Laser Assisted Net shape Engineering 7 (LANE 2012)}
+    \field{pages}{439 \bibrangedash  446}
+    \field{title}{Mechanical Properties of AlSi10Mg Produced by Selective Laser
+  Melting}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1875389212025862
+    \endverb
+    \field{volume}{39}
+    \field{journaltitle}{Physics Procedia}
+    \field{year}{2012}
+  \endentry
+
   \entry{Kempen110817}{article}{}
     \name{author}{6}{}{%
       {{hash=KK}{%
@@ -439,7 +485,7 @@
          giveni={J\bibinitperiod-P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{KK+1}
+    \strng{namehash}{KK+2}
     \strng{fullhash}{KKTLYEBMVWKJP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

@@ -8,7 +8,7 @@ Selective laser melting (SLM) - also referred to as direct metal laser sintering
 \centering
 \includegraphics[scale=0.7]{Images/SLM}
 \decoRule
-\caption[Selective laser melting technology principle]{Selective laser melting technology principle (from Leitz et al, 2016).}
+\caption[Selective laser melting technology principle]{Selective laser melting technology principle (from Leitz et al., 2016).}
 \label{fig:SLM}
 \end{figure}
 
@@ -39,7 +39,7 @@ Results are very sensitive to their variations. The process parameters must thus
 \includegraphics[scale=0.37]{Images/Param}
 \decoRule
 
-\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al, 2014).}
+\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al., 2014).}
 \label{fig:param}
 \end{figure}
 
@@ -61,7 +61,7 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \centering
 \includegraphics[scale=0.32]{Images/Pvs}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al, 2011).}
+\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al., 2011).}
 \label{fig:Pvs}
 \end{figure}
 
@@ -69,7 +69,7 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \centering
 \includegraphics[scale=0.32]{Images/Pvs2}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al, 2011).}
+\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al., 2011).}
 \label{fig:Pvs2}
 \end{figure}
 
@@ -81,7 +81,7 @@ The choice of scan pattern has great importance. There exist a few different str
 \centering
 \includegraphics[scale=0.6]{Images/Strat}
 \decoRule
-\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al, 2017).}
+\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al., 2017).}
 \label{fig:Strat}
 \end{figure}
 
@@ -91,7 +91,7 @@ Furthermore, dual scanning strategies were proven to be effective. For example, 
 \centering
 \includegraphics[scale=0.58]{Images/Build}
 \decoRule
-\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al, 2012).}
+\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al., 2012).}
 \label{fig:Build}
 \end{figure}
 
@@ -104,9 +104,49 @@ Once the porosity problem is sorted out, other matters can be addressed such as 
 
 \section{Mechanical properties}
 
-%https://ac.els-cdn.com/S1875389212025862/1-s2.0-S1875389212025862-main.pdf?_tid=7c641fc8-61b1-4998-aa91-e00177b00ba2&acdnat=1525209119_a7d33ee2e9b65992b46f9127946b6ce1
-Valeurs typiques + 
-\textcolor{red}{Comparer les résultats avec alliage coulé/forgé}\\
+In a work of Kempen et al., additively manufactured AlSi10Mg samples were observed to have mechanical properties (Vickers hardness \textit{HV}, ultimate tensile stress $\sigma_u$ , fracture strain $\epsilon_f$ and impact energy) better or at least comparable to the conventionally casted and high pressure die casted (HPDC) casted alloy \parencite{KEMPEN2012439}. The tensile specimens built in an horizontal direction (XY) had slightly different characteristics than those built in the vertical direction (Z). The results obtained in the mentioned work are gathered in tables \ref{tab:Kemp1} and \ref{tab:Kemp2}  in order to compare them to common cast AlSi10Mg properties.
+
+ \begin{center}
+\begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Process & Young Modulus [GPa] &$\sigma_u$[MPa]&$\epsilon_f$[\%]&HV \\
+\hline
+\hline   
+    SLM - XY direction & $68 \pm 3$&$391 \pm 6$&$5.55\pm 0.4$&127	\\
+    SLM - Z direction & &$396 \pm 8$&$3.47\pm 0.6$&	\\
+    \hline
+    Conventional cast and aged & 71 &300-317&2.5-3.5&86\\
+    As built HPDC & &300-350&3-5&95-105\\
+    T6 treated HPDC & &330-365&&130-133\\
+    \hline
+
+\end{tabular}}
+\caption[Mechanical properties of SLM built parts and cast + aged parts ]{Mechanical properties of SLM built parts and cast + aged parts  (from Kempen et al., 2012)}
+\label{tab:Kemp1}
+\end{table}
+ \end{center}
+ 
+ \begin{center}
+\begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|}
+    \hline
+    Process & Impact energy [J] \\
+\hline
+\hline   
+    SLM - XY direction & $3.94 \pm 0.5$	\\
+    SLM - Z direction & $3.69 \pm 0.48	$\\
+    \hline
+    Conventional cast & 2.5-3.0\\
+    \hline
+
+\end{tabular}}
+\caption[Results of Charpy impact testing]{Results of Charpy impact testing (from Kempen et al., 2012)}
+\label{tab:Kemp2}
+\end{table}
+ \end{center}
+
+  
 
 \section{Post treatments}
 \textcolor{red}{Post-traitements dont traitements thermiques, sur lesquels on se focalise. Expliquer}\\
