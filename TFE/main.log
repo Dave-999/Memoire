@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  1 MAY 2018 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  5 MAY 2018 16:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -1700,7 +1700,11 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Warning: Label `tab:pol' multiply defined.
 
 ) (Chapitres/Discussion.aux) (Chapitres/Conclusion.aux)
-(Appendices/AppendixA.aux))
+(Appendices/AppendixA.aux) (Appendices/AppendixB.aux
+
+LaTeX Warning: Label `tab:compo' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1720,8 +1724,7 @@ LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 70.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Now handling font encoding TS1 ...
@@ -1943,7 +1946,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 \c__siunitx_mathtt_int=\count420
 
 1: section
-<Images/logos.jpg, id=239, 898.85812pt x 150.5625pt>
+<Images/logos.jpg, id=247, 898.85812pt x 150.5625pt>
 File: Images/logos.jpg Graphic file (type jpg)
 <use Images/logos.jpg>
 Package pdftex.def Info: Images/logos.jpg  used on input line 85.
@@ -2035,7 +2038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-<Images/SLM.png, id=457, 292.09125pt x 227.34938pt>
+<Images/SLM.png, id=472, 292.09125pt x 227.34938pt>
 File: Images/SLM.png Graphic file (type png)
 <use Images/SLM.png>
 Package pdftex.def Info: Images/SLM.png  used on input line 9.
@@ -2054,12 +2057,12 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 
 1: section
 [3 <./Images/SLM.png>]
-<Images/Evol.jpg, id=475, 777.65532pt x 334.24875pt>
+<Images/Evol.jpg, id=490, 777.65532pt x 334.24875pt>
 File: Images/Evol.jpg Graphic file (type jpg)
 <use Images/Evol.jpg>
 Package pdftex.def Info: Images/Evol.jpg  used on input line 28.
 (pdftex.def)             Requested size: 427.71175pt x 183.83737pt.
-<Images/Param.png, id=478, 909.3975pt x 557.08125pt>
+<Images/Param.png, id=493, 909.3975pt x 557.08125pt>
 File: Images/Param.png Graphic file (type png)
 <use Images/Param.png>
 Package pdftex.def Info: Images/Param.png  used on input line 39.
@@ -2085,12 +2088,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
  []
 
 [5 <./Images/Param.png>]
-<Images/Pvs.png, id=505, 1038.88126pt x 592.46344pt>
+<Images/Pvs.png, id=520, 1038.88126pt x 592.46344pt>
 File: Images/Pvs.png Graphic file (type png)
 <use Images/Pvs.png>
 Package pdftex.def Info: Images/Pvs.png  used on input line 62.
 (pdftex.def)             Requested size: 332.44879pt x 189.59216pt.
-<Images/Pvs2.png, id=506, 988.44281pt x 548.80031pt>
+<Images/Pvs2.png, id=521, 988.44281pt x 548.80031pt>
 File: Images/Pvs2.png Graphic file (type png)
 <use Images/Pvs2.png>
 Package pdftex.def Info: Images/Pvs2.png  used on input line 70.
@@ -2105,7 +2108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<Images/Strat.png, id=523, 612.03656pt x 222.8325pt>
+<Images/Strat.png, id=537, 612.03656pt x 222.8325pt>
 File: Images/Strat.png Graphic file (type png)
 <use Images/Strat.png>
 Package pdftex.def Info: Images/Strat.png  used on input line 82.
@@ -2121,7 +2124,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<Images/Build.png, id=528, 637.63219pt x 168.63pt>
+<Images/Build.png, id=542, 637.63219pt x 168.63pt>
 File: Images/Build.png Graphic file (type png)
 <use Images/Build.png>
 Package pdftex.def Info: Images/Build.png  used on input line 92.
@@ -2136,18 +2139,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-
+[7 <./Images/Strat.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[7 <./Images/Strat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 107--274
+Underfull \hbox (badness 10000) in paragraph at lines 112--274
 
  []
 
@@ -2159,42 +2162,42 @@ Chapter 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<Images/Printer.png, id=550, 199.49532pt x 331.2375pt>
+<Images/Printer.png, id=565, 199.49532pt x 331.2375pt>
 File: Images/Printer.png Graphic file (type png)
 <use Images/Printer.png>
-Package pdftex.def Info: Images/Printer.png  used on input line 19.
+Package pdftex.def Info: Images/Printer.png  used on input line 20.
 (pdftex.def)             Requested size: 139.64575pt x 231.86465pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<Images/Compens.jpg, id=554, 959.08313pt x 748.29562pt>
+<Images/Compens.jpg, id=569, 959.08313pt x 748.29562pt>
 File: Images/Compens.jpg Graphic file (type jpg)
 <use Images/Compens.jpg>
-Package pdftex.def Info: Images/Compens.jpg  used on input line 29.
+Package pdftex.def Info: Images/Compens.jpg  used on input line 30.
 (pdftex.def)             Requested size: 287.72716pt x 224.49042pt.
-<Images/Compens1.jpg, id=555, 903.375pt x 530.73282pt>
+<Images/Compens1.jpg, id=570, 903.375pt x 530.73282pt>
 File: Images/Compens1.jpg Graphic file (type jpg)
 <use Images/Compens1.jpg>
-Package pdftex.def Info: Images/Compens1.jpg  used on input line 37.
+Package pdftex.def Info: Images/Compens1.jpg  used on input line 38.
 (pdftex.def)             Requested size: 406.515pt x 238.82756pt.
 
-Overfull \hbox (2.48592pt too wide) in paragraph at lines 37--39
+Overfull \hbox (2.48592pt too wide) in paragraph at lines 38--40
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
@@ -2204,55 +2207,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 [10 <./Images/Printer.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 [11 <./Images/Compens.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/ImageJ-cub1.jpg, id=585, 1704.3675pt x 569.12625pt>
+<Images/ImageJ-cub1.jpg, id=600, 1704.3675pt x 569.12625pt>
 File: Images/ImageJ-cub1.jpg Graphic file (type jpg)
 <use Images/ImageJ-cub1.jpg>
-Package pdftex.def Info: Images/ImageJ-cub1.jpg  used on input line 107.
+Package pdftex.def Info: Images/ImageJ-cub1.jpg  used on input line 108.
 (pdftex.def)             Requested size: 494.25392pt x 165.04239pt.
 [12 <./Images/Compens1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 [13 <./Images/ImageJ-cub1.jpg>]
-<Images/Vickers.jpg, id=595, 811.53188pt x 835.62187pt>
+<Images/Vickers.jpg, id=610, 811.53188pt x 835.62187pt>
 File: Images/Vickers.jpg Graphic file (type jpg)
 <use Images/Vickers.jpg>
-Package pdftex.def Info: Images/Vickers.jpg  used on input line 136.
+Package pdftex.def Info: Images/Vickers.jpg  used on input line 137.
 (pdftex.def)             Requested size: 235.33821pt x 242.32413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-) [14 <./Images/Vickers.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+) [14 <./Images/Vickers.jpg>] [15]
 \openout2 = `Chapitres/Resultats.aux'.
 
- (Chapitres/Resultats.tex
+ (Chapitres/Resultats.tex [16
+
+
+
+]
 Chapter 4.
 
 Overfull \hbox (8.9366pt too wide) in paragraph at lines 19--33
@@ -2261,21 +2278,11 @@ Overfull \hbox (8.9366pt too wide) in paragraph at lines 19--33
 
 )
 1: section
-[15
-
-
-
-] [16]
+[17] [18]
 \openout2 = `Chapitres/Discussion.aux'.
 
  (Chapitres/Discussion.tex
 Chapter 5.
-
-Overfull \hbox (7.8059pt too wide) in paragraph at lines 20--21
-\T1/ppl/m/n/10.95 The es-tim-a-tion of the re-l-at-ive dens-ity trough RO-DIA c
-an be af-fected on many grounds.
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
@@ -2291,7 +2298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<Images/RODIA1.jpg, id=610, 4625.28pt x 3468.96pt>
+<Images/RODIA1.jpg, id=636, 4625.28pt x 3468.96pt>
 File: Images/RODIA1.jpg Graphic file (type jpg)
 <use Images/RODIA1.jpg>
 Package pdftex.def Info: Images/RODIA1.jpg  used on input line 28.
@@ -2302,17 +2309,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 1: section
-[17
+[19
 
 
 
 ]
-<Images/RODIA2.png, id=617, 1000.4577pt x 991.0626pt>
+<Images/RODIA2.png, id=643, 1000.4577pt x 991.0626pt>
 File: Images/RODIA2.png Graphic file (type png)
 <use Images/RODIA2.png>
 Package pdftex.def Info: Images/RODIA2.png  used on input line 38.
 (pdftex.def)             Requested size: 500.22763pt x 495.53009pt.
-<Images/RODIAHist.jpg, id=618, 1251.92719pt x 496.85625pt>
+<Images/RODIAHist.jpg, id=644, 1251.92719pt x 496.85625pt>
 File: Images/RODIAHist.jpg Graphic file (type jpg)
 <use Images/RODIAHist.jpg>
 Package pdftex.def Info: Images/RODIAHist.jpg  used on input line 46.
@@ -2327,11 +2334,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-) [18 <./Images/RODIA1.jpg>] [19] [20 <./Images/RODIA2.png>] [21 <./Images/RODI
+) [20 <./Images/RODIA1.jpg>] [21] [22 <./Images/RODIA2.png>] [23 <./Images/RODI
 AHist.jpg>]
 \openout2 = `Chapitres/Conclusion.aux'.
 
- (Chapitres/Conclusion.tex [22
+ (Chapitres/Conclusion.tex [24
 
 
 
@@ -2339,34 +2346,50 @@ AHist.jpg>]
 Chapter 6.
 )
 1: section
-[23]
+[25]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (Appendices/AppendixA.tex [24
+ (Appendices/AppendixA.tex [26
 
 
 
 ]
 Appendix A.
-<Images/cc.jpg, id=651, 499.11469pt x 261.97874pt>
+<Images/cc.jpg, id=677, 499.11469pt x 261.97874pt>
 File: Images/cc.jpg Graphic file (type jpg)
 <use Images/cc.jpg>
 Package pdftex.def Info: Images/cc.jpg  used on input line 72.
 (pdftex.def)             Requested size: 289.48671pt x 151.94777pt.
-<Images/171024-cad.jpg, id=652, 821.31844pt x 452.4403pt>
+<Images/171024-cad.jpg, id=678, 821.31844pt x 452.4403pt>
 File: Images/171024-cad.jpg Graphic file (type jpg)
 <use Images/171024-cad.jpg>
 Package pdftex.def Info: Images/171024-cad.jpg  used on input line 84.
 (pdftex.def)             Requested size: 476.36502pt x 262.41556pt.
-<Images/171024-real.jpg, id=653, 534.49687pt x 551.05875pt>
+<Images/171024-real.jpg, id=679, 534.49687pt x 551.05875pt>
 File: Images/171024-real.jpg Graphic file (type jpg)
 <use Images/171024-real.jpg>
 Package pdftex.def Info: Images/171024-real.jpg  used on input line 92.
 (pdftex.def)             Requested size: 240.52136pt x 247.97414pt.
 )
 1: section
-[25 <./Images/cc.jpg>] [26 <./Images/171024-cad.jpg> <./Images/171024-real.jpg>
-] [27] [28
+[27 <./Images/cc.jpg>] [28 <./Images/171024-cad.jpg> <./Images/171024-real.jpg>
+] [29]
+\openout2 = `Appendices/AppendixB.aux'.
+
+ (Appendices/AppendixB.tex [30
+
+
+
+]
+Appendix B.
+
+Overfull \hbox (52.75056pt too wide) in paragraph at lines 9--36
+[][] 
+ []
+
+)
+1: section
+[31] [32
 
 
 ]
@@ -2400,7 +2423,7 @@ ct-ive laser melt-ing'. In: \T1/ppl/m/it/10.95 Metal
  []
 
 1: section
-[29]
+[33]
 Overfull \hbox (3.18535pt too wide) in paragraph at lines 301--301
 \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / o
 nlinelibrary . wiley . com / doi / abs / 10 . 1002 / adem . 201700003$[][]\T1/p
@@ -2421,16 +2444,16 @@ Overfull \hbox (2.0027pt too wide) in paragraph at lines 301--301
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
-[30]
+[34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (main.aux (Chapitres/Introduction.aux) (Chapitres/Etat_de_l_art.aux)
 (Chapitres/Materiel_et_methodes.aux) (Chapitres/Resultats.aux)
 (Chapitres/Discussion.aux) (Chapitres/Conclusion.aux) (Appendices/AppendixA.aux
-))
+) (Appendices/AppendixB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C360B08067145EBB94302508E1589DC;9024.
+(rerunfilecheck)             Checksum: 2AE4B679E2AF1DE668CE01F5AC652916;9496.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2440,10 +2463,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34361 strings out of 493312
- 696296 string characters out of 3138899
- 936023 words of memory out of 3000000
- 37328 multiletter control sequences out of 15000+200000
+ 34386 strings out of 493312
+ 696843 string characters out of 3138899
+ 938633 words of memory out of 3000000
+ 37338 multiletter control sequences out of 15000+200000
  583158 words of font info for 116 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,82p,10379b,2364s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2457,9 +2480,9 @@ zo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095
 am Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 13005191 bytes).
+Output written on main.pdf (50 pages, 13014957 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 568 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 816 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 584 words of extra memory for PDF output out of 10000 (max. 10000000)
 

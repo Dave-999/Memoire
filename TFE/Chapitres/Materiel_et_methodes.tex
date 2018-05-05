@@ -12,6 +12,7 @@ Description expériences et machines
 %\subsection{Drying}
 
 \section{Fabrication process parameters}
+\label{MMFPP}
 The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoretical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. Its actual maximal power is $P_{max}=273.6 [W]$. [QUEL EST LE SPOT SIZE?]  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
 
 \begin{figure}[th]
@@ -40,16 +41,16 @@ In this thesis, argon was used as shielding gas. The composition of the gas envi
 \label{fig:Compens1}
 \end{figure}
 
-All batches were first prepared on \textit{DMP ProX Manufacturing}, a dedicated CAD software. It enabled to chose the values for the parameters previously mentioned, as well as the position of the specimens. For this thesis, all cylinders and tensile specimens were fabricated vertically. [Parler des éprouvettes utilisées]\\
+All batches were first prepared on \textit{DMP ProX Manufacturing}, a dedicated CAD software. It enabled to select the values for the parameters previously mentioned, as well as the position of the specimens. For this thesis, all cylinders and tensile specimens were fabricated vertically. [Parler des éprouvettes utilisées, dimensions? -> Dessin]\\
 
-An island scanning strategy was chosen on account of research done on the subject (see section \ref{pp}). It is a hexagonal pattern with ???  [OVERLAP? TAILLE DES HEXAGONES?] The scanning order was automatically chosen. Figures with detailed specimens positions, denominations, scanning orders and sintering durations are available in annex \ref{mda}.\\
+An island scanning strategy was chosen on account of research done on the subject (see section \ref{pp}). It is a hexagonal pattern with [OVERLAP? TAILLE DES HEXAGONES?] The scanning order was automatically chosen. Figures with detailed specimens positions, denominations, scanning orders and sintering durations are available in annex \ref{mda}.\\
 
-Insérer images de trajets du laser.\\
+[Insérer images de trajets du laser].\\
 
 
 
 \section{Heat treatments}
-
+\label{MMHT}
 The heat treatments were conducted inside a unique oven of the ... model, manufactured by ..., which is able to reach a temperature of 400$^\circ$ C. Samples temperature data was obtained through a thermocouple welded to the sample surface. [Méthode de soudage, élévation de la température durant l'opération] The data was displayed and saved every 10 seconds, with a precision of 0.1$^\circ$ C, thanks to a ..., connected to the thermocouple (see Fig. for both devices). \\
 
 Samples that were subject to a heat treatment were named in a particular format, to ease distinction between them. They received the name of the batch, followed by "TT-\textit{holdingtemperature-holdingtime-specific conditions}".
@@ -75,7 +76,7 @@ All six faces of the tested cubes were polished with P320 silicon carbide sandpa
 
 \subsubsection{Relative optical density image analysis}
 
-Another method was used to estimate the relative density of the various samples: the relative optical density image analysis (RODIA). For this purpose, the samples were cut with a micro-cutting machine and underwent the polishing routine detailed in table \ref{tab:pol}. Pictures of the polished sections were then taken under the optical microscope.[Infos sur le microscope, grossissement] The pictures were taken with a \textit{Huawei Mate 10 Lite} smart-phone trough the lens of the microscope. The used camera has a resolution of 16 [MP]. This option was chosen over the camera directly connected to the microscope, since it only has 5 [MP] resolution. \\
+Another method was used to estimate the relative density of the various samples: the relative optical density image analysis (RODIA). For this purpose, the samples were cut with a micro-cutting machine and underwent the polishing routine detailed in table \ref{tab:pol}. Pictures of the polished sections were then taken under the optical microscope. An \textit{Olympus AX70} microscope was used, with 5x and 10x magnification. The pictures were taken with a smart-phone trough the lens of the microscope. The used camera has a resolution of 16 [MP]. A camera is directly connected to the microscope at the laboratory, but it only has 5 [MP] resolution. It was thus chosen not to use it. \\
 
 With the help of the \textit{ImageJ} software, the surface of both the porosities and the whole surface could be isolated for each analysed image (see figure \ref{fig:ImageJ}). The surface fraction occupied by porosities could then be obtained as the ratio between the areas of the two (in pixels). If we approximate that the porosities surface fraction is equal to the volumetric one, that method gives an estimation of the relative density $\rho_{rel}$.
 
@@ -129,7 +130,7 @@ Autre chose?
 
 \subsubsection{Hardness test}
 
-Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} tester. All analysed specimens were previously cut with a micro-cutting machine for the purpose of observing their bulk hardnesses. For each test, a pyramidal indenter (see figure \ref{fig:Vick}) was pressed on the samples surfaces with a load of 10 [kg] during 10 [sec]. The indentation durations were measured with a digital timer and the tests were stopped manually. The two diagonals lengths of the resulting indents were then evaluated using a ruler on the screen of the machine, which displays an image of the sample's surface captured by an embedded optical microscope.\\
+Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} tester. All analysed specimens were previously cut with a micro-cutting machine to enable the measurement of the bulk hardnesses of the samples (at least at a few millimetres from the initial surfaces). For each test, a pyramidal indenter (see figure \ref{fig:Vick}) was pressed during 10 [sec] onto the material  with a load of 10 [kg]. The indentation durations were measured with a digital timer and the tests were stopped manually. The two diagonals lengths of the resulting indents were then evaluated using a ruler on the screen of the machine, which displays the image of the sample's surface that is captured by an embedded optical microscope.\\
 
 \begin{figure}[th]
 \centering
@@ -139,10 +140,33 @@ Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} t
 \label{fig:Vick}
 \end{figure}
 
-Multiple tests were made for every samples and the mean diagonal length value was computed for each test. The corresponding Vickers harness values HV could then be estimated by means of a conversion table.\\
+Multiple tests were made for each sample and the mean diagonal length value was computed for every test. The corresponding Vickers hardness values HV could then be estimated by means of a conversion table.\\
 
 \subsubsection{Tensile test}
 
-Machine?
+The traction tests were performed on [Machine?]. The tensile specimens used all originated from batch X200-190417. Details about their geometry and undergone heat treatments can be consulted respectively in sections \ref{MMFPP} and \ref{MMHT}. [Fonctionnement de la machine] [Calcul des charactéristique matériau] \\
+
+For each test, the extensometer gauge length was set to 18 [mm] and the pre load to 15 [N]. A cross head speed of 1 [$\frac{mm}{min}$] was chosen. It was decided to interrupt the tensile tests of one specimen of every group that underwent the same heat treatment. In that way, the damage mechanisms could be observed afterwards. Table \ref{tab:stoptract} regroups the deformation limits at which the tests were stopped.\\
+
+ \begin{center}
+\begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|}
+    \hline
+    Sample & Deformation limit [-] \\
+\hline
+\hline   
+    X200-180417-3 & 0.01\\
+    X200-180417-6 & 0.06 \\
+    X200-180417-9 & 0.08\\
+    \hline
+
+\end{tabular}}
+
+\caption[Deformation limits for interrupted tensile tests of batch X200-180417 specimens]{Deformation limits for interrupted tensile tests of batch X200-180417 specimens}
+\label{tab:stoptract}
+\end{table}
+ \end{center}
+
+
 
 %\subsubsection{Fatigue}
