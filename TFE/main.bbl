@@ -181,6 +181,58 @@
     \field{year}{2017}
   \endentry
 
+  \entry{ABOULKHAIR2016139}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ANT}{%
+         family={Aboulkhair},
+         familyi={A\bibinitperiod},
+         given={Nesma\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maskery},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ENM}{%
+         family={Everitt},
+         familyi={E\bibinitperiod},
+         given={Nicola\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Additive manufacture, Aluminium alloys, Nanoindentation, Tensile
+  behaviour, Compressive behaviour, Heat treatment}
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTMITCAIENM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{139 \bibrangedash  146}
+    \field{title}{The microstructure and mechanical properties of selectively
+  laser melted AlSi10Mg: The effect of a conventional T6-like heat treatment}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0921509316304890
+    \endverb
+    \field{volume}{667}
+    \field{journaltitle}{Materials Science and Engineering: A}
+    \field{year}{2016}
+  \endentry
+
   \entry{Brandl121509}{article}{}
     \name{author}{4}{}{%
       {{hash=BE}{%
@@ -716,6 +768,40 @@
     \field{year}{2017}
   \endentry
 
+  \entry{MOWER2016198}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MTM}{%
+         family={Mower},
+         familyi={M\bibinitperiod},
+         given={Todd\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LMJ}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Aluminum alloys, Titanium alloys, Stainless steel alloys, Powder-bed
+  fusion, Cyclic fatigue}
+    \strng{namehash}{MTMLMJ1}
+    \strng{fullhash}{MTMLMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{198 \bibrangedash  213}
+    \field{title}{Mechanical behavior of additive manufactured, powder-bed
+  laser-fused materials}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S092150931530530X
+    \endverb
+    \field{volume}{651}
+    \field{journaltitle}{Materials Science and Engineering: A}
+    \field{year}{2016}
+  \endentry
+
   \entry{PRASHANTH170205}{article}{}
     \name{author}{3}{}{%
       {{hash=PK}{%
@@ -867,6 +953,52 @@
     \endverb
     \field{volume}{14}
     \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2017}
+  \endentry
+
+  \entry{UZAN2017229}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UNE}{%
+         family={Uzan},
+         familyi={U\bibinitperiod},
+         given={Naor\bibnamedelima Elad},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Shneck},
+         familyi={S\bibinitperiod},
+         given={Roni},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=YO}{%
+         family={Yeheskel},
+         familyi={Y\bibinitperiod},
+         given={Ori},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Frage},
+         familyi={F\bibinitperiod},
+         given={Nachum},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{Additive manufacturing, AlSi10Mg, Fatigue, Fractography, Tensile
+  properties, Fracture toughness, Hot isostatic pressing}
+    \strng{namehash}{UNE+1}
+    \strng{fullhash}{UNESRYOFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{pages}{229 \bibrangedash  237}
+    \field{title}{Fatigue of AlSi10Mg specimens fabricated by additive
+  manufacturing selective laser melting (AM-SLM)}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0921509317310316
+    \endverb
+    \field{volume}{704}
+    \field{journaltitle}{Materials Science and Engineering: A}
     \field{year}{2017}
   \endentry
 

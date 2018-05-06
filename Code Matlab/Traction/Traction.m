@@ -11,7 +11,7 @@ F_1 = xlsread('X200-180417-1.xls','Valeurs X200-1804...','C4:C13460');
 sigma_1 = F_1/pi/(d_o_1/2)^2/10^6;% [MPa]
 dl_1= xlsread('X200-180417-1.xls','Valeurs X200-1804...','D4:D13460');
 epsilon_1 = dl_1/A;
-E_1=(sigma_1(1200)-sigma_1(300))/(epsilon_1(1200)-epsilon_1(300))
+E_1=(sigma_1(1000)-sigma_1(1))/(epsilon_1(1000)-epsilon_1())
 UTS_1=xlsread('X200-180417-1.xls','Résultats X200-18...','C3')/pi/(d_o_1/2)^2
 epsilon_f_1=xlsread('X200-180417-1.xls','Résultats X200-18...','G3')/A
 
@@ -63,7 +63,7 @@ F_4 = xlsread('X200-180417-4.xls','Valeurs X200-1804...','C4:C13460');
 sigma_4 = F_4/pi/(d_o_4/2)^2/10^6;% [MPa]
 dl_4= xlsread('X200-180417-4.xls','Valeurs X200-1804...','D4:D13460');
 epsilon_4 = dl_4/A;
-E_4=(sigma_4(200)-sigma_4(100))/(epsilon_4(200)-epsilon_4(100))
+E_4=(sigma_4(3537)-sigma_4(2492))/(epsilon_4(3537)-epsilon_4(2492))
 UTS_4=xlsread('X200-180417-4.xls','Résultats X200-18...','C3')/pi/(d_o_4/2)^2
 epsilon_f_4=xlsread('X200-180417-4.xls','Résultats X200-18...','G3')/A
 for i=1:10000 

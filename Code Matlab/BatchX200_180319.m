@@ -17,3 +17,5 @@ errorbar([0.85 1.15;1.85 2.15;2.85 3.15;3.85 4.15;4.85 5.15],Densite,[0.03 0.04;
 set(gca, 'XTick', 1:5,'XTickLabel',{'1';'2';'3';'4';'5'});
 ylim([99 100])
 legend('Archimède après polissage', 'Microscope optique');
+
+%Eprouvette 25
