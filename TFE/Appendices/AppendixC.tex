@@ -1,0 +1,32 @@
+% Appendix B
+
+\chapter{Procedure for the confidence intervals computation} % Main appendix title
+
+\label{AppendixC} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\section{Hydrostatic weighting}
+
+The hydrostatic weighting method requires to weight the analysed samples two times; once in air and once in water. The measurements data of the two weightings are subjected to a certain spreading - especially large in the case of underwater measurements. Both of the tests imprecisions must thus be taken into account when computing the confidence intervals (CI) for $\rho_{a,rel}$. The following procedure was followed:
+
+\begin{itemize}
+\item Computation of the standard deviation $SD$ for the two data samples of observed mass values \{$x_1$,$x_2$,...$x_N$\} with the formula below:
+
+$$SD=\sqrt{\frac{\Sigma^N_{i=1}(x_i-\bar{x})^2}{N-1}} $$
+
+where is N the sample size and $\bar{x}$ is the mean of the observed values.
+
+\item Determination of the CI range at a 95 [\%] confidence level for each data sample with the following formula:
+
+$$CI= \bar{x} \pm 1.96 \frac{SD}{\sqrt{N}}$$
+
+\item Use of the mean values incremented by the extreme values of the CI for both $W_a$ and $W_w$ in the formula:
+
+
+$$\rho_a=\frac{W_a}{W_a-W_w} \cdot \rho_w $$
+
+so as to maximise the absolute value of the difference with $\bar{x}$. This difference is then equal to the CI half length for a 95 [\%] confidence level.
+\end{itemize}
+
+\section{Vickers hardness}
+
+Hardness measurements of a given sample are also prone to having a certain variability. CI must thus be computed to assess the method precision. The CI is first calculated for the data sample composed of the mean diagonals length of the indents. For this purpose, one follows the same two first steps as for the hydrostatic weighting. The CI range is then multiplied by 800 to find the hardness's one. This is done in accordance with the observation that the maximal hardness variation for a change of 0.001 [mm] is 0.8 [HV] in table \ref{tab:HV} for $H_v<147.1 $[HV].% This is the origin of the factor 800. 

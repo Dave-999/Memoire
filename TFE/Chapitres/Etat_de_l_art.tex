@@ -4,7 +4,7 @@
 Selective laser melting (SLM) - also referred to as direct metal laser sintering (DMLS) - is an additive manufacturing  (AM) technique making use of a high power-density laser that locally melts powder materials.%Layers are progressively piled up, in order to create a 3D part. 
  When a layer of powder has been melted, a new layer is spread on top of the previous one, and is in turn melted, in order to progressively build a 3D object. The technique is illustrated on figure \ref{fig:SLM} \parencite{LEITZ2017331}. The materials used include mostly metals but also ceramics and composites. Parts to build must first be drawn in a computer-aided design (CAD) software and broken down in 2D slices, each one corresponding to a powder layer. During the process, the oxygen pressure $p_{O_2}$ must be kept low to prevent the oxidation of the metal. A shielding gas - such as argon - is thus used to fill the build chamber at all time, while $p_{O2}$ is monitored.   \\
 
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.7]{Images/SLM}
 \decoRule
@@ -12,7 +12,7 @@ Selective laser melting (SLM) - also referred to as direct metal laser sintering
 \label{fig:SLM}
 \end{figure}
 
-LSM is still a young technology. Its popularity only increased significantly over the last decade, as depicted by figures \ref{fig:Evol} (a) and (b). Works concerning AlSi10Mg began to emerge noticeably in 2014. The technique usage spread rapidly in many sectors: biomedical, heat exchangers, aerospace and automotive - to name just a few \parencite{Yap}. This is due to the numerous appeals of SLM compared to the other technologies, including:\\
+LSM is still a young technology. Its popularity only increased significantly over the last decade, as depicted by figure \ref{fig:Evol}). Works concerning AlSi10Mg began to emerge noticeably in 2014. The technique usage spread rapidly in many sectors: biomedical, heat exchangers, aerospace and automotive - to name just a few \parencite{Yap}. This is due to the numerous appeals of SLM compared to the other technologies, including:\\
 
 \begin{itemize}
 \item Geometrical flexibility: parts can be designed with thin walls or even with hidden cavities and/or channels. This offers promising prospects regarding light-weight potentials for parts solicited mechanically \parencite{Lippert};
@@ -23,7 +23,7 @@ LSM is still a young technology. Its popularity only increased significantly ove
 \item Reduced material waste and better energy usage: the process is  environmentally friendly as a whole \parencite{Haase}.
 \end{itemize}
 
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \noindent\makebox[\textwidth]{\includegraphics[scale=0.55]{Images/Evol}}
 \decoRule
@@ -34,7 +34,7 @@ LSM is still a young technology. Its popularity only increased significantly ove
 
 The properties of parts produced trough SLM stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
 Results are very sensitive to their variations. The process parameters must thus be monitored thoroughly. This complicates the search for their optimisation, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.37]{Images/Param}
 \decoRule
@@ -79,7 +79,7 @@ A popular approach is to regroup multiple operating parameters into one, the vol
 $$E_d=\frac{P}{v_s h t} $$
 where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally respectively in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$] \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%].\\
 
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.32]{Images/Pvs}
 \decoRule
@@ -87,7 +87,7 @@ where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_
 \label{fig:Pvs}
 \end{figure}
 
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.32]{Images/Pvs2}
 \decoRule
@@ -99,7 +99,7 @@ The other process parameters will be covered for the sake of completeness. Let u
 
 The choice of scan pattern has great importance. There exist a few different strategies. The common ones use unidirectional, bidirectional or islands patterns (see figure \ref{fig:Strat}). The scan direction(s) should always be rotated between successive layers to favorise isotropy, especially in the unidirectional case since it causes height variations along a layer \parencite{aboulkhair2016}. The islands pattern is based on a decomposition in small domains with short scanning tracks. Two usual strategies can be distinguished among this group: the chessboard and the hexagonal one. A study proved the superiority of an island pattern over a bidirectional one in terms of both ultimate tensile stress $\sigma_u$ and strain at fracture $\epsilon_f$ for a 316L stainless steel-Inconel 718 material \parencite{Zhou15}. It was also shown that it was possible to fabricate pure titanium samples without cracks using an island pattern, and not with a bidirectional one \parencite{Li17}. This is seemingly due to the greater accumulation of internal stresses and to the weaker interlayer bounding in the second case. \\
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.6]{Images/Strat}
 \decoRule
@@ -107,9 +107,9 @@ The choice of scan pattern has great importance. There exist a few different str
 \label{fig:Strat}
 \end{figure}
 
-Furthermore, dual scanning strategies were proven to be effective. For example, a pre-scan with low $E_d$ can flatten the powder bed before it is consolidated, which leads to a reduction of porosity \parencite{Mertens170406}. It was also shown that scanning the contour of the part being built at lower $E_d$ can better the surface roughness for AlSi12Mg \parencite{PRASHANTH170205}. One should note too that the final properties of the fabricated part can strongly depend on the building direction (see figure \ref{fig:Build}) \parencite{DELROISSE201732}. Further properties comparison is provided in section \ref{MMABMP}
+Furthermore, dual scanning strategies were proven to be effective. For example, a pre-scan with low $E_d$ can flatten the powder bed before it is consolidated, which leads to a reduction of porosity \parencite{Mertens170406}. It was also shown that scanning the contour of the part being built at lower $E_d$ can better the surface roughness for AlSi12Mg \parencite{PRASHANTH170205}. One should note too that the final properties of the fabricated part can strongly depend on the building direction (see figure \ref{fig:Build}) \parencite{DELROISSE201732}. Further properties comparison is provided in section \ref{MMABMP}.\\
 
-\begin{figure}[th]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.58]{Images/Build}
 \decoRule
