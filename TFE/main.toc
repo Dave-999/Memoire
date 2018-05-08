@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {british}
+\babel@toc {british}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
 \contentsline {section}{\numberline {2.1}Selective laser melting technology}{3}{section.12}
@@ -13,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Sieving}{11}{subsection.27}
 \contentsline {subsection}{\numberline {3.1.2}Grain size and distribution}{11}{subsection.28}
 \contentsline {subsection}{\numberline {3.1.3}Composition}{11}{subsection.29}
-\contentsline {section}{\numberline {3.2}Fabrication process parameters}{11}{section.30}
+\contentsline {section}{\numberline {3.2}Manufacturing parameters}{11}{section.30}
 \contentsline {section}{\numberline {3.3}Heat treatments}{12}{section.34}
 \contentsline {section}{\numberline {3.4}Characterisation}{13}{section.35}
 \contentsline {subsection}{\numberline {3.4.1}Density}{13}{subsection.36}
@@ -40,8 +39,8 @@
 \contentsline {subsection}{\numberline {4.4.2}Composition}{21}{subsection.64}
 \contentsline {subsubsection}{Fresh powder}{21}{section*.65}
 \contentsline {subsubsection}{Recycled powder}{21}{section*.66}
-\contentsline {section}{\numberline {4.5}Heat treatments}{22}{section.68}
-\contentsline {subsection}{\numberline {4.5.1}Heating process}{22}{subsection.69}
+\contentsline {section}{\numberline {4.5}Heat treatments}{21}{section.68}
+\contentsline {subsection}{\numberline {4.5.1}Heating process}{21}{subsection.69}
 \contentsline {subsection}{\numberline {4.5.2}Microscopy}{22}{subsection.70}
 \contentsline {subsection}{\numberline {4.5.3}Hardness testing}{22}{subsection.71}
 \contentsline {subsection}{\numberline {4.5.4}Tensile testing}{22}{subsection.72}
