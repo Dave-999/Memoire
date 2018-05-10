@@ -1,7 +1,7 @@
 \chapter{Results}
 \label{Chap4}
 \section{Parameters optimisation}
-
+\label{Rparaopti}
 The optimisation of the manufactured samples properties was done with respect to $\rho_{a,rel}$ and $H_v$  by means of $P$ and $v_s$ variation. For this purpose, twelve cubes were fabricated in batch X200-171024. Details about the batch are given in appendix \ref{AppendixA}. The goal of this optimisation was to select a single set of parameters values to use in the rest of the thesis. The parameters values were chosen to cover a wide range of $E_d$. Sets of values of types "7" and "8" are the ones that gave the best results in terms $\rho_{a,rel}$ in a previous work done at UCL. It was decided to produce samples with the corresponding $P$ and $v_s$ in triplicate in order to have a first insight on the process reproducibility.\\
 
 Results for the measurements of $\rho_{a,rel}$ and $H_v$ are displayed in figure \ref{fig:HD-171024}. The 95\% confidence intervals (CI) are also drawn. The methods used to compute them are described in appendix \ref{AppendixC}. All apparent relative density values were obtained trough hydrostatic weighing of the unpolished AB specimens.\\
@@ -116,9 +116,46 @@ Results are shown on figure \ref{fig:HD-180417}.
 
 \section{Heat treatments}
 
+
 \subsection{Heating process}
 
-The main objective of most of the research about aluminium alloys AM is to obtain parts with properties at least as good as their conventional cast counterparts. To obtain a larger panel of properties, a vast number of heat treatments have been developed for die cast alloys. 
+The main objective of most of the research about aluminium alloys AM is to obtain parts with properties at least as good as their conventional cast counterparts. To obtain a larger panel of properties, a vast number of heat treatments have been developed for die cast alloys. The classical treatment of stress-relief for aluminium consists of a heating up to 300$^\circ$ C, with a holding of 2 hours, followed by a slow cooling\ref{label}. This treatment, and variations around him, have been tried on a number of additively manufactured samples, in order to assess their effect on the microstructure and mechanical properties of the parts.\\
+
+A first series of cubic samples was manufactured using the optimised process parameters from Section \ref{Rparaopti}, and a different heat treatment was applied to each one of them. The complete list of cubes treated can be found in Table \ref{RTT}.
+
+\begin{center}
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|}
+	\hline 
+	Specimen & Holding time [minutes] & Aimed holding temp. [$^\circ$C] & Max. temp. reached [$^\circ$C] \\ 
+	\hline 
+	X200-180220-TT150-2 & 120 & 150 & - \\ 
+	\hline 
+	X200-180220-TT200-2 & 120 & 200 & - \\ 
+	\hline 
+	X200-180220-TT300-2 & 120 & 300 & 256 \\ 
+	\hline 
+	X200-180220-TT300-2-plaque & 120 & 300 & 281 \\ 
+	\hline 
+	X200-180220-TT150-2-real & 120 & 150 & 156 \\ 
+	\hline 
+	X200-180220-TT200-2-real & 120 &200  & 203 \\ 
+	\hline 
+	X200-180220-TT250-2-real & 120 & 250 & 255 \\ 
+	\hline 
+	X200-180220-TT300-2-real & 120 & 300 & 302 \\ 
+	\hline 
+	X200-180220-TT300-1-real & 60 & 300 & 302 \\ 
+	\hline 
+	X200-180220-TT360-1-real & 60 & 360 & 371 \\ 
+	\hline 
+	X200-180220-TT300-5m & 5 & 300 & 300 \\ 
+	\hline 
+\end{tabular} 
+\caption[properties of the specimens from batch X200-180417]{List of the heat-treated specimens from batch X200-180220}
+\label{tab:RTT}
+\end{table}
+\end{center}
 
 \subsection{Microscopy}
 
