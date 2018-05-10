@@ -49,6 +49,17 @@ headsepline, % Uncomment to get a line under the header
 %\renewcommand\acknowledgementsname{Remerciements}
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \newcommand{\mc}[2]{\multicolumn{#1}{|c|}{#2}}
+
+\usepackage{placeins}
+
+\let\Oldsection\section
+\renewcommand{\section}{\FloatBarrier\Oldsection}
+
+\let\Oldsubsection\subsection
+\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+\let\Oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
 %\usepackage{blindtext}
 %\usepackage{tabularx}
 %\usepackage{gensymb}

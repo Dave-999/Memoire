@@ -20,7 +20,7 @@ Results for the measurements of $\rho_{a,rel}$ and $H_v$ are displayed in figure
 \begin{table}[ht]
 \noindent\makebox[\textwidth]{\begin{tabular}{|c|c|c |c |c| c|c|}
     \hline
-    Type & $\rho_{a,rel} [\%]$ & $SD_{\rho_{a,rel}}$  [\%]& $H_v$ [HV]& $SD_{H_v}$[HV]\\
+    Type & $\rho_{a,rel}$ average [\%] & $SD_{\rho_{a,rel}}$ average [\%]& $H_v$ [HV]& $SD_{H_v}$[HV]\\
 
 \hline
 \hline   
@@ -61,7 +61,7 @@ Results for the measurements of $\rho_{a,rel}$ and $H_v$ are displayed in figure
 \subsection{Melt pool size and distribution}
 
 \section{Internal properties homogeneity}
-As said in section \ref{MMFPP}, all tensile specimens were fabricated vertically. Their height is significantly greater than the other samples'; respectively 6 [cm] and 1 [cm] or less. It was chosen to cut up specimen X200-180417-25 into slices to measure if the density and hardness were homogeneous along the Z direction in the material. The surfaces analysed were named according to their original Z position in the specimen with "B", "C1" , "C2", "C3" and "T" (for bottom, center and top) and to the test done with a letter "D" or "H"  (for density and hardness). The denomination is summarised in figure \ref{fig:saus}.\\
+As said in section \ref{MMFPP}, all tensile specimens were fabricated vertically. Their height is significantly greater than the other samples'; respectively 6 [cm], and 1 [cm] or less. It was chosen to cut up specimen X200-180417-25 into slices to measure if the density and hardness were homogeneous along the Z direction in the material. The surfaces analysed were named according to their original Z position in the specimen with "B", "C1" , "C2", "C3" and "T" (for bottom, center and top) and to the test done with a letter "D" or "H"  (for density and hardness). The denomination is summarised in figure \ref{fig:saus}.\\
 
 \begin{figure}[ht]
 \centering
@@ -71,13 +71,31 @@ As said in section \ref{MMFPP}, all tensile specimens were fabricated vertically
 \label{fig:saus}
 \end{figure}
 
-Results are shown on figure \ref{fig:HD-180417}.	
+Results are shown in figure \ref{fig:HD-180417}. With regard to hardness, no general trend could be observed. The measured values are high and closely packed except for the "B" surface, which exhibited a significantly lower hardness. Density values are all equal or above 99.75 [\%]. The values at the center of the sample were slighly lower to the extremities'. A summary of the results is displayed in table \ref{tab:25}.
+
+ \begin{center}
+	\begin{table}[ht]
+		\begin{tabular}{|c|c |c |c| c|}
+			\hline
+			Property& Average value & Minimum & Maximum & Standard deviation \\
+			\hline 
+			\hline   
+			Relative density [\%] & 99.80 & 99.75 & 99.87 & 0.05\\
+			Hardness [HV] &&&&\\
+			\hline
+		\end{tabular}
+		
+		\caption[Relative density and hardness results summary for specimen X200-180417-25 surfaces]{Relative density and hardness results summary for specimen X200-180417-25 surfaces}
+		\label{tab:25}
+	\end{table}
+\end{center}
+
 
 \begin{figure}[ht]
 \centering
 \centerline{\includegraphics[scale=0.62]{Images/HD-180417}}
 \decoRule
-\caption[RODIA based relative density and hardness results for specimen X200-180417-25 sample surfaces]{RODIA based relative density and hardness results for specimen X200-180417-25 sample surfaces}
+\caption[RODIA based relative density and hardness results for specimen X200-180417-25 surfaces]{RODIA based relative density and hardness results for specimen X200-180417-25 surfaces}
 \label{fig:HD-180417}
 \end{figure} 
 
@@ -113,6 +131,66 @@ Results are shown on figure \ref{fig:HD-180417}.
 \label{tab:compo}
 \end{table}
  \end{center}
+
+\section{Density measures assessments}
+
+\subsection{Measurements comparison}
+
+Multiple methods were tested to measure the density of a few specimens in order to draw comparisons. both with and without preliminary polishing for a few specimens. The results were gathered on figures.
+
+
+\subsection{Relative optical density image analysis}
+\label{RRODIA}
+One can expect the the density measurement trough RODIA to be a biased method, due to the discretisation in pixels among other things. Results for pictures with different magnifications were compared to quantify these effects. For this purpose, a picture was taken under 5x magnification and two under 10x magnification. The former was delimited to match the visible zones on the latter (see figure \ref{fig:RODIA1}). The same two zones - named A and B - were thus analysed for different levels of resolution.\\
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.075]{Images/RODIA1}}
+	\decoRule
+	\caption[50x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B]{50x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B}
+	\label{fig:RODIA1}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.43]{Images/RODIAHist}}
+	\decoRule
+	\caption[Histograms of porosities areas occurrences from pictures of specimen X200-180319 on zone A under (a) 50x magnification (b) 100x magnification]{Histograms of porosities areas occurrences from pictures of specimen X200-180319 on zone A under (a) 50x magnification (b) 100x magnification. Truncation along the x axis. }
+	\label{fig:RODIAH}
+\end{figure}
+
+
+The comparison of figures \ref{fig:RODIA2} (b) and (d) shows that much more small porosities are isolated if the resolution is refined. This is confirmed by the histograms on figure \ref{fig:RODIAH}. The threshold of porosity area for detection in the case of 5x magnification is 7.84 [$\mu m^2$] whereas it is 1.96 [$\mu m^2$] for 10x magnification. This area corresponds to a pixel in each case. It is also worth noting that there is an overall tendency to overestimate the areas at lower resolution, which counterbalances slightly the low number of detected porosities. \\
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.44]{Images/RODIA2}}
+	\decoRule
+	\caption[Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 50x magnification (b) Porosities isolation from 50x magnification picture (c) Original picture under 100x magnification (d) Porosities isolation of 100x magnification picture]{Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 50x magnification (b) Porosities isolation from 50x magnification picture (c) Original picture under 100x magnification (d) Porosities isolation of 100x magnification picture}
+	\label{fig:RODIA2}
+\end{figure}
+
+
+The RODIA results for zones A and B are outlined in table \ref{tab:RODIASS}. Lower resolution led to the measurement of greater relative densities. The order of magnitude of the difference is of few hundredths of percent.
+
+\begin{center}
+	\begin{table}[ht]
+		\centerline{\begin{tabular}{|c|c|c|}
+				\hline
+				Zone & Magnification & Measured relative density [$\%$] \\
+				\hline
+				A & 50x  & 99.87\\
+				A & 100x & 99.84\\
+				B & 50x & 99.86\\
+				B & 100x & 99.85\\
+				\hline
+		\end{tabular}}
+		\caption[RODIA results for zones A and B of specimen X200-180317 with 50x and 100x magnification]{RODIA results for zones A and B of specimen X200-180317 with 50x and 100x magnification}
+		\label{tab:RODIASS}
+	\end{table}
+\end{center}
+
+
 
 \section{Heat treatments}
 
@@ -152,7 +230,7 @@ A first series of cubic samples was manufactured using the optimised process par
 	X200-180220-TT300-5m & 5 & 300 & 300 \\ 
 	\hline 
 \end{tabular} 
-\caption[properties of the specimens from batch X200-180417]{List of the heat-treated specimens from batch X200-180220}
+\caption[List of the heat-treated specimens from batch X200-180220]{List of the heat-treated specimens from batch X200-180220}
 \label{tab:RTT}
 \end{table}
 \end{center}
