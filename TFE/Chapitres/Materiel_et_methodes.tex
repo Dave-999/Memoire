@@ -141,7 +141,7 @@ Measurements of residuals stresses was performed by ..., in ..., Malta. Four par
 
 \subsubsection{Hardness test}
 
-Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} tester. All analysed specimens were previously cut with a micro-cutting machine to enable the measurement of the bulk hardnesses of the samples (at least at a few millimetres from the initial surfaces). For each test, a pyramidal indenter (see figure \ref{fig:Vick}) was pressed during 10 [sec] onto the material  with a load of 10 [kg]. The indentation durations were measured with a digital timer and the tests were stopped manually. The two diagonals lengths of the resulting indents were then evaluated using a ruler on the screen of the machine, which displays the image of the sample's surface that is captured by an embedded optical microscope.\\
+Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} tester. All analysed specimens were previously cut with a micro-cutting machine. This permitted the testing of the bulk hardnesses of the samples (at least at a few millimetres from the original surfaces). For each test, a pyramidal indenter (see figure \ref{fig:Vick}) was pressed during 10 [sec] onto the material with a load of 10 [kg]. The indentation durations were measured with a digital timer and the tests were stopped manually. The two diagonals lengths of the resulting indents were then evaluated using a ruler on the screen of the machine, which displays the image of the sample's surface that is captured by an embedded optical microscope.\\
 
 \begin{figure}[ht]
 \centering
@@ -151,13 +151,28 @@ Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} t
 \label{fig:Vick}
 \end{figure}
 
-Multiple tests were made for each sample and the mean diagonal length value was computed for every test. The corresponding Vickers hardness values HV could then be estimated by means of a conversion table.\\
+Multiple tests were made for each sample and the mean diagonal length value was computed for every test. The corresponding Vickers hardness values $H_v$ could then be estimated by means of a conversion table (see \ref{AppendixB}).\\
 
 \subsubsection{Tensile tests}
 
-The traction tests were performed on \textcolor{gray}{[Machine?]}. The tensile specimens used all originated from batch X200-190417. Details about their geometry and heat treatments can be consulted respectively in sections \ref{MMFPP} and \ref{MMHT}. \textcolor{gray}{[Fonctionnement de la machine] [Calcul des charactéristique matériau]} \\
+The traction tests were performed on a \textit{RetroLine testControl II} electro-mechanical testing system manufactured by \textit{Zwick Roell}. It works in the following manner:
 
-For each test, the extensometer gauge length was set to 18 [mm] and the pre load to 15 [N]. A cross head speed of 1 [$\frac{mm}{min}$] was chosen. It was decided to interrupt the tensile tests of one specimen of every group that underwent the same heat treatment. In that way, the damage mechanisms could be observed afterwards. Table \ref{tab:stoptract} regroups the strain limits at which the tests were stopped.\\
+\begin{itemize}
+\item The tested sample is clamped with grips on its extremities. Both of them are fixed to a cross head (see figure \ref{fig:Trac}).
+\item A contact extensometer is placed on the sample. Its purpose is to measure the length change during the test. 
+\item Parameters are selected thanks to a software connected to the machine: the extensometer initial gauge length, the cross head speed and the pre load. The role of this initial load is to limit the backlash in the assembly. 
+\item The lower cross head goes down. This induces a force and a displacement, both of which are saved in an \textit{Excel} file. The test goes on until the fracture of the specimen occurs, unless if it is stopped beforehand.
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\centerline{\includegraphics[scale=0.3]{Images/Trac}}
+\decoRule
+\caption[Schematization of the tensile test mounting]{Schematization of the tensile test mounting}
+\label{fig:Trac}
+\end{figure}
+
+ The tensile specimens used all originated from batch X200-190417. Details about their geometry and heat treatments can be consulted respectively in sections \ref{MMFPP} and \ref{MMHT}. For each test, the extensometer gauge length was set to 18 [mm]. This is approximately the maximal possible value, given the short length of the specimens. A pre load of 15 [N] was adopted and a cross head speed of 1 [$\frac{mm}{min}$] was chosen in accordance with what had been done in a previous work at UCL. It was decided to interrupt the tensile tests of one AB specimen and of two others - that underwent heat treatments at 200$^\circ$C and 300$^\circ$C. In that way, the damage mechanisms could be observed afterwards. Table \ref{tab:stoptract} regroups the strain limits at which the tests were stopped.\\
 
  \begin{center}
 \begin{table}[ht]
@@ -178,6 +193,7 @@ For each test, the extensometer gauge length was set to 18 [mm] and the pre load
 \end{table}
  \end{center}
 
-
+A tensile test can be used to compute multiple properties. \\textcolor{gray}{[Calcul des charactéristique matériau]}
+ 
 
 %\subsubsection{Fatigue}
