@@ -158,10 +158,13 @@ Multiple tests were made for each sample and the mean diagonal length value was 
 The traction tests were performed on a \textit{RetroLine testControl II} electro-mechanical testing system manufactured by \textit{Zwick Roell}. It works in the following manner:
 
 \begin{itemize}
-\item The tested sample is clamped with grips on its extremities. Both of them are fixed to a cross head (see figure \ref{fig:Trac}).
-\item A contact extensometer is placed on the sample. Its purpose is to measure the length change during the test. 
-\item Parameters are selected thanks to a software connected to the machine: the extensometer initial gauge length, the cross head speed and the pre load. The role of this initial load is to limit the backlash in the assembly. 
-\item The lower cross head goes down. This induces a force and a displacement, both of which are saved in an \textit{Excel} file. The test goes on until the fracture of the specimen occurs, unless if it is stopped beforehand.
+\item The tested sample is clamped on its extremities with grips. Both of them are fixed to a cross head (see figure \ref{fig:Trac}).
+
+\item Parameters are selected thanks to a software connected to the machine: the extensometer initial gauge length $L_0$, the cross head speed and the pre load (used to limit the backlash in the assembly). The initial minimal value $d_o$ for the specimen diameter is also measured with a digital calliper and specified in the program.
+
+\item A contact extensometer is placed on the sample. Its purpose is to measure the length change $\Delta L$ during the test. 
+
+\item The lower cross head goes down. This induces a force $F$ and a displacement in the specimen, both of which are saved in an \textit{Excel} file. The test goes on until the fracture of the specimen occurs, unless if it is stopped beforehand.
 \end{itemize}
 
 \begin{figure}[ht]
@@ -193,7 +196,17 @@ The traction tests were performed on a \textit{RetroLine testControl II} electro
 \end{table}
  \end{center}
 
-A tensile test can be used to compute multiple properties. \\textcolor{gray}{[Calcul des charactéristique matériau]}
+A tensile test can be used to compute multiple properties. First of all,  the engineering stress ($\sigma_{eng} [MPa]$) and strain  ($\epsilon_{eng} [\%]$) were computed at each time step for every tested samples. The following formulas were used:\\
+
+\begin{equation}
+\sigma_{eng}=\frac{F}{A_0}=\frac{F}{\frac{\pi d_0^2}{4}}
+\end{equation}
+
+\begin{equation}
+\epsilon_{eng}=\frac{\Delta L}{L_0}
+\end{equation}
+
+
  
 
 %\subsubsection{Fatigue}
