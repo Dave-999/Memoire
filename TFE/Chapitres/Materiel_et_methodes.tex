@@ -196,17 +196,43 @@ The traction tests were performed on a \textit{RetroLine testControl II} electro
 \end{table}
  \end{center}
 
-A tensile test can be used to compute multiple properties. First of all,  the engineering stress ($\sigma_{eng} [MPa]$) and strain  ($\epsilon_{eng} [\%]$) were computed at each time step for every tested samples. The following formulas were used:\\
+A tensile test can be used to compute multiple properties. First of all,  the engineering stress ($\sigma_{eng}$) and strain  ($\epsilon_{eng}$) were computed at each time step for every tested samples. The formulas below were used:\\
 
-\begin{equation}
+\begin{align*}
 \sigma_{eng}=\frac{F}{A_0}=\frac{F}{\frac{\pi d_0^2}{4}}
-\end{equation}
+\end{align*}
 
-\begin{equation}
-\epsilon_{eng}=\frac{\Delta L}{L_0}
-\end{equation}
+\begin{align*}
+\epsilon_{eng}=\frac{\Delta L}{L_0}=\frac{L-L_0}{L_0}
+\end{align*}
+
+On the basis of the stress-strain curve, the following characteristics could be computed:
+
+\begin{itemize}
+
+\item The Young's modulus E: it is used to characterize the stiffness of a material. The tested specimen first deforms elastically. The strain-strain relationship is then linear. The slope value for the corresponding part of the curve is  E. It is found with:
+
+$$E=\frac{\sigma_{eng}(\epsilon_b)-\sigma_{eng}(\epsilon_a)}{\epsilon_b-\epsilon_a}$$
+
+where strains $\epsilon_a$ and $\epsilon_b$ are respectively equal to 0 and 0.1[\%].
+
+\item The elastic limit $\sigma_y$: it is the $\sigma_{eng}$ at which the plastic strain (non-linear) becomes non negligible. The 0.2 [\%] criterion was used. In this manner, $\sigma_y$ is found as the intersection of the stress-strain curve with the line of slope E passing trough point ($\epsilon,\sigma$)=($0.2 [\%],0 [MPa]$).
+
+\item The ultimate tensile strength $\sigma_u$: it is simply the maximal $\sigma_{eng}$ attained during the test.
+
+\item The strain at fracture $\epsilon_{f}$: in the case of fragile fracture, the value of $\epsilon_{eng}$ at the end of the test could be used. However, if the specimen underwent a necking mechanism -  as there is strain localisation - the final $\epsilon$ does not constitute a good approximation. In that case, the specimen final minimal diameter $d_f$ was measured with a profile projector. The true final strain $\epsilon_{f,true}=ln(\frac{L_f}{L_0})$ could then be computed using the volume conservation hypothesis: $$L_0 \cdot A_0 = L_f A_f $$
+which implies that $\epsilon_{f,true}=ln(\frac{A_0}{A_f})=ln(\frac{d_0^2}{d_f^2})$. All the properties mentioned above are illustrated in figure \ref{fig:Tract}.
 
 
- 
+\end{itemize}
+
+ \begin{figure}[ht]
+\centering
+\centerline{\includegraphics[scale=0.7]{Images/Tract}}
+\decoRule
+\caption[Tensile stress-strain curve for specimen X200-180417-5 with annotated key features]{Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}
+\label{fig:Tract}
+\end{figure}
+
 
 %\subsubsection{Fatigue}

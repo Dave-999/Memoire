@@ -9,15 +9,15 @@
 The hydrostatic weighting method requires to weight the analysed samples two times; once in air and once in water. The measurements data of the two weightings are subjected to a certain spreading - especially large in the case of underwater measurements. Both of the tests imprecisions must thus be taken into account when computing the confidence intervals (CI) for $\rho_{a,rel}$. The following procedure was followed:
 
 \begin{itemize}
-\item Computation of the standard deviation $SD$ for the two data samples of observed mass values \{$x_1$,$x_2$,...$x_N$\} with the formula below:
+\item Computation of the standard deviation $SD_x$ for the two data samples of observed mass values \{$x_1$,$x_2$,...$x_N$\} with the formula below:
 
-$$SD=\sqrt{\frac{\Sigma^N_{i=1}(x_i-\bar{x})^2}{N-1}} $$
+$$SD_x=\sqrt{\frac{\Sigma^N_{i=1}(x_i-\bar{x})^2}{N-1}} $$
 
 where is N the sample size and $\bar{x}$ is the mean of the observed values.
 
 \item Determination of the CI range at a 95 [\%] confidence level for each data sample with the following formula:
 
-$$CI= \bar{x} \pm 1.96 \frac{SD}{\sqrt{N}}$$
+$$CI= \bar{x} \pm 1.96 \frac{SD_x}{\sqrt{N}}$$
 
 \item Use of the mean values incremented by the extreme values of the CI for both $W_a$ and $W_w$ in the formula:
 

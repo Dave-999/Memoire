@@ -41,6 +41,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{abstract}
+\usepackage{amsmath}
 \usepackage{mathpazo} % Use the Palatino font by default
 \usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
@@ -240,20 +241,24 @@ Chemical and Materials \\
 
 \centering
 
-$A_0$ & Tensile specimen initial minimal area & $[mm^2]$\\
-$A_f$ & Tensile specimen minimal area after fracture & $[mm^2]$\\
-$d_0$ & Tensile specimen initial minimal diameter & $[mm]$\\ 
-$d_f$ & Tensile specimen minimal diameter after fracture& $[mm]$\\ 
+$A_0$ & Initial minimal cross-sectional area & $[mm^2]$\\
+$A_f$ & Minimal cross-sectional area after fracture & $[mm^2]$\\
+$d_0$ & Initial minimal diameter & $[mm]$\\ 
+$d_f$ & Minimal diameter after fracture& $[mm]$\\ 
 $D_a$ & Average particle size & $[\mu m]$\\ 
 $E$ & Young modulus & [$GPa$]\\
 $E_d$ & Volumetric energy density & $[\frac{J}{mm^3}]$\\
-$F$ & Force applied in tensile specimen &$ [N] $\\
+$F$ & Force &$ [N] $\\
 $h$ & Hatch space & $[\mu m]$\\
 $H_v$ & Vickers hardness & $[HV]$\\
-$L_0$ & Initial extensometer gauge length &$[mm]$\\
+$\overline{H_v}$ & Average Vickers hardness & $[HV]$\\
 $L$ & Extensometer gauge length & $[mm]$\\
+$L_0$ & Initial extensometer gauge length &$[mm]$\\
+$L_f$ & Final extensometer gauge length &$[mm]$\\
 $P$ & Laser power & $[W]$ \\
 $p_{O_2}$ & Oxygen pressure & $[mbar]$\\
+$SD_{HV}$ & Vickers hardness measures standard deviation & [$H_v$]\\
+$SD_{\rho_{rel}}$ & Relative density measures standard deviation & [$\%$]\\
 $t$ & Layer thickness & $[\mu m]$\\
 $v_s$ & Scanning speed & $[\frac{mm}{s}]$ \\
 $W_a$ & Specimen dry weight& $ [g]$ \\
@@ -261,13 +266,15 @@ $W_w$ & Specimen underwater weight & $[g]$\\
 \addlinespace
 \addlinespace
 $\epsilon_{eng}$ & Engineering strain & [\%]\\
-$\epsilon_f$ & Strain at fracture & [\%]\\
+$\epsilon_{f,eng}$ & Engineering strain at fracture & [\%]\\
+$\epsilon_{f,true}$ & True strain at fracture & [\%]\\
 $\phi_{99\%}$ & Laser spot size at the 99\% contour & $[\mu m]$\\
 $\lambda$ & Laser wavelength & $[nm]$\\
 $\rho_{a}$ & Apparent density & $[\frac{g}{cm^3}$] \\
-$\rho_{a,rel}$ & Apparent relative density & $[-]$ \\
+$\rho_{a,rel}$ & Apparent relative density & $[\%]$ \\
 $\rho_{w}$ & Water density & $[\frac{g}{cm^3}$]\\
-$\rho_{rel}$ & Relative density & $[-]$ \\
+$\rho_{rel}$ & Relative density & $[\%]$ \\
+$\overline{\rho_{rel}}$ & Average relative density & $[\%]$ \\
 $\sigma_{eng}$ & Engineering stress & $[MPa]$\\
 $\sigma_u$ & Ultimate tensile strength & $[MPa]$\\
 $\sigma_y$ & Yield strength & $[MPa]$\\
