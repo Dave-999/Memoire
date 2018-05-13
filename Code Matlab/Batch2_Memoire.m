@@ -97,6 +97,15 @@ xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
 
+figure;
+F=scatter3(X7, Y7, rho7, [], rho7,'filled');
+xlabel('x [cm]')
+ylabel('y [cm]')
+zlabel('Densité relative apparente [%]')
+xlim([0,10])
+ylim([0,10])
+zlim([99,99.7])
+colorbar 
 %%
 %Plots "moyennés"
 %Evolution selon x
@@ -160,6 +169,15 @@ xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
 
+figure;
+F=scatter3(X8, Y8, rho8, [], rho8,'filled');
+xlabel('x [cm]')
+ylabel('y [cm]')
+zlabel('Densité relative apparente [%]')
+xlim([0,10])
+ylim([0,10])
+zlim([99,99.7])
+colorbar 
 %%
 %Plots "moyennés"
 %Evolution selon x
@@ -359,6 +377,15 @@ xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Dureté Vickers [HV]')
 
+figure;
+F=scatter3(X7, Y7, H7, [], H7,'filled');
+xlabel('x [cm]')
+ylabel('y [cm]')
+zlabel('Densité relative apparente [%]')
+xlim([0,10])
+ylim([0,10])
+zlim([135,143])
+colorbar 
 %%
 %Plots "moyennés"
 %Evolution selon x
@@ -423,7 +450,15 @@ colormap(newmap);                %activate it
 xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Dureté Vickers [HV]')
-
+figure;
+F=scatter3(X8, Y8, H8, [], H8,'filled');
+xlabel('x [cm]')
+ylabel('y [cm]')
+zlabel('Densité relative apparente [%]')
+xlim([0,10])
+ylim([0,10])
+zlim([134,143])
+colorbar 
 %%
 %Plots "moyennés"
 %Evolution selon x

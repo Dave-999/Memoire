@@ -155,14 +155,15 @@ Multiple tests were made for each sample and the mean diagonal length value was 
 
 \subsubsection{Tensile tests}
 
-The traction tests were performed on a \textit{RetroLine testControl II} electro-mechanical testing system manufactured by \textit{Zwick Roell}. It works in the following manner:
+The traction tests were performed on a \textit{RetroLine testControl II} screw-driven electro-mechanical testing system manufactured by \textit{Zwick Roell}. It works in the following manner:
 
 \begin{itemize}
 \item The tested sample is clamped on its extremities with grips. Both of them are fixed to a cross head (see figure \ref{fig:Trac}).
 
-\item Parameters are selected thanks to a software connected to the machine: the extensometer initial gauge length $L_0$, the cross head speed and the pre load (used to limit the backlash in the assembly). The initial minimal value $d_o$ for the specimen diameter is also measured with a digital calliper and specified in the program.
+\item Parameters are selected thanks to a software connected to the machine: 
+One must enter the extensometer initial gauge length $L_0$, the cross head speed and the pre load (used to limit the backlash in the assembly). The initial minimal value $d_o$ for the specimen diameter is also measured with a digital calliper and specified in the program.
 
-\item A contact extensometer is placed on the sample. Its purpose is to measure the length change $\Delta L$ during the test. 
+\item The contact extensometer is placed on the sample. Its purpose is to measure the length change $\Delta L$ during the test. 
 
 \item The lower cross head goes down. This induces a force $F$ and a displacement in the specimen, both of which are saved in an \textit{Excel} file. The test goes on until the fracture of the specimen occurs, unless if it is stopped beforehand.
 \end{itemize}
@@ -175,7 +176,7 @@ The traction tests were performed on a \textit{RetroLine testControl II} electro
 \label{fig:Trac}
 \end{figure}
 
- The tensile specimens used all originated from batch X200-190417. Details about their geometry and heat treatments can be consulted respectively in sections \ref{MMFPP} and \ref{MMHT}. For each test, the extensometer gauge length was set to 18 [mm]. This is approximately the maximal possible value, given the short length of the specimens. A pre load of 15 [N] was adopted and a cross head speed of 1 [$\frac{mm}{min}$] was chosen in accordance with what had been done in a previous work at UCL. It was decided to interrupt the tensile tests of one AB specimen and of two others - that underwent heat treatments at 200$^\circ$C and 300$^\circ$C. In that way, the damage mechanisms could be observed afterwards. Table \ref{tab:stoptract} regroups the strain limits at which the tests were stopped.\\
+The tensile specimens used all originated from batch X200-190417. Details about their geometry and heat treatments can be consulted respectively in sections \ref{MMFPP} and \ref{MMHT}. For each test, the extensometer gauge length was set to 18 [mm]. This is approximately the maximal possible value, given the short length of the specimens. A pre load of 15 [N] was adopted and a cross head speed of 1 [$\frac{mm}{min}$] was chosen in accordance with what had been done in a previous work at UCL. It was decided to interrupt the tensile tests of one AB specimen and of two others - that underwent heat treatments at 200$^\circ$C and 300$^\circ$C. In that way, the damage mechanisms could be observed afterwards. Table \ref{tab:stoptract} regroups the strain limits at which the tests were stopped.\\
 
  \begin{center}
 \begin{table}[ht]
@@ -210,11 +211,11 @@ On the basis of the stress-strain curve, the following characteristics could be 
 
 \begin{itemize}
 
-\item The Young's modulus E: it is used to characterize the stiffness of a material. The tested specimen first deforms elastically. The strain-strain relationship is then linear. The slope value for the corresponding part of the curve is  E. It is found with:
+\item The Young's modulus E: it is used to characterize the stiffness of a material. The tested specimen first deforms elastically, which corresponds to a linear strain-strain relationship. The slope value for the corresponding part of the curve is  E. It is found with:
 
 $$E=\frac{\sigma_{eng}(\epsilon_b)-\sigma_{eng}(\epsilon_a)}{\epsilon_b-\epsilon_a}$$
 
-where strains $\epsilon_a$ and $\epsilon_b$ are respectively equal to 0 and 0.1[\%].
+where strains $\epsilon_a$ and $\epsilon_b$ are respectively equal to 0 and $\simeq 0.1$[\%].
 
 \item The elastic limit $\sigma_y$: it is the $\sigma_{eng}$ at which the plastic strain (non-linear) becomes non negligible. The 0.2 [\%] criterion was used. In this manner, $\sigma_y$ is found as the intersection of the stress-strain curve with the line of slope E passing trough point ($\epsilon,\sigma$)=($0.2 [\%],0 [MPa]$).
 
