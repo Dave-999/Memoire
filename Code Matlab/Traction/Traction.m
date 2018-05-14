@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%
+x%%%%%%%%%%%%%%%%%%%%%%%
 %% Memoire - tractions %%
 %%%%%%%%%%%%%%%%%%%%%%%
 %% Script affichant les graphes de contrainte-déformation résultant 
@@ -22,7 +22,7 @@ for i=1:10000
     end
 end
 
-%plot(epsilon_1,sigma_1)
+plot(epsilon_1,sigma_1)
 
 hold on
 
@@ -40,7 +40,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_2,sigma_2)
+plot(epsilon_2,sigma_2)
 
 d_o_3= xlsread('X200-180417-3.xls','Résultats X200-18...','H3')/1000;
 F_3 = xlsread('X200-180417-3.xls','Valeurs X200-1804...','C4:C13460');
@@ -56,7 +56,7 @@ for i=100:10000
     break;
     end
 end
-%plot(epsilon_3,sigma_3)
+plot(epsilon_3,sigma_3)
 
 d_o_16= xlsread('X200-180417-16.xls','Résultats X200-18...','H3')/1000;
 F_16 = xlsread('X200-180417-16.xls','Valeurs X200-1804...','C4:C13460');
@@ -72,7 +72,7 @@ for i=100:10000
     break;
     end
 end
-%plot(epsilon_16,sigma_16)
+plot(epsilon_16,sigma_16)
 
 d_o_17= xlsread('X200-180417-17.xls','Résultats X200-18...','H3')/1000;
 F_17 = xlsread('X200-180417-17.xls','Valeurs X200-1804...','C4:C13460');
@@ -88,7 +88,7 @@ for i=100:10000
     break;
     end
 end
-%plot(epsilon_17,sigma_17)
+plot(epsilon_17,sigma_17)
 
 d_o_A= xlsread('X200-180417-A.xls','Résultats X200-18...','H3')/1000;
 F_A= xlsread('X200-180417-A.xls','Valeurs X200-1804...','C4:C13460');
@@ -104,7 +104,7 @@ for i=1:5000
     break;
     end
 end
-%plot(epsilon_A,sigma_A)
+plot(epsilon_A,sigma_A)
 
 d_o_4= xlsread('X200-180417-4.xls','Résultats X200-18...','H3')/1000;
 F_4 = xlsread('X200-180417-4.xls','Valeurs X200-1804...','C4:C13460');
@@ -152,7 +152,7 @@ for i=1:5000
     break;
     end
 end
-%plot(epsilon_6,sigma_6)
+plot(epsilon_6,sigma_6)
 
 d_o_7= xlsread('X200-180417-7.xls','Résultats X200-18...','H3')/1000;
 F_7 = xlsread('X200-180417-7.xls','Valeurs X200-1804...','C4:C13460');
@@ -168,7 +168,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_7,sigma_7)
+plot(epsilon_7,sigma_7)
 
 d_o_8= xlsread('X200-180417-8.xls','Résultats X200-18...','H3')/1000;
 F_8= xlsread('X200-180417-8.xls','Valeurs X200-1804...','C4:C13460');
@@ -184,7 +184,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_8,sigma_8)
+plot(epsilon_8,sigma_8)
 
 d_o_9= xlsread('X200-180417-9.xls','Résultats X200-18...','H3')/1000;
 F_9= xlsread('X200-180417-9.xls','Valeurs X200-1804...','C4:C13460');
@@ -200,7 +200,7 @@ for i=1:5000
     break;
     end
 end
-%plot(epsilon_9,sigma_9)
+plot(epsilon_9,sigma_9)
 
 d_o_10= xlsread('X200-180417-10.xls','Résultats X200-18...','H3')/1000;
 F_10= xlsread('X200-180417-10.xls','Valeurs X200-1804...','C4:C13460');
@@ -216,7 +216,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_10,sigma_10)
+plot(epsilon_10,sigma_10)
 
 d_o_11= xlsread('X200-180417-11.xls','Résultats X200-18...','H3')/1000;
 F_11= xlsread('X200-180417-11.xls','Valeurs X200-1804...','C4:C13460');
@@ -232,7 +232,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_11,sigma_11)
+plot(epsilon_11,sigma_11)
 
 d_o_B= xlsread('X200-180417-B.xls','Résultats X200-18...','H3')/1000;
 F_B= xlsread('X200-180417-B.xls','Valeurs X200-1804...','C4:C13460');
@@ -248,7 +248,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_B,sigma_B)
+plot(epsilon_B,sigma_B)
 
 d_o_13= xlsread('X200-180417-13.xls','Résultats X200-18...','H3')/1000;
 F_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','C4:C13460');
@@ -264,7 +264,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_13,sigma_13)
+plot(epsilon_13,sigma_13)
 
 d_o_14= xlsread('X200-180417-14.xls','Résultats X200-18...','H3')/1000;
 F_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','C4:C13460');
@@ -280,7 +280,7 @@ for i=1:10000
     break;
     end
 end
-%plot(epsilon_14,sigma_14)
+plot(epsilon_14,sigma_14)
 
 
 
@@ -292,7 +292,7 @@ xlabel('\epsilon_{eng} [-]')
 % for i=1:100
 %     y(i)=(x(i)-0.002)*6.095543059322659*10^4;
 % end
-% %plot(x,y)
+% plot(x,y)
 
 x=linspace(0,0.05,1000);
 y=zeros(1000,1);

@@ -115,9 +115,9 @@ rho7_x2=[mean(rho7(1,7:9)) mean(rho7(1,10:12)) mean(rho7(1,13:15))];
     plot([1.7,6] , rho7_x1);
     hold on
     plot([1.5,4.1,6.7] , rho7_x2);
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+    legend('Distant cubes(y>4.5)','Close cubes (y<4.5)')
 xlabel('x [cm]')
-ylabel('Densité relative apparente [%]')    
+ylabel('Apparent relative density [%]')    
 %Evolution selon y
 figure;
 rho7_y=[(rho7(1,1)+rho7(1,4))/2 (rho7(1,2)+rho7(1,5))/2 (rho7(1,3)+rho7(1,6))/2 (rho7(1,7)+rho7(1,10)+rho7(1,13))/3 (rho7(1,8)+rho7(1,11)+rho7(1,14))/3  (rho7(1,9)+rho7(1,12)+rho7(1,15))/3];
@@ -126,8 +126,8 @@ rho7_y=[(rho7(1,1)+rho7(1,4))/2 (rho7(1,2)+rho7(1,5))/2 (rho7(1,3)+rho7(1,6))/2 
     plot([3.45 2.35 1.25], rho7_y(4:6));
             line([4.5 4.5 ], [99 99.6])
 xlabel('y [cm]')
-ylabel('Densité relative apparente [%]')  
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+    legend('Distant cubes(y>4.5)','Close cubes (y<4.5)')
+ylabel('Apparent relative density [%]')    
  %%TYPE 8
 
 figure
@@ -188,9 +188,9 @@ rho8_x2=[mean(rho8(1,7:9)) mean(rho8(1,10:12)) mean(rho8(1,13:15))];
     hold on
     plot([2.8,5.45,8] , rho8_x2);
     legend('Cubes en y>4.5','Cubes en y<4.5')
-    xlabel('x [cm]')
-ylabel('Densité relative apparente [%]')   
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+    legend('Distant cubes(y>4.5)','Close cubes (y<4.5)')
+xlabel('x [cm]')
+ylabel('Apparent relative density [%]')    
 %Evolution selon y
 figure;
 rho8_y=[(rho8(1,1)+rho8(1,4))/2 (rho8(1,2)+rho8(1,5))/2 (rho8(1,3)+rho8(1,6))/2 (rho8(1,7)+rho8(1,10)+rho8(1,13))/3 (rho8(1,8)+rho8(1,11)+rho8(1,14))/3  (rho8(1,9)+rho8(1,12)+rho8(1,15))/3];
@@ -199,8 +199,8 @@ rho8_y=[(rho8(1,1)+rho8(1,4))/2 (rho8(1,2)+rho8(1,5))/2 (rho8(1,3)+rho8(1,6))/2 
     plot([3.45 2.35 1.25], rho8_y(4:6));
     xlabel('y [cm]')
         line([4.5 4.5 ], [99 99.6])
-ylabel('Densité relative apparente [%]')    
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+    legend('Distant cubes(y>4.5)','Close cubes (y<4.5)')
+ylabel('Apparent relative density [%]')    
 
 % %LES DEUX
 % figure
@@ -260,9 +260,9 @@ hold on
 
 plot(ordre7,yfit7)
 plot(ordre8,yfit8)
-xlabel('Ordre de scan [-]')
-ylabel('Densité relative apparente [%]')
-legend('Type 7', 'Type 8', 'Approximation linéaire (type 7)', 'Approximation linéaire (type 8)')
+xlabel('Scan order [-]')
+ylabel('Apparent relative density [%]')
+legend('Type "7"', 'Type "8"', 'Linear approximation (type "7")', 'Linear approximation (type "8")')
 
  %Comparaison des techniques de mesure de densité
  figure;
@@ -395,10 +395,9 @@ H7_x2=[mean(H7(1,7:9)) mean(H7(1,10:12)) mean(H7(1,13:15))];
     plot([1.7,6] , H7_x1);
     hold on
     plot([1.5,4.1,6.7] , H7_x2);
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
 xlabel('x [cm]')
-ylabel('Dureté Vickers [HV]')
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+ylabel('Vickers hardness [HV]')    
+    legend('Distant cubes (en y>4.5)','Close cubes (en y<4.5)')
 %Evolution selon y
 figure;
 H7_y=[(H7(1,1)+H7(1,4))/2 (H7(1,2)+H7(1,5))/2 (H7(1,3)+H7(1,6))/2 (H7(1,7)+H7(1,10)+H7(1,13))/3 (H7(1,8)+H7(1,11)+H7(1,14))/3  (H7(1,9)+H7(1,12)+H7(1,15))/3];
@@ -408,8 +407,8 @@ H7_y=[(H7(1,1)+H7(1,4))/2 (H7(1,2)+H7(1,5))/2 (H7(1,3)+H7(1,6))/2 (H7(1,7)+H7(1,
     
     line([4.5 4.5 ], [138.5 142])
 xlabel('y [cm]')
-ylabel('Dureté Vickers [HV]')    
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+ylabel('Vickers hardness [HV]')    
+    legend('Distant cubes (en y>4.5)','Close cubes (en y<4.5)')
  %%TYPE 8
 
 figure
@@ -469,8 +468,8 @@ H8_x2=[mean(H8(1,7:9)) mean(H8(1,10:12)) mean(H8(1,13:15))];
     hold on
     plot([2.8,5.45,8] , H8_x2);
     xlabel('x [cm]')
-ylabel('Dureté Vickers [HV]')    
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+ylabel('Vickers hardness [HV]')    
+    legend('Distant cubes (en y>4.5)','Close cubes (en y<4.5)')
 %Evolution selon y
 figure;
 H8_y=[(H8(1,1)+H8(1,4))/2 (H8(1,2)+H8(1,5))/2 (H8(1,3)+H8(1,6))/2 (H8(1,7)+H8(1,10)+H8(1,13))/3 (H8(1,8)+H8(1,11)+H8(1,14))/3  (H8(1,9)+H8(1,12)+H8(1,15))/3];
@@ -479,6 +478,32 @@ H8_y=[(H8(1,1)+H8(1,4))/2 (H8(1,2)+H8(1,5))/2 (H8(1,3)+H8(1,6))/2 (H8(1,7)+H8(1,
     plot([3.45 2.35 1.25], H8_y(4:6));    
     line([4.5 4.5 ], [136 140])
     xlabel('y [cm]')
-ylabel('Dureté Vickers [HV]')  
-    legend('Cubes espacés (en y>4.5)','Cubes serrés (en y<4.5)')
+ylabel('Vickers hardness [HV]')    
+    legend('Distant cubes (en y>4.5)','Close cubes (en y<4.5)')
+    
+%Dureté en fonction de l'ordre de fabrication
+
+ordreH7=[1,3,4,13,14,15,2,7,10,5,8,11,6,9,12]
+ordreH8=[16,18,19,28,29,30,17,22,25,20,23,26,21,24,27]
+Q7 = polyfit(ordreH7,H7,1);
+    yfitH7 = Q7(1)*ordreH7+Q7(2);
+    Q8 = polyfit(ordreH8,H8,1);
+    yfitH8 = Q8(1)*ordreH8+Q8(2);
+figure
+errH7 = [1.381,1.409,0.792,1.373,1.783,0.924,1.325,0.888,0.723,1.176,...
+    1.373,1.805,1.435,0.723,1.659];
+errH8 = [1.377,1.829,1.198,1.477,1.339,1.115,2.783,1.868,1.867,1.567,...
+    1.659,1.524,1.570,1.158,1.158];
+errorbar(ordreH7,H7,errH7,'o')
+hold on
+errorbar(ordreH8,H8,errH8,'o')
+hold on
+
+plot(ordreH7,yfitH7)
+plot(ordreH8,yfitH8)
+xlabel('Scan order [-]')
+ylabel('Vickers hardness [%]')
+legend('Type "7"', 'Type "8"', 'Linear approximation (type "7")', 'Linear approximation (type "8")')
+
+
    
