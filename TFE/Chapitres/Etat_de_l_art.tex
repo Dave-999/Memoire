@@ -8,11 +8,11 @@ Selective laser melting (SLM) - also referred to as direct metal laser sintering
 \centering
 \includegraphics[scale=0.7]{Images/SLM}
 \decoRule
-\caption[Selective laser melting technology principle]{Selective laser melting technology principle (from Leitz et al., 2016).}
+\caption[Selective laser melting technology principle]{Selective laser melting technology principle (from Leitz et al., 2017 \parencite{LEITZ2017331}).}
 \label{fig:SLM}
 \end{figure}
 
-LSM is still a young technology. Its popularity only increased significantly over the last decade, as depicted by figure \ref{fig:Evol}). Works concerning AlSi10Mg began to emerge noticeably in 2014. The technique usage spread rapidly in many sectors: biomedical, heat exchangers, aerospace and automotive - to name just a few \parencite{Yap}. This is due to the numerous appeals of SLM compared to the other technologies, including:\\
+SLM is still a young technology. Its popularity only increased significantly over the last decade, as depicted by figure \ref{fig:Evol}. Works concerning AlSi10Mg began to emerge noticeably in 2014. The technique usage spread rapidly in many sectors: biomedical, heat exchangers, aerospace and automotive - to name just a few \parencite{Yap}. This is due to the numerous appeals of SLM compared to the other technologies, including:\\
 
 \begin{itemize}
 \item Geometrical flexibility: parts can be designed with thin walls or even with hidden cavities and/or channels. This offers promising prospects regarding light-weight potentials for parts solicited mechanically \parencite{Lippert};
@@ -32,18 +32,18 @@ LSM is still a young technology. Its popularity only increased significantly ove
 \label{fig:Evol}
 \end{figure}
 
-The properties of parts produced trough SLM stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
+The properties of parts produced through SLM stem from the coupled effects of a great deal of parameters (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.  %Les caractérisitiques des pièces produites grâce à la fusion laser sélective (SLM) sont le fruit de l'action simultanée et couplée d'un grand nombres de paramètres (see figure \ref{fig:param} ) \parencite{Aboulkair140820}.
 Results are very sensitive to their variations. The process parameters must thus be monitored thoroughly. This complicates the search for their optimisation, still not fully resolved for aluminium alloys.\\%.Les résultats sont très sensibles à leurs variations et il est donc nécessaire de les contrôler méticuleusement. Pour ces raisons, il n'est pas simple d'étudier leurs impacts.\\
 \begin{figure}[ht]
 \centering
 \includegraphics[scale=0.37]{Images/Param}
 \decoRule
 
-\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al., 2014).}
+\caption[Parameters involved in SLM]{Parameters involved in SLM (from Aboulkhair et al., 2014 \parencite{Aboulkair140820}).}
 \label{fig:param}
 \end{figure}
 
-In recent years, works aiming at facing this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication trough SLM abound in the literature.\\
+In recent years, works aiming at facing this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication through SLM abound in the literature.\\
 
 \section{AlSi10Mg alloy}
 \textcolor{red}{Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (reflectivité etc).. Qu'est ce qui existe en coulé, forgé etc}\\
@@ -69,23 +69,23 @@ matrix without compromising the other mechanical properties to a significant ext
 \label{pp}
 Let us now investigate the influence of the parameters on the properties of AlSi10Mg parts manufactured with SLM. The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
-A popular approach is to regroup multiple operating parameters into one, the volumetric energy density $E_d$. It is estimated trough the following formula: 
+A popular approach is to regroup multiple operating parameters into one, the volumetric energy density $E_d$. It is estimated through the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
-where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%].\\
+where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density to be equal to 2.68 [$\frac{g}{mm^3}$].\\
 
 \begin{figure}[ht]
 \centering
-\includegraphics[scale=0.32]{Images/Pvs}
+\includegraphics[scale=0.34]{Images/Pvs}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al., 2011).}
+\caption[Process window for SLM of AlSi10Mg, based on the top view of single track scans]{Process window for SLM of AlSi10Mg, based on the top view of single track scans (from Kempen et al., 2011 \parencite{Kempen110817}).}
 \label{fig:Pvs}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[scale=0.32]{Images/Pvs2}
+\includegraphics[scale=0.34]{Images/Pvs2}
 \decoRule
-\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al., 2011).}
+\caption[Process window for SLM of AlSi10Mg, based on the front view of single track scans]{Process window for SLM of AlSi10Mg, based on the front view of single track scans (from Kempen et al., 2011 \parencite{Kempen110817}).}
 \label{fig:Pvs2}
 \end{figure}
 
@@ -97,7 +97,7 @@ The choice of scan pattern has great importance. There exist a few different str
 \centering
 \includegraphics[scale=0.6]{Images/Strat}
 \decoRule
-\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al., 2017).}
+\caption[Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands]{Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands (from Mertens et al., 2017 \parencite{Mertens170406}).}
 \label{fig:Strat}
 \end{figure}
 
@@ -107,7 +107,7 @@ Furthermore, dual scanning strategies were proven to be effective. For example, 
 \centering
 \includegraphics[scale=0.58]{Images/Build}
 \decoRule
-\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al., 2012).}
+\caption[Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$]{Samples (static tensile) built in different directions: (a) $0^\circ$, (b) $45^\circ$, and (c) $90^\circ$ (from Brandl et al., 2012  \parencite{Brandl121509}).}
 \label{fig:Build}
 \end{figure}
 
@@ -147,6 +147,11 @@ In a work of Kempen et al., as-built (AB) additively manufactured AlSi10Mg sampl
 \end{table}
  \end{center}
  
+ Comparer et discuter plus sur les résultats de la littérature + parler de la fatigue\\
+ 
+ On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties\\
+ 
+ 
 % \begin{center}
 %\begin{table}[ht]
 %\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|}
@@ -166,8 +171,11 @@ In a work of Kempen et al., as-built (AB) additively manufactured AlSi10Mg sampl
 %\end{table}
 % \end{center}
 
+\section{Residual stresses in SLM parts}
+Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.\\
+
 \section{Post treatments}
-\textcolor{red}{Post-traitements dont traitements thermiques, sur lesquels on se focalise. Expliquer}
+\textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
 
 \textcolor{red}{Source que tu peux utiliser:}
 
@@ -178,7 +186,7 @@ https://orbi.uliege.be/bitstream/2268/185421/1/2015-SFFS-Mertens.pdf}
 
 \textcolor{red}{Traitement T6 \parencite{ABOULKHAIR2016139}}
 
-\textcolor{red}{http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0921509316304890}
+\textcolor{red}{http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0921509316304890}\\
 
 %Recherches biblio....
 %\section{Comment référencer?}
