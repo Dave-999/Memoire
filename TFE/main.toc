@@ -38,8 +38,8 @@
 \contentsline {subsubsection}{Recycled powder}{25}{section*.66}
 \contentsline {section}{\numberline {4.2}Density and hardness study}{25}{section.68}
 \contentsline {subsection}{\numberline {4.2.1}Optimisation of the SLM parameters}{25}{subsection.69}
-\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{27}{subsection.72}
-\contentsline {subsubsection}{General results}{27}{section*.73}
+\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{26}{subsection.72}
+\contentsline {subsubsection}{General results}{26}{section*.73}
 \contentsline {subsubsection}{Sample proximity and position influence}{28}{section*.77}
 \contentsline {subsubsection}{Scan order influence}{29}{section*.79}
 \contentsline {subsection}{\numberline {4.2.3}Homogeneity}{30}{subsection.81}
