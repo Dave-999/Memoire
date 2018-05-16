@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  16 MAY 2018 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  16 MAY 2018 18:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -1752,9 +1752,6 @@ Package csquotes Info: ... found 'babel' package.
 
 LaTeX Warning: Label `fig:HD-171024' multiply defined.
 
-
-LaTeX Warning: Label `tab:pol' multiply defined.
-
 ) (Chapitres/Discussion.aux) (Chapitres/Conclusion.aux)
 (Appendices/AppendixA.aux) (Appendices/AppendixB.aux) (Appendices/AppendixC.aux
 ) (Appendices/AppendixD.aux))
@@ -2437,29 +2434,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
+1: section
+[25]
+
+LaTeX Warning: Reference `fig:HD-171024D' on page 26 undefined on input line 41
+.
+
+
+LaTeX Warning: Reference `fig:HD-171024H' on page 26 undefined on input line 41
+.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-1: section
-[25]
 <Images/HD-171024.jpg, id=855, 645.16031pt x 518.6878pt>
 File: Images/HD-171024.jpg Graphic file (type jpg)
 <use Images/HD-171024.jpg>
 Package pdftex.def Info: Images/HD-171024.jpg  used on input line 45.
 (pdftex.def)             Requested size: 399.99525pt x 321.58311pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[26 <./Images/HD-171024.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-
+[26 <./Images/HD-171024.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -2748,7 +2748,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F35D2ADCE5C2446901D091713ACCBF3E;12192.
+(rerunfilecheck)             Checksum: A62105A426696236BF215ECF6F5AEC1E;12256.
 
 
 LaTeX Warning: There were undefined references.
@@ -2761,10 +2761,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35214 strings out of 493312
- 708500 string characters out of 3138899
- 969528 words of memory out of 3000000
- 38042 multiletter control sequences out of 15000+200000
+ 35217 strings out of 493312
+ 708544 string characters out of 3138899
+ 969606 words of memory out of 3000000
+ 38045 multiletter control sequences out of 15000+200000
  585541 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,82p,10379b,2889s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2780,7 +2780,7 @@ es/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
 ri8a.pfb>
-Output written on main.pdf (71 pages, 18201434 bytes).
+Output written on main.pdf (71 pages, 18204862 bytes).
 PDF statistics:
  1152 PDF objects out of 1200 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)
