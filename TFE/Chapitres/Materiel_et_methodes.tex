@@ -10,7 +10,7 @@
 
 %\subsection{Drying}
 
-\section{Manufacturing parameters}
+\section{SLM manufacturing}
 \label{MMFPP}
 The same direct metal printer (DMP) was used to fabricate all specimens throughout this work. It is a \textit{ProX DMP 200} printer, manufactured by \textit{3D Systems} (see figure \ref{fig:Printer}). It uses a laser with a theoretical maximal power of 300 [W] and wavelength $\lambda$ = 1070 [nm] \parencite{3D}. Its actual maximal power is $P_{max}=273.6 [W]$. \textcolor{gray}{[QUEL EST LE SPOT SIZE?]}  The maximal envelope capacity of the machine (W x D x H) is 140 x 140 x 125 [mm]. Its typical accuracy is +/- 50 [$\mu m$] for small parts and +/- 0.2\% for large parts. It allows for the set-up of a protection atmosphere. However, it does not integrate any heating feature for the build bed.\\
 
@@ -22,7 +22,7 @@ The same direct metal printer (DMP) was used to fabricate all specimens througho
 \label{fig:Printer}
 \end{figure}
 
-In this thesis, argon was used as shielding gas. The composition of the gas environment was monitored so as to keep $p_{O2}$ < 500 [ppm]. Laser compensations were set to take into account the excess energy at the start and end of the scanning vectors (see figure \ref{fig:Compens}). These were chosen in accordance with the manufacturer recommendations (figure \ref{fig:Compens1}). Values for h and t were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The other process parameters were varied so as to optimize the properties of the built specimens. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in appendix \ref{ppa}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. In the case of samples with contour scanning strategy, the contours were pre scanned for each powder layer with the same P and $v_s$ used for the bulk. \\
+In this thesis, argon was used as shielding gas. The composition of the gas environment was monitored so as to keep $p_{O2}$ < 500 [ppm]. Laser compensations were set to take into account the excess energy at the start and end of the scanning vectors (see figure \ref{fig:Compens}). These were chosen in accordance with the manufacturer recommendations (figure \ref{fig:Compens1}). Values for hatch space (h) and layer thickness (t) were respectively set to 100 [$\mu m$] and 30 [$\mu m$]. The scan speed ($v_s$) and the laser power (P) were varied in the ranges [900 ; 1500] [$\frac{mm}{s}$] and [$0.75 \cdot P_{max}$ ; $P_{max}$] in order to optimise of the built specimens (see section \ref{Rparaopti}. Educated guesses were made based on literature and previous works done at the UCL. The parameters used are resumed in appendix \ref{ppa}. Batches were named in the format X200-\textit{yymmdd}. The prefix "X200" refers to the DMP used. It is followed by the date of printing (6 digits). Recycled powder was used for every batch except for X200-180222 and X200-180228. Figures with detailed specimens positions, denominations, scanning orders and sintering durations for all batches are available in appendix \ref{mda}.\\
 
 \begin{figure}[ht]
 \centering
@@ -40,14 +40,42 @@ In this thesis, argon was used as shielding gas. The composition of the gas envi
 \label{fig:Compens1}
 \end{figure}
 
-All batches were first prepared on \textit{DMP ProX Manufacturing}, a dedicated CAD software. It enabled to select the values for the parameters previously mentioned, as well as the position of the specimens. For this thesis, all cylinders and tensile specimens were fabricated vertically. \textcolor{gray}{[Parler des éprouvettes utilisées, dimensions? -> Dessin]}\\
+The batches were first prepared on \textit{DMP ProX Manufacturing}, a dedicated CAD software. It enabled to select the values for the parameters previously mentioned, as well as the position of the specimens. For this thesis, all cylinders and tensile specimens were fabricated vertically. The dimensions notations for the samples types and the tensile specimens detailed geometry are gathered on figure \ref{fig:cc}. 
 
-An island scanning strategy was chosen on account of research done on the subject (see section \ref{pp}). It is a hexagonal pattern with \textcolor{gray}{[OVERLAP? TAILLE DES HEXAGONES?]} The scanning order was automatically chosen. Figures with detailed specimens positions, denominations, scanning orders and sintering durations are available in appendix \ref{mda}.\\
+\begin{figure}[ht]
+\centering
+\noindent\makebox[\textwidth]{\includegraphics[scale=0.52]{Images/cc}}
+\decoRule
+\caption[Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimen]{Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimens with dimensions in [mm]}
+\label{fig:cc}
+\end{figure}
 
-\textcolor{gray}{[Insérer images de trajets du laser]}.\\
 
+An island scanning strategy was chosen on account of research done on the subject (see section \ref{pp}). It is a hexagonal pattern. The replicated hexagon's smallest width is equal to 5 [mm]. An overlap of 100 [$\mu m$] was set, as illustrated on figure \ref{fig:OL}. There is a rotation of $90^\circ$ and a translation of a third of basis vector between two successive powder layers as depicted by figure \ref{fig:Lassup}. In the case of a contour scanning strategy, the contours were pre scanned for each powder layer with the same P and $v_s$ used for the bulk (see figure \ref{fig:LasCSC}). The scanning order among the samples was automatically chosen. \\
 
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.27]{Images/OL}
+\decoRule
+\caption[Schematic representation of the hexagonal pattern scanning strategy]{Schematic representation of the hexagonal pattern scanning strategy}
+\label{fig:OL}
+\end{figure}
 
+\begin{figure}[ht]
+\centering
+\noindent\makebox[\textwidth]{\includegraphics[scale=0.3]{Images/Lassup}}
+\decoRule
+\caption[Screen capture of the laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$]{Laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$}
+\label{fig:Lassup}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\noindent\makebox[\textwidth]{\includegraphics[scale=0.4]{Images/LasCSC}}
+\decoRule
+\caption[Screen capture of the laser path for a cylindric sample (a) with contour scanning strategy (b) without contour scanning strategy]{Screen capture of the laser path for a cylindric sample (a) with contour scanning strategy (b) without contour scanning strategy}
+\label{fig:LasCSC}
+\end{figure}
 \section{Heat treatments}
 \label{MMHT}
 The heat treatments were conducted inside a unique oven of the VT 5050 EKP model, manufactured by Heraeus, which is able to reach a temperature of 400$^\circ$ C. Samples temperature data was obtained through a thermocouple welded to the sample surface, thanks to a ... . \textcolor{gray}{[Méthode de soudage, élévation de la température durant l'opération]} The data was displayed and saved every 10 seconds, with a precision of 0.1$^\circ$ C, thanks to a Agilent 34972A LXI Data Acquisition/Switching Unit, connected to the thermocouple (see Fig. for both devices). For unknown reasons, that can not be explained only by thermal inertia, setting the oven to the target temperature proved unable to heat the specimens to the same temperature. After a couple samples for testing, the method applied for following ones was to set the oven at a temperature about 20$^\circ$ C above the target, so that the data acquisition unit connected to the thermocouple displays the right temperature.\\
@@ -97,6 +125,7 @@ A first series of cubic samples was manufactured using the optimised process par
 	X200-180220-TT300-5m & 5 & 300 & 300 \\ 
 	\hline 
 \end{tabular}} 
+
 \caption[List of the heat-treated specimens from batch X200-180220]{List of the heat-treated specimens from batch X200-180220}
 \label{tab:RTT}
 \end{table}
@@ -184,7 +213,7 @@ Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} t
 \centering
 \centerline{\includegraphics[scale=0.29]{Images/Vickers}}
 \decoRule
-\caption[Schematization of the Vickers hardness test]{Schematization of the Vickers hardness test}
+\caption[Schematic representation of the Vickers hardness test]{Schematic representation of the Vickers hardness test}
 \label{fig:Vick}
 \end{figure}
 
@@ -209,7 +238,7 @@ One must enter the extensometer initial gauge length $L_0$, the cross head speed
 \centering
 \centerline{\includegraphics[scale=0.3]{Images/Trac}}
 \decoRule
-\caption[Schematization of the tensile test mounting]{Schematization of the tensile test mounting}
+\caption[Schematic representation of the tensile test mounting]{Schematic representation of the tensile test mounting}
 \label{fig:Trac}
 \end{figure}
 
