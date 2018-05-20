@@ -42,6 +42,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{abstract}
 \usepackage{amsmath}
+\usepackage{adjustbox}
 \usepackage{mathpazo} % Use the Palatino font by default
 \usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
@@ -52,7 +53,13 @@ headsepline, % Uncomment to get a line under the header
 \newcommand{\mc}[2]{\multicolumn{#1}{|c|}{#2}}
 \usepackage{longtable}
 \usepackage{placeins}
+\usepackage[bottom]{footmisc}
+\interfootnotelinepenalty=10000
+%\usepackage[para]{footmisc}
+\usepackage{pdflscape} % or {lscape}
 \setcounter{tocdepth}{2}
+\usepackage{footnote}
+\makesavenoteenv{tabular}
 \let\Oldsection\section
 \renewcommand{\section}{\FloatBarrier\Oldsection}
 
@@ -209,6 +216,7 @@ Chemical and Materials \\
 \textbf{DMLS} & \textbf{D}irect \textbf{M}etal \textbf{L}aser \textbf{S}intering\\
 \textbf{DMP} & \textbf{D}irect \textbf{M}etal \textbf{P}rinter\\
 \textbf{HPDC} & \textbf{H}igh \textbf{P}ressure \textbf{D}ie \textbf{C}asting \\
+\textbf{HW} & \textbf{H}ydrostatic \textbf{W}eigthing \\
 \textbf{ICP} & \textbf{I}nductively \textbf{C}oupled \textbf{P}lasma\\
 \textbf{RODIA} & \textbf{R}elative \textbf{O}ptical \textbf{D}ensity \textbf{I}mage \textbf{A}nalysis \\
 \textbf{SD} & \textbf{S}tandard \textbf{D}eviation \\
