@@ -1,4 +1,4 @@
-x%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %% Memoire - tractions %%
 %%%%%%%%%%%%%%%%%%%%%%%
 %% Script affichant les graphes de contrainte-déformation résultant 
@@ -294,15 +294,85 @@ xlabel('\epsilon_{eng} [-]')
 % end
 % plot(x,y)
 
-x=linspace(0,0.05,1000);
-y=zeros(1000,1);
-for i=1:1000
-    y(i)=(x(i)-0.002)*E_5;
-end
-hold on
-semilogx(x,y);
+% x=linspace(0,0.05,1000);
+% y=zeros(1000,1);
+% for i=1:1000
+%     y(i)=(x(i)-0.002)*E_5;
+% end
+% hold on
+% semilogx(x,y);
+
 %MOYENNES
 E=mean([68.2 64.7 64.7 67.6 62.0 70.9 67.9 66.5 72.5 71.7 71.3 69.6 71 68.3 69.5]);
+
+%RAMBERG-OSGOOD
+%AB
+E_AB=mean([E_2 E_3 E_16 E_17 E_A])
+sigma_y_AB=mean([sigma_y_1 sigma_y_2 sigma_y_16 sigma_y_17 sigma_y_A])
+UTS_AB=mean([UTS_1 UTS_2 UTS_16 UTS_17 UTS_A])
+epsilon_f_AB=mean([epsilon_f_1 epsilon_f_2 epsilon_f_16 epsilon_f_17 epsilon_f_A])
+n=log(UTS_AB/sigma_y_AB)/log(500*epsilon_f_AB)
+figure
+plot(linspace(0,epsilon_f_AB,500),interp1(0.01*[0 0.45347 0.64176 1.02951 1.76269 2.18 100*epsilon_f_AB],[0 239.97 272.67 309.01 345.34*1.02 368.7 381.68],linspace(0,epsilon_f_AB,500),'spline'))
+% sigma_AB=linspace(0,UTS_AB,500)
+% epsilon_AB=zeros(500,1)
+% for i=1:500
+%     epsilon_AB(i)=sigma_AB(i)/E_AB/10^6+0.002*(sigma_AB(i)/sigma_y_AB)^(n/10)
+% end
+% figure
+% plot(epsilon_AB,sigma_AB)
+hold on
+
+%150
+
+E_150=mean([E_13 E_14 E_B])
+sigma_y_150=mean([sigma_y_13 sigma_y_14 sigma_y_B])
+UTS_150=mean([UTS_13 UTS_14 UTS_B])
+epsilon_f_150=mean([epsilon_f_13 epsilon_f_14 epsilon_f_B])
+n=log(UTS_150/sigma_y_150)/log(500*epsilon_f_150)
+
+plot(linspace(0,epsilon_f_150,500),interp1(0.01*[0 0.46727 0.7242 1.37843 2.89153 5 6.16553],[0 259.36 301.43 348.18 398.92 430 441.67],linspace(0,epsilon_f_150,500),'spline'))
+
+%200
+
+E_200=mean([E_10 E_11])
+sigma_y_200=mean([sigma_y_10 sigma_y_11])
+UTS_200=mean([UTS_10 UTS_11])
+epsilon_f_200=mean([epsilon_f_10 epsilon_f_11])
+n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
+
+plot(linspace(0,epsilon_f_200,500),interp1(0.01*[0 0.40102 0.64388 1.23653 2.53021 4 epsilon_f_200*100],[0 220.83 258.03 299.35 340.68 370 382.01],linspace(0,epsilon_f_200,500),'spline'))
+
+%250
+
+E_250=mean([E_7 E_8 E_9])
+sigma_y_250=mean([sigma_y_7 sigma_y_8])
+UTS_250=mean([UTS_7 UTS_8])
+epsilon_f_250=mean([epsilon_f_7 epsilon_f_8])
+n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
+
+plot(linspace(0,0.165,500),interp1(0.01*[0 0.35761 0.61691 1.6578 3.5 5.33148 9.58661 13.53987 16.98394],[0 211.61 241.45 274.60 297*1.03 307.76*1.08 324.33*1.15 334.28*1.18 402.27],linspace(0,0.165,500),'spline'))
+
+%300
+
+E_300=mean([E_6 E_5])
+sigma_y_300=mean([sigma_y_4 sigma_y_5 sigma_y_6])
+UTS_300=mean([UTS_4 UTS_5 UTS_6])
+epsilon_f_300=mean([epsilon_f_4 epsilon_f_5 epsilon_f_6])
+n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
+
+plot(linspace(0,0.297,500),interp1(0.01*[0 0.27543 0.3 0.35627 0.56306 1.99506 8.03289 15.74677 25 30.06721],[0 153.66 157 163.84 176.57 202.02 227.48*1.03 240.2*1.1 250*1.15 294.34],linspace(0,0.297,500),'spline'))
+% 
+% sigma_150=linspace(0,UTS_150,500)
+% epsilon_150=zeros(500,1)
+% for i=1:500
+%     epsilon_150(i)=sigma_150(i)/E_150/10^6+0.000000000000000000000000001516*(sigma_150(i)/sigma_y_150)^(n)
+% end
+% plot(epsilon_150,sigma_150)
+xlabel('Strain [-]')
+ylabel('Stress [MPa]')
+legend('As-built','150°C (2h)','200°C (2h)','250°C (2h)','300°C (2h)')
+
 %Y1avg = interp1(X1,Y1,Xavg);
 % Y2avg = interp1(X2,Y2,Xavg);
 % .
@@ -310,3 +380,54 @@ E=mean([68.2 64.7 64.7 67.6 62.0 70.9 67.9 66.5 72.5 71.7 71.3 69.6 71 68.3 69.5
 % Y5avg = interp1(X5,Y5,Xavg);
 % % Compute the average of Y for the Xavg
 % Yavg = mean([Y1avg Y2avg ... Y5avg],2); % assuming Ys are column vectors
+% 
+% Xavg=linspace(0,0.04,1000)
+% [x, index] = unique(epsilon_1); 
+% avg1 = interp1(x, sigma_1(index), Xavg); 
+% [x, index] = unique(epsilon_2); 
+% avg2 = interp1(x, sigma_2(index), Xavg); 
+% [x, index] = unique(epsilon_16); 
+% avg16 = interp1(x, sigma_16(index), Xavg); 
+% [x, index] = unique(epsilon_17); 
+% avg17 = interp1(x, sigma_17(index), Xavg); 
+% [x, index] = unique(epsilon_A); 
+% avgA = interp1(x, sigma_A(index), Xavg);
+% avg1(isnan(avg1))=0;
+% avg2(isnan(avg2))=0;
+% avg16(isnan(avg16))=0;
+% avg17(isnan(avg17))=0;
+% avgA(isnan(avgA))=0;
+% % avg1 = interp1(epsilon_1,sigma_1,Xavg);
+% % avg2= interp1(epsilon_2,sigma_2,Xavg);
+% % avg16 = interp1(epsilon_16,sigma_16,Xavg);
+% % avg17 = interp1(epsilon_17,sigma_17,Xavg);
+% % avgA = interp1(epsilon_A,sigma_A,Xavg);
+% % Compute the average of Y for the Xavg
+% Yavg = (avg1 +avg2 +avg16 +avg17 +avgA)/5; % assuming Ys are column vectors
+% figure
+% plot(Xavg,Yavg)
+% hold on
+% 
+% [x, index] = unique(epsilon_13); 
+% avg13 = interp1(x, sigma_13(index), Xavg); 
+% [x, index] = unique(epsilon_14); 
+% avg14 = interp1(x, sigma_14(index), Xavg); 
+% [x, index] = unique(epsilon_B); 
+% avgB = interp1(x, sigma_B(index), Xavg);
+% avg13(isnan(avg13))=0;
+% avg14(isnan(avg14))=0;
+% avgB(isnan(avgB))=0;
+% Yavg2=(avg13+avg14+avgB)/3
+% plot(Xavg,Yavg2)
+% 
+% [x, index] = unique(epsilon_13); 
+% avg13 = interp1(x, sigma_13(index), Xavg); 
+% [x, index] = unique(epsilon_14); 
+% avg14 = interp1(x, sigma_14(index), Xavg); 
+% [x, index] = unique(epsilon_B); 
+% avgB = interp1(x, sigma_B(index), Xavg);
+% avg13(isnan(avg13))=0;
+% avg14(isnan(avg14))=0;
+% avgB(isnan(avgB))=0;
+% Yavg2=(avg13+avg14+avgB)/3
+% plot(Xavg,Yavg2)

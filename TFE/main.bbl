@@ -355,6 +355,21 @@
     \field{year}{2017}
   \endentry
 
+  \entry{EOS}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{EOS GmbH – electro optical systems}, Material data sheet:
+  EOS aluminium AlSi10Mg.}
+    \verb{url}
+    \verb http://gpiprototype.com/images/PDF/EOS_Aluminium_AlSi10Mg_en.pdf
+    \endverb
+    \field{year}{2014}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Haase}{article}{}
     \name{author}{4}{}{%
       {{hash=HC}{%
@@ -894,8 +909,8 @@
     \field{title}{{Renishaw plc}, AlSi10Mg-0403 powder for additive
   manufacturing data sheet}
     \verb{url}
-    \verb file:///E:/Downloads/H-5800-1061-01-A_AlSi10Mg-0403_400_W_material_da
-    \verb ta_sheet.pdf
+    \verb http://resources.renishaw.com/en/download/data-sheet-alsi10mg-0403-40
+    \verb 0-w-powder-for-additive-manufacturing--73122
     \endverb
     \field{year}{2015}
     \field{urlday}{15}
