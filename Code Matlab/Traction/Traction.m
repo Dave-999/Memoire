@@ -361,7 +361,7 @@ UTS_300=mean([UTS_4 UTS_5 UTS_6])
 epsilon_f_300=mean([epsilon_f_4 epsilon_f_5 epsilon_f_6])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,0.297,500),interp1(0.01*[0 0.27543 0.3 0.35627 0.56306 1.99506 8.03289 15.74677 25 30.06721],[0 153.66 157 163.84 176.57 202.02 227.48*1.03 240.2*1.1 250*1.15 294.34],linspace(0,0.297,500),'spline'))
+plot(linspace(0,0.297,500),interp1(0.01*[0 0.27543 0.3 0.35627 0.56306 1.99506 8.03289 15.74677 25 30.06721],[0 153.66 157*1.01 163.84*1.05 176.57*1.08 202.08*1.05 227.48*1.125 240.2*1.24 250*1.32 334.5],linspace(0,0.297,500),'spline'))
 % 
 % sigma_150=linspace(0,UTS_150,500)
 % epsilon_150=zeros(500,1)
@@ -369,8 +369,8 @@ plot(linspace(0,0.297,500),interp1(0.01*[0 0.27543 0.3 0.35627 0.56306 1.99506 8
 %     epsilon_150(i)=sigma_150(i)/E_150/10^6+0.000000000000000000000000001516*(sigma_150(i)/sigma_y_150)^(n)
 % end
 % plot(epsilon_150,sigma_150)
-xlabel('Strain [-]')
-ylabel('Stress [MPa]')
+xlabel('True strain [-]')
+ylabel('True stress [MPa]')
 legend('As-built','150°C (2h)','200°C (2h)','250°C (2h)','300°C (2h)')
 
 %Y1avg = interp1(X1,Y1,Xavg);
