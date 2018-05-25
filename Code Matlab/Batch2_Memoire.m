@@ -15,25 +15,25 @@ X7=[1.3,1.7,2.1,...
     5.6,6,6.4,...
     1.3,1.5,1.7,...
     3.9,4.1,4.3,...
-    6.45,6.7,6.9];
+    6.45,6.7,6.9]*1.4;
 
 X8= [3.5,3.85,4.25,...
     7.9,8.35,8.75,...
     2.6,2.8,3,...
     5.25,5.45,5.65,...
-    7.8,8,8.2];
+    7.8,8,8.2]*1.4;
 
 Y7=[8.8,7.2,5.45,...
     9,7.4,5.6,...
     3.3,2.2,1.1,...
     3.45,2.35,1.25,...
-    3.6,2.5,1.4];
+    3.6,2.5,1.4]*1.4;
  
 Y8=[8.6,6.85,5.1,...
     8.75,7,5.25,...
     3.2,2.1,1,...
     3.35,2.25,1.15,...
-    3.5,2.4,1.3];
+    3.5,2.4,1.3]*1.4;
 
 %%%%%%%%%%%%%
 %% DENSITE %%
@@ -102,8 +102,8 @@ F=scatter3(X7, Y7, rho7, [], rho7,'filled');
 xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
-xlim([0,10])
-ylim([0,10])
+xlim([0,14])
+ylim([0,14])
 zlim([99,99.7])
 colorbar 
 %%
@@ -174,8 +174,8 @@ F=scatter3(X8, Y8, rho8, [], rho8,'filled');
 xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
-xlim([0,10])
-ylim([0,10])
+xlim([0,14])
+ylim([0,14])
 zlim([99,99.7])
 colorbar 
 %%
@@ -382,8 +382,8 @@ F=scatter3(X7, Y7, H7, [], H7,'filled');
 xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
-xlim([0,10])
-ylim([0,10])
+xlim([0,14])
+ylim([0,14])
 zlim([135,143])
 colorbar 
 %%
@@ -454,8 +454,8 @@ F=scatter3(X8, Y8, H8, [], H8,'filled');
 xlabel('x [cm]')
 ylabel('y [cm]')
 zlabel('Densité relative apparente [%]')
-xlim([0,10])
-ylim([0,10])
+xlim([0,14])
+ylim([0,14])
 zlim([134,143])
 colorbar 
 %%
