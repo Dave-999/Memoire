@@ -7,6 +7,7 @@
 \contentsline {section}{\numberline {2.2}AlSi10Mg alloy}{5}{section.16}
 \contentsline {section}{\numberline {2.3}Fabrication process parameters}{5}{section.17}
 \contentsline {section}{\numberline {2.4}As-built mechanical properties}{9}{section.22}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{9}{section.24}
 \contentsline {section}{\numberline {2.6}Post treatments}{10}{section.25}
 \contentsline {chapter}{\numberline {3}Materials and methods}{11}{chapter.26}
@@ -89,3 +90,87 @@
 \contentsline {section}{\numberline {D.2}Vickers hardness}{56}{section.147}
 \contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{57}{appendix.148}
 \contentsline {chapter}{Bibliography}{61}{appendix*.153}
+=======
+\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{10}{section.25}
+\contentsline {section}{\numberline {2.6}Post treatments}{10}{section.26}
+\contentsline {chapter}{\numberline {3}Materials and methods}{11}{chapter.27}
+\contentsline {section}{\numberline {3.1}Powder follow-up}{11}{section.28}
+\contentsline {subsection}{\numberline {3.1.1}Sieving}{11}{subsection.29}
+\contentsline {subsection}{\numberline {3.1.2}Grain size and distribution}{11}{subsection.30}
+\contentsline {subsection}{\numberline {3.1.3}Composition}{11}{subsection.31}
+\contentsline {section}{\numberline {3.2}SLM manufacturing}{11}{section.32}
+\contentsline {section}{\numberline {3.3}Heat treatments}{16}{section.40}
+\contentsline {section}{\numberline {3.4}Characterisation}{17}{section.42}
+\contentsline {subsection}{\numberline {3.4.1}Density}{17}{subsection.43}
+\contentsline {subsubsection}{Hydrostatic weighing}{17}{section*.44}
+\contentsline {subsubsection}{Relative optical density image analysis}{18}{section*.45}
+\contentsline {subsection}{\numberline {3.4.2}Microstructure}{19}{subsection.48}
+\contentsline {subsubsection}{Scanning electron microscopy}{19}{section*.49}
+\contentsline {subsubsection}{Optical microscopy}{19}{section*.50}
+\contentsline {subsection}{\numberline {3.4.3}Composition}{19}{subsection.51}
+\contentsline {subsection}{\numberline {3.4.4}Residual stresses}{19}{subsection.52}
+\contentsline {subsection}{\numberline {3.4.5}Mechanical properties}{19}{subsection.53}
+\contentsline {subsubsection}{Hardness test}{19}{section*.54}
+\contentsline {subsubsection}{Tensile tests}{20}{section*.56}
+\contentsline {chapter}{\numberline {4}Results}{25}{chapter.60}
+\contentsline {section}{\numberline {4.1}Powder ageing}{25}{section.61}
+\contentsline {subsection}{\numberline {4.1.1}Grain size and distribution}{25}{subsection.62}
+\contentsline {subsubsection}{Fresh powder}{25}{section*.63}
+\contentsline {subsubsection}{Recycled powder}{25}{section*.64}
+\contentsline {subsection}{\numberline {4.1.2}Composition}{25}{subsection.65}
+\contentsline {subsubsection}{Fresh powder}{25}{section*.66}
+\contentsline {subsubsection}{Recycled powder}{25}{section*.67}
+\contentsline {section}{\numberline {4.2}Density and hardness study}{25}{section.69}
+\contentsline {subsection}{\numberline {4.2.1}Optimisation of the SLM parameters}{25}{subsection.70}
+\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{26}{subsection.72}
+\contentsline {subsubsection}{General results}{26}{section*.73}
+\contentsline {subsubsection}{Sample proximity and position influence}{27}{section*.77}
+\contentsline {subsubsection}{Scan order influence}{29}{section*.81}
+\contentsline {subsection}{\numberline {4.2.3}Homogeneity}{29}{subsection.83}
+\contentsline {section}{\numberline {4.3}Characterisation of the as-built samples}{31}{section.87}
+\contentsline {subsection}{\numberline {4.3.1}Melt pools sizes and distribution}{31}{subsection.88}
+\contentsline {subsection}{\numberline {4.3.2}Microstructure}{31}{subsection.89}
+\contentsline {subsection}{\numberline {4.3.3}Residual stresses}{31}{subsection.90}
+\contentsline {subsection}{\numberline {4.3.4}Mechanical properties}{31}{subsection.91}
+\contentsline {section}{\numberline {4.4}Characterisation of the heat-treated samples}{31}{section.93}
+\contentsline {subsection}{\numberline {4.4.1}Microstructure}{31}{subsection.94}
+\contentsline {subsection}{\numberline {4.4.2}Residual stresses}{31}{subsection.95}
+\contentsline {subsection}{\numberline {4.4.3}Mechanical properties}{31}{subsection.96}
+\contentsline {chapter}{\numberline {5}Discussion}{33}{chapter.99}
+\contentsline {section}{\numberline {5.1}Powder ageing}{33}{section.100}
+\contentsline {subsection}{\numberline {5.1.1}Grain size and distribution}{33}{subsection.101}
+\contentsline {subsection}{\numberline {5.1.2}Composition}{33}{subsection.102}
+\contentsline {section}{\numberline {5.2}Density measures assessments}{33}{section.103}
+\contentsline {subsection}{\numberline {5.2.1}Measures comparison}{33}{subsection.104}
+\contentsline {subsection}{\numberline {5.2.2}Relative optical density image analysis}{33}{subsection.105}
+\contentsline {section}{\numberline {5.3}Density and hardness study}{37}{section.110}
+\contentsline {subsection}{\numberline {5.3.1}Parameters optimisation}{37}{subsection.111}
+\contentsline {subsection}{\numberline {5.3.2}Reproducibility}{37}{subsection.112}
+\contentsline {section}{\numberline {5.4}Characterisation of the as-built samples}{37}{section.113}
+\contentsline {subsection}{\numberline {5.4.1}Melt pools sizes and distribution}{37}{subsection.114}
+\contentsline {subsection}{\numberline {5.4.2}Microstructure}{37}{subsection.115}
+\contentsline {subsection}{\numberline {5.4.3}Residual stresses}{37}{subsection.116}
+\contentsline {subsection}{\numberline {5.4.4}Mechanical properties}{37}{subsection.117}
+\contentsline {section}{\numberline {5.5}Characterisation of the heat treated samples}{37}{section.118}
+\contentsline {subsection}{\numberline {5.5.1}Heating process}{37}{subsection.119}
+\contentsline {subsection}{\numberline {5.5.2}Microstructure}{37}{subsection.120}
+\contentsline {subsection}{\numberline {5.5.3}Residual stresses}{37}{subsection.121}
+\contentsline {subsection}{\numberline {5.5.4}Mechanical properties}{37}{subsection.122}
+\contentsline {subsection}{\numberline {5.5.5}Optimisation}{37}{subsection.123}
+\contentsline {chapter}{\numberline {6}Conclusion}{39}{chapter.124}
+\contentsline {chapter}{\numberline {A}Batches fabrication and hardness/density measurements details}{41}{appendix.125}
+\contentsline {section}{\numberline {A.1}Process parameters and measured hardness/density properties}{41}{section.126}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{46}{section.131}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{46}{subsection.132}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{47}{subsection.135}
+\contentsline {subsection}{\numberline {A.2.3}...Other batches}{49}{subsection.138}
+\contentsline {chapter}{\numberline {B}Tensile properties details}{51}{appendix.139}
+\contentsline {section}{\numberline {B.1}As-built samples}{51}{section.140}
+\contentsline {subsection}{\numberline {B.1.1}Heat treated samples}{51}{subsection.142}
+\contentsline {chapter}{\numberline {C}Extract of Vickers hardness conversion table (HV10)}{53}{appendix.144}
+\contentsline {chapter}{\numberline {D}Procedure for the confidence intervals computation}{55}{appendix.146}
+\contentsline {section}{\numberline {D.1}Apparent relative density}{55}{section.147}
+\contentsline {section}{\numberline {D.2}Vickers hardness}{56}{section.148}
+\contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{57}{appendix.149}
+\contentsline {chapter}{Bibliography}{61}{appendix*.154}
+>>>>>>> 623a6be85801e8306a08164be19a28050d9830fd
