@@ -121,12 +121,7 @@ Once the porosity problem is sorted out, other matters can be addressed such as 
 
 \section{As-built mechanical properties}
 \label{MMABMP}
-In a work of Kempen et al., it was concluded that as-built (AB) additively manufactured AlSi10Mg samples can have mechanical properties (Vickers hardness \textit{HV}, ultimate tensile stress $\sigma_u$ , fracture strain $\epsilon_f$ and impact energy) better or at least comparable to the conventionally casted and high pressure die casted (HPDC) alloy \parencite{KEMPEN2012439}. The tensile specimens built in an horizontal direction (XY) had slightly different characteristics than those built in the vertical direction (Z). The results obtained in the mentioned work are gathered in table \ref{tab:Kemp1}, along with other results and common cast AlSi10Mg properties. The best tensile properties measurements found on the web - both in terms of $\sigma_u$ and $\epsilon_f$ - were obtained by \textit{EOS} with $\rho_{rel} \simeq 99.85$ \parencite{EOS} ($\rho_b$ considered to be equal to 2.67 [$\frac{g}{cm^3}$]).
-Source 19 pour fatigue.
-http://sci-hub.tw/https://link.springer.com/article/10.1007/s13632-014-0168-y
-
-Plein de données + fatigue
-http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463
+In a work of Kempen et al., it was concluded that as-built (AB) additively manufactured AlSi10Mg samples can have mechanical properties (Vickers hardness \textit{HV}, ultimate tensile stress $\sigma_u$ , fracture strain $\epsilon_f$ and impact energy) better or at least comparable to the conventionally casted and high pressure die casted (HPDC) alloy \parencite{KEMPEN2012439}. The tensile specimens built in an horizontal direction (XY) had slightly different characteristics than those built in the vertical direction (Z). The results obtained in the mentioned work are gathered in table \ref{tab:Kemp1}, along with other results and common cast AlSi10Mg properties. The best tensile properties measurements found on the web - both in terms of $\sigma_u$ and $\epsilon_f$ - were obtained by \textit{EOS} with $\rho_{rel} \simeq 99.85$ \parencite{EOS} ($\rho_b$ considered to be equal to 2.67 [$\frac{g}{cm^3}$]). Unfortunately, the process parameters values were omitted in sources \parencite{EOS} and \parencite{KEMPEN2012439}. The mechanical properties all lie in wide ranges. This illustrates the importance of mastering the process parameters.
 
  \begin{center}
 \begin{table}[ht]
@@ -155,8 +150,31 @@ http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S01421123163
 \end{table}
  \end{center}
  
- Comparer et discuter plus sur les résultats de la littérature + parler de la fatigue\\
- 
+Furthermore, Wang et al. observed that preheating the manufacturing plate can have a tremendous impact on the mechanical properties \parencite{Wang2018}. This is due to the differences in thermal gradients between the substrate and the built samples, which induces residual stresses. Results obtained for a chessboard pattern are shown in table \ref{tab:Wang}.
+
+ \begin{center}
+\begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Plate temperature & $\sigma_u$ [MPa] & $\epsilon_f [\%]$ & HV [HV] & $\rho_{rel} [\%]$ \\
+\hline
+\hline   
+    80$^\circ C$ &385 $\pm 6$ & $3 \pm 1.5$ & 176 $\pm 6$& 98.69 $\pm 0.19$	\\
+    120$^\circ C$ &381.3 $\pm 3.3$ & $2.83 \pm 0.33$ & 257 $\pm 9$& 97.39 $\pm 0.38$	\\
+    160$^\circ C$ &363.7 $\pm 11.3$ & $5.33 \pm 0.67$ & 233 $\pm 4$& 97.01	\\
+    \hline
+
+\end{tabular}}
+\caption[Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite{Wang2018}.]{Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite{Wang2018}.}
+\label{tab:Wang}
+\end{table}
+ \end{center}
+
+Source 19 pour fatigue.
+http://sci-hub.tw/https://link.springer.com/article/10.1007/s13632-014-0168-y
+
+Plein de données + fatigue
+http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463
  On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties\\
  
  

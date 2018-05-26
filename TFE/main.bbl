@@ -1017,6 +1017,52 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Wang2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lianfeng},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JX}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Xiaohui},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yihong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Zishan},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{Additive manufacturing, AlSi10Mg, Fatigue, Fractography, Tensile
+  properties, Fracture toughness, Hot isostatic pressing}
+    \strng{namehash}{WL+1}
+    \strng{fullhash}{WLJXZYDZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{1 \bibrangedash  12}
+    \field{title}{Investigation of Performance and Residual Stress Generation
+  of AlSi10Mg Processed by Selective Laser Melting)}
+    \verb{url}
+    \verb https://www.hindawi.com/journals/amse/2018/7814039/ref/
+    \endverb
+    \field{volume}{2018}
+    \field{journaltitle}{Advances in Materials Science and Engineering}
+    \field{year}{2018}
+  \endentry
+
   \entry{Eau}{book}{}
     \name{author}{1}{}{%
       {{hash=WRC}{%
