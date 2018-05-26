@@ -88,4 +88,4 @@
 \contentsline {section}{\numberline {D.1}Apparent relative density}{55}{section.146}
 \contentsline {section}{\numberline {D.2}Vickers hardness}{56}{section.147}
 \contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{57}{appendix.148}
-\contentsline {chapter}{Bibliography}{59}{appendix*.153}
+\contentsline {chapter}{Bibliography}{61}{appendix*.153}

@@ -918,6 +918,48 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Salmi2017}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SA}{%
+         family={Salmi},
+         familyi={S\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Atzeni},
+         familyi={A\bibinitperiod},
+         given={Eleonora},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=IL}{%
+         family={Iuliano},
+         familyi={I\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Galati},
+         familyi={G\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SAAEILGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{10th CIRP Conference on Intelligent Computation in
+  Manufacturing Engineering - CIRP ICME '16}
+    \field{pages}{458\bibrangedash 463}
+    \field{title}{Experimental analysis of residual stresses on AlSi10Mg parts
+  produced by means of Selective Laser Melting (SLM)}
+    \field{volume}{62}
+    \field{year}{2017}
+  \endentry
+
   \entry{Balance}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
@@ -1015,6 +1057,30 @@
     \field{volume}{704}
     \field{journaltitle}{Materials Science and Engineering: A}
     \field{year}{2017}
+  \endentry
+
+  \entry{Vrancken2016}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=VB}{%
+         family={Vrancken},
+         familyi={V\bibinitperiod},
+         given={Bey},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VB1}
+    \strng{fullhash}{VB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Study of Residual Stresses in Selective Laser Melting}
+    \list{institution}{1}{%
+      {KU Leuven}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Eau}{book}{}
