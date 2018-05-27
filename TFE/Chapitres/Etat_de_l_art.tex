@@ -200,13 +200,31 @@ http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S01421123163
 \section{Residual stresses in SLM parts}
 \textcolor{red}{Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.}\\
 
-After most manufacturing processes, the fabricated piece can present residual stresses, both in compression and tension. While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Indeed, uncontrolled internal stresses can cause unacceptable deformation of the piece, as well as premature failure, by facilitating the initiation of crack growth \cite{Vrancken2016}.\\
+After most manufacturing processes, the fabricated piece can present residual stresses, both in compression and tension. While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Indeed, uncontrolled internal stresses can deteriorate dramatically the fatigue behaviour of the piece, cause unacceptable deformation, as well as premature failure, by facilitating the initiation of crack growth \cite{Vrancken2016}.\\
 
 Many phenomena can be the cause of residual stresses, but it always go through inhomogeneous plastic strains. Several forming processes, such as cold rolling, can induce them, by applying a non-uniform load. On a more microscopic scale, different reactions to stress between distinct phases or crystal orientations are also able to create those inhomogeneities.\\
 
-In the case of SLM parts, internal stresses are mostly due to the intense thermal gradients appearing during the scan.
+In the case of SLM parts, internal stresses are mostly due to the intense thermal gradients appearing during the scan. After the laser passage, the melt pool cools down, and begins to solidify. This solidification brings with it a thermal shrinkage of the molten track, which put it under tensile condition. The continuous shrinking along the scan track concentrates those tension stresses horizontally, in the direction of the scan vectors. Fabrication of successive layers on top, with their own tensile stresses, gradually relaxes the buried layers, to the point that they begin to undergo compressive stresses below a certain depth.Vertical tensile stresses on the side surfaces, induced by those horizontal stresses at each layer, remain however after the complete fabrication. An example of the stress distribution in a 2D section of a piece after manufacturing is available in Fig. \ref{fig:rs_section}. According to the supplier \cite{Inconel}, Inconel718 has a yield strength of approximatively 1 GPa. Although residual stresses do not seem to reach it, their value is definitively high enough to completely modify the mechanical behaviour of the piece. In the case of a tensile test, for example, the zone near the surface would enter plasticity way before applying a stress equal to the yield strength. \\
 
-\cite{Salmi2017}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.50]{Images/rs_section}
+	\decoRule
+	\caption[2D plot of vertical internal stresses measured by the contour method at mid-height, in a vertically-built parallelipiped Inconel718 sample. Vertical stresses are null along the dashed line.]{2D plot of vertical internal stresses measured by the contour method at mid-height, in a vertically-built parallelepiped Inconel718 sample. Vertical stresses are null along the dashed line (from Vrancken, 2016 \parencite{Vrancken2016}).}
+	\label{fig:rs_section}
+\end{figure}
+
+Even though many process parameters influence the amount of residual stresses in the cooled part, reliable quantitative relations are difficult to obtain. On top of that, phenomena specific to the material used, such as the formation of precipitates or allotropic transformations, restrain us from applying what is known about the process from one material to another. However, the parameter with the most obvious consequences on residual stresses is the powder bed preheating. While it indeed reduces the thermal gradient around the melt pool, and thus reduces internal stresses as well, it is suggested that the lower yield strength at higher temperature is the strongest stress-reducing effect \cite{Vrancken2016}. \\
+
+Another parameter altering the macroscopic thermal gradient of the part is the presence of building supports, depending on their ability to conduct heat to the platform. Indeed, a part built atop a solid support, or directly onto the building platform has an heat exchange area equal to its section, whereas a honeycomb or another type of hollow support would reduce this area, because the unmelted powder has a much lower heat transfer coefficient\cite{Hodge2014}. Heat generated by the laser would thus escape more slowly out of the part, leading to a higher thermal gradient and, in turn, higher residual stresses \cite{Salmi2017}, as it is shown in Fig. \ref{fig:rs_support}.\\
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.50]{Images/Rs-support}
+	\decoRule
+	\caption[Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not]{Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not (from Salmi et al., 2017 \parencite{Salmi2017}).}
+	\label{fig:rs_support}
+\end{figure}
 
 \section{Post treatments}
 \textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
@@ -230,6 +248,9 @@ https://www.sciencedirect.com/science/article/pii/S0264127516306426
 
 Plein de données de littérature
 http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463
+
+Unfortunately, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses.
+
 %Recherches biblio....
 %\section{Comment référencer?}
 %The \code{biblatex} package is used to format the bibliography and inserts references such as this one \parencite{Reference1}. The options used in the \file{main.tex} file mean that the in-text citations of references are formatted with the author(s) listed with the date of the publication. Multiple references are separated by semicolons (e.g. \parencite{Reference2, Reference1}) and references with more than three authors only show the first author with \emph{et al.} indicating there are more authors (e.g. \parencite{Reference3}). This is done automatically for you. %To see how you use references, have a look at the \file{Chapter1.tex} source file. Many reference managers allow you to simply drag the reference into the document as you type.

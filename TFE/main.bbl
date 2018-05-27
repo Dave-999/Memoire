@@ -411,6 +411,41 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Hodge2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HN}{%
+         family={Hodge},
+         familyi={H\bibinitperiod},
+         given={N.E.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Ferencz},
+         familyi={F\bibinitperiod},
+         given={R.M.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Solberg},
+         familyi={S\bibinitperiod},
+         given={J.M.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HNFRSJ1}
+    \strng{fullhash}{HNFRSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{33\bibrangedash 51}
+    \field{title}{Implementation of a thermomechanical model for the simulation
+  of selective laser melting}
+    \field{volume}{54}
+    \field{journaltitle}{Computational Mechanics}
+    \field{year}{2014}
+  \endentry
+
   \entry{Hoeges}{online}{}
     \name{author}{1}{}{%
       {{hash=HS}{%
@@ -436,6 +471,22 @@
     \field{urlday}{12}
     \field{urlmonth}{04}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Inconel}{manual}{}
+    \list{organization}{1}{%
+      {Special Metals Corporation}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{INCONEL® alloy 718}
+    \verb{url}
+    \verb http://www.specialmetals.com/assets/smc/documents/inconel_alloy_718.p
+    \verb df
+    \endverb
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{MethArch}{article}{}
@@ -1059,7 +1110,6 @@
     \field{year}{2017}
   \endentry
 
-<<<<<<< HEAD
   \entry{Vrancken2016}{thesis}{}
     \name{author}{1}{}{%
       {{hash=VB}{%
@@ -1082,7 +1132,8 @@
     \field{type}{phdthesis}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
-=======
+  \endentry
+
   \entry{Wang2018}{article}{}
     \name{author}{4}{}{%
       {{hash=WL}{%
@@ -1127,7 +1178,6 @@
     \field{volume}{2018}
     \field{journaltitle}{Advances in Materials Science and Engineering}
     \field{year}{2018}
->>>>>>> 623a6be85801e8306a08164be19a28050d9830fd
   \endentry
 
   \entry{Eau}{book}{}
