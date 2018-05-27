@@ -121,7 +121,7 @@ Once the porosity problem is sorted out, other matters can be addressed such as 
 
 \section{As-built mechanical properties}
 \label{MMABMP}
-In a work of Kempen et al., it was concluded that as-built (AB) additively manufactured AlSi10Mg samples can have mechanical properties (Vickers hardness \textit{HV}, ultimate tensile stress $\sigma_u$ , fracture strain $\epsilon_f$ and impact energy) better or at least comparable to the conventionally casted and high pressure die casted (HPDC) alloy \parencite{KEMPEN2012439}. The tensile specimens built in an horizontal direction (XY) had slightly different characteristics than those built in the vertical direction (Z). The results obtained in the mentioned work are gathered in table \ref{tab:Kemp1}, along with other results and common cast AlSi10Mg properties. The best tensile properties measurements found on the web - both in terms of $\sigma_u$ and $\epsilon_f$ - were obtained by \textit{EOS} with $\rho_{rel} \simeq 99.85$ \parencite{EOS} ($\rho_b$ considered to be equal to 2.67 [$\frac{g}{cm^3}$]). Unfortunately, the process parameters values were omitted in sources \parencite{EOS} and \parencite{KEMPEN2012439}. The mechanical properties all lie in wide ranges. This illustrates the importance of mastering the process parameters.
+In a work of Kempen et al., it was concluded that as-built (AB) additively manufactured AlSi10Mg samples can have mechanical properties (Vickers hardness \textit{HV}, ultimate tensile stress $\sigma_u$ , fracture strain $\epsilon_f$ and impact energy) better or at least comparable to the conventionally casted and high pressure die casted (HPDC) alloy \parencite{KEMPEN2012439}. The tensile specimens built in an horizontal direction (XY) had slightly different characteristics than those built in the vertical direction (Z). The results obtained in the mentioned work are gathered in table \ref{tab:Kemp1}, along with other results and common cast AlSi10Mg properties. The mechanical properties all lie in wide ranges. This illustrates the importance of mastering the process parameters. The best tensile properties measurements found on the web - both in terms of $\sigma_u$ and $\epsilon_f$ - were obtained by \textit{EOS} with $\rho_{rel} \simeq 99.85$  ($\rho_b$ considered to be equal to 2.67 [$\frac{g}{cm^3}$]) \parencite{EOS}. Unfortunately, the manufacturing condtions were omitted in sources \parencite{EOS} and \parencite{KEMPEN2012439}.
 
  \begin{center}
 \begin{table}[ht]
@@ -150,7 +150,7 @@ In a work of Kempen et al., it was concluded that as-built (AB) additively manuf
 \end{table}
  \end{center}
  
-Furthermore, Wang et al. observed that preheating the manufacturing plate can have a tremendous impact on the mechanical properties \parencite{Wang2018}. This is due to the differences in thermal gradients between the substrate and the built samples, which induces residual stresses. Results obtained for a chessboard pattern are shown in table \ref{tab:Wang}.
+Furthermore, Wang et al. observed that preheating the manufacturing plate can have great impact on the mechanical properties \parencite{Wang2018}. This is due to the differences in thermal gradients between the substrate and the built samples, which induces residual stresses. Results obtained for a chessboard pattern are shown in table \ref{tab:Wang}. Residual stresses are discussed further in section \ref{EARSSP}.
 
  \begin{center}
 \begin{table}[ht]
@@ -170,13 +170,32 @@ Furthermore, Wang et al. observed that preheating the manufacturing plate can ha
 \end{table}
  \end{center}
 
-Source 19 pour fatigue.
-http://sci-hub.tw/https://link.springer.com/article/10.1007/s13632-014-0168-y
+SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-based alloy containing magnesium and silicon as major alloying elements. Its properties (after T6 treatment) are similar to its counterpart's as it is shown in table \ref{tab:6061}. It could thus be considered as an alternative for given applicationd. Fatigue properties of SLM AlSi10Mg where observed to be substantially poorer to the other material's: its lifetime was approximately one order of magnitude less for any applied stress amplitude (see figure \ref{Fat}) \parencite{MOWER2016198}. It was proven that the defects control the fatigue life. The defects giving rise to failure often locate near the surfaces of the samples. Polishing can thus better their fatigue strength but not systematically. \\
 
-Plein de données + fatigue
-http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463
- On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties\\
+ \begin{center}
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+    \hline
+    E [GPa] &$\sigma_y [MPa]$ &$\sigma_u$[MPa]&$\epsilon_f$[\%]&HV [HV] \\
+\hline
+\hline   
+    68.9 &276  & 310 &12 &107	\\
+    \hline
+
+\end{tabular}
+\caption[Mechanical properties of T6 treated Al6061 alloy]{Mechanical properties of T6 treated Al6061 alloy (from Aerospace Specification Metals Inc., 2000 \parencite{6061}) }
+\label{tab:6061}
+\end{table}
+ \end{center}
  
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=1]{Images/Fat}
+\decoRule
+\caption[Measured room-temperature stress-life (S–N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. ]{Measured room-temperature stress-life (S–N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. (from Todd Mower and Michael Long, 2016 \parencite{MOWER2016198}) .}
+\label{Fat}
+\end{figure} 
  
 % \begin{center}
 %\begin{table}[ht]
@@ -198,6 +217,7 @@ http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S01421123163
 % \end{center}
 
 \section{Residual stresses in SLM parts}
+\label{EARSSP}
 \textcolor{red}{Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.}\\
 
 After most manufacturing processes, the fabricated piece can present residual stresses, both in compression and tension. While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Indeed, uncontrolled internal stresses can cause unacceptable deformation of the piece, as well as premature failure, by facilitating the initiation of crack growth \cite{Vrancken2016}.\\
