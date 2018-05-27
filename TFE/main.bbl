@@ -233,6 +233,21 @@
     \field{year}{2016}
   \endentry
 
+  \entry{6061}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{{Aerospace Specification Metals Inc.},Aluminum 6061-T6;
+  6061-T651}
+    \verb{url}
+    \verb http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=ma6061t6
+    \endverb
+    \field{year}{2000}
+    \field{urlday}{27}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Brandl121509}{article}{}
     \name{author}{4}{}{%
       {{hash=BE}{%

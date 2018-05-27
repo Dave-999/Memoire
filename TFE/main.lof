@@ -10,15 +10,25 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Process window for SLM of AlSi10Mg, based on the front view of single track scans}}{7}{figure.caption.19}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands}}{8}{figure.caption.20}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Samples (static tensile) built in different directions: (a) $0^\circ $, (b) $45^\circ $, and (c) $90^\circ $}}{8}{figure.caption.21}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.8}{\ignorespaces 2D plot of vertical internal stresses measured by the contour method at mid-height, in a vertically-built parallelipiped Inconel718 sample. Vertical stresses are null along the dashed line.}}{11}{figure.caption.26}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not}}{12}{figure.caption.27}
+=======
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Measured room-temperature stress-life (S\IeC {\textendash }N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. }}{10}{figure.caption.26}
+>>>>>>> 263383d054bd0108baeb0904a83c1c578bc6f17e
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces ProX DMP 200 printer}}{13}{figure.caption.35}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Melt pool contours with and without laser compensation (exaggeration)}}{14}{figure.caption.36}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Laser compensations as a function of the scanning speed (as recommended by the manufacturer)}}{15}{figure.caption.37}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimen}}{15}{figure.caption.38}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic representation of the hexagonal pattern scanning strategy}}{16}{figure.caption.39}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Screen capture of the laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$}}{16}{figure.caption.40}
+=======
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimen}}{16}{figure.caption.38}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic representation of the hexagonal pattern scanning strategy}}{16}{figure.caption.39}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Screen capture of the laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$}}{17}{figure.caption.40}
+>>>>>>> 263383d054bd0108baeb0904a83c1c578bc6f17e
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Screen capture of the laser path for a cylindric sample (a) with contour scanning strategy (b) without contour scanning strategy}}{17}{figure.caption.41}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}.}}{20}{figure.caption.49}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic representation of the Vickers hardness test}}{22}{figure.caption.57}

@@ -7,8 +7,13 @@
 \contentsline {section}{\numberline {2.2}AlSi10Mg alloy}{5}{section.16}
 \contentsline {section}{\numberline {2.3}Fabrication process parameters}{5}{section.17}
 \contentsline {section}{\numberline {2.4}As-built mechanical properties}{9}{section.22}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{10}{section.25}
 \contentsline {section}{\numberline {2.6}Post treatments}{12}{section.28}
+=======
+\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{10}{section.27}
+\contentsline {section}{\numberline {2.6}Post treatments}{11}{section.28}
+>>>>>>> 263383d054bd0108baeb0904a83c1c578bc6f17e
 \contentsline {chapter}{\numberline {3}Materials and methods}{13}{chapter.29}
 \contentsline {section}{\numberline {3.1}Powder follow-up}{13}{section.30}
 \contentsline {subsection}{\numberline {3.1.1}Sieving}{13}{subsection.31}
