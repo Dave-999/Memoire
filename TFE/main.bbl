@@ -249,14 +249,15 @@
   \endentry
 
   \entry{ASTM}{manual}{}
-    \list{organization}{1}{%
-      {ASTM International}%
-    }
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{title}{ASTM E837-13a, Standard Test Method for Determining Residual
   Stresses by the Hole-Drilling Strain-Gage Method}
+    \verb{url}
+    \verb http://www.astm.org/
+    \endverb
+    \field{year}{2013}
   \endentry
 
   \entry{Brandl121509}{article}{}
