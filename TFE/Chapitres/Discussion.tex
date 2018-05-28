@@ -77,7 +77,27 @@ The RODIA results for zones A and B are outlined in table \ref{tab:RODIASS}. It 
 
 Taking pictures at refined magnification could be considered to better the precision of the method. This would, however, require to augment the number of analysed pictures to have a sample of pictures as representative. A picture with doubled magnification covers indeed four times less surface. The number of analyses should thus be quadrupled to take as much information into account.\\
 
-[PARLER AUSSI DE L'APPROX de FRACTION SURFACIQUE DES PORES = A LA VOLUMIQUE]
+RODIA method required to make the assumption that the volumetric porosity fraction is equal the surface one. The dependability of this affirmation will now be discussed. Let us consider a cubic cell of side length D containing a spheric porosity of diameter D in its center (see figure \ref{fig:DDD}). The volumetric porosity fraction $f_v$ is:\\
+
+$$f_v = \frac{\frac{\pi D^3}{6}}{D^3}= \frac{\pi}{6}$$
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.64]{Images/DDD}}
+	\decoRule
+	\caption[Schematic of a spheric porosity of diameter D in a cubic cell of size length D]{Schematic of a spheric porosity of diameter D in a cubic cell of size length D}
+	\label{fig:DDD}
+\end{figure}
+
+However, the surface porosity fraction depends on the observed pore diameter $D_{obs}$ which varies with the z coordinate of the surface plane crossing it: $\frac{D_{obs}(z)}{2}=\sqrt{(\frac{D}{2})^2-z^2}$. If we assume that there is a statistically significant number of pores of similar size, one can make the hypothesis that - in average - the observed diameter is the mean diameter $D_{mean}$:\\
+
+$$ \frac{D_{mean}}{2}= \frac{\int_{-\frac{D}{2}}^\frac{D}{2} D_{obs}(z) dz}{D}=\frac{\pi D}{8}$$
+
+This hypothesis is quiet coherent for small pores but not  for the largest: in most cases, a very small number of pores is significantly bigger than the others. If we assume it to be true, the surface porosity fraction $f_s$ can be computed as follows:
+
+$$f_s=\frac{\frac{\pi D_{mean}^2}{4}}{D^2}=\frac{\pi^2}{16 \cdot 4} \simeq 0.9253 f_v$$
+
+It can thus be concluded that the method to measure the relative density is slightly intrinsically positively biased. The greater the porosity is, the bigger the bias. In the working range of $\rho_{rel}$ of this work, they can go from 0.01 to 0.03 [\%]. Combining this with the bias induced by the measures imperfections, one can conclude that RODIA should be used as a mean to estimate an upper limit for the relative densities.
 
 \section{Density and hardness study}
 
