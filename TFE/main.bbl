@@ -248,6 +248,17 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{ASTM}{manual}{}
+    \list{organization}{1}{%
+      {ASTM International}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{ASTM E837-13a, Standard Test Method for Determining Residual
+  Stresses by the Hole-Drilling Strain-Gage Method}
+  \endentry
+
   \entry{Brandl121509}{article}{}
     \name{author}{4}{}{%
       {{hash=BE}{%
@@ -385,6 +396,21 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{G2MT}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{G2MT Laboratories - Residual Stress Measurement by Center
+  Hole Drilling per ASTM E 837}
+    \verb{url}
+    \verb http://www.g2mtlabs.com/residual-stress-measurement-rosette-hole-dril
+    \verb ling-astm-837/
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Haase}{article}{}
     \name{author}{4}{}{%
       {{hash=HC}{%
@@ -485,6 +511,30 @@
     \field{year}{2017}
     \field{urlday}{12}
     \field{urlmonth}{04}
+    \field{urlyear}{2018}
+  \endentry
+
+  \entry{Openuni}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HF}{%
+         family={Hosseinzadeh},
+         familyi={H\bibinitperiod},
+         given={Foroogh},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HF1}
+    \strng{fullhash}{HF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Research activity}
+    \verb{url}
+    \verb http://technology.open.ac.uk/materials/staff/Staff_fh-2.htm
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{05}
     \field{urlyear}{2018}
   \endentry
 
@@ -1077,6 +1127,19 @@
     \field{volume}{14}
     \field{journaltitle}{Additive Manufacturing}
     \field{year}{2017}
+  \endentry
+
+  \entry{LANL}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{The Contour Method for Measuring Residual Stress}
+    \verb{url}
+    \verb http://www.lanl.gov/contour/
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{UZAN2017229}{article}{}
