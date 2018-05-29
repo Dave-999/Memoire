@@ -22,7 +22,7 @@ for i=1:10000
     end
 end
 
-plot(epsilon_1,sigma_1)
+%plot(epsilon_1,sigma_1)
 
 hold on
 
@@ -56,7 +56,7 @@ for i=100:10000
     break;
     end
 end
-plot(epsilon_3,sigma_3)
+%plot(epsilon_3,sigma_3)
 
 d_o_16= xlsread('X200-180417-16.xls','Résultats X200-18...','H3')/1000;
 F_16 = xlsread('X200-180417-16.xls','Valeurs X200-1804...','C4:C13460');
@@ -72,7 +72,7 @@ for i=100:10000
     break;
     end
 end
-plot(epsilon_16,sigma_16)
+%plot(epsilon_16,sigma_16)
 
 d_o_17= xlsread('X200-180417-17.xls','Résultats X200-18...','H3')/1000;
 F_17 = xlsread('X200-180417-17.xls','Valeurs X200-1804...','C4:C13460');
@@ -88,7 +88,8 @@ for i=100:10000
     break;
     end
 end
-plot(epsilon_17,sigma_17)
+%plot(epsilon_17,sigma_17)
+
 
 d_o_A= xlsread('X200-180417-A.xls','Résultats X200-18...','H3')/1000;
 F_A= xlsread('X200-180417-A.xls','Valeurs X200-1804...','C4:C13460');
@@ -104,7 +105,7 @@ for i=1:5000
     break;
     end
 end
-plot(epsilon_A,sigma_A)
+%plot(epsilon_A,sigma_A)
 
 d_o_4= xlsread('X200-180417-4.xls','Résultats X200-18...','H3')/1000;
 F_4 = xlsread('X200-180417-4.xls','Valeurs X200-1804...','C4:C13460');
@@ -136,7 +137,7 @@ for i=1:10000
     break;
     end
 end
-semilogx(epsilon_5,sigma_5)
+%semilogx(epsilon_5,sigma_5)
 
 d_o_6= xlsread('X200-180417-6.xls','Résultats','H3')/1000;
 F_6 = xlsread('X200-180417-6.xls','X200-180417-6','C4:C13460');
@@ -152,7 +153,7 @@ for i=1:5000
     break;
     end
 end
-plot(epsilon_6,sigma_6)
+%plot(epsilon_6,sigma_6)
 
 d_o_7= xlsread('X200-180417-7.xls','Résultats X200-18...','H3')/1000;
 F_7 = xlsread('X200-180417-7.xls','Valeurs X200-1804...','C4:C13460');
@@ -168,7 +169,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_7,sigma_7)
+%plot(epsilon_7,sigma_7)
 
 d_o_8= xlsread('X200-180417-8.xls','Résultats X200-18...','H3')/1000;
 F_8= xlsread('X200-180417-8.xls','Valeurs X200-1804...','C4:C13460');
@@ -184,7 +185,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_8,sigma_8)
+%plot(epsilon_8,sigma_8)
 
 d_o_9= xlsread('X200-180417-9.xls','Résultats X200-18...','H3')/1000;
 F_9= xlsread('X200-180417-9.xls','Valeurs X200-1804...','C4:C13460');
@@ -200,7 +201,7 @@ for i=1:5000
     break;
     end
 end
-plot(epsilon_9,sigma_9)
+%plot(epsilon_9,sigma_9)
 
 d_o_10= xlsread('X200-180417-10.xls','Résultats X200-18...','H3')/1000;
 F_10= xlsread('X200-180417-10.xls','Valeurs X200-1804...','C4:C13460');
@@ -216,7 +217,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_10,sigma_10)
+%plot(epsilon_10,sigma_10)
 
 d_o_11= xlsread('X200-180417-11.xls','Résultats X200-18...','H3')/1000;
 F_11= xlsread('X200-180417-11.xls','Valeurs X200-1804...','C4:C13460');
@@ -232,7 +233,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_11,sigma_11)
+%plot(epsilon_11,sigma_11)
 
 d_o_B= xlsread('X200-180417-B.xls','Résultats X200-18...','H3')/1000;
 F_B= xlsread('X200-180417-B.xls','Valeurs X200-1804...','C4:C13460');
@@ -248,7 +249,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_B,sigma_B)
+%plot(epsilon_B,sigma_B)
 
 d_o_13= xlsread('X200-180417-13.xls','Résultats X200-18...','H3')/1000;
 F_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','C4:C13460');
@@ -264,7 +265,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_13,sigma_13)
+%plot(epsilon_13,sigma_13)
 
 d_o_14= xlsread('X200-180417-14.xls','Résultats X200-18...','H3')/1000;
 F_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','C4:C13460');
@@ -280,7 +281,7 @@ for i=1:10000
     break;
     end
 end
-plot(epsilon_14,sigma_14)
+%plot(epsilon_14,sigma_14)
 
 
 
@@ -313,7 +314,9 @@ UTS_AB=mean([UTS_1 UTS_2 UTS_16 UTS_17 UTS_A])
 epsilon_f_AB=mean([epsilon_f_1 epsilon_f_2 epsilon_f_16 epsilon_f_17 epsilon_f_A])
 n=log(UTS_AB/sigma_y_AB)/log(500*epsilon_f_AB)
 figure
-plot(linspace(0,epsilon_f_AB,500),interp1(0.01*[0 0.45347 0.64176 1.02951 1.76269 2.18 100*epsilon_f_AB],[0 239.97 272.67 309.01 345.34*1.02 368.7 381.68],linspace(0,epsilon_f_AB,500),'spline'))
+epsilon_AB=linspace(0,epsilon_f_AB,500)
+sigma_AB=interp1(0.01*[0 0.45347 0.64176 1.02951 1.76269 2.18 100*epsilon_f_AB],[0 239.97 272.67 309.01 345.34*1.02 368.7 381.68],linspace(0,epsilon_f_AB,500),'pchip');
+plot(epsilon_AB,sigma_AB)
 % sigma_AB=linspace(0,UTS_AB,500)
 % epsilon_AB=zeros(500,1)
 % for i=1:500
@@ -322,7 +325,19 @@ plot(linspace(0,epsilon_f_AB,500),interp1(0.01*[0 0.45347 0.64176 1.02951 1.7626
 % figure
 % plot(epsilon_AB,sigma_AB)
 hold on
+%[x, index] = unique(epsilon_2); 
+%sigma_2b = interp1(x, sigma_2(index),epsilon_2); 
+%p=polyfit(epsilon_2,sigma_2b,30)
+%pe=fit(epsilon_2,sigma_2b,'pchipinterp')
+%sigma_e=184*exp(37.78*epsilon_2)
+%sigsig=polyval(p,epsilon_2)
+%dp=polyder(p)
+%dsigsig=polyval(dp,epsilon_2)
+dsigma_AB=diff(sigma_AB)./diff(epsilon_AB)
+plot(epsilon_AB(2:end),dsigma_AB)
+%plot(epsilon_2(1:end),dsigsig)
 
+figure
 %150
 
 E_150=mean([E_13 E_14 E_B])
