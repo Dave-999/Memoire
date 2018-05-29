@@ -196,7 +196,12 @@ An optimal threshold was sought for porosities isolation so as to include only h
 \subsubsection{Scanning electron microscopy}
 
 \subsubsection{Optical microscopy}
-Mesures Taille de bains
+\label{MMOM}
+Mesures Taille de bains:
+
+
+In order to make the identification of the melt pools boundaries possible, the samples underwent the polishing routine detailed in table \ref{tab:pol}. They were then etched with	a Keller's reagent. It is a popular etchant containing hydrochloric acid, hydrofluoric acid and nitric acid diluted in distilled water. [Attaque préférentielle->distinction à l'optique][ + ImageJ] As SLM involves melt pools overlapping to ensure consolidation, one cannot measure the actual original melt pools dimensions. The method has thus only been used   as a tool to compare samples.
+
 Densité
 Autre chose?
 \subsection{Composition}
@@ -222,7 +227,7 @@ Vickers hardness measurements were made with a \textit{Wolpert Dia-Testor 2RC} t
 Three to ten tests were made for each sample and the mean diagonal length value was computed for every test. The corresponding Vickers hardness values $H_v$ could then be estimated by means of a conversion table (see \ref{AppendixB}).\\
 
 \subsubsection{Tensile tests}
-
+\label{MMTT}
 The tensile tests were performed on a \textit{RetroLine testControl II} screw-driven electro-mechanical testing system manufactured by \textit{Zwick Roell}. It works in the following manner:
 
 \begin{itemize}
@@ -279,11 +284,7 @@ On the basis of the stress-strain curve, the following characteristics could be 
 
 \begin{itemize}
 
-\item The Young's modulus E: it is used to characterize the stiffness of a material. The tested specimen first deforms elastically, which corresponds to a linear strain-strain relationship. The slope value for the corresponding part of the curve is  E. It is found with:
-
-$$E=\frac{\sigma_{eng}(\epsilon_b)-\sigma_{eng}(\epsilon_a)}{\epsilon_b-\epsilon_a}$$
-
-where strains $\epsilon_a$ and $\epsilon_b$ are respectively equal to 0 and $\simeq 0.1$[\%].
+\item The Young's modulus E: it is used to characterize the stiffness of a material. The tested specimen first deforms elastically, which corresponds to a linear strain-strain relationship. The slope value for the corresponding part of the curve is  E. It is found via numerical linear regression in the $\epsilon_{eng}$ between 0 and $\simeq 0.1$[\%].
 
 \item The elastic limit $\sigma_y$: it is the $\sigma_{eng}$ at which the plastic strain (non-linear) becomes non negligible. The 0.2 [\%] criterion was used. In this manner, $\sigma_y$ is found as the intersection of the stress-strain curve with the line of slope E passing through point ($\epsilon,\sigma$)=($0.2 [\%],0 [MPa]$).
 
