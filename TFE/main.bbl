@@ -34,6 +34,56 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{ABOULKHAIR2016bis}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ANT}{%
+         family={Aboulkhair},
+         familyi={A\bibinitperiod},
+         given={Nesma\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maskery},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ENM}{%
+         family={Everitt},
+         familyi={E\bibinitperiod},
+         given={Nicola\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTMITCAIENM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{174 \bibrangedash  182}
+    \field{title}{Improving the fatigue behaviour of a selectively laser melted
+  aluminium alloy: Influence of heat treatment and surface quality}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0264127516306426
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{Mater. Des.}
+    \field{year}{2016}
+  \endentry
+
   \entry{aboulkhair2016}{article}{}
     \name{author}{5}{}{%
       {{hash=ANT}{%

@@ -246,7 +246,16 @@ As shown in Fig. \ref{fig:rs_section}, residual stresses can be measured by the 
 
 A common semi-destructive method is the center-hole drilling. A strain gauge rosette is arranged around a circular area with a diameter of a couple millimetres on a part face. In this area is progressively drilled a shallow cylindrical hole, increment by increment. The new surfaces formed enable the surrounding material to relax, deforming the hole. The strain gauges note this deformation for each increment. By using the ASTM E837-13a standard \cite{ASTM}, those distortions enable us to calculate the residual stresses present in the area before drilling. This method displays practical advantages, such as its speed, versatility in term of materials and its ability to do on-site measurements \cite{G2MT}. \\
 
-A fairly recent destructive technique is the contour method. Developed in the early 2000s by Los Alamos National Laboratory \cite{LANL}.The first step, which makes this technique destructive, requires to cut the part in two. The final result of the method will be the 2D distribution of residual stresses on the cross-section we just obtained. This new free surface will enable the material to deform and relax some of its stresses. The "contour", or shape, of this distorted surface is then measured, by using, for example, a Coordinate Measuring Machine. Then comes the analytical part: a 3D finite-element model of the undeformed cut part is realised. The strain opposite to the one measured with the CMM is then applied to this model as a boundary condition, as if we forced the deformed surface back flat. Processing the finite-element results finally gives the stress distribution of the cross section.\\
+A fairly recent destructive technique is the contour method. Developed in the early 2000s by Los Alamos National Laboratory \cite{LANL}.The first step, which makes this technique destructive, requires to cut the part in two. The final result of the method will be the 2D distribution of residual stresses on the cross-section we just obtained. This new free surface will enable the material to deform and relax some of its stresses. The "contour", or shape, of this distorted surface is then measured, by using, for example, a Coordinate Measuring Machine. Then comes the analytical part: a 3D finite-element model of the undeformed cut part is realised. The strain opposite to the one measured with the CMM is then applied to this model as a boundary condition, as if we forced the deformed surface back flat. Processing the finite-element results finally gives the stress distribution of the cross section. A visual representation of this calculation is shown in Fig.\ref{fig:contour_meth}\\
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.60]{Images/contour_meth}
+	\decoRule
+	\caption[Thought process of the contour method analytical step]{Thought process of the contour method analytical step: (a)finite-element model of the undeformed part, (b) measured contour of the real part, (c) inversion of strain, (d) application of the strain to the model, (e)resulting stresses in the model, (f) residual stresses normal to the cross section before cutting \parencite{LANL}.}
+	\label{fig:contour_meth}
+\end{figure}
+
 
 Even though many process parameters influence the amount of residual stresses in the cooled part, reliable quantitative relations are difficult to obtain. On top of that, phenomena specific to the material used, such as the formation of precipitates or allotropic transformations, restrain us from applying what is known about the process from one material to another. However, the parameter with the most obvious consequences on residual stresses is the powder bed preheating. While it indeed reduces the thermal gradient around the melt pool, and thus reduces internal stresses as well, it is suggested that the lower yield strength at higher temperature is the strongest stress-reducing effect \cite{Vrancken2016}. \\
 
@@ -281,9 +290,21 @@ Impact sur fatigue:
 https://www.sciencedirect.com/science/article/pii/S0264127516306426
 
 Plein de données de littérature
-http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463
+http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463 \\
 
-Unfortunately, although they can be attenuated, as we discussed above, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process.
+Unfortunately, although they can be attenuated, as we discussed above, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process. An important part of the literature on SLM alloys has simply studied the effects of those classical heat treatments on AM alloys.\\
+
+If the aim is to remove residual stresses, the go-to treatment is an annealing at 300$\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature unfortunately,
+
+A very common heat treatment 
+
+HIP
+
+Shot-peening
+
+Lastly, another well-known defect of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength, because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower and al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair and al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. Although machining the surface does indeed reduce its roughness, but can also expose buried porosities at the same time, which make sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts.\\
+
+As we saw, 
 
 %Recherches biblio....
 %\section{Comment référencer?}
