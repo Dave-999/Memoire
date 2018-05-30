@@ -170,7 +170,8 @@ Furthermore, Wang et al. observed that preheating the manufacturing plate can ha
 \end{table}
  \end{center}
 
-SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-based alloy containing magnesium and silicon as major alloying elements. Its properties (after T6 treatment) are similar to its counterpart's as it is shown in table \ref{tab:6061}. It could thus be considered as an alternative for given applications. Fatigue properties of SLM AlSi10Mg where observed to be substantially poorer to the other material's: its lifetime was approximately one order of magnitude less for any applied stress amplitude (see figure \ref{Fat}) \parencite{MOWER2016198}. It was proven that defects control its fatigue life. The defects giving rise to failure often locate near the surfaces of the samples. Polishing can thus better their fatigue strength (but not systematically). \\
+SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-based alloy containing magnesium and silicon as major alloying elements. Its properties (after T6 treatment) are similar to its counterpart's as it is shown in table \ref{tab:6061}. It could thus be considered as an alternative for given applications. Fatigue properties of SLM AlSi10Mg where observed to be substantially poorer to the other material's: its lifetime was approximately one order of magnitude less for any applied stress amplitude (see figure \ref{Fat}) \parencite{MOWER2016198}. It was proven that defects control its fatigue life. The defects giving rise to failure often locate near the surfaces of the samples. %Polishing can thus better their fatigue strength (but not systematically). 
+\\
 
  \begin{center}
 \begin{table}[ht]
@@ -294,9 +295,29 @@ http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S01421123163
 
 Unfortunately, although they can be attenuated, as we discussed above, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process. An important part of the literature on SLM alloys has simply studied the effects of those classical heat treatments on AM alloys.\\
 
-If the aim is to remove residual stresses, the go-to treatment is an annealing at 300$\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature unfortunately,
+If the aim is to remove residual stresses, the go-to treatment is an annealing at 300$\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature, unfortunately. Its qualitative effect on the mechanical properties of AM parts is pretty well known and consistent in the literature, at least compared to other treatments, as we will see below. A summary of its effects is presented in Fig. \ref{mech_annealing}\cite{PRASHANTH14}, for different temperatures. Because, of course, the annealing temperature can be varied to obtain a wide spectre of properties, in order to be better suited for new applications. This treatment reduces strength, both ultimate and yield, while increasing ductility, and this effect is reinforced with rising temperature (at least, below 500$^\circ$C). \\
 
-A very common heat treatment 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.30]{Images/mech_annealing}
+	\decoRule
+	\caption[Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not]{(a) True strain-stress curves for an AB sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties (from Prashanth et al., 2014 \parencite{PRASHANTH14}).}
+	\label{fig:mech_annealing}
+\end{figure}
+
+Mertens and al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours: with only a loss of 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%.
+
+A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$\circ$C for a variable duration, followed by a water quenching to room temperature, and finally artificial ageing for several hours between 150 and 190$\circ$C. When applied to conventionally processed materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally enables them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair and al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment, and observe a softening rather than hardening. They suggest that it is due to the distinct starting microstructure between the two. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs, in fact, the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
+
+\begin{table}[ht]
+		\centering
+			\includegraphics[scale=0.70]{Images/ABvsT6}
+			\decoRule
+		\caption[Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state] {Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, compared to their as-built state (from Aboulkhair and al., 2016 \parencite{ABOULKHAIR2016139}).}
+		\label{tab:ABvsT6}
+\end{table}
+
+Yet, the time and temperature parameters during the solutionizing and the ageing seem to remains important, if one hope to be able to predict final properties of the treated part. Indeed, according to Mertens and al. (2015)\cite{mertens15}, a T6-like treatment can result in, an increase of ductility of course, but also yield strength. To be complete, they obtained a decrease of hardness by 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break by220\% and of yield strength by 30\%. Those differences could find their explanation in the distinct process parameters: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens and al. (2015)\cite{mertens15}, compared with 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
 
 HIP
 

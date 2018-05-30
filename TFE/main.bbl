@@ -134,6 +134,53 @@
     \field{year}{2016}
   \endentry
 
+  \entry{aboulkhair2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ANT}{%
+         family={Aboulkhair},
+         familyi={A\bibinitperiod},
+         given={Nesma\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maskery},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ENM}{%
+         family={Everitt},
+         familyi={E\bibinitperiod},
+         given={Nicola\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTMITCAIENM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{3337 \bibrangedash  3341}
+    \field{title}{On the Precipitation Hardening of Selective Laser Melted
+  AlSi10Mg}
+    \field{volume}{46}
+    \field{journaltitle}{Metall. Mater. Trans. A}
+    \field{year}{2015}
+  \endentry
+
   \entry{Aboulkair140820}{article}{}
     \name{author}{4}{}{%
       {{hash=ANT}{%
@@ -501,6 +548,19 @@
     \field{volume}{10(1)}
     \field{journaltitle}{Materials}
     \field{year}{2017}
+  \endentry
+
+  \entry{T6}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Heat treating of aluminum and aluminum alloys}
+    \verb{url}
+    \verb https://www.totalmateria.com/page.aspx?ID=CheckArticle&site=ktn&NM=7
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Hodge2014}{article}{}
@@ -911,6 +971,56 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Mertens15}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=MA}{%
+         family={Mertens},
+         familyi={M\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DO}{%
+         family={Dedry},
+         familyi={D\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reuter},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Rigo},
+         familyi={R\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LBJ}{%
+         family={Lecomte-Beckers},
+         familyi={L\bibinitperiod-B\bibinitperiod},
+         given={Jacqueline},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MADORDROLBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the 26th International Solid Freeform
+  Fabrication Symposium}
+    \field{pages}{1007\bibrangedash 1016}
+    \field{title}{Thermal Treatments of AlSi10Mg Processed by Laser Beam
+  Melting}
+    \list{location}{1}{%
+      {Austin, TX}%
+    }
+    \field{year}{2015}
+  \endentry
+
   \entry{Mertens170406}{article}{}
     \name{author}{3}{}{%
       {{hash=MAI}{%
@@ -1022,6 +1132,64 @@
     \field{volume}{126}
     \field{journaltitle}{Acta Materialia}
     \field{year}{2017}
+  \endentry
+
+  \entry{PRASHANTH14}{article}{}
+    \name{author}{9}{}{%
+      {{hash=PK}{%
+         family={Prashanth},
+         familyi={P\bibinitperiod},
+         given={K.G.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=S}{%
+         family={S.Scudino},
+         familyi={S\bibinitperiod},
+      }}%
+      {{hash=H}{%
+         family={H.J.Klauss},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={K.B.Surreddi},
+         familyi={K\bibinitperiod},
+      }}%
+      {{hash=L}{%
+         family={L.Löber},
+         familyi={L\bibinitperiod},
+      }}%
+      {{hash=Z}{%
+         family={Z.Wang},
+         familyi={Z\bibinitperiod},
+      }}%
+      {{hash=A}{%
+         family={A.K.Chaubey},
+         familyi={A\bibinitperiod},
+      }}%
+      {{hash=U}{%
+         family={U.Kühn},
+         familyi={U\bibinitperiod},
+      }}%
+      {{hash=J}{%
+         family={J.Eckert},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PK+1}
+    \strng{fullhash}{PKSHKLZAUJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{pages}{153\bibrangedash 160}
+    \field{title}{Microstructure and mechanical properties of Al–12Si
+  produced by selective laser melting:Effect of heat treatment}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0921509313011180
+    \endverb
+    \field{volume}{590}
+    \field{journaltitle}{Mater. Sci. Eng. A}
+    \field{year}{2014}
   \endentry
 
   \entry{Read150417}{article}{}
