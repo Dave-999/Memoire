@@ -274,8 +274,10 @@ Densite = [99.33 99.77 99.77;99.52 99.32 99.51;99.29 99.49 99.68;99.24 99.49 99.
 errorbar([0.77 1 1.23;1.77 2 2.23;2.77 3 3.23;3.77 4 4.23;4.77 5 5.23;],Densite,[0.019 0.1 0.09; 0.065 0.17 0.13; 0.029 0.11 0.11; 0.059 0.19 0.10; 0.066 0.12 0.08],'o');
 %errorbar([1 2 3 4 5],Archp,[0.1,0.17,0.11,0.19,0.12],'o');
 set(gca, 'XTick', 1:5,'XTickLabel',{'7c';'7h';'7m';'7n';'7o'});
+xlabel('Sample name')
+ylabel('Relative density [%]')
 ylim([99 100])
-legend('Archimède "as built"', 'Archimède après polissage', 'Microscope optique');
+legend('HW (AB)', 'HW (after polishing)', 'RODIA');
 %set(gca,'xticklabel',{'7c';'7h';'7m';'7n';'7o'})
 
  %scatter(

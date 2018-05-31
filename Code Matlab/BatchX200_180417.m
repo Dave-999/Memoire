@@ -1,4 +1,4 @@
-cloa%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %% BATCH X200-180417-- Memoire %%
 %%%%%%%%%%%%%%%%%%%%%%%
 %Script permettant d'afficher divers graphes renseignant à propos de
