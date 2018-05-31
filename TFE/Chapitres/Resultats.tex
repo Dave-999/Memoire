@@ -31,7 +31,16 @@ The composition of a sample of fresh powder was estimated through inductively co
 
 
 \subsubsection{Recycled powder}
-Faire graphe avec barres d'erreurs
+
+\begin{figure}[ht]
+\centering
+\noindent\makebox[\textwidth]{\includegraphics[scale=0.5]{Images/Compo}}
+\decoRule
+\caption[...(a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction]{...(a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}
+\label{fig:Compo}
+\end{figure} 
+
+
  \begin{center}
 \begin{table}[ht]
 \noindent\makebox[\textwidth]{\begin{tabular}{|c|c |c |c| c|}
@@ -222,6 +231,35 @@ The apparent relative densities, Vickers hardnesses and the corresponding 95 \% 
 
 Only one trend can be noted: the density of the ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$) samples appears to be larger for later scanning. However, this doesn't help understanding the poorer properties measured for samples with the same parameters in batch X200-171024 as they were precisely the last scanned. \\
 
+\subsubsection{Powder influence}
+
+The hardnesses and relative densities of samples manufactured using the optimised parameters ($P=75\% P_{max}$ ; $v_s=1200 [\frac{mm}{sec}]$) were monitored throughout this whole work. In this way, it was possible to study the impact of the powder ageing. Control cubes of dimensions 10x10x10 [$mm^3$] were produced in multiple batches for that purpose. The average measurements for those samples are gathered in table \ref{tab:control}. Detailed information is given in appendix \ref{AppendixA}.\\
+
+ \begin{center}
+\begin{savenotes}
+ \begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c|c|c |c |c|}
+    \hline
+    Batch & $\overline{\rho_{a,rel}}$ \footnote{Measured by HW (AB)} [\%]  & $\overline{\rho_{a,rel}}$ \footnote{Measured by HW (polished)} [\%]  & $\overline{\rho_{rel}}$ \footnote{Measured by RODIA} [\%]  & $\overline{H_v}$ [HV]\\
+
+\hline
+\hline   
+    X200-171024&99.42 & - & - & 137.7 \\
+    X200-170109&99.40 & 99.51  & 99.59 & 139.9 \\
+    X200-170319&- &  99.75  & 99.84 & 139.8 \\
+    X200-170417&- &  99.47  & 99.67 & 136.0 \\
+\hline
+\end{tabular}}
+
+\caption[Average hardness and relative density measurements for the control cubes of each batch]{Average hardness and relative density measurements for the control cubes of each batch}
+\label{tab:control}
+\end{table}
+\end{savenotes}
+ \end{center}
+
+Samples from batches X200-18022 and X200-180228 are not included in this section. In those cases, fresh steamed powder was used, which induced high porosity in the produced parts. The most reasonable explanation is that the powder processing caused the formation of aggregates. This was not investigated further, and only recycled powder was employed thereafter. Table \ref{taqb:control} indicates that the relative density peaked with batch X200-170419. It dropped slightly afterwards with batch X200-170417. Hardness also decreased - more significantly - with this last batch.\\
+
+
 \subsection{Homogeneity}
 As said in section \ref{MMFPP}, all tensile specimens were fabricated vertically. Their height is significantly greater than the other samples'; respectively 6 [cm], and 1 [cm] or less. It was chosen to cut up specimen X200-180417-25 into slices to measure if the density and hardness were homogeneous along the Z direction in the material. The surfaces analysed were named according to their original Z position in the specimen with "B", "C1" , "C2", "C3" and "T" (for bottom, center and top) and to the test done with a letter "D" or "H"  (for density and hardness). The denomination is summarised in figure \ref{fig:saus}.\\
 
@@ -331,13 +369,15 @@ The average tensile properties of the as-built specimens are displayed in table 
 \label{tab:tracMAB}
 \end{table}
  \end{center}
+ 
+Very similar behaviours were observed for samples with and without contour scanning strategy. No distinction shall thus be made between the two in what follows. Stress-strain curve for specimen X200-180417-1 was non-linear before the plasticity regime started. This is due to slippage in the grips. The obtained Young's modulus for the test was thus not taken into account for the computation of the average value.\\
+
+No necking phenomena was observed among all tensile tests for AB samples. The Considere criterion was used for the detection of plastic instability. It states that necking starts at $\frac{d\sigma_{true}}{d\epsilon_{true}}=\sigma$, which is equivalent to $\frac{d\sigma_{eng}}{d\epsilon_{eng}}=0$. This condition was not satisfied for any AB engineering stress-strain curve.\\
+ 
 \section{Characterisation of the heat-treated samples}
 \label{RCHTS}
 \subsection{Microstructure}
-Very similar behaviours were observed for samples with and without contour scanning strategy. No distinction shall thus be made between the two in what follows. Stress-strain curve for specimen X200-180417-1 was non-linear before the plasticity regime started. This is due to slippage in the grips. The obtained Young's modulus for the test was thus not taken into account for the computation of the average value.\\
 
-No necking phenomena was observed among all tensile tests for AB samples. The Considere criterion for the detection of plastic instability was used. It states that necking starts at $\frac{d\sigma_{true}}{d\epsilon_true}=\sigma$, which is equivalent to $\frac{d\sigma_{eng}}{d\epsilon{eng}}=0$. This condition was not satisfied for any AB engineering stress-strain curve.\\
- 
 \subsection{Residual stresses}
 
 \subsection{Mechanical properties}

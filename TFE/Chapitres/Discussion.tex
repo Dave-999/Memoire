@@ -9,12 +9,8 @@ Que conclure d'après les résultats?
 
 \section{Density measures assessments}
 \label{DDMA}
-\subsection{Measures comparison}
+
 %\subsection{Hydrostatic weighing}
-
-Several methods were used to measure the densities of the specimens throughout this work: hydrodensimetry (both with and without preliminary polishing) and RODIA. The different techniques were performed on a few specimens in order to draw a comparison of the results and reach a deeper understanding of the methods reliability. The results are gathered on figures ....\\
-
-One can expect the first option to reduce the risks of air trapping by the surface roughness during the underwater weighing, which can distort the results (by overestimating the closed porosities volume). %to observe potential inhomogeneous distributions of the closed porosities in the specimens.
 
 
 \subsection{Relative optical density image analysis}
@@ -98,6 +94,29 @@ This hypothesis is quiet coherent for small pores but not  for the largest: in m
 $$f_s=\frac{\frac{\pi D_{mean}^2}{4}}{D^2}=\frac{\pi^3}{16 \cdot 4} \simeq 0.9253 f_v$$
 
 It can thus be concluded that the method to measure the relative density is slightly intrinsically positively biased. The greater the porosity is, the bigger the bias. In the working range of $\rho_{rel}$ of this work, they can go from 0.01 to 0.03 [\%]. Combining this with the bias induced by the measures imperfections, one can conclude that RODIA should be used as a mean to estimate an upper limit for the relative densities.
+
+\subsection{Measures comparison}
+Some samples' densities were also measured through hydrostatic weighing (both with and without preliminary polishing). Multiple techniques were performed on the same few specimens in order to draw a comparison of the results and reach a deeper understanding of the methods reliability. The results are gathered on figures \ref{fig:7comp} and \ref{fig:2comp}.\\
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.64]{Images/7comp}}
+	\decoRule
+	\caption[Bar chart of the density measurements with the HW (AB and after polishing) and RODIA methods for samples of batch X200-180109]{Bar charts of the density measurements with the HW (AB and after polishing) and RODIA methods for samples of batch X200-180109}
+	\label{fig:7comp}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.64]{Images/2comp}}
+	\decoRule
+	\caption[Bar charts of the density measurements with the HW (after polishing) and RODIA methods for samples of (a) batch X200-180319 (b) batch X200-180417]{Bar charts of the density measurements with the HW (after polishing) and RODIA methods for samples of (a) batch X200-180319 (b) batch X200-180417}
+	\label{fig:2comp}
+\end{figure}
+
+As-built hydro measurements on figure \ref{fig:7comp} demonstrated high variability relatively to the other measures. Over the five tested samples, two exhibited similar relative densities for all techniques. However, three had $\rho{a,rel}$ significantly below the values obtained with the other methods. In particular, the gap for sample "7c" was 0.44 [\%]. The fact that the CI do not intersect with the others' suggest that AB HW method was negatively biased in those cases. The most plausible explanation is that air was trapped in the surface roughness, which distorted the results (by overestimating the closed porosities volume. This would not be surprising as SLM produced parts usually have bad surface finish.\\ %to observe potential inhomogeneous distributions of the closed porosities in the specimens.
+
+The two other methods were more promising. Relative densities obtained with RODIA method are generally close to the ones of HW after polishing (see figures \ref{fig:7comp} and \ref{fig:2comp}). In average, the absolute difference between the two is 0.16 [\%] (0.24 [\%] at most).  When the difference is greater than 0.02 [\%], the RODIA method always give greater density values. In addition, the CI do not always intersect. This can be attributed to the RODIA positive bias, and potentially to a negative bias for HW - that would still not be fully erased through polishing. Ultimately, given the opposite bias and the proximity of the relative density values for both methods, one could consider the two to be bounds between which lies the actual $\rho_{rel}$.\\
 
 \section{Density and hardness study}
 
