@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.5.26)  2 JUN 2018 00:11
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  1 JUN 2018 22:29
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
+<<<<<<< HEAD
 Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
+=======
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 (MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/11/22 v1.5 LaTeXTemplates.com
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
@@ -2116,8 +2124,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 
 
 
+<<<<<<< HEAD
 {C:/Users/Arthur/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/l
 ogos.jpg>] [2]
+=======
+{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/lo
+gos.jpg>] [2]
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 190.
 
@@ -2136,7 +2149,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 \openout6 = `main.toc'.
 
  [6] (main.lof
+<<<<<<< HEAD
 Overfull \hbox (7.71935pt too wide) in paragraph at lines 28--28
+=======
+Overfull \hbox (7.71935pt too wide) in paragraph at lines 25--25
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
  [][] [][][]\T1/ppl/m/n/10.95 Screen cap-ture of the laser scan-ning pat-tern f
 or a par-al-lelepiped sample: 
  []
@@ -2144,15 +2161,24 @@ or a par-al-lelepiped sample:
 1: section
 [7
 
+<<<<<<< HEAD
 ]
 Overfull \hbox (8.6065pt too wide) in paragraph at lines 30--30
+=======
+Overfull \hbox (8.6065pt too wide) in paragraph at lines 27--27
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
  [][] [][][]\T1/ppl/m/n/10.95 (a) \T1/ppl/m/it/10.95 Lab-facil-ity L60 Ther-mo-
 couple & Fine Wire Welder \T1/ppl/m/n/10.95 and (b) \T1/ppl/m/it/10.95 Agi-lent
  34972A 
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (3.18698pt too wide) in paragraph at lines 38--38
+=======
+]
+Overfull \hbox (3.18698pt too wide) in paragraph at lines 35--35
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
  [][] [][][]\T1/ppl/m/n/10.95 Batch X200-171024 samples prop-er-ties as a func-
 tion of the en-ergy dens- 
  []
@@ -2968,11 +2994,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
 [54
 
+<<<<<<< HEAD
  <./Images/7comp.jpg>] [55 <./Images/2comp.jpg>]) [56]
 \openout2 = `Chapitres/Conclusion.aux'.
+=======
+ <./Images/7comp.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 
+ []
 
-(Chapitres/Conclusion.tex
+[53 <./Images/2comp.jpg>]
+Overfull \hbox (2.3957pt too wide) in paragraph at lines 144--145
+\T1/ppl/m/n/10.95 haps not the most per-tin-ent to con-duct. [TAILLE MAX DES PO
+RES? CON-TRAINTES
+ []
+
+) [54]
+\openout2 = `Chapitres/Conclusion.aux'.
+
+ (Chapitres/Conclusion.tex
 Chapter 6.
 )
 1: section
@@ -3002,13 +3043,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 1: section
 [59] [60
 
+<<<<<<< HEAD
 ] [61] [62] [63]
 <Images/171024-cad.jpg, id=1364, 821.31844pt x 452.4403pt>
+=======
+] [59] [60] [61]
+<Images/171024-cad.jpg, id=1341, 821.31844pt x 452.4403pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/171024-cad.jpg Graphic file (type jpg)
 <use Images/171024-cad.jpg>
 Package pdftex.def Info: Images/171024-cad.jpg  used on input line 140.
 (pdftex.def)             Requested size: 484.57367pt x 266.93747pt.
+<<<<<<< HEAD
 <Images/171024-real.jpg, id=1365, 534.49687pt x 551.05875pt>
+=======
+<Images/171024-real.jpg, id=1342, 534.49687pt x 551.05875pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/171024-real.jpg Graphic file (type jpg)
 <use Images/171024-real.jpg>
 Package pdftex.def Info: Images/171024-real.jpg  used on input line 148.
@@ -3016,35 +3066,62 @@ Package pdftex.def Info: Images/171024-real.jpg  used on input line 148.
  [64
 
  <./Images/171024-cad.jpg> <./Images/171024-real.jpg>]
+<<<<<<< HEAD
 <Images/180109-cad.jpg, id=1370, 837.6093pt x 437.9562pt>
+=======
+<Images/180109-cad.jpg, id=1347, 837.6093pt x 437.9562pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-cad.jpg Graphic file (type jpg)
 <use Images/180109-cad.jpg>
 Package pdftex.def Info: Images/180109-cad.jpg  used on input line 159.
 (pdftex.def)             Requested size: 485.81374pt x 254.01477pt.
+<<<<<<< HEAD
 <Images/180109-real.jpg, id=1371, 573.64313pt x 563.85657pt>
+=======
+<Images/180109-real.jpg, id=1348, 573.64313pt x 563.85657pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-real.jpg Graphic file (type jpg)
 <use Images/180109-real.jpg>
 Package pdftex.def Info: Images/180109-real.jpg  used on input line 167.
 (pdftex.def)             Requested size: 258.13702pt x 253.73311pt.
+<<<<<<< HEAD
  [65 <./Images/180109-cad.jpg> <./Images/180109-real.jpg>]
 <Images/180220-cad.jpg, id=1376, 971.88094pt x 727.96968pt>
+=======
+ [63 <./Images/180109-cad.jpg> <./Images/180109-real.jpg>]
+<Images/180220-cad.jpg, id=1353, 971.88094pt x 727.96968pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180220-cad.jpg Graphic file (type jpg)
 <use Images/180220-cad.jpg>
 Package pdftex.def Info: Images/180220-cad.jpg  used on input line 177.
 (pdftex.def)             Requested size: 466.49756pt x 349.42148pt.
+<<<<<<< HEAD
  [66 <./Images/180220-cad.jpg>]
 <Images/180222-cad.jpg, id=1381, 628.59843pt x 303.38344pt>
+=======
+ [64 <./Images/180220-cad.jpg>]
+<Images/180222-cad.jpg, id=1358, 628.59843pt x 303.38344pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180222-cad.jpg Graphic file (type jpg)
 <use Images/180222-cad.jpg>
 Package pdftex.def Info: Images/180222-cad.jpg  used on input line 188.
 (pdftex.def)             Requested size: 408.58414pt x 197.19688pt.
+<<<<<<< HEAD
 <Images/180222-real.jpg, id=1382, 1228.59pt x 1380.15625pt>
+=======
+<Images/180222-real.jpg, id=1359, 1228.59pt x 1380.15625pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180222-real.jpg Graphic file (type jpg)
 <use Images/180222-real.jpg>
 Package pdftex.def Info: Images/180222-real.jpg  used on input line 196.
 (pdftex.def)             Requested size: 270.29063pt x 303.63531pt.
+<<<<<<< HEAD
  [67 <./Images/180222-cad.jpg> <./Images/180222-real.jpg>]
 <Images/180228-cad.jpg, id=1388, 705.38531pt x 389.20406pt>
+=======
+ [65 <./Images/180222-cad.jpg> <./Images/180222-real.jpg>]
+<Images/180228-cad.jpg, id=1364, 705.38531pt x 389.20406pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180228-cad.jpg Graphic file (type jpg)
 <use Images/180228-cad.jpg>
 Package pdftex.def Info: Images/180228-cad.jpg  used on input line 207.
@@ -3054,46 +3131,82 @@ Overfull \hbox (5.09468pt too wide) in paragraph at lines 207--209
  [][] 
  []
 
+<<<<<<< HEAD
 <Images/180228-real.jpg, id=1389, 1228.59pt x 1368.11125pt>
+=======
+<Images/180228-real.jpg, id=1365, 1228.59pt x 1368.11125pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180228-real.jpg Graphic file (type jpg)
 <use Images/180228-real.jpg>
 Package pdftex.def Info: Images/180228-real.jpg  used on input line 215.
 (pdftex.def)             Requested size: 1228.587pt x 1368.10793pt.
+<<<<<<< HEAD
 [68 <./Images/180228-cad.jpg> <./Images/180228-real.jpg>]
 <Images/180313-cad.jpg, id=1394, 767.86874pt x 350.81062pt>
+=======
+[66 <./Images/180228-cad.jpg> <./Images/180228-real.jpg>]
+<Images/180313-cad.jpg, id=1370, 767.86874pt x 350.81062pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180313-cad.jpg Graphic file (type jpg)
 <use Images/180313-cad.jpg>
 Package pdftex.def Info: Images/180313-cad.jpg  used on input line 226.
 (pdftex.def)             Requested size: 445.36418pt x 203.47029pt.
+<<<<<<< HEAD
 <Images/180313-real.jpg, id=1395, 1228.59pt x 1274.7625pt>
+=======
+<Images/180313-real.jpg, id=1371, 1228.59pt x 1274.7625pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180313-real.jpg Graphic file (type jpg)
 <use Images/180313-real.jpg>
 Package pdftex.def Info: Images/180313-real.jpg  used on input line 234.
 (pdftex.def)             Requested size: 1228.587pt x 1274.7594pt.
+<<<<<<< HEAD
  [69 <./Images/180313-cad.jpg> <./Images/180313-real.jpg>]
 <Images/180315-cad.jpg, id=1400, 635.37375pt x 286.82156pt>
+=======
+ [67 <./Images/180313-cad.jpg> <./Images/180313-real.jpg>]
+<Images/180315-cad.jpg, id=1377, 635.37375pt x 286.82156pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180315-cad.jpg Graphic file (type jpg)
 <use Images/180315-cad.jpg>
 Package pdftex.def Info: Images/180315-cad.jpg  used on input line 244.
 (pdftex.def)             Requested size: 438.40836pt x 197.90707pt.
+<<<<<<< HEAD
 <Images/180315-real.jpg, id=1401, 1188.44pt x 1179.40625pt>
+=======
+<Images/180315-real.jpg, id=1378, 1188.44pt x 1179.40625pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180315-real.jpg Graphic file (type jpg)
 <use Images/180315-real.jpg>
 Package pdftex.def Info: Images/180315-real.jpg  used on input line 252.
 (pdftex.def)             Requested size: 1188.43712pt x 1179.40338pt.
+<<<<<<< HEAD
  [70 <./Images/180315-cad.jpg> <./Images/180315-real.jpg>]
 <Images/180319-cad.jpg, id=1406, 773.13844pt x 364.36125pt>
+=======
+ [68 <./Images/180315-cad.jpg> <./Images/180315-real.jpg>]
+<Images/180319-cad.jpg, id=1383, 773.13844pt x 364.36125pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180319-cad.jpg Graphic file (type jpg)
 <use Images/180319-cad.jpg>
 Package pdftex.def Info: Images/180319-cad.jpg  used on input line 262.
 (pdftex.def)             Requested size: 533.46611pt x 251.40953pt.
+<<<<<<< HEAD
 <Images/180319-real.jpg, id=1407, 1187.43625pt x 1171.37625pt>
+=======
+<Images/180319-real.jpg, id=1384, 1187.43625pt x 1171.37625pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180319-real.jpg Graphic file (type jpg)
 <use Images/180319-real.jpg>
 Package pdftex.def Info: Images/180319-real.jpg  used on input line 270.
 (pdftex.def)             Requested size: 1187.43336pt x 1171.3734pt.
+<<<<<<< HEAD
  [71 <./Images/180319-cad.jpg> <./Images/180319-real.jpg>]
 <Images/180417-real.jpg, id=1412, 1778.645pt x 1766.6pt>
+=======
+ [69 <./Images/180319-cad.jpg> <./Images/180319-real.jpg>]
+<Images/180417-real.jpg, id=1389, 1778.645pt x 1766.6pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180417-real.jpg Graphic file (type jpg)
 <use Images/180417-real.jpg>
 Package pdftex.def Info: Images/180417-real.jpg  used on input line 288.
@@ -3137,17 +3250,29 @@ Appendix D.
 
  (Appendices/AppendixD.tex
 Appendix E.
+<<<<<<< HEAD
 <Images/180109-7Dxy.jpg, id=1446, 793.46437pt x 341.77687pt>
+=======
+<Images/180109-7Dxy.jpg, id=1423, 793.46437pt x 341.77687pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-7Dxy.jpg Graphic file (type jpg)
 <use Images/180109-7Dxy.jpg>
 Package pdftex.def Info: Images/180109-7Dxy.jpg  used on input line 9.
 (pdftex.def)             Requested size: 412.60385pt x 177.72499pt.
+<<<<<<< HEAD
 <Images/180109-7Hxy.jpg, id=1447, 779.16093pt x 342.5297pt>
+=======
+<Images/180109-7Hxy.jpg, id=1424, 779.16093pt x 342.5297pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-7Hxy.jpg Graphic file (type jpg)
 <use Images/180109-7Hxy.jpg>
 Package pdftex.def Info: Images/180109-7Hxy.jpg  used on input line 17.
 (pdftex.def)             Requested size: 405.16602pt x 178.11646pt.
+<<<<<<< HEAD
 <Images/180109-8Dxy.jpg, id=1448, 793.46437pt x 341.77687pt>
+=======
+<Images/180109-8Dxy.jpg, id=1425, 793.46437pt x 341.77687pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-8Dxy.jpg Graphic file (type jpg)
 <use Images/180109-8Dxy.jpg>
 Package pdftex.def Info: Images/180109-8Dxy.jpg  used on input line 25.
@@ -3158,7 +3283,11 @@ Package pdftex.def Info: Images/180109-8Dxy.jpg  used on input line 25.
 
 
  <./Images/180109-7Dxy.jpg> <./Images/180109-7Hxy.jpg>]
+<<<<<<< HEAD
 <Images/180109-8Hxy.jpg, id=1454, 779.16093pt x 342.5297pt>
+=======
+<Images/180109-8Hxy.jpg, id=1430, 779.16093pt x 342.5297pt>
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 File: Images/180109-8Hxy.jpg Graphic file (type jpg)
 <use Images/180109-8Hxy.jpg>
 Package pdftex.def Info: Images/180109-8Hxy.jpg  used on input line 33.
@@ -3289,7 +3418,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 222B79928F23553CF88475000CF6112E;14069.
+=======
+(rerunfilecheck)             Checksum: A4716E6D4F1CA61C12C0742AAFDF2DE5;14069.
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 
 
 LaTeX Warning: There were undefined references.
@@ -3302,6 +3435,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  36589 strings out of 493308
  732771 string characters out of 3138765
  1132773 words of memory out of 3000000
@@ -3321,6 +3455,27 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.100} has been referenced but does not exi
 st, replaced by a fixed one
 
+=======
+ 36559 strings out of 493312
+ 731993 string characters out of 3138899
+ 1131745 words of memory out of 3000000
+ 39196 multiletter control sequences out of 15000+200000
+ 598048 words of font info for 154 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,20n,94p,10379b,3120s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.153} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.152} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.98} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.97} has been referenced but does not exis
+t, replaced by a fixed one
+
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Progr
 am Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
@@ -3333,9 +3488,17 @@ ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files
 nts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (102 pages, 39202941 bytes).
 PDF statistics:
  1654 PDF objects out of 1728 (max. 8388607)
  349 named destinations out of 1000 (max. 500000)
  979 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on main.pdf (100 pages, 35863959 bytes).
+PDF statistics:
+ 1623 PDF objects out of 1728 (max. 8388607)
+ 342 named destinations out of 1000 (max. 500000)
+ 964 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
 
