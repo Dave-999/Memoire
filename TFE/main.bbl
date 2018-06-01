@@ -1252,6 +1252,44 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Rosenthal14}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RI}{%
+         family={Rosenthal},
+         familyi={R\bibinitperiod},
+         given={Idan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stern},
+         familyi={S\bibinitperiod},
+         given={Adin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Frage},
+         familyi={F\bibinitperiod},
+         given={Nachum},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RISAFN1}
+    \strng{fullhash}{RISAFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{448–453}
+    \field{title}{Microstructure and Mechanical Properties of AlSi10Mg Parts
+  Produced by the Laser Beam Additive Manufacturing (AM) Technology}
+    \verb{url}
+    \verb https://link.springer.com/article/10.1007/s13632-014-0168-y
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{Metallogr. Microstruct. Anal.}
+    \field{year}{2014}
+  \endentry
+
   \entry{Salmi2017}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=SA}{%
@@ -1358,6 +1396,51 @@
     \field{urlday}{28}
     \field{urlmonth}{05}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Thijs13}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TL}{%
+         family={Thijs},
+         familyi={T\bibinitperiod},
+         given={Lore},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kempen},
+         familyi={K\bibinitperiod},
+         given={Karolien},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KJP}{%
+         family={Kruth},
+         familyi={K\bibinitperiod},
+         given={Jean-Pierre},
+         giveni={J\bibinitperiod-P\bibinitperiod},
+      }}%
+      {{hash=HJV}{%
+         family={Humbeeck},
+         familyi={H\bibinitperiod},
+         given={Jan\bibnamedelima Van},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TL+1}
+    \strng{fullhash}{TLKKKJPHJV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{1809–1819}
+    \field{title}{Fine-structured aluminium products with controllable texture
+  by selective laser melting of pre-alloyed AlSi10Mg powder}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1359645412008592?v
+    \verb ia%3Dihub
+    \endverb
+    \field{volume}{61}
+    \field{journaltitle}{Acta Materialia}
+    \field{year}{2013}
   \endentry
 
   \entry{UZAN2017229}{article}{}
@@ -1474,6 +1557,39 @@
     \field{volume}{2018}
     \field{journaltitle}{Advances in Materials Science and Engineering}
     \field{year}{2018}
+  \endentry
+
+  \entry{Wang12}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WR}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ruyao},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Weihua},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WRLW1}
+    \strng{fullhash}{WRLW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{107\bibrangedash 140}
+    \field{title}{Direct electrolytic Al–Si alloys (DEASA)—an undercooled
+  alloy self-modified structure and mechanical properties}
+    \verb{url}
+    \verb https://www.intechopen.com/books/electrolysis/direct-electrolytic-al-
+    \verb si-alloys-deasa-an-undercooled-alloy-self-modified-structure-and-mech
+    \verb anical-p
+    \endverb
+    \field{journaltitle}{Electrolysis}
+    \field{year}{2012}
   \endentry
 
   \entry{Eau}{book}{}

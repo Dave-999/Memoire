@@ -66,6 +66,36 @@ aerospace, automotive, chemical and food industry. Its composition according to 
 Table 1 [4]. Alloying the magnesium to the Al-Si alloy enables precipitation of Mg2Si which will strengthen the
 matrix without compromising the other mechanical properties to a significant extent.}\\
 
+\textcolor{red}{tu blablates sur le AlSi10Mg en général}\\
+
+The first property of the alloy, which will determine every other one, is its composition. As it can be observed on the phase diagram of Fig. \ref{fig:phase_diagram}, and by assuming that the small concentrations of magnesium and impurities  do not displace too much the diagram, AlSi10Mg has an hypo-eutectic concentration. Thus, the first solid to form during cooling is made of $Al-\alpha$ phase, followed by the formation of an eutectic compound. \\
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.40]{Images/phase_diagram}
+	\decoRule
+	\caption[Phase diagram of Al-Si alloy near the eutectic]{Phase diagram of Al-Si alloy near the eutectic (from Rosenthal et al., 2014 \parencite{Rosenthal14}).}
+	\label{fig:phase_diagram}
+\end{figure}
+
+However, knowing the composition is not sufficient to predict the microstructure of the fabricated alloy. Indeed, other parameters have to be taken into account. As shown in Fig. \ref{fig:micro_cast}, casting result in lamellar precipitates of Si-phase, measuring several tens of micrometers, floating in an Al matrix. But changing the manufacturing process of the part can completely transform the resulting microstructure. In Fig. \ref{fig:micro_am}, we can ----------
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.35]{Images/micro_cast}
+	\decoRule
+	\caption[Common microstructure of an Al-Si cast alloy]{Common microstructure of an Al-Si cast alloy (from Wang et al., 2012 \parencite{Wang12}).}
+	\label{fig:micro_cast}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.40]{Images/micro_am}
+	\decoRule
+	\caption[Microstructure of an Al-Si alloy manufactured by SLM at different scales. Locations of pictures (a), (b) and (c) appear on the top left picture.]{[Microstructure of an Al-Si alloy manufactured by SLM at different scales. Locations of pictures (a), (b) and (c) appear on the top left picture (from Thijs et al., 2012 \parencite{Thijs13}).}
+	\label{fig:micro_am}
+\end{figure}
+
 The difference in mechanical properties between cast and AM parts lies in the very specific microstructure formed by SLM, as shown in Fig. \ref{label}
 
 \section{Fabrication process parameters}
@@ -312,25 +342,25 @@ The annealing, as well as other heat treatments, alter the mechanical properties
 
 While this change requires specific techniques to be assessed, as we saw above, annealing at a sufficient temperature can also modify the microstructure of the alloy, and this can be directly observed by optical or electronic microscopy. 
 
-Mertens and al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours: with only a loss of 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%. \\
+Mertens et al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours: with only a loss of 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%. \\
 
-A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$\circ$C for a variable duration, followed by a water quenching to room temperature, and finally artificial ageing for several hours between 150 and 190$\circ$C. When applied to conventionally processed materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally enables them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair and al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment, and observe a softening rather than hardening. They suggest that it is due to the distinct starting microstructure between the two. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs, in fact, the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
+A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$\circ$C for a variable duration, followed by a water quenching to room temperature, and finally artificial ageing for several hours between 150 and 190$\circ$C. When applied to conventionally processed materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally enables them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair et al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment, and observe a softening rather than hardening. They suggest that it is due to the distinct starting microstructure between the two. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs, in fact, the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
 
 \begin{table}[ht]
 		\centering
 			\includegraphics[scale=0.70]{Images/ABvsT6}
 			\decoRule
-		\caption[Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state] {Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, compared to their as-built state (from Aboulkhair and al., 2016 \parencite{ABOULKHAIR2016139}).}
+		\caption[Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state] {Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, compared to their as-built state (from Aboulkhair et al., 2016 \parencite{ABOULKHAIR2016139}).}
 		\label{tab:ABvsT6}
 \end{table}
 
-Yet, the time and temperature parameters during the solutionizing and the ageing seem to remains important, if one hope to be able to predict final properties of the treated part. Indeed, according to Mertens and al. (2015)\cite{Mertens15}, a T6-like treatment can result in, an increase of ductility of course, but also yield strength. To be complete, they obtained a decrease of hardness by 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break by220\% and of yield strength by 30\%. Those differences could find their explanation in the distinct process parameters: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens and al. (2015)\cite{Mertens15}, compared with 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
+Yet, the time and temperature parameters during the solutionizing and the ageing seem to remains important, if one hope to be able to predict final properties of the treated part. Indeed, according to Mertens et al. (2015)\cite{Mertens15}, a T6-like treatment can result in, an increase of ductility of course, but also yield strength. To be complete, they obtained a decrease of hardness by 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break by 220\% and of yield strength by 30\%. Those differences could find their explanation in the distinct process parameters: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens et al. (2015)\cite{Mertens15}, compared with 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
 
 HIP
 
 Shot-peening
 
-Lastly, another well-known defect of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength, because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower and al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair and al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. Although machining the surface does indeed reduce its roughness, but can also expose buried porosities at the same time, which make sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts.\\
+Lastly, another well-known defect of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength, because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower et al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair et al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. Although machining the surface does indeed reduce its roughness, but can also expose buried porosities at the same time, which make sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts.\\
 
 As we saw, 
 
