@@ -65,13 +65,14 @@ solidus temperature compared to high strength aluminium-alloys [2]. The AlSi10Mg
 aerospace, automotive, chemical and food industry. Its composition according to ISO 3522 can be found in
 Table 1 [4]. Alloying the magnesium to the Al-Si alloy enables precipitation of Mg2Si which will strengthen the
 matrix without compromising the other mechanical properties to a significant extent.}
+
 \section{Fabrication process parameters}
 \label{pp}
 Let us now investigate the influence of the parameters on the properties of AlSi10Mg parts manufactured with SLM. The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
 A popular approach is to regroup multiple operating parameters into one, the volumetric energy density $E_d$. It is estimated through the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
-where t is the layer thickness and h is the hatch space. As a rule of thumb, $E_d$ should be chosen in the range between 60 and 75 [$\frac{J}{mm^3}$] \parencite{Read150417}. However, the criterion is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
+where t is the layer thickness and h is the hatch space. Optimal density was obtained with $E_d=60 [\frac{J}{mm^3}$ by Read et al. \parencite{Read150417}. However, chosing a right $E_d$ is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ then reached 99.4 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
 
 \begin{figure}[ht]
 \centering
@@ -156,7 +157,7 @@ Furthermore, Wang et al. observed that preheating the manufacturing plate can ha
 \begin{table}[ht]
 \noindent\makebox[\textwidth]{\begin{tabular}{|c|c|c|c|c|}
     \hline
-    Plate temperature & $\sigma_u$ [MPa] & $\epsilon_f [\%]$ & HV [HV] & $\rho_{rel} [\%]$ \\
+    Plate temperature & $\sigma_u$ [MPa] & $\epsilon_f [\%]$ & $\sigma_y$ [MPa] & $\rho_{rel} [\%]$ \\
 \hline
 \hline   
     80$^\circ C$ &385 $\pm 6$ & $3 \pm 1.5$ & 176 $\pm 6$& 98.69 $\pm 0.19$	\\
