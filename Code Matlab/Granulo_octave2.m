@@ -191,19 +191,20 @@ PNE80s = spline(DNE,PNE80,xx);%Poudre neuve �tuv�e � 80�C pendant 1h
 PNE100s = spline(DNE,PNE100,xx);%Poudre neuve �tuv�e � 100�C pendant 1h
 plot(xx,P0s,'--')
 hold on
-plot(xx,P1s)
+plot(xx,P1s,'r')
 hold on
-plot(xx,P2as)
-plot(xx,P2ps,'--')
-plot(xx,P3s)
-plot(xx,P4s)
-plot(xx,P5s)
-plot(xx,PNs)
-plot(xx,PNE80s)
-plot(xx,PNE100s)
-legend('10 aout 2017 (pas de tamisage)','23 octobre 2017 (+ tamisage)','12 janvier 2018 (+tamisage)','9 janvier 2018 (pas de tamisage)','21 f�vrier 2018 (+tamisage)??','13 mars 2018 (+tamisage)??','17 avril 2018 (+tamisage)','Poudre neuve','Poudre neuve �tuv�e � 80�C','Poudre neuve �tuv�e � 100�C')%TOUT
-xlabel('Diam�tre [\mu m]')
+plot(xx,P2as,'k')
+plot(xx,P2ps,'--k')
+plot(xx,P3s,'m')
+plot(xx,P4s,'g')
+plot(xx,P5s,'c')
+%plot(xx,PNs)
+%plot(xx,PNE80s)
+%plot(xx,PNE100s)
+legend('10^{th} August 2017 (no sieving)','23{th} October 2017 (sieving)','12{th} January 2018 (sieving)','9{th} January 2018 (no sieving)','21{st} February 2018 (sieving)??','13{th} March 2018 (sieving)??','17{th} April 2018 (sieving)','Poudre neuve','Poudre neuve �tuv�e � 80�C','Poudre neuve �tuv�e � 100�C')%TOUT
+xlabel('Diameter [\mu m]')
 ylabel('Pourcentage [%]')
+xlim([0 90])
 
 % figure;
 % plot(xx,PNs)
@@ -215,15 +216,15 @@ ylabel('Pourcentage [%]')
 % ylabel('Pourcentage [%]')
 % xlim([0 90])
 
-figure;
-semilogx(xx,PNs)
-hold on
-plot(xx,PNE80s)
-plot(xx,PNE100s)
-plot(xx,P1s)
-plot(xx,P5s)
-legend('Poudre neuve','Poudre neuve �tuv�e � 80�C','Poudre neuve �tuv�e � 100�C', 'Batch du 23 octobre', 'Batch du 17 avril')%Comp
-xlabel('Diam�tre [\mu m]')
-ylabel('Pourcentage [%]')
-xlim([0 90])
+%figure;
+%plot(xx,PNs)
+%hold on
+%plot(xx,PNE80s)
+%plot(xx,PNE100s)
+%plot(xx,P1s)
+%plot(xx,P5s)
+%legend('Poudre neuve','Poudre neuve �tuv�e � 80�C','Poudre neuve �tuv�e � 100�C', 'Batch du 23 octobre', 'Batch du 17 avril')%Comp
+%xlabel('Diam�tre [\mu m]')
+%ylabel('Pourcentage [%]')
+%xlim([0 90])
 
