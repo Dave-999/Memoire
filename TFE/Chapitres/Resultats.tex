@@ -303,7 +303,6 @@ Results are shown in figure \ref{fig:HD-180417}. With regard to hardness, no gen
 \section{Characterisation of the as-built samples} 
 \label{RCABS}
 \subsection{Melt pools sizes and distribution}
-[OBSERVATIONS, GROSSES ZONES GRISES?]
 
 Samples "8a" and "8b" of batch X200-171024 were fabricated using the same manufacturing parameters. However, the former had way lower $\rho_{a,rel}$ and $H_v$ (see appendix \ref{AppendixA}). A statistical analysis of the melt pools size distribution was conducted for both samples to try grasping a better understanding of the origin of the differences. The procedure described in section \ref{MMOM} was followed. 130 zones were manually delineated for both samples. An illustration of the zones subdivision is shown on figure \ref{fig:B1}.\\
 
@@ -344,13 +343,13 @@ In both cases, the area of every zone was computed. Melt pools areas histograms 
  \end{center}
 
 \subsection{Microstructure}
-
+Optique: Porosité en grande majorité aux interfaces des bains de fusion. Grandes zones non fondues (?).
 
 \subsection{Residual stresses}
 
 \subsection{Mechanical properties}
 
-The average tensile properties of the as-built specimens are displayed in table \ref{tab:tracMAB}. Detailed information may be consulted in appendice \ref{AppendixAbis}. All data was computed based on the procedures of section \ref{MMTT}.\\
+The average tensile properties of the six tested as-built specimens are displayed in table \ref{tab:tracMAB}. Detailed information may be consulted in appendice \ref{AppendixAbis}. All data was computed based on the procedures of section \ref{MMTT}.\\
 
  \begin{center}
 \begin{table}[ht]
@@ -370,7 +369,7 @@ The average tensile properties of the as-built specimens are displayed in table 
 \end{table}
  \end{center}
  
-Very similar behaviours were observed for samples with and without contour scanning strategy. No distinction shall thus be made between the two in what follows. Stress-strain curve for specimen X200-180417-1 was non-linear before the plasticity regime started. This is due to slippage in the grips. The obtained Young's modulus for the test was thus not taken into account for the computation of the average value.\\
+One specimen built with no contour scanning strategy was tested. Its tensile behaviour was observed to be very similar to the other samples. No distinction shall thus be made between the two types in what follows. Stress-strain curve for specimen X200-180417-1 was non-linear before the plasticity regime started. This is due to slippage in the grips. The obtained Young's modulus for the test was thus not taken into account for the computation of the average value.\\
 
 No necking phenomena was observed among all tensile tests for AB samples. The Considere criterion was used for the detection of plastic instability. It states that necking starts at $\frac{d\sigma_{true}}{d\epsilon_{true}}=\sigma$, which is equivalent to $\frac{d\sigma_{eng}}{d\epsilon_{eng}}=0$. This condition was not satisfied for any AB engineering stress-strain curve.\\
  
@@ -382,7 +381,7 @@ No necking phenomena was observed among all tensile tests for AB samples. The Co
 
 \subsection{Mechanical properties}
 
-The tensileParler de RAMBERG-OSGOOD
+Tensile tests were made with heat treated specimens. All samples had undergone a HT during 2h, at either 150$^\circ C$, 200$^\circ C$, 250 $^\circ C$ or 300 $^\circ C$. Three samples were tested for each HT except for the one at 250 $^\circ C$ (only two samples). One specimen heated at 150$^\circ C$ was fabricated with no contour scanning strategy. The results are gathered in \ref{AppendixB}. The average tensile properties for each HT are shown in table \ref{tab:tracMHT}. All samples heated at 250$^\circ C$ and 300$^\circ C$ were observed to go through necking in the sense of Considère criterion. Their $\epsilon_f,true$ was computed thanks to a profile projector. \\
 
  \begin{center}
 \begin{table}[ht]
@@ -401,9 +400,18 @@ The tensileParler de RAMBERG-OSGOOD
 \end{tabular}}
 
 \caption[Average tensile mechanical properties of the heat-treated specimens from batch X200-180417]{Average tensile mechanical properties of the heat-treated specimens from batch X200-180417}
-\label{tab:tracMAB}
+\label{tab:tracMHT}
 \end{table}
  \end{center}
+
+The heat treatment at 150$^\circ$ increased notably both $\sigma_u$ and $\epsilon_f$ compared to the as-built values. However, the heating at 200$^\circ$ caused virtually no change of the ultimate tensile strength, and the fracture strain augmentation was weaker. For HT at 250$^\circ$ and 300$^\circ$, the material softened significantly (with necking appearance); the higher the heating temperature, the bigger the ductility increased and the strength decreased. \\
+
+The average $\sigma_{true}$-$\epsilon_{true}$ data was also displayed in a graphical form for better insight. The true stress and strain were approximated by the engineering ones for samples with no necking. As the curves for a same HT do not end at the same $\epsilon_{f,true}$, the average curve could not be obtained by simply taking the mean $\sigma$ value at each $\epsilon$. This would have indeed lead to discontinuities at each fracture strain on the graph. The chosen solution was to fit the average properties in a Ramberg-Osgood hardening law:\\
+
+$$\epsilon_{true}=\frac{\sigma_{true}}{E_a}+ 0.002(\frac{\sigma_{true}}{\sigma_{y,a}})^{(\frac{1}{n})}$$
+
+where $n \simeq \epsilon_{f,true,a}$ is the strain hardening coefficient. The subscript "a" means that the average values are used. This was done with an online calculator \parencite{RO}. \\
+
 
 \begin{figure}[ht]
 \centering
