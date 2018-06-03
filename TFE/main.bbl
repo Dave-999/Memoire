@@ -971,6 +971,19 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Alu}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Materialise- Aluminum (AlSi10Mg)}
+    \verb{url}
+    \verb http://www.materialise.com/en/manufacturing/materials/aluminum
+    \endverb
+    \field{urlday}{14}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{RO}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{M}

@@ -46,29 +46,24 @@ Results are very sensitive to their variations. The process parameters must thus
 In recent years, works aiming at facing this challenge multiplied. The minimisation of the porosity is at the center of attention. It is indeed closely related to the quality of the mechanical properties. As porosity contributes to lowering the load-bearing surface, it reduces the apparent material strength. It was also observed to have a critical influence on the fatigue life of the produced parts. Their lifetime is especially diminished if the values of pores amount and size go beyond a certain threshold \parencite{Brandl121509}. Studies investigating the effects of various parameters on the AlSi10Mg fabrication through SLM abound in the literature.\\
 
 \section{AlSi10Mg alloy}
-\textcolor{red}{Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (reflectivité etc).. Qu'est ce qui existe en coulé, forgé etc}\\
-\textcolor{red}{Microstructure homogène, diagramme de phase}\\
+%\textcolor{red}{Parler de l'AlSi10Mg; quel est l'interet de travailler avec? Difficultés? (reflectivité etc).. Qu'est ce qui existe en coulé, forgé etc}\\
+%\textcolor{red}{Microstructure homogène, diagramme de phase}\\
 
-\textcolor{gray}{Kempen dans "PROCESS OPTIMIZATION AND MICROSTRUCTURAL ANALYSIS FOR SELECTIVE LASER
-MELTING OF AlSi10Mg ":}
+AlSi10Mg is a popular casting alloy. It is well known for its high strength-to-density ratio, thermal properties and post-processing flexibility. This makes AlSi10Mg a material of choice in automotive, aerospace, automation, chemical and food industries \parencite{Kempen110817}. Specific applications contain housings, ductwork, engine parts, production tools and molds, both for prototyping and manufacturing purposes. \parencite{Alu}. Processing the alloy with SLM is quiet easy due to the small difference between its solidus and liquidus temperatures \parencite{Kempen110817}. Nevertheless, high laser power is needed to compensate the energy losses due to the high reflexivity (91\%) and the fast heat dissipation resulting from the consequent thermal conductivity (146 [$\frac{W}{mK}$]) \parencite{aboulkhair2016}.\\
 
-\textcolor{gray}{AlSi10Mg is a typical casting alloy which is, due to its high strength/density ratio and thermal
-properties, highly demanded in aerospace and automotive industries [1]. The alloy combination of aluminium,
-silicon and magnesium results in a significant increase in strength and hardness which might even reach 300
-MPa and 100 HBS, respectively, by applying a proper heat treatment [2]}
+%\textcolor{gray}{Kempen dans "PROCESS OPTIMIZATION AND MICROSTRUCTURAL ANALYSIS FOR SELECTIVE LASER
+%MELTING OF AlSi10Mg ":}
+%
+%\textcolor{gray}{Aluminium as a lightweight material is very attractive for the production of parts that require good
+%mechanical properties in combination with a low weight. The main focus lies on Al-Si alloys, since they are
+%casting alloys that are also suitable for welding. AlSi10Mg, which can be hardened by applying a specific heat
+%treatment, is relatively easy to process by laser applications due to the small difference between liquidus and
+%solidus temperature compared to high strength aluminium-alloys [2]. The AlSi10Mg alloy is frequently used in
+%aerospace, automotive, chemical and food industry. Its composition according to ISO 3522 can be found in
+%Table 1 [4]. Alloying the magnesium to the Al-Si alloy enables precipitation of Mg2Si which will strengthen the
+%matrix without compromising the other mechanical properties to a significant extent.}\\
 
-\textcolor{gray}{Aluminium as a lightweight material is very attractive for the production of parts that require good
-mechanical properties in combination with a low weight. The main focus lies on Al-Si alloys, since they are
-casting alloys that are also suitable for welding. AlSi10Mg, which can be hardened by applying a specific heat
-treatment, is relatively easy to process by laser applications due to the small difference between liquidus and
-solidus temperature compared to high strength aluminium-alloys [2]. The AlSi10Mg alloy is frequently used in
-aerospace, automotive, chemical and food industry. Its composition according to ISO 3522 can be found in
-Table 1 [4]. Alloying the magnesium to the Al-Si alloy enables precipitation of Mg2Si which will strengthen the
-matrix without compromising the other mechanical properties to a significant extent.}\\
-
-\textcolor{red}{tu blablates sur le AlSi10Mg en général}\\
-
-The first property of the alloy, which will determine every other one, is its composition. As it can be observed on the phase diagram of Fig. \ref{fig:phase_diagram}, and by assuming that the small concentrations of magnesium and impurities  do not displace too much the diagram, AlSi10Mg has an hypo-eutectic concentration. Thus, the first solid to form during cooling is made of $Al-\alpha$ phase, followed by the formation of an eutectic compound. \\
+The first property of the alloy, which will determine every other one, is its composition. As it can be observed on the phase diagram of Fig. \ref{fig:phase_diagram}, and by assuming that the small concentrations of magnesium and impurities  do not displace too much the diagram, AlSi10Mg has an hypo-eutectic concentration. Thus, the first solid to form during cooling is made of $Al-\alpha$ phase, followed by the formation of an eutectic compound. Adding magnesium permits the precipitation of Mg2Si which increases the strength of the material, without affecting significantly the other mechanical properties \parencite{Kempen110817}.\\
 
 \begin{figure}[ht]
 	\centering
@@ -252,7 +247,7 @@ SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-ba
 
 \section{Residual stresses in SLM parts}
 \label{EARSSP}
-\textcolor{red}{Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.}\\
+%\textcolor{red}{Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.}\\
 
 After most manufacturing processes, the fabricated piece can present residual stresses, both in compression and tension. While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Indeed, uncontrolled internal stresses can deteriorate dramatically the fatigue behaviour of the piece, cause unacceptable deformation, as well as premature failure, by facilitating the initiation of crack growth \cite{Vrancken2016}.\\
 
@@ -304,31 +299,31 @@ Another parameter altering the macroscopic thermal gradient of the part is the p
 \end{figure}
 
 \section{Post treatments}
-\textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
+%\textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
+%
+%\textcolor{red}{Source que tu peux utiliser:}
+%
+%\textcolor{red}{Trevisan et al, ‘On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties’ (AlSi10Mg de manière générale)}
+%
+%Effet sur microstructure et dureté:
+%http://sci-hub.tw/https://link.springer.com/article/10.1007/s11661-015-2980-7
+%
+%\textcolor{red}{Anne Mertens: 250 deg/2h
+%https://orbi.uliege.be/bitstream/2268/185421/1/2015-SFFS-Mertens.pdf}
+%
+%\textcolor{red}{Traitement T6 \parencite{ABOULKHAIR2016139}}
+%
+%\textcolor{red}{http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0921509316304890}\\
+%
+%Impact sur fatigue:
+%https://www.sciencedirect.com/science/article/pii/S0264127516306426
+%
+%Plein de données de littérature
+%http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463 \\
 
-\textcolor{red}{Source que tu peux utiliser:}
+Unfortunately, although they can be attenuated as we discussed above, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process. An important part of the literature on SLM alloys has simply studied the effects of those classical heat treatments on AM alloys.\\
 
-\textcolor{red}{Trevisan et al, ‘On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties’ (AlSi10Mg de manière générale)}
-
-Effet sur microstructure et dureté:
-http://sci-hub.tw/https://link.springer.com/article/10.1007/s11661-015-2980-7
-
-\textcolor{red}{Anne Mertens: 250 deg/2h
-https://orbi.uliege.be/bitstream/2268/185421/1/2015-SFFS-Mertens.pdf}
-
-\textcolor{red}{Traitement T6 \parencite{ABOULKHAIR2016139}}
-
-\textcolor{red}{http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0921509316304890}\\
-
-Impact sur fatigue:
-https://www.sciencedirect.com/science/article/pii/S0264127516306426
-
-Plein de données de littérature
-http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S0142112316301463 \\
-
-Unfortunately, although they can be attenuated, as we discussed above, the presence of residual stresses after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process. An important part of the literature on SLM alloys has simply studied the effects of those classical heat treatments on AM alloys.\\
-
-If the aim is to remove residual stresses, the go-to treatment is an annealing at 300$\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature, unfortunately. Its qualitative effect on the mechanical properties of AM parts is pretty well known and consistent in the literature, at least compared to other treatments, as we will see below. A summary of its effects is presented in Fig. \ref{fig:mech_annealing} \cite{PRASHANTH14}, for different temperatures. Because, of course, the annealing temperature can be varied to obtain a wide spectre of properties, in order to be better suited for new applications. This treatment reduces strength, both ultimate and yield, while increasing ductility, and this effect is reinforced with rising temperature (at least, below 500$^\circ$C). \\
+If the aim is to remove residual stresses, the go-to treatment is an annealing at 300$^\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature, unfortunately. Its qualitative effect on the mechanical properties of AM parts is pretty well known and consistent in the literature, at least compared to other treatments, as we will see below. A summary of its effects is presented in Fig. \ref{fig:mech_annealing} \cite{PRASHANTH14}, for different temperatures. Because, of course, the annealing temperature can be varied to obtain a wide spectre of properties, in order to be better suited for new applications. This treatment reduces strength, both ultimate and yield, while increasing ductility, and this effect is reinforced with rising temperature (at least, below 500$^\circ$C). \\
 
 \begin{figure}[ht]
 	\centering
@@ -344,7 +339,7 @@ While this change requires specific techniques to be assessed, as we saw above, 
 
 Mertens et al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours: with only a loss of 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%. \\
 
-A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$\circ$C for a variable duration, followed by a water quenching to room temperature, and finally artificial ageing for several hours between 150 and 190$\circ$C. When applied to conventionally processed materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally allows them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair et al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment, and observe a softening rather than hardening. They suggest that it is due to the distinct starting microstructure between the two. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs, in fact, the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
+A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$^\circ$C for a variable duration, followed by a water quenching to room temperature, and finally artificial ageing for several hours between 150 and 190$^\circ$C. When applied to conventionally processed materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally allows them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair et al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment, and observe a softening rather than hardening. They suggest that it is due to the distinct starting microstructure between the two. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs, in fact, the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
 
 \begin{table}[ht]
 		\centering
@@ -356,13 +351,13 @@ A very common heat treatment of aluminium alloys is designated by the T6 acronym
 
 Yet, the time and temperature parameters during the solutionizing and the ageing seem to remains important, if one hope to be able to predict final properties of the treated part. Indeed, according to Mertens et al. (2015)\cite{Mertens15}, a T6-like treatment can result in, an increase of ductility of course, but also yield strength. To be complete, they obtained a decrease of hardness by 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break by 220\% and of yield strength by 30\%. Those differences could find their explanation in the distinct process parameters: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens et al. (2015)\cite{Mertens15}, compared with 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
 
-HIP
+[HIP]
 
 Non-thermal processes affecting the residual stresses also exists. As we saw in the previous section, tensile stresses near the surface are the most problematic. A purely mechanical treatment able to cancel these is shot-peening. High velocity projectiles, usually metallic or ceramic beads, are used to hit a surface. The impact deform plastically the top of the part, which want to stretch in the horizontal direction. This is prevented by the material below, which remains undeformed. The surface layer thus finds itself in a compressive state \cite{Vrancken2016}. If tensile stresses where present near the surface, they get cancelled by the important compressive stresses included in the material. While injecting compression near the surface can already be beneficial, by hindering crack initiation for example, Salmi et al. (2017) \cite{Salmi2017} also obtained a certain degree of homogenization of the stresses all along the examined depth. \\
 
 Lastly, another well-known defect of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength, because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower et al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair et al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. Although machining the surface does indeed reduce its roughness, but can also expose buried porosities at the same time, which make sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts.\\
 
-As we saw, 
+%As we saw, 
 
 %Recherches biblio....
 %\section{Comment référencer?}
