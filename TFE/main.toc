@@ -46,9 +46,9 @@
 \contentsline {subsection}{\numberline {4.2.3}Homogeneity}{42}{subsection.103}
 \contentsline {section}{\numberline {4.3}Characterisation of the as-built samples}{43}{section.107}
 \contentsline {subsection}{\numberline {4.3.1}Melt pools sizes and distribution}{43}{subsection.108}
-\contentsline {subsection}{\numberline {4.3.2}Microstructure}{46}{subsection.112}
-\contentsline {subsection}{\numberline {4.3.3}Residual stresses}{46}{subsection.113}
-\contentsline {subsection}{\numberline {4.3.4}Mechanical properties}{46}{subsection.114}
+\contentsline {subsection}{\numberline {4.3.2}Microstructure}{45}{subsection.112}
+\contentsline {subsection}{\numberline {4.3.3}Residual stresses}{45}{subsection.113}
+\contentsline {subsection}{\numberline {4.3.4}Mechanical properties}{45}{subsection.114}
 \contentsline {section}{\numberline {4.4}Characterisation of the heat-treated samples}{46}{section.116}
 \contentsline {subsection}{\numberline {4.4.1}Microstructure}{46}{subsection.117}
 \contentsline {subsection}{\numberline {4.4.2}Residual stresses}{46}{subsection.118}

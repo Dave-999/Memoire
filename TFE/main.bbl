@@ -549,19 +549,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{T6}{online}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Heat treating of aluminum and aluminum alloys}
-    \verb{url}
-    \verb https://www.totalmateria.com/page.aspx?ID=CheckArticle&site=ktn&NM=7
-    \endverb
-    \field{urlday}{30}
-    \field{urlmonth}{05}
-    \field{urlyear}{2018}
-  \endentry
-
   \entry{Hodge2014}{article}{}
     \name{author}{3}{}{%
       {{hash=HN}{%
@@ -968,6 +955,33 @@
   processing parameters optimisation in selective laser melting process}
     \field{month}{01}
     \field{year}{2011}
+  \endentry
+
+  \entry{LANL}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Los Alamos National Laboratory - The Contour Method for
+  Measuring Residual Stress}
+    \verb{url}
+    \verb http://www.lanl.gov/contour/
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
+  \entry{RO}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{MechaniCalc - Material Stress-Strain Curve}
+    \verb{url}
+    \verb https://mechanicalc.com/calculators/material-stress-strain-curve/
+    \endverb
+    \field{urlday}{09}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Mertens15}{inproceedings}{}
@@ -1385,19 +1399,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{LANL}{online}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{The Contour Method for Measuring Residual Stress}
-    \verb{url}
-    \verb http://www.lanl.gov/contour/
-    \endverb
-    \field{urlday}{28}
-    \field{urlmonth}{05}
-    \field{urlyear}{2018}
-  \endentry
-
   \entry{Thijs13}{article}{}
     \name{author}{4}{}{%
       {{hash=TL}{%
@@ -1441,6 +1442,20 @@
     \field{volume}{61}
     \field{journaltitle}{Acta Materialia}
     \field{year}{2013}
+  \endentry
+
+  \entry{T6}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Total Materia - Heat treating of aluminum and aluminum
+  alloys}
+    \verb{url}
+    \verb https://www.totalmateria.com/page.aspx?ID=CheckArticle&site=ktn&NM=7
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{UZAN2017229}{article}{}

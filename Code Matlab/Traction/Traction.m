@@ -334,10 +334,9 @@ hold on
 %dp=polyder(p)
 %dsigsig=polyval(dp,epsilon_2)
 dsigma_AB=diff(sigma_AB)./diff(epsilon_AB)
-plot(epsilon_AB(2:end),dsigma_AB)
+%plot(epsilon_AB(2:end),dsigma_AB)
 %plot(epsilon_2(1:end),dsigsig)
 
-figure
 %150
 
 E_150=mean([E_13 E_14 E_B])
@@ -366,7 +365,7 @@ UTS_250=mean([UTS_7 UTS_8])
 epsilon_f_250=mean([epsilon_f_7 epsilon_f_8])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,0.165,500),interp1(0.01*[0 0.35761 0.61691 1.6578 3.5 5.33148 9.58661 13.53987 16.98394],[0 211.61 241.45 274.60 297*1.03 307.76*1.08 324.33*1.15 334.28*1.18 402.27],linspace(0,0.165,500),'spline'))
+plot(linspace(0,0.165,500),interp1([0 0.37578 0.0048084 0.007136 0.0115242 0.0196286 0.0341426 0.0592953 0.1015275 0.165],[0 94.048 211.61 228.94 250.61 272.27 293.94 315.6 337.27 358.93 380.6],linspace(0,0.165,500),'spline'))
 
 %300
 
@@ -376,7 +375,7 @@ UTS_300=mean([UTS_4 UTS_5 UTS_6])
 epsilon_f_300=mean([epsilon_f_4 epsilon_f_5 epsilon_f_6])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,0.297,500),interp1(0.01*[0 0.27543 0.3 0.35627 0.56306 1.99506 8.03289 15.74677 25 30.06721],[0 153.66 157*1.01 163.84*1.05 176.57*1.08 202.08*1.05 227.48*1.125 240.2*1.24 250*1.32 334.5],linspace(0,0.297,500),'spline'))
+plot(linspace(0,0.297,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.0129174 0.0245514 0.0471322 0.0891744 0.1644895 0.2947815],[0 67.960 152.91 166.1 182.59 199.08 215.57 232.06 248.55 265.04 281.53],linspace(0,0.297,500),'spline'))
 % 
 % sigma_150=linspace(0,UTS_150,500)
 % epsilon_150=zeros(500,1)
