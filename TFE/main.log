@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.5.26)  3 JUN 2018 18:57
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  3 JUN 2018 12:36
+>>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
+<<<<<<< HEAD
 Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
+=======
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+>>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3
 (MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/11/22 v1.5 LaTeXTemplates.com
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
@@ -2113,8 +2121,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 
 
 
+<<<<<<< HEAD
 {C:/Users/Arthur/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/l
 ogos.jpg>] [2]
+=======
+{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/lo
+gos.jpg>] [2]
+>>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 190.
 
@@ -2253,6 +2266,7 @@ File: Images/Param.png Graphic file (type png)
 Package pdftex.def Info: Images/Param.png  used on input line 39.
 (pdftex.def)             Requested size: 336.47182pt x 206.11684pt.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
@@ -3645,3 +3659,6 @@ PDF statistics:
  431 named destinations out of 1000 (max. 500000)
  984 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+Underfull \hbox (badness 10000) in paragraph at l
+>>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3

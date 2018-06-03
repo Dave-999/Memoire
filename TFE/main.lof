@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {british}
@@ -77,3 +78,5 @@
 \contentsline {figure}{\numberline {E.2}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{79}{figure.caption.195}
 \contentsline {figure}{\numberline {E.3}{\ignorespaces Average apparent relative density of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{80}{figure.caption.196}
 \contentsline {figure}{\numberline {E.4}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{80}{figure.caption.197}
+=======
+>>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3
