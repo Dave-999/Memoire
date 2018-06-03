@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Mechanical properties of SLM built parts and cast + aged parts in literature}}{12}{table.caption.26}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite {Wang2018}.}}{12}{table.caption.27}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Mechanical properties of SLM built parts and cast + aged parts in literature}}{11}{table.caption.26}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite {Wang2018}.}}{11}{table.caption.27}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Mechanical properties of T6 treated Al6061 alloy}}{12}{table.caption.28}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state}}{19}{table.caption.37}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state}}{18}{table.caption.37}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces List of the cubic heat-treated specimens}}{28}{table.caption.54}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Polishing routine for Al-Si alloys}}{30}{table.caption.59}
@@ -29,15 +28,13 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces RODIA results for zones A and B of specimen X200-180317 with 5x and 10x magnification}}{50}{table.caption.130}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{60}{table.153}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{61}{table.153}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{62}{table.153}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{62}{table.154}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{63}{table.154}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{64}{table.154}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Tensile mechanical properties of the as-built specimens from batch X200-180417}}{73}{table.caption.185}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Tensile mechanical properties of the heat treated specimens from batch X200-180417}}{73}{table.caption.187}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Tensile mechanical properties of the as-built specimens from batch X200-180417}}{75}{table.caption.186}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tensile mechanical properties of the heat treated specimens from batch X200-180417}}{75}{table.caption.188}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{75}{table.caption.189}
+\contentsline {table}{\numberline {C.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{77}{table.caption.190}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-=======
->>>>>>> de8f71db75d84ea3b333fee777b0c06bf53d54d3

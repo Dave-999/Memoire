@@ -345,7 +345,7 @@ UTS_150=mean([UTS_13 UTS_14 UTS_B])
 epsilon_f_150=mean([epsilon_f_13 epsilon_f_14 epsilon_f_B])
 n=log(UTS_150/sigma_y_150)/log(500*epsilon_f_150)
 
-plot(linspace(0,epsilon_f_150,500),interp1(0.01*[0 0.46727 0.7242 1.37843 2.89153 5 6.16553],[0 259.36 301.43 348.18 398.92 430 441.67],linspace(0,epsilon_f_150,500),'spline'))
+%plot(linspace(0,epsilon_f_150,500),interp1(0.01*[0 0.46727 0.7242 1.37843 2.89153 5 6.16553],[0 259.36 301.43 348.18 398.92 430 441.67],linspace(0,epsilon_f_150,500),'spline'))
 
 %200
 
@@ -355,7 +355,7 @@ UTS_200=mean([UTS_10 UTS_11])
 epsilon_f_200=mean([epsilon_f_10 epsilon_f_11])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,epsilon_f_200,500),interp1(0.01*[0 0.40102 0.64388 1.23653 2.53021 4 epsilon_f_200*100],[0 220.83 258.03 299.35 340.68 370 382.01],linspace(0,epsilon_f_200,500),'spline'))
+%plot(linspace(0,epsilon_f_200,500),interp1(0.01*[0 0.40102 0.64388 1.23653 2.53021 4 epsilon_f_200*100],[0 220.83 258.03 299.35 340.68 370 382.01],linspace(0,epsilon_f_200,500),'spline'))
 
 %250
 
@@ -365,7 +365,7 @@ UTS_250=mean([UTS_7 UTS_8])
 epsilon_f_250=mean([epsilon_f_7 epsilon_f_8])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,0.165,500),interp1([0 0.37578 0.0048084 0.007136 0.0115242 0.0196286 0.0341426 0.0592953 0.1015275 0.165],[0 94.048 211.61 228.94 250.61 272.27 293.94 315.6 337.27 358.93 380.6],linspace(0,0.165,500),'spline'))
+%plot(linspace(0,0.165,500),interp1([0 0.37578 0.0048084 0.007136 0.0115242 0.0196286 0.0341426 0.0592953 0.1015275 0.165],[0 94.048 211.61 228.94 250.61 272.27 293.94 315.6 337.27 358.93 380.6],linspace(0,0.165,500),'spline'))
 
 %300
 
@@ -375,7 +375,7 @@ UTS_300=mean([UTS_4 UTS_5 UTS_6])
 epsilon_f_300=mean([epsilon_f_4 epsilon_f_5 epsilon_f_6])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-plot(linspace(0,0.297,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.0129174 0.0245514 0.0471322 0.0891744 0.1644895 0.2947815],[0 67.960 152.91 166.1 182.59 199.08 215.57 232.06 248.55 265.04 281.53],linspace(0,0.297,500),'spline'))
+%plot(linspace(0,0.297,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.0129174 0.0245514 0.0471322 0.0891744 0.1644895 0.2947815],[0 67.960 152.91 166.1 182.59 199.08 215.57 232.06 248.55 265.04 281.53],linspace(0,0.297,500),'spline'))
 % 
 % sigma_150=linspace(0,UTS_150,500)
 % epsilon_150=zeros(500,1)
@@ -383,8 +383,8 @@ plot(linspace(0,0.297,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.
 %     epsilon_150(i)=sigma_150(i)/E_150/10^6+0.000000000000000000000000001516*(sigma_150(i)/sigma_y_150)^(n)
 % end
 % plot(epsilon_150,sigma_150)
-xlabel('True strain [-]')
-ylabel('True stress [MPa]')
+xlabel('Engineering strain [-]')
+ylabel('Engineering stress [MPa]')
 legend('As-built','150°C (2h)','200°C (2h)','250°C (2h)','300°C (2h)')
 
 %Y1avg = interp1(X1,Y1,Xavg);
