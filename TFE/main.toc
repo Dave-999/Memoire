@@ -5,11 +5,10 @@
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
 \contentsline {section}{\numberline {2.1}Selective laser melting technology}{3}{section.12}
 \contentsline {section}{\numberline {2.2}AlSi10Mg alloy}{5}{section.16}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {2.3}Fabrication process parameters}{8}{section.20}
 \contentsline {section}{\numberline {2.4}As-built mechanical properties}{11}{section.25}
-\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{12}{section.30}
-\contentsline {section}{\numberline {2.6}Post treatments}{16}{section.35}
+\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{13}{section.30}
+\contentsline {section}{\numberline {2.6}Post treatments}{17}{section.35}
 \contentsline {chapter}{\numberline {3}Materials and methods}{21}{chapter.38}
 \contentsline {section}{\numberline {3.1}Powder follow-up}{21}{section.39}
 \contentsline {subsection}{\numberline {3.1.1}Sieving}{21}{subsection.40}
@@ -63,130 +62,37 @@
 \contentsline {subsection}{\numberline {5.2.2}Measures comparison}{54}{subsection.133}
 \contentsline {section}{\numberline {5.3}Density and hardness study}{55}{section.136}
 \contentsline {subsection}{\numberline {5.3.1}Parameters optimisation}{55}{subsection.137}
-\contentsline {subsection}{\numberline {5.3.2}Reproducibility}{55}{subsection.138}
-\contentsline {section}{\numberline {5.4}Characterisation of the as-built samples}{55}{section.139}
-\contentsline {subsection}{\numberline {5.4.1}Melt pools sizes and distribution}{55}{subsection.140}
-\contentsline {subsection}{\numberline {5.4.2}Microstructure}{55}{subsection.141}
-\contentsline {subsection}{\numberline {5.4.3}Residual stresses}{55}{subsection.142}
-\contentsline {subsection}{\numberline {5.4.4}Mechanical properties}{55}{subsection.143}
-\contentsline {section}{\numberline {5.5}Characterisation of the heat treated samples}{55}{section.144}
-\contentsline {subsection}{\numberline {5.5.1}Heating process}{55}{subsection.145}
-\contentsline {subsection}{\numberline {5.5.2}Microstructure}{56}{subsection.146}
-\contentsline {subsection}{\numberline {5.5.3}Residual stresses}{56}{subsection.147}
-\contentsline {subsection}{\numberline {5.5.4}Mechanical properties}{56}{subsection.148}
-\contentsline {subsection}{\numberline {5.5.5}Optimisation}{56}{subsection.149}
-\contentsline {chapter}{\numberline {6}Conclusion}{57}{chapter.150}
-\contentsline {chapter}{\numberline {A}Batches fabrication and hardness/density measurements details}{59}{appendix.151}
-\contentsline {section}{\numberline {A.1}Process parameters and measured hardness/density properties}{59}{section.152}
-\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{64}{section.157}
-\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{64}{subsection.158}
-\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{65}{subsection.161}
-\contentsline {subsection}{\numberline {A.2.3}Batch X200-180220}{66}{subsection.164}
-\contentsline {subsection}{\numberline {A.2.4}Batch X200-180222}{67}{subsection.166}
-\contentsline {subsection}{\numberline {A.2.5}Batch X200-180228}{68}{subsection.169}
-\contentsline {subsection}{\numberline {A.2.6}Batch X200-180313}{69}{subsection.172}
-\contentsline {subsection}{\numberline {A.2.7}Batch X200-180315}{70}{subsection.175}
-\contentsline {subsection}{\numberline {A.2.8}Batch X200-180319}{71}{subsection.178}
-\contentsline {subsection}{\numberline {A.2.9}Batch X200-180417}{72}{subsection.181}
-\contentsline {chapter}{\numberline {B}Tensile properties details}{73}{appendix.183}
-\contentsline {section}{\numberline {B.1}As-built samples}{73}{section.184}
-\contentsline {subsection}{\numberline {B.1.1}Heat treated samples}{73}{subsection.186}
-\contentsline {chapter}{\numberline {C}Extract of Vickers hardness conversion table (HV10)}{75}{appendix.188}
-\contentsline {chapter}{\numberline {D}Procedure for the confidence intervals computation}{77}{appendix.190}
-\contentsline {section}{\numberline {D.1}Apparent relative density}{77}{section.191}
-\contentsline {section}{\numberline {D.2}Vickers hardness}{78}{section.192}
-\contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{79}{appendix.193}
-\contentsline {chapter}{Bibliography}{81}{appendix*.198}
-=======
-\contentsline {section}{\numberline {2.3}Fabrication process parameters}{6}{section.17}
-\contentsline {section}{\numberline {2.4}As-built mechanical properties}{9}{section.22}
-\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{10}{section.27}
-\contentsline {section}{\numberline {2.6}Post treatments}{14}{section.32}
-\contentsline {chapter}{\numberline {3}Materials and methods}{19}{chapter.35}
-\contentsline {section}{\numberline {3.1}Powder follow-up}{19}{section.36}
-\contentsline {subsection}{\numberline {3.1.1}Sieving}{19}{subsection.37}
-\contentsline {subsection}{\numberline {3.1.2}Grain size and distribution}{19}{subsection.38}
-\contentsline {subsection}{\numberline {3.1.3}Composition}{19}{subsection.39}
-\contentsline {section}{\numberline {3.2}SLM manufacturing}{19}{section.40}
-\contentsline {section}{\numberline {3.3}Heat treatments}{24}{section.48}
-\contentsline {section}{\numberline {3.4}Characterisation}{26}{section.52}
-\contentsline {subsection}{\numberline {3.4.1}Density}{26}{subsection.53}
-\contentsline {subsubsection}{Hydrostatic weighing}{26}{section*.54}
-\contentsline {subsubsection}{Relative optical density image analysis}{26}{section*.55}
-\contentsline {subsection}{\numberline {3.4.2}Microstructure}{27}{subsection.58}
-\contentsline {subsubsection}{Scanning electron microscopy}{27}{section*.59}
-\contentsline {subsubsection}{Optical microscopy}{27}{section*.60}
-\contentsline {subsection}{\numberline {3.4.3}Composition}{28}{subsection.61}
-\contentsline {subsection}{\numberline {3.4.4}Residual stresses}{28}{subsection.62}
-\contentsline {subsection}{\numberline {3.4.5}Mechanical properties}{28}{subsection.63}
-\contentsline {subsubsection}{Hardness test}{28}{section*.64}
-\contentsline {subsubsection}{Tensile tests}{29}{section*.66}
-\contentsline {chapter}{\numberline {4}Results}{33}{chapter.70}
-\contentsline {section}{\numberline {4.1}Powder ageing}{33}{section.71}
-\contentsline {subsection}{\numberline {4.1.1}Grain size and distribution}{33}{subsection.72}
-\contentsline {subsubsection}{Fresh powder}{33}{section*.73}
-\contentsline {subsubsection}{Recycled powder}{33}{section*.74}
-\contentsline {subsection}{\numberline {4.1.2}Composition}{33}{subsection.75}
-\contentsline {subsubsection}{Fresh powder}{33}{section*.76}
-\contentsline {subsubsection}{Recycled powder}{33}{section*.78}
-\contentsline {section}{\numberline {4.2}Density and hardness study}{34}{section.81}
-\contentsline {subsection}{\numberline {4.2.1}Optimisation of the SLM parameters}{34}{subsection.82}
-\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{36}{subsection.84}
-\contentsline {subsubsection}{General results}{36}{section*.85}
-\contentsline {subsubsection}{Sample proximity and position influence}{37}{section*.89}
-\contentsline {subsubsection}{Scan order influence}{38}{section*.93}
-\contentsline {subsubsection}{Powder influence}{39}{section*.95}
-\contentsline {subsection}{\numberline {4.2.3}Homogeneity}{40}{subsection.100}
-\contentsline {section}{\numberline {4.3}Characterisation of the as-built samples}{41}{section.104}
-\contentsline {subsection}{\numberline {4.3.1}Melt pools sizes and distribution}{41}{subsection.105}
-\contentsline {subsection}{\numberline {4.3.2}Microstructure}{44}{subsection.109}
-\contentsline {subsection}{\numberline {4.3.3}Residual stresses}{44}{subsection.110}
-\contentsline {subsection}{\numberline {4.3.4}Mechanical properties}{44}{subsection.111}
-\contentsline {section}{\numberline {4.4}Characterisation of the heat-treated samples}{44}{section.113}
-\contentsline {subsection}{\numberline {4.4.1}Microstructure}{44}{subsection.114}
-\contentsline {subsection}{\numberline {4.4.2}Residual stresses}{44}{subsection.115}
-\contentsline {subsection}{\numberline {4.4.3}Mechanical properties}{44}{subsection.116}
-\contentsline {chapter}{\numberline {5}Discussion}{47}{chapter.119}
-\contentsline {section}{\numberline {5.1}Powder ageing}{47}{section.120}
-\contentsline {subsection}{\numberline {5.1.1}Grain size and distribution}{47}{subsection.121}
-\contentsline {subsection}{\numberline {5.1.2}Composition}{47}{subsection.122}
-\contentsline {section}{\numberline {5.2}Density measures assessments}{47}{section.123}
-\contentsline {subsection}{\numberline {5.2.1}Relative optical density image analysis}{47}{subsection.124}
-\contentsline {subsection}{\numberline {5.2.2}Measures comparison}{52}{subsection.130}
-\contentsline {section}{\numberline {5.3}Density and hardness study}{53}{section.133}
-\contentsline {subsection}{\numberline {5.3.1}Parameters optimisation}{53}{subsection.134}
-\contentsline {subsection}{\numberline {5.3.2}Reproducibility}{54}{subsection.136}
-\contentsline {section}{\numberline {5.4}Characterisation of the as-built samples}{54}{section.137}
-\contentsline {subsection}{\numberline {5.4.1}Melt pools sizes and distribution}{54}{subsection.138}
-\contentsline {subsection}{\numberline {5.4.2}Microstructure}{54}{subsection.139}
-\contentsline {subsection}{\numberline {5.4.3}Residual stresses}{54}{subsection.140}
-\contentsline {subsection}{\numberline {5.4.4}Mechanical properties}{54}{subsection.141}
-\contentsline {section}{\numberline {5.5}Characterisation of the heat treated samples}{54}{section.142}
-\contentsline {subsection}{\numberline {5.5.1}Heating process}{54}{subsection.143}
-\contentsline {subsection}{\numberline {5.5.2}Microstructure}{54}{subsection.144}
-\contentsline {subsection}{\numberline {5.5.3}Residual stresses}{54}{subsection.145}
-\contentsline {subsection}{\numberline {5.5.4}Mechanical properties}{54}{subsection.146}
-\contentsline {subsection}{\numberline {5.5.5}Optimisation}{54}{subsection.147}
-\contentsline {chapter}{\numberline {6}Conclusion}{55}{chapter.148}
-\contentsline {chapter}{\numberline {A}Batches fabrication and hardness/density measurements details}{57}{appendix.149}
-\contentsline {section}{\numberline {A.1}Process parameters and measured hardness/density properties}{57}{section.150}
-\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{62}{section.155}
-\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{62}{subsection.156}
-\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{63}{subsection.159}
-\contentsline {subsection}{\numberline {A.2.3}Batch X200-180220}{64}{subsection.162}
-\contentsline {subsection}{\numberline {A.2.4}Batch X200-180222}{65}{subsection.164}
-\contentsline {subsection}{\numberline {A.2.5}Batch X200-180228}{66}{subsection.167}
-\contentsline {subsection}{\numberline {A.2.6}Batch X200-180313}{67}{subsection.170}
-\contentsline {subsection}{\numberline {A.2.7}Batch X200-180315}{68}{subsection.173}
-\contentsline {subsection}{\numberline {A.2.8}Batch X200-180319}{69}{subsection.176}
-\contentsline {subsection}{\numberline {A.2.9}Batch X200-180417}{70}{subsection.179}
-\contentsline {chapter}{\numberline {B}Tensile properties details}{71}{appendix.181}
-\contentsline {section}{\numberline {B.1}As-built samples}{71}{section.182}
-\contentsline {subsection}{\numberline {B.1.1}Heat treated samples}{71}{subsection.184}
-\contentsline {chapter}{\numberline {C}Extract of Vickers hardness conversion table (HV10)}{73}{appendix.186}
-\contentsline {chapter}{\numberline {D}Procedure for the confidence intervals computation}{75}{appendix.188}
-\contentsline {section}{\numberline {D.1}Apparent relative density}{75}{section.189}
-\contentsline {section}{\numberline {D.2}Vickers hardness}{76}{section.190}
-\contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{77}{appendix.191}
-\contentsline {chapter}{Bibliography}{79}{appendix*.196}
->>>>>>> 68bb50289ce9eb93811d8d481693c3fed2574206
+\contentsline {subsection}{\numberline {5.3.2}Reproducibility}{56}{subsection.139}
+\contentsline {section}{\numberline {5.4}Characterisation of the as-built samples}{56}{section.140}
+\contentsline {subsection}{\numberline {5.4.1}Melt pools sizes and distribution}{56}{subsection.141}
+\contentsline {subsection}{\numberline {5.4.2}Microstructure}{56}{subsection.142}
+\contentsline {subsection}{\numberline {5.4.3}Residual stresses}{56}{subsection.143}
+\contentsline {subsection}{\numberline {5.4.4}Mechanical properties}{56}{subsection.144}
+\contentsline {section}{\numberline {5.5}Characterisation of the heat treated samples}{56}{section.145}
+\contentsline {subsection}{\numberline {5.5.1}Heating process}{56}{subsection.146}
+\contentsline {subsection}{\numberline {5.5.2}Microstructure}{56}{subsection.147}
+\contentsline {subsection}{\numberline {5.5.3}Residual stresses}{56}{subsection.148}
+\contentsline {subsection}{\numberline {5.5.4}Mechanical properties}{56}{subsection.149}
+\contentsline {subsection}{\numberline {5.5.5}Optimisation}{56}{subsection.150}
+\contentsline {chapter}{\numberline {6}Conclusion}{57}{chapter.151}
+\contentsline {chapter}{\numberline {A}Batches fabrication and hardness/density measurements details}{59}{appendix.152}
+\contentsline {section}{\numberline {A.1}Process parameters and measured hardness/density properties}{59}{section.153}
+\contentsline {section}{\numberline {A.2}Specimens positioning, fabrication orders and sintering times}{64}{section.158}
+\contentsline {subsection}{\numberline {A.2.1}Batch X200-171024}{64}{subsection.159}
+\contentsline {subsection}{\numberline {A.2.2}Batch X200-180109}{65}{subsection.162}
+\contentsline {subsection}{\numberline {A.2.3}Batch X200-180220}{66}{subsection.165}
+\contentsline {subsection}{\numberline {A.2.4}Batch X200-180222}{67}{subsection.167}
+\contentsline {subsection}{\numberline {A.2.5}Batch X200-180228}{68}{subsection.170}
+\contentsline {subsection}{\numberline {A.2.6}Batch X200-180313}{69}{subsection.173}
+\contentsline {subsection}{\numberline {A.2.7}Batch X200-180315}{70}{subsection.176}
+\contentsline {subsection}{\numberline {A.2.8}Batch X200-180319}{71}{subsection.179}
+\contentsline {subsection}{\numberline {A.2.9}Batch X200-180417}{72}{subsection.182}
+\contentsline {chapter}{\numberline {B}Tensile properties details}{73}{appendix.184}
+\contentsline {section}{\numberline {B.1}As-built samples}{73}{section.185}
+\contentsline {subsection}{\numberline {B.1.1}Heat treated samples}{73}{subsection.187}
+\contentsline {chapter}{\numberline {C}Extract of Vickers hardness conversion table (HV10)}{75}{appendix.189}
+\contentsline {chapter}{\numberline {D}Procedure for the confidence intervals computation}{77}{appendix.191}
+\contentsline {section}{\numberline {D.1}Apparent relative density}{77}{section.192}
+\contentsline {section}{\numberline {D.2}Vickers hardness}{78}{section.193}
+\contentsline {chapter}{\numberline {E}Reproducibility study additional plots}{79}{appendix.194}
+\contentsline {chapter}{Bibliography}{81}{appendix*.199}
