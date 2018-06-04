@@ -27,6 +27,7 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces RODIA results for zones A and B of specimen X200-180317 with 5x and 10x magnification}}{50}{table.caption.132}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{60}{table.155}
 \contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{61}{table.155}
 \contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{62}{table.155}
@@ -35,5 +36,15 @@
 \contentsline {table}{\numberline {B.2}{\ignorespaces Tensile mechanical properties of the heat treated specimens from batch X200-180417}}{73}{table.caption.189}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {C.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{75}{table.caption.191}
+=======
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{62}{table.154}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{63}{table.154}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{64}{table.154}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Tensile mechanical properties of the as-built specimens from batch X200-180417}}{75}{table.caption.186}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tensile mechanical properties of the heat treated specimens from batch X200-180417}}{75}{table.caption.188}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{77}{table.caption.190}
+>>>>>>> 1e49acacef04e6d6e312d1b674c85a5d697332a6
 \addvspace {10\p@ }
 \addvspace {10\p@ }
