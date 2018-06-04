@@ -1471,6 +1471,68 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Trebuna08}{online}{}
+    \name{author}{7}{}{%
+      {{hash=TF}{%
+         family={Trebuna},
+         familyi={T\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Simcak},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bocko},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={SARGA},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Trebuna},
+         familyi={T\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pastor},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mihok},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TF+1}
+    \strng{fullhash}{TFSFBJSPTPPMMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Fine-structured aluminium products with controllable texture
+  by selective laser melting of pre-alloyed AlSi10Mg powder}
+    \verb{url}
+    \verb https://hrcak.srce.hr/file/30578
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{14}
+    \field{urlmonth}{05}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{UZAN2017229}{article}{}
     \name{author}{4}{}{%
       {{hash=UNE}{%
