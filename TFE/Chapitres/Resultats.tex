@@ -14,13 +14,11 @@ The evolution of powder size distribution during the year, before ultrasonic tre
 	\label{fig:granulo}
 \end{figure}
 
-
-
 \subsection{Composition}
 
 \subsubsection{Fresh powder}
 
-The composition of a sample of fresh powder was estimated through inductively coupled plasma (ICP) spectrometry. The result is shown in table \ref{tab:compoF}. Each mass fraction is vitiated by an error than can go up to 3[\%]. 
+The composition of new powder measured by ICP spectrometry is shown in table \ref{tab:compoF}. Each mass fraction is vitiated by an error than can go up to 3[\%]. 
  \begin{center}
 \begin{table}[ht]
 \centering
@@ -43,11 +41,13 @@ The composition of a sample of fresh powder was estimated through inductively co
 
 \subsubsection{Recycled powder}
 
+The reiterations of this analysis on the recycled powder used for different batches gave the results from Fig. \ref{fig:Compo}.
+
 \begin{figure}[ht]
 \centering
 \noindent\makebox[\textwidth]{\includegraphics[scale=0.5]{Images/Compo}}
 \decoRule
-\caption[...(a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction]{...(a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}
+\caption[Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction]{Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}
 \label{fig:Compo}
 \end{figure} 
 
@@ -356,17 +356,6 @@ In both cases, the area of every zone was computed. Melt pools areas histograms 
 \subsection{Microstructure}
 Optique: Porosité en grande majorité aux interfaces des bains de fusion. Grandes zones non fondues (?).
 
-\subsection{Residual stresses}
-
-\begin{figure}[ht]
-	\centering
-	\centerline{\includegraphics[scale=0.45]{Images/XRD}}
-	\decoRule
-	\caption[X-Ray diffractogram of a X200-180109 as-built sample]{X-Ray diffractogram of a X200-180109 as-built sample.}
-	\label{fig:XRD}
-\end{figure}
-
-Full width at half-maximum
 
 \subsection{Mechanical properties}
 
@@ -402,19 +391,7 @@ No necking phenomena was observed among all tensile tests for AB samples. The Co
 	\centering
 	\centerline{\includegraphics[scale=0.45]{Images/171024-7b_7}}
 	\decoRule
-	\caption[]{.}
-	\label{fig:result_rs1}
-\end{figure}
-
-\subsection{Residual stresses}
-
-When we assume that the residual stresses are uniform, at least at the scale of the hole, when obtain that the as-built sample present a maximal and minimal principal stress respectively of 10 and 1 MPa. For the sample heat-treated at 300$^\circ$C for 2h, they are 43 and 23 MPa. On the other hand, when the assumption that stress varies depending on the depth, the two chosen calculation methods offer different results, available in Fig. \ref{fig:result_rs1}.
-
-\begin{figure}[ht]
-	\centering
-	\centerline{\includegraphics[scale=0.45]{Images/result_rs1}}
-	\decoRule
-	\caption[Magnitude of principal residual stresses along depth in both the 300$^\circ$C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method]{Magnitude of principal residual stresses along depth in both the 300$^\circ$C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method.}
+	\caption[]{7b-7.}
 	\label{fig:result_rs1}
 \end{figure}
 
@@ -475,3 +452,50 @@ where $n \simeq \epsilon_{f,true,a}$ is the strain hardening coefficient. The su
 %\bottomrule\\
 %\end{tabular}
 %\end{table}
+
+\section{Residual stresses}
+
+X-ray diffraction of an as-built sample cut in half gave the Fig. \ref{fig:XRD} as a result. A zoom on the main aluminium peak (around 38.4$^\circ$) \cite{Rosenthal14}, including comparison with the various heat-treated samples, is available in Fig. \ref{fig:XRD_zoom}. The value of full width at half-maximum for all 5 samples is available in Table \ref{tab:fwhm}.
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.60]{Images/XRD}}
+	\decoRule
+	\caption[X-Ray diffractogram of a X200-180109 as-built sample]{X-Ray diffractogram of a X200-180109 as-built sample.}
+	\label{fig:XRD}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.60]{Images/XRD_zoom}}
+	\decoRule
+	\caption[Close-up view on the highest Al peak, for the 5 different samples]{Close-up view on the highest Al peak, for the 5 different samples.}
+	\label{fig:XRD_zoom}
+\end{figure}
+
+\begin{center}
+	\begin{table}[ht]
+		\noindent\makebox[\textwidth]{\begin{tabular}{|c |c |c| c|c|c|}
+				\hline
+				Sample & As-built & 150$^\circ$-2h & 200$^\circ$-2h & 250$^\circ$-2h & 300$^\circ$-2h \\
+				
+				\hline   
+				FWHM [$^\circ$] & 0.402 & 0.410 & 0.408 & 0.402 & 0.400 \\
+				
+				\hline
+		\end{tabular}}
+	
+	\caption[Full width at half-maximum for the cut as-built sample and the 4 cubix heat-treated samples]{Average tensile mechanical properties of the as-built specimens from batch X200-180417}
+	\label{tab:fwhm}
+\end{table}
+\end{center}
+
+Now, hole-drilling method gives more quantitative results. When we assume that the residual stresses are uniform, at least at the scale of the hole, we obtain that the as-built sample present a maximal and minimal principal stress respectively of 10 and 1 MPa. For the sample heat-treated at 300$^\circ$C for 2h, they are 43 and 23 MPa. On the other hand, when the assumption that stress varies depending on the depth, the two chosen calculation methods offer different results, available in Fig. \ref{fig:result_rs1}.
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.60]{Images/result_rs1}}
+	\decoRule
+	\caption[Magnitude of principal residual stresses along depth in both the 300$^\circ$C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method]{Magnitude of principal residual stresses along depth in both the 300$^\circ$C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method.}
+	\label{fig:result_rs1}
+\end{figure}

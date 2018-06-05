@@ -20,36 +20,34 @@
 \contentsline {subsubsection}{Hydrostatic weighing}{29}{section*.57}
 \contentsline {subsubsection}{Relative optical density image analysis}{29}{section*.58}
 \contentsline {subsection}{\numberline {3.4.2}Microstructure}{30}{subsection.61}
-\contentsline {subsubsection}{Scanning electron microscopy}{30}{section*.62}
-\contentsline {subsubsection}{Optical microscopy}{30}{section*.63}
-\contentsline {subsection}{\numberline {3.4.3}Composition}{31}{subsection.64}
-\contentsline {subsection}{\numberline {3.4.4}Residual stresses}{31}{subsection.65}
-\contentsline {subsection}{\numberline {3.4.5}Mechanical properties}{31}{subsection.66}
-\contentsline {subsubsection}{Hardness test}{31}{section*.67}
-\contentsline {subsubsection}{Tensile tests}{32}{section*.69}
-\contentsline {chapter}{\numberline {4}Results}{37}{chapter.73}
-\contentsline {section}{\numberline {4.1}Powder ageing}{37}{section.74}
-\contentsline {subsection}{\numberline {4.1.1}Grain size and distribution}{37}{subsection.75}
-\contentsline {subsection}{\numberline {4.1.2}Composition}{37}{subsection.77}
-\contentsline {subsubsection}{Fresh powder}{37}{section*.78}
-\contentsline {subsubsection}{Recycled powder}{38}{section*.80}
-\contentsline {section}{\numberline {4.2}Density and hardness study}{39}{section.83}
-\contentsline {subsection}{\numberline {4.2.1}Optimisation of the SLM parameters}{39}{subsection.84}
-\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{40}{subsection.86}
-\contentsline {subsubsection}{General results}{40}{section*.87}
-\contentsline {subsubsection}{Sample proximity and position influence}{41}{section*.91}
-\contentsline {subsubsection}{Scan order influence}{43}{section*.95}
-\contentsline {subsubsection}{Powder influence}{43}{section*.97}
-\contentsline {subsection}{\numberline {4.2.3}Homogeneity}{44}{subsection.102}
-\contentsline {section}{\numberline {4.3}Characterisation of the as-built samples}{46}{section.106}
-\contentsline {subsection}{\numberline {4.3.1}Melt pools sizes and distribution}{46}{subsection.107}
-\contentsline {subsection}{\numberline {4.3.2}Microstructure}{47}{subsection.111}
-\contentsline {subsection}{\numberline {4.3.3}Residual stresses}{47}{subsection.112}
-\contentsline {subsection}{\numberline {4.3.4}Mechanical properties}{48}{subsection.114}
-\contentsline {section}{\numberline {4.4}Characterisation of the heat-treated samples}{48}{section.116}
-\contentsline {subsection}{\numberline {4.4.1}Microstructure}{48}{subsection.117}
-\contentsline {subsection}{\numberline {4.4.2}Residual stresses}{49}{subsection.119}
-\contentsline {subsection}{\numberline {4.4.3}Mechanical properties}{50}{subsection.121}
+\contentsline {subsubsection}{Optical microscopy}{30}{section*.62}
+\contentsline {subsubsection}{Scanning electron microscopy}{31}{section*.63}
+\contentsline {subsection}{\numberline {3.4.3}Residual stresses}{31}{subsection.64}
+\contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{31}{subsection.65}
+\contentsline {subsubsection}{Hardness test}{31}{section*.66}
+\contentsline {subsubsection}{Tensile tests}{32}{section*.68}
+\contentsline {chapter}{\numberline {4}Results}{37}{chapter.72}
+\contentsline {section}{\numberline {4.1}Powder ageing}{37}{section.73}
+\contentsline {subsection}{\numberline {4.1.1}Grain size and distribution}{37}{subsection.74}
+\contentsline {subsection}{\numberline {4.1.2}Composition}{37}{subsection.76}
+\contentsline {subsubsection}{Fresh powder}{37}{section*.77}
+\contentsline {subsubsection}{Recycled powder}{38}{section*.79}
+\contentsline {section}{\numberline {4.2}Density and hardness study}{39}{section.82}
+\contentsline {subsection}{\numberline {4.2.1}Optimisation of the SLM parameters}{39}{subsection.83}
+\contentsline {subsection}{\numberline {4.2.2}Reproducibility}{40}{subsection.85}
+\contentsline {subsubsection}{General results}{40}{section*.86}
+\contentsline {subsubsection}{Sample proximity and position influence}{41}{section*.90}
+\contentsline {subsubsection}{Scan order influence}{43}{section*.94}
+\contentsline {subsubsection}{Powder influence}{43}{section*.96}
+\contentsline {subsection}{\numberline {4.2.3}Homogeneity}{44}{subsection.101}
+\contentsline {section}{\numberline {4.3}Characterisation of the as-built samples}{46}{section.105}
+\contentsline {subsection}{\numberline {4.3.1}Melt pools sizes and distribution}{46}{subsection.106}
+\contentsline {subsection}{\numberline {4.3.2}Microstructure}{47}{subsection.110}
+\contentsline {subsection}{\numberline {4.3.3}Mechanical properties}{47}{subsection.111}
+\contentsline {section}{\numberline {4.4}Characterisation of the heat-treated samples}{48}{section.113}
+\contentsline {subsection}{\numberline {4.4.1}Microstructure}{48}{subsection.114}
+\contentsline {subsection}{\numberline {4.4.2}Mechanical properties}{48}{subsection.116}
+\contentsline {section}{\numberline {4.5}Residual stresses}{50}{section.119}
 \contentsline {chapter}{\numberline {5}Discussion}{53}{chapter.124}
 \contentsline {section}{\numberline {5.1}Powder ageing}{53}{section.125}
 \contentsline {subsection}{\numberline {5.1.1}Grain size and distribution}{53}{subsection.126}

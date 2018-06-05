@@ -29,22 +29,23 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces (a) \textit {Labfacility L60 Thermocouple \& Fine Wire Welder} and (b) \textit {Agilent 34972A LXI Data Acquisition/Switching Unit}.}}{27}{figure.caption.52}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Temperature curve measured by the T-type thermocouple for the cubic sample annealed at 250$^\circ $C for 2 hours.}}{28}{figure.caption.53}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}.}}{30}{figure.caption.60}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Schematic representation of the Vickers hardness test}}{32}{figure.caption.68}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Schematic representation of the tensile test mounting}}{33}{figure.caption.70}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{35}{figure.caption.72}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Schematic representation of the Vickers hardness test}}{32}{figure.caption.67}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Schematic representation of the tensile test mounting}}{33}{figure.caption.69}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{35}{figure.caption.71}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Powder size distributions for different batches.}}{37}{figure.caption.76}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces ...(a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}}{38}{figure.caption.81}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Batch X200-171024 samples properties as a function of the energy density: (a) as-built apparent relative density (b) Vickers hardness}}{40}{figure.caption.85}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Batch X200-180109 scatter plots as functions of the (x,y) position on the manufacturing plate: (a) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) apparent relative densities (b) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) hardnesses (c) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) apparent relative densities (d) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) hardnesses}}{42}{figure.caption.92}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Batch X200-180109 scatter plots as functions of the scan order of (a) the apparent relative densities (b) the Vickers hardnesses}}{43}{figure.caption.96}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Specimen X200-180417-25 sub-parts and surfaces denomination}}{45}{figure.caption.103}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Scatter plots of the results for specimen X200-180417-25 surfaces as a function of the vertical position: (a) RODIA based relative density (b) Vickers hardness}}{45}{figure.caption.105}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit {ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit {ImageJ} partitioning from the same picture of specimen "8b"}}{46}{figure.caption.108}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Histograms of melt pools areas occurrences from \textit {ImageJ} partitioning of (a) sample "8a" b) sample "8b"}}{47}{figure.caption.109}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces X-Ray diffractogram of a X200-180109 as-built sample}}{47}{figure.caption.113}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Magnitude of principal residual stresses along depth in both the 300$^\circ $C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method}}{49}{figure.caption.120}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Average stress-strain curves of the tensile specimens of batch X200-180417.}}{51}{figure.caption.123}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Powder size distributions for different batches.}}{37}{figure.caption.75}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}}{38}{figure.caption.80}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Batch X200-171024 samples properties as a function of the energy density: (a) as-built apparent relative density (b) Vickers hardness}}{40}{figure.caption.84}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Batch X200-180109 scatter plots as functions of the (x,y) position on the manufacturing plate: (a) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) apparent relative densities (b) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) hardnesses (c) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) apparent relative densities (d) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) hardnesses}}{42}{figure.caption.91}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Batch X200-180109 scatter plots as functions of the scan order of (a) the apparent relative densities (b) the Vickers hardnesses}}{43}{figure.caption.95}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Specimen X200-180417-25 sub-parts and surfaces denomination}}{45}{figure.caption.102}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scatter plots of the results for specimen X200-180417-25 surfaces as a function of the vertical position: (a) RODIA based relative density (b) Vickers hardness}}{45}{figure.caption.104}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit {ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit {ImageJ} partitioning from the same picture of specimen "8b"}}{46}{figure.caption.107}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Histograms of melt pools areas occurrences from \textit {ImageJ} partitioning of (a) sample "8a" b) sample "8b"}}{47}{figure.caption.108}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Average stress-strain curves of the tensile specimens of batch X200-180417.}}{50}{figure.caption.118}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces X-Ray diffractogram of a X200-180109 as-built sample}}{50}{figure.caption.120}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Close-up view on the highest Al peak, for the 5 different samples}}{51}{figure.caption.121}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Magnitude of principal residual stresses along depth in both the 300$^\circ $C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method}}{52}{figure.caption.123}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces 5x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B}}{54}{figure.caption.130}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Histograms of porosities areas occurrences from pictures of specimen X200-180319 on zone A under (a) 5x magnification (b) 10x magnification}}{55}{figure.caption.131}
