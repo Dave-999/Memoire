@@ -478,6 +478,48 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Denkena2007}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DB}{%
+         family={Denkena},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Reichstein},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dLGL}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Leon\bibnamedelima Garcia},
+         familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DBRMLGLd1}
+    \strng{fullhash}{DBRMLGLd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Conference paper}
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{Milling Induced Residual Stresses in Structural Parts out of
+  Forged Aluminum Alloys}
+    \verb{url}
+    \verb http://www.transport-research.info/sites/default/files/project/docume
+    \verb nts/20121115_114306_73510_CIRP_HSM_2007.pdf
+    \endverb
+    \field{journaltitle}{Sixth International Conference on HIGH SPEED
+  MACHINING}
+    \field{year}{2007}
+  \endentry
+
   \entry{EOS}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{E}
