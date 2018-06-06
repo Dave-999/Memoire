@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {3.4.3}Residual stresses}{31}{subsection.66}
 \contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{31}{subsection.67}
 \contentsline {subsubsection}{Hardness test}{31}{section*.68}
-\contentsline {subsubsection}{Tensile tests}{32}{section*.70}
+\contentsline {subsubsection}{Tensile tests}{33}{section*.70}
 \contentsline {chapter}{\numberline {4}Results}{37}{chapter.74}
 \contentsline {section}{\numberline {4.1}Powder ageing}{37}{section.75}
 \contentsline {subsection}{\numberline {4.1.1}Grain size and distribution}{37}{subsection.76}
