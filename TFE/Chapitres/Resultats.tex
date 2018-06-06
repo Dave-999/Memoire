@@ -97,7 +97,7 @@ Results for the measurements of $\rho_{a,rel}$ and $H_v$ are summarised in figur
 \label{RReprod}
 %\subsubsection{Relative density and hardness}
 \subsubsection{General results}
-Batch X200-171024 uncovered a reproducibility issue. One sample of type ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$) had a relative density $\simeq 5 [\%]$ lower than the others' ($\rho_{a,rel}=98.77[\%]$). It was decided to produce a batch of fifteen ($P=75\% P_{max}$ ; $v_s=1200 [\frac{mm}{sec}]$) cubic samples and fifteen ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$) others in order to assess the process reproducibility when using a same powder. The two sets of parameters were used to compare the results for optimal and sub-optimal set values. A total of 18 samples were fabricated close to one another (see \ref{fig:180109-real}) to see if the specimens rapprochement has any effect on their final properties. The distance between two adjacent cubes flanks in the same row (that is quasi-aligned with y) is $\simeq 50 [mm]$. The distance separating the rows is $\simeq 70 [mm]$. The apparent relative density was once more measured with the unpolished AB samples.\\
+Batch X200-171024 uncovered a reproducibility issue. Sample "8a", fabricated with parameters ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$), had a relative density $\simeq 5 [\%]$ lower than the others' ($\rho_{a,rel}=98.77[\%]$). It was decided to produce a batch of fifteen ($P=75\% P_{max}$ ; $v_s=1200 [\frac{mm}{sec}]$) cubic samples and fifteen ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$) others in order to assess the process reproducibility when using a same powder. It was chosen to work with the two sets of parameters to compare the results for optimal and sub-optimal set values, and to try understanding the conditions that caused the poor properties sample "8a". A total of 18 samples were fabricated close to one another (see \ref{fig:180109-real}) to see if the specimens rapprochement has any effect on their final properties. The distance between two adjacent cubes flanks in the same row (that is quasi-aligned with y) was $\simeq 50 [mm]$. The distance separating the rows was $\simeq 70 [mm]$. The apparent relative density was once more measured with the unpolished AB samples.\\
 
  \begin{center}
 \begin{table}[ht]
@@ -228,7 +228,6 @@ A comparison of the results for closely packed samples (y<6) and distant ones (y
 \end{table}
  \end{center}
 
-
 \subsubsection{Scan order influence}
 The apparent relative densities, Vickers hardnesses and the corresponding 95 \% CI are displayed as functions of the scan order in figure \ref{fig:180109-SO}. The period of time between two successive scans of powder layers is the same for every sample. However, the time span between the scan and the powder covering differs from one to the other. This could lead to differences in terms of thermal exchanges.\\
 
@@ -243,7 +242,7 @@ The apparent relative densities, Vickers hardnesses and the corresponding 95 \% 
 Only one trend can be noted: the density of the ($P=75\% P_{max}$ ; $v_s=900 [\frac{mm}{sec}]$) samples appears to be larger for later scanning. However, this doesn't help understanding the poorer properties measured for samples with the same parameters in batch X200-171024 as they were precisely the last scanned. \\
 
 \subsubsection{Powder influence}
-
+\label{RPI}
 The hardnesses and relative densities of samples manufactured using the optimised parameters ($P=75\% P_{max}$ ; $v_s=1200 [\frac{mm}{sec}]$) were monitored throughout this whole work. In this way, it was possible to study the impact of the powder ageing. Control cubes of dimensions 10x10x10 [$mm^3$] were produced in multiple batches for that purpose. The average measurements for those samples are gathered in table \ref{tab:control}. Detailed information is given in appendix \ref{AppendixA}.\\
 
  \begin{center}
@@ -270,6 +269,45 @@ The hardnesses and relative densities of samples manufactured using the optimise
 
 Samples from batches X200-180222 and X200-180228 are not included in this section. In those cases, fresh steamed powder was used, which induced high porosity in the produced parts. The most reasonable explanation is that the powder processing caused the formation of aggregates. This was not investigated further, and only recycled powder was employed thereafter. Table \ref{taqb:control} indicates that the relative density peaked with batch X200-170419. It dropped slightly afterwards with batch X200-170417. Hardness also decreased - more significantly - with this last batch.\\
 
+\subsubsection{Melt pools sizes and distribution study}
+
+Samples "8a" and "8b" of batch X200-171024 were fabricated using the same manufacturing parameters. However, the former had way lower $\rho_{a,rel}$ and $H_v$ (see appendix \ref{AppendixA}). A statistical analysis of the melt pools size distribution was conducted for both samples to try grasping a better understanding of the origin of the differences. The procedure described in section \ref{MMOM} was followed. 130 zones were manually delineated for both samples. An illustration of the zones subdivision is shown on figure \ref{fig:B1}.\\
+
+\begin{figure}[ht]
+\centering
+\centerline{\includegraphics[scale=0.12]{Images/B1}}
+\decoRule
+\caption[Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit{ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit{ImageJ} partitioning from the same picture of specimen "8b"]{Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit{ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit{ImageJ} partitioning from the same picture of specimen "8b"}
+\label{fig:B1}
+\end{figure} 
+
+In both cases, the area of every zone was computed. Melt pools areas histograms are displayed on figure \ref{fig:HistB1}. Even though the mean areas are nearly the same, the distributions are quite different (see table ). The standard deviation for sample "8b" is approximately 50[\%] bigger than for "8a" one. The corresponding picture contains significantly more melt pools with small areas (<200 [$\mu m^2$]) and large ones (>1000 [$\mu m^2$]). \\
+
+\begin{figure}[ht]
+\centering
+\centerline{\includegraphics[scale=0.7]{Images/HistB1}}
+\decoRule
+\caption[Histograms of melt pools areas occurrences from \textit{ImageJ} partitioning of (a) sample "8a"  b) sample "8b"]{Histograms of melt pools areas occurrences from \textit{ImageJ} partitioning of (a) sample "8a"  b) sample "8b"}
+\label{fig:HistB1}
+\end{figure} 
+
+ \begin{center}
+\begin{table}[ht]
+\noindent\makebox[\textwidth]{\begin{tabular}{|c |c |c|}
+    \hline
+     Sample & Mean area [$\mu m^2$] & SD [$\mu m^2$] \\
+
+\hline
+\hline   
+    "8a" & 4.6629 $10^3$ & 2.3625 $10^3$  \\
+    "8b" & 4.6597 $10^3$ & 3.9285 $10^3$  \\
+    \hline
+\end{tabular}}
+
+\caption[Summary of the melt pools areas distributions for samples "8a" and "8b"]{Summary of the melt pools areas distributions for samples "8a" and "8b"}
+\label{tab:tracMAB}
+\end{table}
+ \end{center}
 
 \subsection{Homogeneity}
 As said in section \ref{MMFPP}, all tensile specimens were fabricated vertically. Their height is significantly greater than the other samples'; respectively 6 [cm], and 1 [cm] or less. It was chosen to cut up specimen X200-180417-25 into slices to measure if the density and hardness were homogeneous along the Z direction in the material. The surfaces analysed were named according to their original Z position in the specimen with "B", "C1" , "C2", "C3" and "T" (for bottom, center and top) and to the test done with a letter "D" or "H"  (for density and hardness). The denomination is summarised in figure \ref{fig:saus}.\\
@@ -313,45 +351,6 @@ Results are shown in figure \ref{fig:HD-180417}. With regard to hardness, no gen
 
 \section{Characterisation of the as-built samples} 
 \label{RCABS}
-\subsection{Melt pools sizes and distribution}
-
-Samples "8a" and "8b" of batch X200-171024 were fabricated using the same manufacturing parameters. However, the former had way lower $\rho_{a,rel}$ and $H_v$ (see appendix \ref{AppendixA}). A statistical analysis of the melt pools size distribution was conducted for both samples to try grasping a better understanding of the origin of the differences. The procedure described in section \ref{MMOM} was followed. 130 zones were manually delineated for both samples. An illustration of the zones subdivision is shown on figure \ref{fig:B1}.\\
-
-\begin{figure}[ht]
-\centering
-\centerline{\includegraphics[scale=0.12]{Images/B1}}
-\decoRule
-\caption[Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit{ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit{ImageJ} partitioning from the same picture of specimen "8b"]{Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit{ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit{ImageJ} partitioning from the same picture of specimen "8b"}
-\label{fig:B1}
-\end{figure} 
-
-In both cases, the area of every zone was computed. Melt pools areas histograms are displayed on figure \ref{fig:HistB1}. Even though the mean areas are nearly the same, the distributions are quite different (see table ). The standard deviation for sample "8b" is approximately 50[\%] bigger than for "8a" one. The corresponding picture contains significantly more melt pools with small areas (<200 [$\mu m^2$]) and large ones (>1000 [$\mu m^2$]). \\
-
-\begin{figure}[ht]
-\centering
-\centerline{\includegraphics[scale=0.7]{Images/HistB1}}
-\decoRule
-\caption[Histograms of melt pools areas occurrences from \textit{ImageJ} partitioning of (a) sample "8a"  b) sample "8b"]{Histograms of melt pools areas occurrences from \textit{ImageJ} partitioning of (a) sample "8a"  b) sample "8b"}
-\label{fig:HistB1}
-\end{figure} 
-
- \begin{center}
-\begin{table}[ht]
-\noindent\makebox[\textwidth]{\begin{tabular}{|c |c |c|}
-    \hline
-     Sample & Mean area [$\mu m^2$] & SD [$\mu m^2$] \\
-
-\hline
-\hline   
-    "8a" & 4.6629 $10^3$ & 2.3625 $10^3$  \\
-    "8b" & 4.6597 $10^3$ & 3.9285 $10^3$  \\
-    \hline
-\end{tabular}}
-
-\caption[Summary of the melt pools areas distributions for samples "8a" and "8b"]{Summary of the melt pools areas distributions for samples "8a" and "8b"}
-\label{tab:tracMAB}
-\end{table}
- \end{center}
 
 \subsection{Microstructure}
 Optique: Porosité en grande majorité aux interfaces des bains de fusion. Grandes zones non fondues (?).
