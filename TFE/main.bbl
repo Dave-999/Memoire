@@ -1017,7 +1017,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{title}{Materialise- Aluminum (AlSi10Mg)}
+    \field{title}{Materialise - Aluminum (AlSi10Mg)}
     \verb{url}
     \verb http://www.materialise.com/en/manufacturing/materials/aluminum
     \endverb
@@ -1160,6 +1160,21 @@
     \field{volume}{651}
     \field{journaltitle}{Materials Science and Engineering: A}
     \field{year}{2016}
+  \endentry
+
+  \entry{OHSU}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{OHSU - Inductively Coupled Plasma Mass Spectrometry}
+    \verb{url}
+    \verb https://www.ohsu.edu/xd/research/research-cores/elemental-analysis/ab
+    \verb out/icp-ms.cfm
+    \endverb
+    \field{year}{2018}
+    \field{urlday}{02}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{PRASHANTH170205}{article}{}
@@ -1806,6 +1821,20 @@
     \field{volume}{221}
     \field{journaltitle}{Journal of Materials Processing Technology}
     \field{year}{2015}
+  \endentry
+
+  \entry{XRF}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \field{title}{XRF Scientific - What is ICP Spectroscopy?}
+    \verb{url}
+    \verb https://www.xrfscientific.com/what-is-icp-spectroscopy/
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{02}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Yap}{article}{}
