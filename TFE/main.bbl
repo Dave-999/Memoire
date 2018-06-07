@@ -356,6 +356,68 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Bertoncelj16}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BB}{%
+         family={Bertoncelj},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Vojisavljevic},
+         familyi={V\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rihtarsic},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Trefalt},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Huskic},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zagar},
+         familyi={Z\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Malic},
+         familyi={M\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BB+1}
+    \strng{fullhash}{BBVKRJTGHMZEMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{493 \bibrangedash  505}
+    \field{title}{A Voronoi-diagram analysis of the microstructures in
+  bulk-molding compounds and its correlation with the mechanical properties}
+    \verb{url}
+    \verb http://www.expresspolymlett.com/
+    \endverb
+    \field{volume}{10}
+    \field{journaltitle}{eXPRESS Polymer Letter}
+    \field{year}{2016}
+  \endentry
+
   \entry{Brandl121509}{article}{}
     \name{author}{4}{}{%
       {{hash=BE}{%
@@ -879,6 +941,77 @@
     \field{volume}{72}
     \field{journaltitle}{Metal Powder Report}
     \field{year}{2017}
+  \endentry
+
+  \entry{LI2016116}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Shuai},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Ang},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Qingsong},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Yan},
+         familyi={Y\bibinitperiod},
+         given={Chunze},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yusheng},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{AlSi10Mg, Selective laser melting (SLM), Heat treatment,
+  Microstructure, Mechanical properties}
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LWLSLJZAZYWQYCSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{116 \bibrangedash  125}
+    \field{title}{Effect of heat treatment on AlSi10Mg alloy fabricated by
+  selective laser melting: Microstructure evolution, mechanical properties and
+  fracture mechanism}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0921509316303033
+    \endverb
+    \field{volume}{663}
+    \field{journaltitle}{Materials Science and Engineering: A}
+    \field{year}{2016}
   \endentry
 
   \entry{Li17}{article}{}
