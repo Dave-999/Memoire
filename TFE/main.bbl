@@ -755,6 +755,42 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{HIP}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JVS}{%
+         family={J.\bibnamedelima Vonk},
+         familyi={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=SHG}{%
+         family={S.\bibnamedelima Hoppin},
+         familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=WBK}{%
+         family={W.\bibnamedelima Benn},
+         familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+    }
+    \strng{namehash}{JVSSHGWBK1}
+    \strng{fullhash}{JVSSHGWBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{1\bibrangedash 64}
+    \field{title}{Hot Isostatic Pressing of Aluminum Alloy Castings}
+    \verb{url}
+    \verb http://www.dtic.mil/dtic/tr/fulltext/u2/a105562.pdf
+    \endverb
+    \field{month}{06}
+    \field{year}{1981}
+  \endentry
+
   \entry{MethArch}{article}{}
     \name{author}{1}{}{%
       {{hash=KFI}{%
