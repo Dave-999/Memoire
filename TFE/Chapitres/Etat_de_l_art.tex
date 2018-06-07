@@ -73,9 +73,9 @@ The most determinating property of the alloy is its composition. As it can be ob
 	\label{fig:phase_diagram}
 \end{figure}
 
-Nevertheless, knowing the composition is not sufficient to predict the microstructure of the fabricated alloy. It depends heavily on the manufacturing process.  As shown in Fig. \ref{fig:micro_cast}, casting results in the formation of lamellar precipitates of Si-phase, measuring several tens of micrometers and floating in an Al matrix. In the first image of figure \ref{fig:micro_am}, we can observe a completely different macrostructure for a SLM manufactured sample at the same scale as the cast alloy. It consists of a stacking of successive scan tracks, that solidified following the laser passage, layer after layer. Its exact shape is dictated by the various parameters of the SLM process, which will be discussed in the Section \ref{pp}.\\
+Nevertheless, knowing the composition is not sufficient to predict the microstructure of the fabricated alloy. It depends heavily on the manufacturing process.  As shown in figure \ref{fig:micro_cast}, casting results in the formation of lamellar precipitates of Si-phase, measuring several tens of micrometers and floating in an Al matrix. In the first image of figure \ref{fig:micro_am}, we can observe a completely different macrostructure for a SLM manufactured sample at the same scale as the cast alloy. It consists of a stacking of successive scan tracks, that solidified following the laser passage, layer after layer. Its exact shape is dictated by the various parameters of the SLM process, which will be discussed in the Section \ref{pp}.\\
 
-By zooming in, we see that those scan tracks are characterised by a very fine microstructure: cells of Al, measuring 1$\mu m$ or less, separated by a spider web-like network of Si. Those two were the only phase that were detected with XRD by Thijs et al. (2013) \cite{Thijs13}. This fineness is due to the intense thermal gradients appearing in the melt pool left behind the laser: they allow a particularly fast cooling (up to $10^5$ K/s \cite{PRASHANTH14}) and solidification, which do not let time for alloying elements to diffuse over much distance. However, this microstructure is not homogeneous across the whole part: the section of a scan track can be separated in 3 roughly concentric zones. First, there is the fine zone which is the result of the melt pool core solidification. The cellular dendrites start to grow from the melt pool edge resulting in elongated  cells, and converge towards the centre where they are more isotropic. Around it, near the boundary, lies the coarse zone with larger cells and thicker lamellae. According to Uzan et al. (2017) \cite{UZAN2017229}, the difference of microstructure is simply due to lower solidification rates ; the hot zones in the previous layer reduce the temperature gradient. Just outside the melt pool, in previously solidified tracks, lies a heat-affected zone. Although it remains at least partially solid during the previous laser passage, temperature rises enough to allow Si to diffuse and coarsen into globular particles, breaking the cellular structure. It is from this specific microstructure that arise all the mechanical properties of the fabricated part, which will be presented in Section \ref{MMABMP}.\\
+By zooming in, we see that those scan tracks are characterised by a very fine microstructure: cells of Al, measuring 1$\mu m$ or less, separated by a spider web-like network of Si. Those two were the only phase that were detected with XRD by Thijs et al. (2013) \cite{Thijs13}. This fineness is due to the intense thermal gradients appearing in the melt pool left behind the laser: they allow a particularly fast cooling (up to $10^5$ K/s \cite{PRASHANTH14}) and solidification, which do not let time for alloying elements to diffuse over much distance. However, this microstructure is not homogeneous across the whole part: the section of a scan track can be separated in 3 roughly concentric zones.\\
 
 \begin{figure}[ht]
 	\centering
@@ -85,6 +85,11 @@ By zooming in, we see that those scan tracks are characterised by a very fine mi
 	\label{fig:micro_cast}
 \end{figure}
 
+First, there is the fine zone which is the result of the melt pool core solidification. The cellular dendrites start to grow from the melt pool edge resulting in elongated  cells, and converge towards the centre where they are more isotropic. Around it, near the boundary, lies the coarse zone with larger cells and thicker lamellae. According to Uzan et al. (2017) \cite{UZAN2017229}, the difference of microstructure is simply due to lower solidification rates ; the hot zones in the previous layer reduce the temperature gradient. Just outside the melt pool, in previously solidified tracks, lies a heat-affected zone. Although it remains at least partially solid during the previous laser passage, temperature rises enough to allow Si to diffuse and coarsen into globular particles, breaking the cellular structure. It is from this specific microstructure that arise all the mechanical properties of the fabricated part, which will be presented in Section \ref{MMABMP}.\\
+
+The impact of heat treatments on the microstructure is well known. The higher the temperature at which the material is exposed, the more pronounced the silicon spheroidization (see figure \ref{fig:microTT}) \parencite{aboulkhair2017}. This microstructure change heavily impacts the material mechanical properties, as discussed in section \ref{SOTAPT}.\\
+
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.40]{Images/micro_am}
@@ -93,13 +98,25 @@ By zooming in, we see that those scan tracks are characterised by a very fine mi
 	\label{fig:micro_am}
 \end{figure}
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.60]{Images/microTT}
+	\decoRule
+	\caption[(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
+treatments promoted spheroidization phase transformation. ]{(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
+treatments promoted spheroidization phase transformation (from Aboulkhair et al., 2017 \parencite{aboulkhair2017}).}
+	\label{fig:microTT}
+\end{figure}
+
 \section{Fabrication process parameters}
 \label{pp}
 Let us now investigate the influence of the parameters on the properties of AlSi10Mg parts manufactured with SLM. The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
 A popular approach is to regroup multiple operating parameters into one; the volumetric energy density $E_d$. It is estimated through the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
-where t is the layer thickness and h is the hatch space.  Maximisation of $\rho_{rel}$ is obtained for $E_d\simeq $ ranging from 40 to 90 $[\frac{J}{mm^3}]$ \parencite{Trevisan2017}. Read et al. obtained a minimal porosity with $E_d \simeq 60 [\frac{J}{mm^3}]$ \parencite{Read150417}. However, chosing a right $E_d$ is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
+where t is the layer thickness and h is the hatch space.  Maximisation of $\rho_{rel}$ is obtained for $E_d\simeq $ ranging from 40 to 90 $[\frac{J}{mm^3}]$ \parencite{Trevisan2017}. Read et al. obtained a minimal porosity with $E_d \simeq 60$ $[\frac{J}{mm^3}]$ \parencite{Read150417}. However, chosing a right $E_d$ is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
 
 \begin{figure}[ht]
 \centering
@@ -300,6 +317,7 @@ Another parameter altering the macroscopic thermal gradient of the part is the p
 \end{figure}
 
 \section{Post treatments}
+\label{SOTAPT}
 %\textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
 %
 %\textcolor{red}{Source que tu peux utiliser:}
