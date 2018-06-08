@@ -712,6 +712,42 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{HIP}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JVS}{%
+         family={J.\bibnamedelima Vonk},
+         familyi={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=SHG}{%
+         family={S.\bibnamedelima Hoppin},
+         familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=WBK}{%
+         family={W.\bibnamedelima Benn},
+         familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+    }
+    \strng{namehash}{JVSSHGWBK1}
+    \strng{fullhash}{JVSSHGWBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{1\bibrangedash 64}
+    \field{title}{Hot Isostatic Pressing of Aluminum Alloy Castings}
+    \verb{url}
+    \verb http://www.dtic.mil/dtic/tr/fulltext/u2/a105562.pdf
+    \endverb
+    \field{month}{06}
+    \field{year}{1981}
+  \endentry
+
   \entry{MethArch}{article}{}
     \name{author}{1}{}{%
       {{hash=KFI}{%
@@ -1678,6 +1714,78 @@
     \field{urlday}{14}
     \field{urlmonth}{05}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Trevisan2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=TF}{%
+         family={Trevisan},
+         familyi={T\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Calignano},
+         familyi={C\bibinitperiod},
+         given={Flaviana},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lorusso},
+         familyi={L\bibinitperiod},
+         given={Massimo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pakkanen},
+         familyi={P\bibinitperiod},
+         given={Jukka},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aversa},
+         familyi={A\bibinitperiod},
+         given={Alberta},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Ambrosio},
+         familyi={A\bibinitperiod},
+         given={Elisa},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lombardi},
+         familyi={L\bibinitperiod},
+         given={Mariangela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fino},
+         familyi={F\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Manfredi},
+         familyi={M\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TF+2}
+    \strng{fullhash}{TFCFLMPJAAAELMFPMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{booktitle}{Materials}
+    \field{pages}{1\bibrangedash 23}
+    \field{title}{On the Selective Laser Melting (SLM) of the AlSi10Mg Alloy:
+  Process, Microstructure, and Mechanical Properties}
+    \field{volume}{10}
+    \field{month}{01}
+    \field{year}{2017}
   \endentry
 
   \entry{UZAN2017229}{article}{}

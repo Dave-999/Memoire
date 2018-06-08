@@ -73,9 +73,9 @@ The most determinating property of the alloy is its composition. As it can be ob
 	\label{fig:phase_diagram}
 \end{figure}
 
-Nevertheless, knowing the composition is not sufficient to predict the microstructure of the fabricated alloy. It depends heavily on the manufacturing process.  As shown in Fig. \ref{fig:micro_cast}, casting results in the formation of lamellar precipitates of Si-phase, measuring several tens of micrometers and floating in an Al matrix. In the first image of figure \ref{fig:micro_am}, we can observe a completely different macrostructure for a SLM manufactured sample at the same scale as the cast alloy. It consists of a stacking of successive scan tracks, that solidified following the laser passage, layer after layer. Its exact shape is dictated by the various parameters of the SLM process, which will be discussed in the Section \ref{pp}.\\
+Nevertheless, knowing the composition is not sufficient to predict the microstructure of the fabricated alloy. It depends heavily on the manufacturing process.  As shown in figure \ref{fig:micro_cast}, casting results in the formation of lamellar precipitates of Si-phase, measuring several tens of micrometers and floating in an Al matrix. In the first image of figure \ref{fig:micro_am}, we can observe a completely different macrostructure for a SLM manufactured sample at the same scale as the cast alloy. It consists of a stacking of successive scan tracks, that solidified following the laser passage, layer after layer. Its exact shape is dictated by the various parameters of the SLM process, which will be discussed in the Section \ref{pp}.\\
 
-By zooming in, we see that those scan tracks are characterised by a very fine microstructure: cells of Al, measuring 1$\mu m$ or less, separated by a spider web-like network of Si. Those two were the only phase that were detected with XRD by Thijs et al. (2013) \cite{Thijs13}. This fineness is due to the intense thermal gradients appearing in the melt pool left behind the laser: they allow a particularly fast cooling (up to $10^5$ K/s \cite{PRASHANTH14}) and solidification, which do not let time for alloying elements to diffuse over much distance. However, this microstructure is not homogeneous across the whole part: the section of a scan track can be separated in 3 roughly concentric zones. First, there is the fine zone which is the result of the melt pool core solidification. The cellular dendrites start to grow from the melt pool edge resulting in elongated  cells, and converge towards the centre where they are more isotropic. Around it, near the boundary, lies the coarse zone with larger cells and thicker lamellae. According to Uzan et al. (2017) \cite{UZAN2017229}, the difference of microstructure is simply due to lower solidification rates ; the hot zones in the previous layer reduce the temperature gradient. Just outside the melt pool, in previously solidified tracks, lies a heat-affected zone. Although it remains at least partially solid during the previous laser passage, temperature rises enough to allow Si to diffuse and coarsen into globular particles, breaking the cellular structure. It is from this specific microstructure that arise all the mechanical properties of the fabricated part, which will be presented in Section \ref{MMABMP}.\\
+By zooming in, we see that those scan tracks are characterised by a very fine microstructure: cells of Al, measuring 1$\mu m$ or less, separated by a spider web-like network of Si. Those two were the only phase that were detected with XRD by Thijs et al. (2013) \cite{Thijs13}. This fineness is due to the intense thermal gradients appearing in the melt pool left behind the laser: they allow a particularly fast cooling (up to $10^5$ K/s \cite{PRASHANTH14}) and solidification, which do not let time for alloying elements to diffuse over much distance. However, this microstructure is not homogeneous across the whole part: the section of a scan track can be separated in 3 roughly concentric zones.\\
 
 \begin{figure}[ht]
 	\centering
@@ -85,6 +85,11 @@ By zooming in, we see that those scan tracks are characterised by a very fine mi
 	\label{fig:micro_cast}
 \end{figure}
 
+First, there is the fine zone which is the result of the melt pool core solidification. The cellular dendrites start to grow from the melt pool edge resulting in elongated  cells, and converge towards the centre where they are more isotropic. Around it, near the boundary, lies the coarse zone with larger cells and thicker lamellae. According to Uzan et al. (2017) \cite{UZAN2017229}, the difference of microstructure is simply due to lower solidification rates ; the hot zones in the previous layer reduce the temperature gradient. Just outside the melt pool, in previously solidified tracks, lies a heat-affected zone. Although it remains at least partially solid during the previous laser passage, temperature rises enough to allow Si to diffuse and coarsen into globular particles, breaking the cellular structure. It is from this specific microstructure that arise all the mechanical properties of the fabricated part, which will be presented in Section \ref{MMABMP}.\\
+
+The impact of heat treatments on the microstructure is well known. The higher the temperature at which the material is exposed, the more pronounced the silicon spheroidization (see figure \ref{fig:microTT}) \parencite{aboulkhair2017}. This microstructure change heavily impacts the material mechanical properties, as discussed in section \ref{SOTAPT}.\\
+
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.40]{Images/micro_am}
@@ -93,13 +98,25 @@ By zooming in, we see that those scan tracks are characterised by a very fine mi
 	\label{fig:micro_am}
 \end{figure}
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.60]{Images/microTT}
+	\decoRule
+	\caption[(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
+treatments promoted spheroidization phase transformation. ]{(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
+treatments promoted spheroidization phase transformation (from Aboulkhair et al., 2017 \parencite{aboulkhair2017}).}
+	\label{fig:microTT}
+\end{figure}
+
 \section{Fabrication process parameters}
 \label{pp}
 Let us now investigate the influence of the parameters on the properties of AlSi10Mg parts manufactured with SLM. The analysis of the paired impacts of the laser power P and scan speed $v_s$ provides a first insight. As depicted by figures \ref{fig:Pvs} and \ref{fig:Pvs2}, low P and high $v_s$ lead to an insufficient energy input to melt the powder and re-melt the substrate, which causes the formation of droplets \parencite{Kempen110817} . The opposite leads to good penetration but also to distortions and irregularities.   A trend to use both high P and $v_s$ rose in accordance with these findings. Doing so has the advantage to increase productivity. However, it also has multiple downsides including a decrease of the surface quality due to balling, excessive spatter, and an augmented gas induced porosity \parencite{Mertens170406}. Therefore, a trade-off must be found. \\
 
 A popular approach is to regroup multiple operating parameters into one; the volumetric energy density $E_d$. It is estimated through the following formula: 
 $$E_d=\frac{P}{v_s h t} $$
-where t is the layer thickness and h is the hatch space.  Maximisation of $\rho_{rel}$ is obtained for $E_d\simeq $ ranging from 40 to 90 $[\frac{J}{mm^3}]$ \parencite{Trevisan2017}. Read et al. obtained a minimal porosity with $E_d \simeq 60 [\frac{J}{mm^3}]$ \parencite{Read150417}. However, chosing a right $E_d$ is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
+where t is the layer thickness and h is the hatch space.  Maximisation of $\rho_{rel}$ is obtained for $E_d\simeq $ ranging from 40 to 90 $[\frac{J}{mm^3}]$ \parencite{Trevisan2017}. Read et al. obtained a minimal porosity with $E_d \simeq 60$ $[\frac{J}{mm^3}]$ \parencite{Read150417}. However, chosing a right $E_d$ is insufficient and others phenomena, such as melt pools overlapping, should be considered \parencite{Tang170309}. Very few studies were carried out to optimize h and t independently. Their values lie generally in the intervals [50 ; 200] [$\mu m$] and [20 ; 60] [$\mu m$], respectively \parencite{aboulkhair2016,Brandl121509,Kempen110817,Mertens170406}. It was observed that for t = 30 [$\mu m$], an optimal set of parameters values in terms of density is P = 200 [W], $v_s=1400 [\frac{mm}{s}]$ and h = 105 [$\mu m$] \parencite{Kempen110817}. The apparent relative density $\rho_{a,rel}$ was then above 99.5 [\%], considering the theoretical bulk density $\rho_b$ to be equal to 2.68 [$\frac{g}{mm^3}$].\\
 
 \begin{figure}[ht]
 \centering
@@ -194,7 +211,7 @@ Furthermore, Wang et al. observed that preheating the manufacturing plate can ha
     \hline
 
 \end{tabular}}
-\caption[Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite{Wang2018}.]{Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite{Wang2018}.}
+\caption[Mechanical properties for different plate pre heating temperatures.]{Mechanical properties for different plate pre heating temperatures (from Wang et al., 2018) \parencite{Wang2018}.}
 \label{tab:Wang}
 \end{table}
  \end{center}
@@ -221,7 +238,7 @@ SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-ba
  
 \begin{figure}[ht]
 \centering
-\includegraphics[scale=1]{Images/Fat}
+\includegraphics[scale=0.5]{Images/Fat}
 \decoRule
 \caption[Measured room-temperature stress-life (S–N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. ]{Measured room-temperature stress-life (S–N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. (from Todd Mower and Michael Long, 2016 \parencite{MOWER2016198}) .}
 \label{Fat}
@@ -299,6 +316,7 @@ A fairly recent destructive technique is the contour method (illustrated in figu
 \end{figure}
 
 \section{Post treatments}
+\label{SOTAPT}
 %\textcolor{red}{Post-traitements habituels en SLM à expliquer: Shot peening, HIP,... dont traitements thermiques, sur lesquels on se focalise. Expliquer + Propriétés mécas après les traitements}
 %
 %\textcolor{red}{Source que tu peux utiliser:}
@@ -329,7 +347,7 @@ If the aim is to remove residual stresses, the go-to treatment is an annealing a
 	\centering
 	\includegraphics[scale=0.30]{Images/mech_annealing}
 	\decoRule
-	\caption[Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not]{(a) True strain-stress curves for an AB sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties (from Prashanth et al., 2014 \parencite{PRASHANTH14}).}
+	\caption[(a) True strain-stress curves for an AB sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties]{(a) True strain-stress curves for an AB sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties (from Prashanth et al., 2014 \parencite{PRASHANTH14}).}
 	\label{fig:mech_annealing}
 \end{figure}
 
@@ -343,38 +361,38 @@ A very common heat treatment of aluminium alloys is designated by the T6 acronym
 		\centering
 			\includegraphics[scale=0.70]{Images/ABvsT6}
 			\decoRule
-		\caption[Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state] {Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, compared to their as-built state (from Aboulkhair et al., 2016 \parencite{ABOULKHAIR2016139}).}
+		\caption[Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state]{Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, compared to their as-built state (from Aboulkhair et al., 2016 \parencite{ABOULKHAIR2016139}).}
 		\label{tab:ABvsT6}
 \end{table}
 
 Yet the time and temperature parameters during the solutionizing and the ageing seem to remain determinant in the prediction of the final properties of the treated part. Indeed, according to Mertens et al. (2015)\cite{Mertens15}, a T6-like treatment can result in an increase of ductility - of course - but also of yield strength. To be complete, they obtained a decrease of hardness of 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break of 220\% and of yield strength of 30\%. The distinct process parameters could explain the differences: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens et al. (2015)\cite{Mertens15}, compared to 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
 
-[HIP]\\
+Hot isostatic pressing (HIP) post-treatment is commercially used for cast aluminium and could be transposed to SLM AlSi10Mg. Sample is put in a furnace at high pressure ($\simeq 100$ [MPa]) and high temperature (above 500$^\circ C$). These conditions lead to the emergence of plastic flow which heal the internal porosity. This can enhance the mechanical properties of the alloy and reduce the properties scatter \parencite{HIP}.  \\
 
 Non-thermal processes affecting the residual stresses also exist. As we saw in the previous section, tensile stresses near the surface are the most problematic. A purely mechanical treatment able to cancel these is shot-peening. High velocity projectiles, usually metallic or ceramic beads, are used to hit a surface. The impacts deform plastically the top of the part, which tries to stretch in the horizontal direction. This is prevented by the material below, which remains undeformed. The surface layer thus finds itself in a compressive state \cite{Vrancken2016}. If tensile stresses where present near the surface, they get cancelled by the important compressive stresses included in the material. While injecting compression near the surface can already be beneficial, by hindering crack initiation for example, Salmi et al. (2017) \cite{Salmi2017} also obtained a certain degree of homogenization of the stresses all along the examined depth. \\
 
 Lastly, another well-known defect of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower et al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair et al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. \\
 
-Although machining the surface does indeed reduce its roughness, it can also expose buried porosities at the same time which creates sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts. They most probably also impact the residual stresses. Machining was observed to have a tremendous influence for wrought aluminium \parencite{Denkena2007}. Cutting speed, feed per tooth and cooling were observed to have notable effects but not as critical as the corner radius's (see figure \ref{fig:Mach}). High compression stresses were induced, going up to 300 [MPa].\\
+Although machining the surface does indeed reduce its roughness, it can also expose buried porosities at the same time which creates sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts. They most probably also impact the residual stresses. Machining was observed to have a tremendous influence for wrought aluminium \parencite{Denkena2007}. Cutting speed, feed per tooth and cooling were observed to have notable effects but not as critical as the corner radius's (see figure \ref{fig:Mach}). High compression stresses were induced, going up to nearly 300 [MPa].\\
 
 \begin{figure}[ht]
 	\centering
 	\noindent\makebox[\textwidth]{\includegraphics[scale=0.28]{Images/Mach}}
 	\decoRule
-	\caption[Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.]{Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius(from Denkena et al., 2007 \parencite{Denkena2007}).}
+	\caption[Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.]{Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius (from Denkena et al., 2007 \parencite{Denkena2007}).}
 	\label{fig:Mach}
 \end{figure}
 
-%ARTICLES SUR LES EFFETS DE L'USINAGE SUR LES CONTRAINTES RESIDUELLES POUR L'ALU :http://www.transport-research.info/sites/default/files/project/documents/20121115_114656_50648_04_IDE_2008_-_Hannover.pdf\\
-
-%http://www.transport-research.info/sites/default/files/project/documents/20121115_114306_73510_CIRP_HSM_2007.pdf\\
-
-%As we saw, 
-
-%Recherches biblio....
-%\section{Comment référencer?}
-%The \code{biblatex} package is used to format the bibliography and inserts references such as this one \parencite{Reference1}. The options used in the \file{main.tex} file mean that the in-text citations of references are formatted with the author(s) listed with the date of the publication. Multiple references are separated by semicolons (e.g. \parencite{Reference2, Reference1}) and references with more than three authors only show the first author with \emph{et al.} indicating there are more authors (e.g. \parencite{Reference3}). This is done automatically for you. %To see how you use references, have a look at the \file{Chapter1.tex} source file. Many reference managers allow you to simply drag the reference into the document as you type.
+%%ARTICLES SUR LES EFFETS DE L'USINAGE SUR LES CONTRAINTES RESIDUELLES POUR L'ALU :http://www.transport-research.info/sites/default/files/project/documents/20121115_114656_50648_04_IDE_2008_-_Hannover.pdf\\
 %
-%Scientific references should come \emph{before} the punctuation mark if there is one (such as a comma or period). The same goes for footnotes\footnote{Such as this footnote, here down at the bottom of the page.}. You can change this but the most important thing is to keep the convention consistent throughout the thesis. Footnotes themselves should be full, descriptive sentences (beginning with a capital letter and ending with a full stop). The APA6 states: \enquote{Footnote numbers should be superscripted, [...], following any punctuation mark except a dash.} The Chicago manual of style states: \enquote{A note number should be placed at the end of a sentence or clause. The number follows any punctuation mark except the dash, which it precedes. It follows a closing parenthesis.}
+%%http://www.transport-research.info/sites/default/files/project/documents/20121115_114306_73510_CIRP_HSM_2007.pdf\\
 %
-%The bibliography is typeset with references listed in alphabetical order by the first author's last name. This is similar to the APA referencing style. To see how \LaTeX{} typesets the bibliography, have a look at the very end of this document (or just click on the reference number links in in-text citations).
+%%As we saw, 
+%
+%%Recherches biblio....
+%%\section{Comment référencer?}
+%%The \code{biblatex} package is used to format the bibliography and inserts references such as this one \parencite{Reference1}. The options used in the \file{main.tex} file mean that the in-text citations of references are formatted with the author(s) listed with the date of the publication. Multiple references are separated by semicolons (e.g. \parencite{Reference2, Reference1}) and references with more than three authors only show the first author with \emph{et al.} indicating there are more authors (e.g. \parencite{Reference3}). This is done automatically for you. %To see how you use references, have a look at the \file{Chapter1.tex} source file. Many reference managers allow you to simply drag the reference into the document as you type.
+%%
+%%Scientific references should come \emph{before} the punctuation mark if there is one (such as a comma or period). The same goes for footnotes\footnote{Such as this footnote, here down at the bottom of the page.}. You can change this but the most important thing is to keep the convention consistent throughout the thesis. Footnotes themselves should be full, descriptive sentences (beginning with a capital letter and ending with a full stop). The APA6 states: \enquote{Footnote numbers should be superscripted, [...], following any punctuation mark except a dash.} The Chicago manual of style states: \enquote{A note number should be placed at the end of a sentence or clause. The number follows any punctuation mark except the dash, which it precedes. It follows a closing parenthesis.}
+%%
+%%The bibliography is typeset with references listed in alphabetical order by the first author's last name. This is similar to the APA referencing style. To see how \LaTeX{} typesets the bibliography, have a look at the very end of this document (or just click on the reference number links in in-text citations).
