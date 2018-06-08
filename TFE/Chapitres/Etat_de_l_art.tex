@@ -250,11 +250,11 @@ SLM AlSi10Mg is sometimes compared to wrought Al6061. It is also an aluminium-ba
 \label{EARSSP}
 %\textcolor{red}{Introduire les contraintes internes: pourquoi il y en a? Sont-elles quantifiées dans la littérature? Traction/Comp ? Haut/bas? Techniques de caractérisation? Influence sur les précisions géométriques, sur les propriétés méca (statique \& fatigue)? Comment les éviter en cours de process ou supprimer après? =Intro pour section suivante.}\\
 
-After most manufacturing processes, the fabricated piece can present residual stresses (both in compression and tension). While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Uncontrolled internal stresses can in factw deteriorate dramatically the fatigue behaviour of the piece and cause unacceptable deformation as well as premature failure. They indeed facilitate the initiation of crack growth \cite{Vrancken2016}.\\
+After most manufacturing processes, the fabricated piece can present residual stresses (both in compression and tension). While they are sometimes sought in some specific applications, they are more often an unwanted consequence of the process. Uncontrolled internal stresses can in fact deteriorate dramatically the fatigue behaviour of the piece and cause unacceptable deformation as well as premature failure. They indeed facilitate the initiation of crack growth \cite{Vrancken2016}.\\
 
 Many phenomena can be the cause of residual stresses, but it always comes down to inhomogeneous plastic strains. Several forming processes, such as cold rolling, can induce them by applying a non-uniform load. On a more microscopic scale, different reactions to stress between distinct phases or crystal orientations are also able to create those inhomogeneities.\\
 
-In the case of SLM parts, internal stresses are mostly due to the intense thermal gradients appearing during the scan. After the laser passage, the melt pool cools down and begins to solidify. This solidification brings with it a thermal shrinkage of the molten track, which puts it under tensile condition. The continuous shrinking along the scan track concentrates those tension stresses horizontally, in the direction of the scan vectors. Fabrication of successive layers on top, with their own tensile stresses, gradually relaxes the buried layers to the point that they begin to undergo compressive stresses below a certain depth. Vertical tensile stresses on the side surfaces, induced by those horizontal stresses at each layer, still remain after the complete fabrication. An example of the stress distribution in a 2D section of a piece after manufacturing is available in Fig. \ref{fig:rs_section}. According to the supplier \cite{Inconel}, Inconel718 has a yield strength of approximatively 1 GPa. Although residual stresses do not seem to reach it, their value is definitively high enough to completely modify the mechanical behaviour of the piece. In the case of a tensile test, for example, the zone near the surface would enter plasticity way before applying a stress equal to the yield strength. \\
+In the case of SLM parts, internal stresses are mostly due to the intense thermal gradients appearing during the scan. After the laser passage, the melt pool cools down and begins to solidify. This solidification brings thermal shrinkage of the molten track, which puts it under tensile condition. The continuous shrinking along the scan track concentrates those tension stresses horizontally, in the direction of the scan vectors. Fabrication of successive layers on top, with their own tensile stresses, gradually relaxes the buried layers to the point that they begin to undergo compressive stresses below a certain depth. Vertical tensile stresses on the side surfaces, induced by those horizontal stresses at each layer, still remain after the complete fabrication. An example of the stress distribution in a 2D section of a piece after manufacturing is available in Fig. \ref{fig:rs_section}. According to the supplier \cite{Inconel}, Inconel718 has a yield strength of approximatively 1 GPa. Although residual stresses do not seem to reach it, their value is definitively high enough to completely modify the mechanical behaviour of the piece. In the case of a tensile test, for example, the zone near the surface would enter plasticity way before applying a stress equal to the yield strength. \\
 
 \begin{figure}[ht]
 	\centering
@@ -264,7 +264,19 @@ In the case of SLM parts, internal stresses are mostly due to the intense therma
 	\label{fig:rs_section}
 \end{figure}
 
-Many methods can be used to measure the residuals stresses. They are usually categorised by their destructiveness on the tested part, and their depth of measurement in a reference material; steel. A sample of these techniques is presented in Fig. \ref{fig:rs_measure}. The most important non-destructive methods rely on diffraction, which use the lattice deformations at the atomic scale as indicators of the stress the material undergoes. Usual sources of radiation to diffract are X-rays, electrons and neutrons.\\
+Even though many process parameters influence the amount of residual stresses in the cooled part, reliable quantitative relations are difficult to obtain. On top of that, phenomena specific to the material used - such as the formation of precipitates or the allotropic transformations - restrain us from applying what is known about the process from one material to another. However, the parameter with the most obvious consequences on residual stresses is the powder bed preheating. While it indeed reduces the thermal gradient around the melt pool, and thus reduces internal stresses as well, it is suggested that the lower yield strength at higher temperature is the strongest stress-reducing effect \cite{Vrancken2016}. \\
+
+Another parameter modifying the macroscopic thermal gradient of the part is the presence of building supports, depending on their ability to conduct heat to the platform. Indeed, a part built on a solid support, or directly onto the building platform, has a heat exchange area equal to its section. A honeycomb or another type of hollow support would reduce this area, because the unmelted powder has a much lower heat transfer coefficient\cite{Hodge2014}. Heat generated by the laser would thus escape more slowly out of the part, leading to a higher thermal gradient and, in turn, higher residual stresses \cite{Salmi2017}, as it is shown in Fig. \ref{fig:rs_support}.\\
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.50]{Images/Rs-support}
+	\decoRule
+	\caption[Principal residual stresses as a function of the depth relative to the surface in a AlSi10Mg part. Sample B is built onto an undefined hollow support, while A is not]{Principal residual stresses as a function of the depth relative to the surface in a AlSi10Mg part. Sample B is built onto an undefined hollow support, while A is not (from Salmi et al., 2017 \parencite{Salmi2017}).}
+	\label{fig:rs_support}
+\end{figure}
+
+Many methods can be used to measure the residuals stresses. They are usually categorised by their destructiveness on the tested part, and their depth of measurement in a reference material; steel. Some of these techniques are presented in Fig. \ref{fig:rs_measure}. The most important non-destructive methods rely on diffraction, which use the lattice deformations at the atomic scale as indicators of the stress the material undergoes. Usual sources of radiation to diffract are X-rays, electrons and neutrons.\\
 
 \begin{figure}[ht]
 	\centering
@@ -284,19 +296,6 @@ A fairly recent destructive technique is the contour method (illustrated in figu
 	\decoRule
 	\caption[Thought process of the contour method analytical step]{Thought process of the contour method analytical step: (a)finite-element model of the undeformed part, (b) measured contour of the real part, (c) inversion of strain, (d) application of the strain to the model, (e)resulting stresses in the model, (f) residual stresses normal to the cross section before cutting \parencite{LANL}.}
 	\label{fig:contour_meth}
-\end{figure}
-
-
-Even though many process parameters influence the amount of residual stresses in the cooled part, reliable quantitative relations are difficult to obtain. On top of that, phenomena specific to the material used - such as the formation of precipitates or the allotropic transformations - restrain us from applying what is known about the process from one material to another. However, the parameter with the most obvious consequences on residual stresses is the powder bed preheating. While it indeed reduces the thermal gradient around the melt pool, and thus reduces internal stresses as well, it is suggested that the lower yield strength at higher temperature is the strongest stress-reducing effect \cite{Vrancken2016}. \\
-
-Another parameter altering the macroscopic thermal gradient of the part is the presence of building supports, depending on their ability to conduct heat to the platform. Indeed, a part built atop a solid support, or directly onto the building platform, has a heat exchange area equal to its section. A honeycomb or another type of hollow support would reduce this area, because the unmelted powder has a much lower heat transfer coefficient\cite{Hodge2014}. Heat generated by the laser would thus escape more slowly out of the part, leading to a higher thermal gradient and, in turn, higher residual stresses \cite{Salmi2017}, as it is shown in Fig. \ref{fig:rs_support}.\\
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[scale=0.50]{Images/Rs-support}
-	\decoRule
-	\caption[Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not]{Principal residual stresses as a function of the depth relative to the surface. Sample B is built onto an undefined hollow support, while A is not (from Salmi et al., 2017 \parencite{Salmi2017}).}
-	\label{fig:rs_support}
 \end{figure}
 
 \section{Post treatments}

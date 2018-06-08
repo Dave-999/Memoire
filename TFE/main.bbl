@@ -345,6 +345,9 @@
   \endentry
 
   \entry{ASTM}{manual}{}
+    \list{organization}{1}{%
+      {ASTM International}%
+    }
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
     \field{sortinithash}{A}
@@ -354,68 +357,6 @@
     \verb http://www.astm.org/
     \endverb
     \field{year}{2013}
-  \endentry
-
-  \entry{Bertoncelj16}{article}{}
-    \name{author}{7}{}{%
-      {{hash=BB}{%
-         family={Bertoncelj},
-         familyi={B\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=VK}{%
-         family={Vojisavljevic},
-         familyi={V\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=RJ}{%
-         family={Rihtarsic},
-         familyi={R\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TG}{%
-         family={Trefalt},
-         familyi={T\bibinitperiod},
-         given={G.},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=HM}{%
-         family={Huskic},
-         familyi={H\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=ZE}{%
-         family={Zagar},
-         familyi={Z\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=MB}{%
-         family={Malic},
-         familyi={M\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BB+1}
-    \strng{fullhash}{BBVKRJTGHMZEMB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{pages}{493 \bibrangedash  505}
-    \field{title}{A Voronoi-diagram analysis of the microstructures in
-  bulk-molding compounds and its correlation with the mechanical properties}
-    \verb{url}
-    \verb http://www.expresspolymlett.com/
-    \endverb
-    \field{volume}{10}
-    \field{journaltitle}{eXPRESS Polymer Letter}
-    \field{year}{2016}
   \endentry
 
   \entry{Brandl121509}{article}{}
@@ -462,6 +403,22 @@
     \field{volume}{34}
     \field{journaltitle}{Materials \& Design}
     \field{year}{2012}
+  \endentry
+
+  \entry{coulter}{manual}{}
+    \list{organization}{1}{%
+      {Beckman Coulter, Inc.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{COULTER LS SERIES Product Manual}
+    \verb{url}
+    \verb https://www.beckmancoulter.com/wsrportal/techdocs?docname=4237214EA.p
+    \verb df
+    \endverb
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{ADictionaryofPhysics}{book}{}
