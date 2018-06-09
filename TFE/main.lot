@@ -7,6 +7,7 @@
 \contentsline {table}{\numberline {2.3}{\ignorespaces Mechanical properties of T6 treated Al6061 alloy}}{12}{table.caption.29}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Changes in percentage of the main mechanical properties of SLM AlSi10Mg after T6 treatment, , compared to their as-built state}}{18}{table.caption.38}
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {table}{\numberline {3.1}{\ignorespaces List of the cubic heat-treated specimens}}{28}{table.caption.57}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Polishing routine for Al-Si alloys}}{30}{table.caption.62}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Strain limits for interrupted tensile tests of batch X200-180417 specimens}}{34}{table.caption.74}
@@ -41,5 +42,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {D.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{87}{table.caption.203}
+=======
+\contentsline {table}{\numberline {3.1}{\ignorespaces List of the cubic heat-treated specimens}}{30}{table.caption.57}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Polishing routine for Al-Si alloys}}{32}{table.caption.62}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Strain limits for interrupted tensile tests of batch X200-180417 specimens}}{35}{table.caption.73}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Powder samplings details}}{40}{table.caption.79}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Average powder diameter and standard deviation before and after ultrasonic treatment}}{40}{table.caption.80}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Composition of the fresh AlSi10Mg powder}}{41}{table.caption.83}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Composition of recycled AlSi10Mg powder as a function of the date}}{42}{table.caption.86}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Compositions of the chips extracted from samples "5" and "7" from batch X200-171024}}{42}{table.caption.88}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Average values and standard deviations for apparent relative densities and hardnesses of the specimens of batch X200-171024}}{44}{table.caption.94}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Average values and standard deviations for apparent relative densities and hardnesses of the specimens of batch X200-180109}}{44}{table.caption.95}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Minimal and maximal values for apparent relative densities and hardnesses of the specimens of batch X200-180109}}{44}{table.caption.96}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Average values and standard deviations for apparent relative densities and hardnesses of the specimens of batch X200-180109, with distinction between the closely packed samples and the others}}{46}{table.caption.99}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Minimal and maximal values for apparent relative densities and hardnesses of the specimens of batch X200-180109}}{46}{table.caption.100}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Average hardness and relative density measurements for the control cubes of each batch}}{47}{table.caption.104}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Summary of the melt pools areas distributions for samples "8a" and "8b"}}{49}{table.caption.111}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Relative density and hardness results summary for specimen X200-180417-25 surfaces}}{50}{table.caption.114}
+\contentsline {table}{\numberline {4.14}{\ignorespaces Average tensile mechanical properties of the as-built specimens from batch X200-180417}}{52}{table.caption.118}
+\contentsline {table}{\numberline {4.15}{\ignorespaces RODIA relative density results for the heat treated cubes}}{53}{table.caption.123}
+\contentsline {table}{\numberline {4.16}{\ignorespaces Average tensile mechanical properties of the heat-treated specimens from batch X200-180417}}{54}{table.caption.127}
+\contentsline {table}{\numberline {4.17}{\ignorespaces Full width at half-maximum for the cut as-built sample and the 4 cubix heat-treated samples}}{56}{table.caption.135}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces RODIA results for zones A and B of specimen X200-180317 with 5x and 10x magnification}}{63}{table.caption.146}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Optimised manufacturing parameters comparison with literature sources}}{67}{table.caption.153}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{74}{table.168}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{75}{table.168}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Manufacturing process parameters}}{76}{table.168}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Tensile mechanical properties of the as-built specimens from batch X200-180417}}{87}{table.caption.200}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tensile mechanical properties of the heat treated specimens from batch X200-180417}}{87}{table.caption.202}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Extract of Vickers hardness conversion table (HV10)}}{91}{table.caption.205}
+>>>>>>> ab559e11d2d733eb645721ab5d4cbc1e6b03447f
 \addvspace {10\p@ }
 \addvspace {10\p@ }

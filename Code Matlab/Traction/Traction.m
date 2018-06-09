@@ -210,7 +210,7 @@ dl_10= xlsread('X200-180417-10.xls','Valeurs X200-1804...','D4:D13460');
 epsilon_10 = dl_10/A;
 E_10=(sigma_10(1000)-sigma_10(1))/(epsilon_10(1000)-epsilon_10(1))
 UTS_10=xlsread('X200-180417-10.xls','Résultats X200-18...','C3')/pi/(d_o_10/2)^2
-epsilon_f_10=xlsread('X200-180417-10.xls','Résultats X200-18...','G3')/10
+epsilon_f_10=xlsread('X200-180417-10.xls','Résultats X200-18...','G3')/A
 for i=1:10000 
     if (sigma_10(i)<=(epsilon_10(i)-0.002)*E_10)
     sigma_y_10=sigma_10(i)
@@ -226,7 +226,7 @@ dl_11= xlsread('X200-180417-11.xls','Valeurs X200-1804...','D4:D13460');
 epsilon_11 = dl_11/A;
 E_11=(sigma_11(320)-sigma_11(1))/(epsilon_11(320)-epsilon_11(1))
 UTS_11=xlsread('X200-180417-11.xls','Résultats X200-18...','C3')/pi/(d_o_11/2)^2
-epsilon_f_11=xlsread('X200-180417-11.xls','Résultats X200-18...','G3')/10
+epsilon_f_11=xlsread('X200-180417-11.xls','Résultats X200-18...','G3')/A
 for i=1:10000 
     if (sigma_11(i)<=(epsilon_11(i)-0.002)*E_11)
     sigma_y_11=sigma_11(i)
@@ -242,7 +242,7 @@ dl_B= xlsread('X200-180417-B.xls','Valeurs X200-1804...','D4:D13460');
 epsilon_B = dl_B/A;
 E_B=(sigma_B(1000)-sigma_B(1))/(epsilon_B(1000)-epsilon_B(1))
 UTS_B=xlsread('X200-180417-B.xls','Résultats X200-18...','C3')/pi/(d_o_B/2)^2
-epsilon_f_B=xlsread('X200-180417-B.xls','Résultats X200-18...','G3')/10
+epsilon_f_B=xlsread('X200-180417-B.xls','Résultats X200-18...','G3')/A
 for i=1:10000 
     if (sigma_B(i)<=(epsilon_B(i)-0.002)*E_B)
     sigma_y_B=sigma_B(i)
@@ -252,13 +252,13 @@ end
 %plot(epsilon_B,sigma_B)
 
 d_o_13= xlsread('X200-180417-13.xls','Résultats X200-18...','H3')/1000;
-F_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','C4:C13460');
+F_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','C4:C15451');
 sigma_13 = F_13/pi/(d_o_13/2)^2/10^6;% [MPa]
-dl_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','D4:D13460');
+dl_13= xlsread('X200-180417-13.xls','Valeurs X200-1804...','D4:D15451');
 epsilon_13 = dl_13/A;
 E_13=(sigma_13(850)-sigma_13(1))/(epsilon_13(850)-epsilon_13(1))
 UTS_13=xlsread('X200-180417-13.xls','Résultats X200-18...','C3')/pi/(d_o_13/2)^2
-epsilon_f_13=xlsread('X200-180417-13.xls','Résultats X200-18...','G3')/10
+epsilon_f_13=xlsread('X200-180417-13.xls','Résultats X200-18...','G3')/A
 for i=1:10000 
     if (sigma_13(i)<=(epsilon_13(i)-0.002)*E_13)
     sigma_y_13=sigma_13(i)
@@ -268,24 +268,28 @@ end
 %plot(epsilon_13,sigma_13)
 
 d_o_14= xlsread('X200-180417-14.xls','Résultats X200-18...','H3')/1000;
-F_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','C4:C13460');
-sigma_14 = F_13/pi/(d_o_14/2)^2/10^6;% [MPa]
-dl_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','D4:D13460');
+F_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','C4:C14521');
+sigma_14 = F_14/pi/(d_o_14/2)^2/10^6;% [MPa]
+dl_14= xlsread('X200-180417-14.xls','Valeurs X200-1804...','D4:D14521');
 epsilon_14 = dl_14/A;
 E_14=(sigma_14(700)-sigma_14(1))/(epsilon_14(700)-epsilon_14(1))
 UTS_14=xlsread('X200-180417-14.xls','Résultats X200-18...','C3')/pi/(d_o_14/2)^2
-epsilon_f_14=xlsread('X200-180417-14.xls','Résultats X200-18...','G3')/10
+epsilon_f_14=xlsread('X200-180417-14.xls','Résultats X200-18...','G3')/A
 for i=1:10000 
     if (sigma_14(i)<=(epsilon_14(i)-0.002)*E_14)
     sigma_y_14=sigma_14(i)
     break;
     end
 end
-%plot(epsilon_14,sigma_14)
+figure
+hold on
+plot(epsilon_2,sigma_2)
+plot(epsilon_14+0.01*ones(1,size(epsilon_14,2)),sigma_14)
+plot(epsilon_11+0.02*ones(1,size(epsilon_11,2)),sigma_11)
+plot(epsilon_8+0.03*ones(1,size(epsilon_8,2)),sigma_8)
+plot(epsilon_5+0.04*ones(1,size(epsilon_5,2)),sigma_5)
 
-
-
-legend('X200-180417-1','X200-180417-2','X200-180417-3','X200-180417-16','X200-180417-17','X200-180417-A','X200-180417-4','X200-180417-5','X200-180417-6','X200-180417-7','X200-180417-8','X200-180417-9','X200-180417-A')
+%legend('X200-180417-1','X200-180417-2','X200-180417-3','X200-180417-16','X200-180417-17','X200-180417-A','X200-180417-4','X200-180417-5','X200-180417-6','X200-180417-7','X200-180417-8','X200-180417-9','X200-180417-A')
 ylabel('\sigma_{eng} [MPa]')
 xlabel('\epsilon_{eng} [-]')
 % x=linspace(0, 0.1, 100);
@@ -345,7 +349,7 @@ UTS_150=mean([UTS_13 UTS_14 UTS_B])
 epsilon_f_150=mean([epsilon_f_13 epsilon_f_14 epsilon_f_B])
 n=log(UTS_150/sigma_y_150)/log(500*epsilon_f_150)
 
-%plot(linspace(0,epsilon_f_150,500),interp1(0.01*[0 0.46727 0.7242 1.37843 2.89153 5 6.16553],[0 259.36 301.43 348.18 398.92 430 441.67],linspace(0,epsilon_f_150,500),'spline'))
+plot(linspace(0+0.02,epsilon_f_150+0.02,500),interp1(0.01*[0 0.46727 0.7242 1.37843 2.89153 5 6.16553]*epsilon_f_150*100/6.16553+0.02*ones(1,7),[0 259.36 301.43 348.18 398.92 430 441.67],linspace(0,epsilon_f_150,500)+0.02*ones(1,500),'spline'))
 
 %200
 
@@ -355,7 +359,7 @@ UTS_200=mean([UTS_10 UTS_11])
 epsilon_f_200=mean([epsilon_f_10 epsilon_f_11])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-%plot(linspace(0,epsilon_f_200,500),interp1(0.01*[0 0.40102 0.64388 1.23653 2.53021 4 epsilon_f_200*100],[0 220.83 258.03 299.35 340.68 370 382.01],linspace(0,epsilon_f_200,500),'spline'))
+plot(linspace(0+0.04,epsilon_f_200+0.04,500),interp1(0.01*[0 0.40102*epsilon_f_200*100/4.6 0.64388*epsilon_f_200*100/4.6 1.23653*epsilon_f_200*100/4.6 2.53021*epsilon_f_200*100/4.6 4*epsilon_f_200*100/4.6 epsilon_f_200*100]+0.04*ones(1,7),[0 220.83 258.03 299.35 340.68 373 382.01],linspace(0+0.04,epsilon_f_200+0.04,500),'spline'))
 
 %250
 
@@ -363,9 +367,9 @@ E_250=mean([E_7 E_8 E_9])
 sigma_y_250=mean([sigma_y_7 sigma_y_8])
 UTS_250=mean([UTS_7 UTS_8])
 epsilon_f_250=mean([epsilon_f_7 epsilon_f_8])
-n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
+n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_200)
 
-%plot(linspace(0,0.165,500),interp1([0 0.37578 0.0048084 0.007136 0.0115242 0.0196286 0.0341426 0.0592953 0.1015275 0.165],[0 94.048 211.61 228.94 250.61 272.27 293.94 315.6 337.27 358.93 380.6],linspace(0,0.165,500),'spline'))
+plot(linspace(0+0.06,0.165+0.06,500),interp1([0 0.37578 0.0048084 0.007136 0.0115242 0.0196286 0.0341426 0.0592953 0.1015275 0.165]+0.06*ones(1,10),[0 94.048 211.61 228.94 250.61 272.27 293.94 315.6 337.27 358.93 380.6],linspace(0,0.165,500)+0.06*ones(1,500),'spline'))
 
 %300
 
@@ -375,7 +379,7 @@ UTS_300=mean([UTS_4 UTS_5 UTS_6])
 epsilon_f_300=mean([epsilon_f_4 epsilon_f_5 epsilon_f_6])
 n=log(UTS_200/sigma_y_200)/log(500*epsilon_f_150)
 
-%plot(linspace(0,0.297,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.0129174 0.0245514 0.0471322 0.0891744 0.1644895 0.2947815],[0 67.960 152.91 166.1 182.59 199.08 215.57 232.06 248.55 265.04 281.53],linspace(0,0.297,500),'spline'))
+plot(linspace(0+0.08,0.297+0.08,500),interp1([0 0.0011545 0.0033052 0.0044216 0.0071688 0.0129174 0.0245514 0.0471322 0.0891744 0.1644895 0.2947815]+0.08*ones(1,11),[0 67.960 152.91 166.1 182.59 199.08 215.57 232.06 248.55 265.04 281.53],linspace(0,0.297,500)+0.08*ones(1,500),'spline'))
 % 
 % sigma_150=linspace(0,UTS_150,500)
 % epsilon_150=zeros(500,1)
