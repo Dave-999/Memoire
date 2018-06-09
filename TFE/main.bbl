@@ -344,6 +344,39 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Arbtin}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AE}{%
+         family={Arbtin},
+         familyi={A\bibinitperiod},
+         given={Emil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AEMG1}
+    \strng{fullhash}{AEMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{1\bibrangedash  27}
+    \field{title}{Correlation of Vickers hardness number, modulus of
+  elasticity, and the yield strength for ductile metals}
+    \verb{url}
+    \verb https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1057&context=a
+    \verb meslab_iscreports
+    \endverb
+    \field{volume}{50}
+    \field{journaltitle}{Ames Laboratory ISC Technical Reports.}
+    \field{year}{1953}
+  \endentry
+
   \entry{ASTM}{manual}{}
     \list{organization}{1}{%
       {ASTM International}%
@@ -357,6 +390,19 @@
     \verb http://www.astm.org/
     \endverb
     \field{year}{2013}
+  \endentry
+
+  \entry{coulter}{manual}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Beckman Coulter, Inc. - COULTER LS SERIES Product Manual}
+    \verb{url}
+    \verb https://www.beckmancoulter.com/wsrportal/techdocs?docname=4237214EA.p
+    \verb df
+    \endverb
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Brandl121509}{article}{}
@@ -403,22 +449,6 @@
     \field{volume}{34}
     \field{journaltitle}{Materials \& Design}
     \field{year}{2012}
-  \endentry
-
-  \entry{coulter}{manual}{}
-    \list{organization}{1}{%
-      {Beckman Coulter, Inc.}%
-    }
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{title}{COULTER LS SERIES Product Manual}
-    \verb{url}
-    \verb https://www.beckmancoulter.com/wsrportal/techdocs?docname=4237214EA.p
-    \verb df
-    \endverb
-    \field{year}{2011}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{ADictionaryofPhysics}{book}{}
@@ -554,6 +584,42 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Verhaeghe}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GV}{%
+         family={G},
+         familyi={G},
+         given={Verhaeghe},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={P},
+         familyi={P},
+         given={Hilton},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Barnes},
+         familyi={B\bibinitperiod},
+         given={Stuart},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GVPHBS1}
+    \strng{fullhash}{GVPHBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{SAE Technical Papers}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Achieving Low-Porosity Laser Welds in Aerospace Aluminium
+  Alloy}
+    \field{volume}{3}
+    \field{month}{09}
+    \field{year}{2003}
+  \endentry
+
   \entry{G2MT}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{G}
@@ -608,6 +674,38 @@
     \field{volume}{10(1)}
     \field{journaltitle}{Materials}
     \field{year}{2017}
+  \endentry
+
+  \entry{HIDVEGI197739}{article}{}
+    \name{author}{2}{}{%
+      {{hash=vH}{%
+         prefix={Éva},
+         prefixi={v\bibinitperiod},
+         family={Hidvégi},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=KCE}{%
+         family={Kovács-Csetényi},
+         familyi={K\bibinitperiod-C\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HvKCE1}
+    \strng{fullhash}{HvKCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{1}
+    \field{pages}{39 \bibrangedash  43}
+    \field{title}{Study of the loss of magnesium in an AlMgSi alloy}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/0025541677901926
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Materials Science and Engineering}
+    \field{year}{1977}
   \endentry
 
   \entry{Hodge2014}{article}{}
@@ -694,6 +792,48 @@
     \field{urlday}{28}
     \field{urlmonth}{05}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Huang2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HL}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Lijin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Hua},
+         familyi={H\bibinitperiod},
+         given={Xueming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Dongsheng},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=lF}{%
+         family={li},
+         familyi={l\bibinitperiod},
+         given={Fang},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HL+1}
+    \strng{fullhash}{HLHXWDlF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Journal of Materials Processing Technology}
+    \field{pages}{421\bibrangedash 431}
+    \field{title}{Numerical study of keyhole instability and porosity formation
+  mechanism in laser welding of aluminum alloy and steel}
+    \field{volume}{252}
+    \field{month}{10}
+    \field{year}{2017}
   \endentry
 
   \entry{Inconel}{manual}{}
