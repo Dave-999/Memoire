@@ -128,7 +128,7 @@ The two other methods were more promising. Relative densities obtained with RODI
 
 \subsection{Parameters optimisation}
 Optimisations of the relative density and hardness were both achieved with the parameters set ($P=0.75 P_{max}=205 [W]$ , $v_s=1200 [\frac{mm}{s}]$). This pair of parameters lie in the process window suggested in section \ref{pp}.
-Kempen et al. found optimal parameters values (maximising density) that are not far to the ones of this work (see table \ref{tab:compKemp}) \parencite{Kempen110817}. The energy density was however significantly bigger in this work, especially since the laser was more focused (which is not taken into account for the approximate computation). $E_d$ is rather close to a value minimising porosity obtained by Read et al. (65 $\frac{J}{mm^3}$) \parencite{Read150417}. Both cited sources used a chessboard scanning strategy, with islands size of around  5x5 [$mm^2$]. \\
+Kempen et al. found optimal parameters values (maximising density) that are not far to the ones of this work (see table \ref{tab:compKemp}) \parencite{Kempen110817}. The energy density was however significantly bigger in this work, especially since the laser was more focused (which is not taken into account for the approximate computation). $E_d$ is rather close to a value minimising porosity obtained by Read et al. (65 $[\frac{J}{mm^3}]$) \parencite{Read150417}. Both cited sources used a chessboard scanning strategy, with islands size of around  5 x 5 [$mm^2$]. \\
 
 \begin{center}
 	\begin{table}[ht]
@@ -146,9 +146,21 @@ Kempen et al. found optimal parameters values (maximising density) that are not 
 	\end{table}
 \end{center}
 
-A relative density of 99.9 [\%] was reached, which is superior to the best values found in the literature \parencite{EOS}. It is likely that all samples fabricated with the optimised parameters had $\rho_{rel}>99.4[\%]$ according to the measurements. Results depended on the powder age and recycling (\ref{RPI}). It can be confirmed that the parameters chosen allowed for a right energy input and a correct melt pools overlapping. The hardness was significantly bigger than what is typically expected - approximately 10 [HV] more (see section \ref{MMABMP}). \textcolor{gray}{[EXPLICATIONS?= THERMIQUE? OU CONTRAINTES RESIDUELLES? Normalement pas car quasi nulles près de la surface normalement -> calculer profondeur de pénétration d'après pointe Vickers]}\\
+A relative density of 99.9 [\%] was reached, which is superior to the best values found in the literature \parencite{EOS}. It is likely that all samples fabricated with the optimised parameters had $\rho_{rel}>99.4[\%]$ according to the measurements. Results depended on the powder age and recycling (\ref{RPI}). It can be confirmed that the parameters chosen allowed for a right energy input and a correct melt pools overlapping. \\
 
-However, one should note that the optimisation of the overall density was perhaps not the most pertinent to conduct. \textcolor{gray}{[TAILLE MAX DES PORES, CONTRAINTES RESIDUELLES -> Sur des éprouvettes... VOIR SECTION FUTURE]}.\\ 
+The hardness was significantly bigger than what is typically expected - approximately 10 [HV] more (see section \ref{MMABMP}). This could indicate that the microstructure was finer than was is typically obtained or that the material had a more pronounced work hardening ability. At first glance, nothing would justify this. A more credible justification is measurement-related: first, the obtained $H_V$ value depends significantly on the load and on the test's time length. A study showed that the Vickers hardness of aluminium 17-ST alloy - which has a comparable $H_v$ as AlSi10Mg - can range from 130.8 to 143.0 depending on the testing conditions, as shown in table \ref{tab:Vickm} \parencite{Arbtin}. This alone could explain the high hardnesses measured in this work as the load and the time length were both small (respectively 10 [kg] and 10 [sec]).\\ 
+
+In addition, the indenting machine used necessitates to take manual measurements. Given the high sensitivity of the hardness as a function of the lengths measured, the slightest error is greatly amplified. For example, a length error of 5[$\mu m$], which is the achievable accuracy, induces an error of 4 [HV]. Although the repeated testing greatly improves the estimation reliability (see confidence intervals in section \ref{Rparaopti}), a slight negative bias could induce a systematic overestimation of the hardness by a few [HV]. For these reasons, the hardness values obtained in this work should not be compared to the ones in literature. However, they still can be compared to each other as they were obtained through the same procedure.\\
+
+\begin{table}[ht]
+		\centering
+			\includegraphics[scale=0.90]{Images/Vickm}
+			\decoRule
+		\caption[Vickers hardness results data for aluminium 17-ST alloy.]{Vickers hardness results data for aluminium 17-ST alloy (from Emil Arbtin Jr. and Glenn Murphy, 1953 \parencite{Arbtin}).}
+		\label{tab:Vickm}
+\end{table}
+
+Furthermore, one should note that the optimisation of the overall density was perhaps not the most pertinent to conduct. As it will be discussed in section \ref{DMPP}, it is very likely that the tensile mechanical properties are dictated by the residual stresses and by the effects due to a second population of porosities. It could thus be interesting to perform a parametric study putting these at the forefront.\\ 
 
 \subsection{Reproducibility}
 
@@ -156,13 +168,13 @@ However, one should note that the optimisation of the overall density was perhap
 [Variabilité des éch type 8 = instabilité key holes]
 [Impact de la poudre: peut-être qu'à la fin elle était humide, impossible à voir via ICP]
 
-\section{Characterisation of the as-built samples}
+\section{Mechanical properties}
+\label{DMPP}
+The average tensile properties measures for AB specimens fell a bit short of the expectations. While $\sigma_y$ was high compared to the standards, $\sigma_u$ was less satisfactory ($\simeq 17\%$ beneath the value from \parencite{EOS}). In addition, $\epsilon_f$ was lower than most values in table \ref{tab:Kemp1}: up to $\simeq 58\%$ less than other results for samples built along z.  Furthermore, while $E$ varies a lot in literature, it is extremely rare that it reaches an average value as low as 65. \\
 
-\subsection{Mechanical properties}
+Results were compared to the \textit{Aerostream} project's carried out by ULB, VUB and UCL universities in which AlSi10Mg tensile specimens were also fabricated vertically and tested. The process parameters used for the project are unfortunately undisclosed. The comparison of the AB specimens is presented on figure \ref{AerAB}. The properties obtained with the \textit{Aerostream} project are obviously far better than what was obtained in this thesis for as-built specimens (and to what can be found in literature). The fracture strain was indeed three times bigger and the ultimate tensile strength 124\% higher. \\
 
-The average tensile properties measures for AB specimens fell a bit short of the expectations. While $\sigma_y$ and $\sigma_u$ were more or less satisfactory compared to what is observed in literature, $\epsilon_f$ was lower than what is typically obtained. Furthermore, while $E$ varies a lot in literature, it is extremely rare that it reaches an average value as low as 65. \\
-
-Results were compared to the \textit{Aerostream} project's carried out by ULB, VUB and UCL universities in which AlSi10Mg tensile specimens were also fabricated vertically and tested. The process parameters used for the project are unfortunately undisclosed. The comparison of the AB specimens is presented on figure \ref{AerAB}. The properties obtained with the \textit{Aerostream} project are obviously far better than what was obtained in this thesis for as-built specimens (and to what can be found in literature). The fracture strain was indeed three times bigger and the ultimate tensile strength 124\% higher. Insight on the reasons behind the differences will be provided in section \ref{D-MP}.
+Insight on the reasons behind the difference was provided.
 
 \begin{figure}[ht]
 	\centering
@@ -172,28 +184,26 @@ Results were compared to the \textit{Aerostream} project's carried out by ULB, V
 	\label{fig:AerAB}
 \end{figure}
 
-\subsection{Microstructure}
-
-[Mécanisme d'endommagement: deux populations de porosités? A confirmer/ infirmer avec les articles envoyés par AS]
-[Taille des cupules= ordre de grandeur des éléments de la microstructure?] 
-
-\section{Characterisation of the heat treated samples}
-
-\subsection{Heating process}
-Quand on chauffe à 300 deg, on chauffe déjà longtemps à plus de 200 deg
-
-\subsection{Residual stresses}
-
-[XRD: pièce as-built a un plus petit spread que ceux avec TT à basse T, p-e parce que cube coupé en 2 => relaxation des contraintes après fab?]
-
-While the usual stress-relief treatment for aluminium alloys -to hours holding at 300$^\circ$ C- does indeed relieve stresses inside the specimen, it also triggers significantly the diffusion of alloying elements, altering the material microstructure.
-
-\subsection{Mechanical properties}
 [Propriétés as-built moins bonnes que dans la litérature car contraintes résiduelles. On a pas les conditions de fabrication des meilleurs -> Ils avaient surement un controle de la température de la plaque] 
 [Faire le dessin de courbe "montée" par les contraintes]
 [Augmentation de ductilité = disparition des	limites entres bains de fusion? ou compensation du matériau ductile autours des trous? A confirmer/infirmer via les images du SEM de la section d'après]
 [Différence de porosité avant/ après TT qui explique quelque chose? -> Analyse image J des résultats]
 [Lien avec la dureté -> Résultats]
+
+
+\section{Microstructure}
+
+[Mécanisme d'endommagement: deux populations de porosités? A confirmer/ infirmer avec les articles envoyés par AS]
+[Taille des cupules= ordre de grandeur des éléments de la microstructure?] 
+
+\subsection{Heating process}
+Quand on chauffe à 300 deg, on chauffe déjà longtemps à plus de 200 deg
+
+\section{Residual stresses}
+
+[XRD: pièce as-built a un plus petit spread que ceux avec TT à basse T, p-e parce que cube coupé en 2 => relaxation des contraintes après fab?]
+
+While the usual stress-relief treatment for aluminium alloys -to hours holding at 300$^\circ$ C- does indeed relieve stresses inside the specimen, it also triggers significantly the diffusion of alloying elements, altering the material microstructure.
 
 \subsection{Microstructure}
 [Modèle pour la sphéroisisation: rien dans la literature pour notre microstructure (? j'ai rien trouvé en faisant une petite recherche)]

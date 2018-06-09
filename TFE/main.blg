@@ -14,9 +14,14 @@ A level-1 auxiliary file: Appendices/AppendixC.aux
 A level-1 auxiliary file: Appendices/AppendixD.aux
 Database file #1: main-blx.bib
 Database file #2: biblio.bib
-I was expecting an "="---line 586 of file biblio.bib
+I was expecting an "="---line 582 of file biblio.bib
  : <<<<<<< 
  :         HEAD
 I'm skipping whatever remains of this entry
+You're missing a field name---line 631 of file biblio.bib
+ : 
+ : %number = "1",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.8
-(There was 1 error message)
+(There were 2 error messages)

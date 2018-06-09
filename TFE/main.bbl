@@ -405,6 +405,16 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Arbtin}{article}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Correlation of Vickers hardness number, modulus of
+  elasticity, and the yield strength for ductile metals}
+    \field{volume}{50}
+    \field{journaltitle}{Ames Laboratory ISC Technical Reports.}
+  \endentry
+
   \entry{coulter}{manual}{}
     \list{organization}{1}{%
       {Beckman Coulter, Inc.}%
@@ -608,6 +618,38 @@
     \field{volume}{10(1)}
     \field{journaltitle}{Materials}
     \field{year}{2017}
+  \endentry
+
+  \entry{HIDVEGI197739}{article}{}
+    \name{author}{2}{}{%
+      {{hash=vH}{%
+         prefix={Éva},
+         prefixi={v\bibinitperiod},
+         family={Hidvégi},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=KCE}{%
+         family={Kovács-Csetényi},
+         familyi={K\bibinitperiod-C\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HvKCE1}
+    \strng{fullhash}{HvKCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{1}
+    \field{pages}{39 \bibrangedash  43}
+    \field{title}{Study of the loss of magnesium in an AlMgSi alloy}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/0025541677901926
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Materials Science and Engineering}
+    \field{year}{1977}
   \endentry
 
   \entry{Hodge2014}{article}{}
