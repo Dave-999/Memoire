@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  8 JUN 2018 23:42
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.2)  8 JUN 2018 22:05
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  7 JUN 2018 23:14
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  9 JUN 2018 14:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -2256,15 +2248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-<<<<<<< HEAD
 <Images/SLM.png, id=813, 292.09125pt x 227.34938pt>
-=======
-<<<<<<< HEAD
-<Images/SLM.png, id=795, 292.09125pt x 227.34938pt>
-=======
-<Images/SLM.png, id=803, 292.09125pt x 227.34938pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/SLM.png Graphic file (type png)
 <use Images/SLM.png>
 Package pdftex.def Info: Images/SLM.png  used on input line 9.
@@ -2283,28 +2267,12 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 
 1: section
 [3 <./Images/SLM.png>]
-<<<<<<< HEAD
 <Images/Evol.jpg, id=832, 777.65532pt x 334.24875pt>
-=======
-<<<<<<< HEAD
-<Images/Evol.jpg, id=814, 777.65532pt x 334.24875pt>
-=======
-<Images/Evol.jpg, id=822, 777.65532pt x 334.24875pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Evol.jpg Graphic file (type jpg)
 <use Images/Evol.jpg>
 Package pdftex.def Info: Images/Evol.jpg  used on input line 28.
 (pdftex.def)             Requested size: 427.71175pt x 183.83737pt.
-<<<<<<< HEAD
 <Images/Param.png, id=835, 909.3975pt x 557.08125pt>
-=======
-<<<<<<< HEAD
-<Images/Param.png, id=817, 909.3975pt x 557.08125pt>
-=======
-<Images/Param.png, id=825, 909.3975pt x 557.08125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Param.png Graphic file (type png)
 <use Images/Param.png>
 Package pdftex.def Info: Images/Param.png  used on input line 39.
@@ -2324,15 +2292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<<<<<<< HEAD
 <Images/phase_diagram.png, id=854, 622.57594pt x 642.14906pt>
-=======
-<<<<<<< HEAD
-<Images/phase_diagram.png, id=836, 622.57594pt x 642.14906pt>
-=======
-<Images/phase_diagram.png, id=844, 622.57594pt x 642.14906pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/phase_diagram.png Graphic file (type png)
 <use Images/phase_diagram.png>
 Package pdftex.def Info: Images/phase_diagram.png  used on input line 70.
@@ -2348,22 +2308,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 [5 <./Images/Param.png>]
-<<<<<<< HEAD
 <Images/micro_cast.png, id=870, 729.47531pt x 518.6878pt>
-=======
-<<<<<<< HEAD
-<Images/micro_cast.png, id=854, 729.47531pt x 518.6878pt>
-=======
-<Images/micro_cast.png, id=860, 729.47531pt x 518.6878pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/micro_cast.png Graphic file (type png)
 <use Images/micro_cast.png>
 Package pdftex.def Info: Images/micro_cast.png  used on input line 82.
 (pdftex.def)             Requested size: 218.84427pt x 155.60754pt.
-<<<<<<< HEAD
-<Images/micro_am.png, id=857, 800.9925pt x 928.97063pt>
-=======
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
@@ -2374,12 +2323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<<<<<<< HEAD
 <Images/micro_am.png, id=886, 800.9925pt x 928.97063pt>
-=======
-<Images/micro_am.png, id=876, 800.9925pt x 928.97063pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/micro_am.png Graphic file (type png)
 <use Images/micro_am.png>
 Package pdftex.def Info: Images/micro_am.png  used on input line 95.
@@ -2405,29 +2349,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
-<<<<<<< HEAD
-<Images/Pvs.png, id=885, 1038.88126pt x 592.46344pt>
-=======
 [8 <./Images/microTT.jpg>]
-<<<<<<< HEAD
 <Images/Pvs.png, id=919, 1038.88126pt x 592.46344pt>
-=======
-<Images/Pvs.png, id=909, 1038.88126pt x 592.46344pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Pvs.png Graphic file (type png)
 <use Images/Pvs.png>
 Package pdftex.def Info: Images/Pvs.png  used on input line 123.
 (pdftex.def)             Requested size: 353.21495pt x 201.4349pt.
-<<<<<<< HEAD
 <Images/Pvs2.png, id=922, 988.44281pt x 548.80031pt>
-=======
-<<<<<<< HEAD
-<Images/Pvs2.png, id=888, 988.44281pt x 548.80031pt>
-=======
-<Images/Pvs2.png, id=912, 988.44281pt x 548.80031pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Pvs2.png Graphic file (type png)
 <use Images/Pvs2.png>
 Package pdftex.def Info: Images/Pvs2.png  used on input line 131.
@@ -2442,15 +2370,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<<<<<<< HEAD
 <Images/Strat.png, id=945, 612.03656pt x 222.8325pt>
-=======
-<<<<<<< HEAD
-<Images/Strat.png, id=911, 612.03656pt x 222.8325pt>
-=======
-<Images/Strat.png, id=935, 612.03656pt x 222.8325pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Strat.png Graphic file (type png)
 <use Images/Strat.png>
 Package pdftex.def Info: Images/Strat.png  used on input line 143.
@@ -2466,16 +2386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-<<<<<<< HEAD
 <Images/Build.png, id=953, 637.63219pt x 168.63pt>
-=======
-<<<<<<< HEAD
-[9 <./Images/Pvs2.png>]
-<Images/Build.png, id=930, 637.63219pt x 168.63pt>
-=======
-<Images/Build.png, id=943, 637.63219pt x 168.63pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Build.png Graphic file (type png)
 <use Images/Build.png>
 Package pdftex.def Info: Images/Build.png  used on input line 153.
@@ -2506,16 +2417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
-<<<<<<< HEAD
 <Images/Fat.jpg, id=1008, 599.23875pt x 435.87843pt>
-=======
-<<<<<<< HEAD
-[11]
-<Images/Fat.jpg, id=982, 246.8692pt x 179.07611pt>
-=======
-<Images/Fat.jpg, id=998, 599.23875pt x 435.87843pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/Fat.jpg Graphic file (type jpg)
 <use Images/Fat.jpg>
 Package pdftex.def Info: Images/Fat.jpg  used on input line 241.
@@ -2541,16 +2443,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<<<<<<< HEAD
-<Images/rs_section.png, id=993, 482.55281pt x 380.92313pt>
-=======
 [13 <./Images/Fat.jpg>]
-<<<<<<< HEAD
 <Images/rs_section.png, id=1027, 482.55281pt x 380.92313pt>
-=======
-<Images/rs_section.png, id=1017, 482.55281pt x 380.92313pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 File: Images/rs_section.png Graphic file (type png)
 <use Images/rs_section.png>
 Package pdftex.def Info: Images/rs_section.png  used on input line 278.
@@ -2560,182 +2454,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-<<<<<<< HEAD
-<Images/rs_measure.png, id=1031, 379.4175pt x 248.42813pt>
-=======
-<<<<<<< HEAD
-[13 <./Images/rs_section.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<Images/Rs-support.png, id=1007, 749.04843pt x 525.46312pt>
+<Images/Rs-support.png, id=1034, 749.04843pt x 525.46312pt>
 File: Images/Rs-support.png Graphic file (type png)
 <use Images/Rs-support.png>
-Package pdftex.def Info: Images/Rs-support.png  used on input line 273.
+Package pdftex.def Info: Images/Rs-support.png  used on input line 290.
 (pdftex.def)             Requested size: 374.5233pt x 262.73091pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-<Images/rs_measure.png, id=1011, 379.4175pt x 248.42813pt>
-File: Images/rs_measure.png Graphic file (type png)
-<use Images/rs_measure.png>
-Package pdftex.def Info: Images/rs_measure.png  used on input line 283.
-(pdftex.def)             Requested size: 303.53441pt x 198.74277pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-[14 <./Images/Rs-support.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-<Images/contour_meth.png, id=1026, 487.8225pt x 447.17062pt>
-File: Images/contour_meth.png Graphic file (type png)
-<use Images/contour_meth.png>
-Package pdftex.def Info: Images/contour_meth.png  used on input line 295.
-(pdftex.def)             Requested size: 292.69576pt x 268.30444pt.
-[15 <./Images/rs_measure.png>]
-Overfull \hbox (3.85344pt too wide) in paragraph at lines 324--325
-=======
-<Images/rs_measure.png, id=1021, 379.4175pt x 248.42813pt>
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
-File: Images/rs_measure.png Graphic file (type png)
-<use Images/rs_measure.png>
-Package pdftex.def Info: Images/rs_measure.png  used on input line 288.
-(pdftex.def)             Requested size: 303.53441pt x 198.74277pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-[14 <./Images/rs_section.png> <./Images/rs_measure.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-<Images/contour_meth.png, id=1044, 487.8225pt x 447.17062pt>
+<Images/rs_measure.png, id=1038, 379.4175pt x 248.42813pt>
+File: Images/rs_measure.png Graphic file (type png)
+<use Images/rs_measure.png>
+Package pdftex.def Info: Images/rs_measure.png  used on input line 300.
+(pdftex.def)             Requested size: 303.53441pt x 198.74277pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[14 <./Images/rs_section.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+<Images/contour_meth.png, id=1052, 487.8225pt x 447.17062pt>
 File: Images/contour_meth.png Graphic file (type png)
 <use Images/contour_meth.png>
-Package pdftex.def Info: Images/contour_meth.png  used on input line 300.
+Package pdftex.def Info: Images/contour_meth.png  used on input line 312.
 (pdftex.def)             Requested size: 292.69576pt x 268.30444pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
-
- []
-
-[15 <./Images/contour_meth.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-<Images/Rs-support.png, id=1058, 749.04843pt x 525.46312pt>
-File: Images/Rs-support.png Graphic file (type png)
-<use Images/Rs-support.png>
-Package pdftex.def Info: Images/Rs-support.png  used on input line 313.
-(pdftex.def)             Requested size: 374.5233pt x 262.73091pt.
-
-Overfull \hbox (3.85344pt too wide) in paragraph at lines 343--344
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
+[15 <./Images/Rs-support.png>] [16 <./Images/rs_measure.png> <./Images/contour_
+meth.png>]
+Overfull \hbox (3.85344pt too wide) in paragraph at lines 342--343
 \T1/ppl/m/n/10.95 Unfortunately, al-though re-sid-ual stresses can be at-ten-u-
 ated as it was dis-cussed above,
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<Images/mech_annealing.png, id=1040, 1251.17438pt x 546.54187pt>
+<Images/mech_annealing.png, id=1071, 1251.17438pt x 546.54187pt>
 File: Images/mech_annealing.png Graphic file (type png)
 <use Images/mech_annealing.png>
-Package pdftex.def Info: Images/mech_annealing.png  used on input line 330.
+Package pdftex.def Info: Images/mech_annealing.png  used on input line 348.
 (pdftex.def)             Requested size: 375.35521pt x 163.96382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-
- []
-
-[16 <./Images/contour_meth.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-[16 <./Images/Rs-support.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-<Images/mech_annealing.png, id=1070, 1251.17438pt x 546.54187pt>
-File: Images/mech_annealing.png Graphic file (type png)
-<use Images/mech_annealing.png>
-Package pdftex.def Info: Images/mech_annealing.png  used on input line 349.
-(pdftex.def)             Requested size: 375.35521pt x 163.96382pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
-
-<Images/ABvsT6.png, id=1052, 490.08093pt x 228.10219pt>
-File: Images/ABvsT6.png Graphic file (type png)
-<use Images/ABvsT6.png>
-Package pdftex.def Info: Images/ABvsT6.png  used on input line 344.
-(pdftex.def)             Requested size: 343.05432pt x 159.67043pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-
- []
-
-[17 <./Images/mech_annealing.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
-[17 <./Images/mech_annealing.png>]
-<Images/ABvsT6.png, id=1083, 490.08093pt x 228.10219pt>
-File: Images/ABvsT6.png Graphic file (type png)
-<use Images/ABvsT6.png>
-Package pdftex.def Info: Images/ABvsT6.png  used on input line 363.
-(pdftex.def)             Requested size: 343.05432pt x 159.67043pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
@@ -2745,48 +2521,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-[18 <./Images/ABvsT6.png>]
+[17
+
+ <./Images/mech_annealing.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
-<Images/Mach.jpg, id=1076, 1738.24406pt x 1071.25218pt>
-File: Images/Mach.jpg Graphic file (type jpg)
-<use Images/Mach.jpg>
-Package pdftex.def Info: Images/Mach.jpg  used on input line 362.
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+<Images/ABvsT6.png, id=1084, 490.08093pt x 228.10219pt>
+File: Images/ABvsT6.png Graphic file (type png)
+<use Images/ABvsT6.png>
+Package pdftex.def Info: Images/ABvsT6.png  used on input line 362.
+(pdftex.def)             Requested size: 343.05432pt x 159.67043pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 [18 <./Images/ABvsT6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
 <Images/Mach.jpg, id=1103, 1738.24406pt x 1071.25218pt>
 File: Images/Mach.jpg Graphic file (type jpg)
 <use Images/Mach.jpg>
-Package pdftex.def Info: Images/Mach.jpg  used on input line 381.
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
+Package pdftex.def Info: Images/Mach.jpg  used on input line 380.
 (pdftex.def)             Requested size: 486.70503pt x 299.94856pt.
 ) [19] [20 <./Images/Mach.jpg>]
 \openout2 = `Chapitres/Materiel_et_methodes.aux'.
 
-<<<<<<< HEAD
- (Chapitres/Materiel_et_methodes.tex [20
-
+ (Chapitres/Materiel_et_methodes.tex [21
 
 
 ]
-=======
- (Chapitres/Materiel_et_methodes.tex
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
+[22
+
+]
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
@@ -2801,54 +2587,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<<<<<<< HEAD
-<Images/ICP.jpg, id=1120, 639.89063pt x 340.27126pt>
-=======
 1: section
-[21]
-<Images/ICP.jpg, id=1098, 639.89063pt x 340.27126pt>
-=======
-<Images/ICP.jpg, id=1110, 639.89063pt x 340.27126pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[23]
+<Images/ICP.jpg, id=1135, 639.89063pt x 340.27126pt>
 File: Images/ICP.jpg Graphic file (type jpg)
 <use Images/ICP.jpg>
 Package pdftex.def Info: Images/ICP.jpg  used on input line 28.
 (pdftex.def)             Requested size: 383.93733pt x 204.16432pt.
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<Images/Printer.png, id=1101, 199.49532pt x 331.2375pt>
-=======
-1: section
-[21
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-<<<<<<< HEAD
-<Images/Printer.png, id=1129, 199.49532pt x 331.2375pt>
-=======
-<Images/Printer.png, id=1119, 199.49532pt x 331.2375pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/Printer.png, id=1138, 199.49532pt x 331.2375pt>
 File: Images/Printer.png Graphic file (type png)
 <use Images/Printer.png>
 Package pdftex.def Info: Images/Printer.png  used on input line 42.
@@ -2858,29 +2623,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<<<<<<< HEAD
-<Images/Compens.jpg, id=1135, 959.08313pt x 748.29562pt>
-=======
-<<<<<<< HEAD
-[22 <./Images/ICP.jpg>]
-<Images/Compens.jpg, id=1114, 959.08313pt x 748.29562pt>
-=======
-<Images/Compens.jpg, id=1125, 959.08313pt x 748.29562pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[24 <./Images/ICP.jpg>]
+<Images/Compens.jpg, id=1151, 959.08313pt x 748.29562pt>
 File: Images/Compens.jpg Graphic file (type jpg)
 <use Images/Compens.jpg>
 Package pdftex.def Info: Images/Compens.jpg  used on input line 52.
 (pdftex.def)             Requested size: 287.72716pt x 224.49042pt.
-<<<<<<< HEAD
-<Images/Compens1.jpg, id=1136, 903.375pt x 530.73282pt>
-=======
-<<<<<<< HEAD
-<Images/Compens1.jpg, id=1115, 903.375pt x 530.73282pt>
-=======
-<Images/Compens1.jpg, id=1126, 903.375pt x 530.73282pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/Compens1.jpg, id=1152, 903.375pt x 530.73282pt>
 File: Images/Compens1.jpg Graphic file (type jpg)
 <use Images/Compens1.jpg>
 Package pdftex.def Info: Images/Compens1.jpg  used on input line 60.
@@ -2900,15 +2649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<<<<<<< HEAD
-<Images/cc.jpg, id=1143, 998.9822pt x 359.84438pt>
-=======
-<<<<<<< HEAD
-<Images/cc.jpg, id=1117, 998.9822pt x 359.84438pt>
-=======
-<Images/cc.jpg, id=1133, 998.9822pt x 359.84438pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/cc.jpg, id=1154, 998.9822pt x 359.84438pt>
 File: Images/cc.jpg Graphic file (type jpg)
 <use Images/cc.jpg>
 Package pdftex.def Info: Images/cc.jpg  used on input line 72.
@@ -2918,61 +2659,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<<<<<<< HEAD
-<Images/OL.jpg, id=1148, 1367.8603pt x 1082.54437pt>
-=======
-<<<<<<< HEAD
-<Images/OL.jpg, id=1122, 1367.8603pt x 1082.54437pt>
-=======
-<Images/OL.jpg, id=1138, 1367.8603pt x 1082.54437pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/OL.jpg, id=1159, 1367.8603pt x 1082.54437pt>
 File: Images/OL.jpg Graphic file (type jpg)
 <use Images/OL.jpg>
 Package pdftex.def Info: Images/OL.jpg  used on input line 83.
 (pdftex.def)             Requested size: 369.32722pt x 292.29088pt.
-<<<<<<< HEAD
-<Images/Lassup.jpg, id=1149, 1623.06375pt x 676.02562pt>
-=======
-<<<<<<< HEAD
-<Images/Lassup.jpg, id=1123, 1623.06375pt x 676.02562pt>
-=======
-<Images/Lassup.jpg, id=1139, 1623.06375pt x 676.02562pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/Lassup.jpg, id=1160, 1623.06375pt x 676.02562pt>
 File: Images/Lassup.jpg Graphic file (type jpg)
 <use Images/Lassup.jpg>
 Package pdftex.def Info: Images/Lassup.jpg  used on input line 91.
 (pdftex.def)             Requested size: 486.92288pt x 202.80925pt.
-<<<<<<< HEAD
-<Images/LasCSC.jpg, id=1150, 1170.62344pt x 653.44125pt>
-=======
-<<<<<<< HEAD
-<Images/LasCSC.jpg, id=1124, 1170.62344pt x 653.44125pt>
-=======
-<Images/LasCSC.jpg, id=1140, 1170.62344pt x 653.44125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/LasCSC.jpg, id=1161, 1170.62344pt x 653.44125pt>
 File: Images/LasCSC.jpg Graphic file (type jpg)
 <use Images/LasCSC.jpg>
 Package pdftex.def Info: Images/LasCSC.jpg  used on input line 99.
 (pdftex.def)             Requested size: 468.24109pt x 261.37187pt.
-[23 <./Images/Printer.png>] [24 <./Images/Compens.jpg> <./Images/Compens1.jpg>]
-[25 <./Images/cc.jpg> <./Images/OL.jpg>] [26 <./Images/Lassup.jpg> <./Images/La
+[25 <./Images/Printer.png>] [26 <./Images/Compens.jpg> <./Images/Compens1.jpg>]
+[27 <./Images/cc.jpg> <./Images/OL.jpg>] [28 <./Images/Lassup.jpg> <./Images/La
 sCSC.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<<<<<<< HEAD
-<Images/agilent.jpg, id=1170, 1084.80281pt x 310.91156pt>
-=======
-<<<<<<< HEAD
-<Images/agilent.jpg, id=1144, 1084.80281pt x 310.91156pt>
-=======
-<Images/agilent.jpg, id=1160, 1084.80281pt x 310.91156pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/agilent.jpg, id=1181, 1084.80281pt x 310.91156pt>
 File: Images/agilent.jpg Graphic file (type jpg)
 <use Images/agilent.jpg>
 Package pdftex.def Info: Images/agilent.jpg  used on input line 111.
@@ -2982,15 +2691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-<<<<<<< HEAD
-<Images/X200-180220-TT250-2-real.png, id=1172, 425.33907pt x 255.95625pt>
-=======
-<<<<<<< HEAD
-<Images/X200-180220-TT250-2-real.png, id=1146, 425.33907pt x 255.95625pt>
-=======
-<Images/X200-180220-TT250-2-real.png, id=1162, 425.33907pt x 255.95625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/X200-180220-TT250-2-real.png, id=1183, 425.33907pt x 255.95625pt>
 File: Images/X200-180220-TT250-2-real.png Graphic file (type png)
 <use Images/X200-180220-TT250-2-real.png>
 Package pdftex.def Info: Images/X200-180220-TT250-2-real.png  used on input lin
@@ -3006,14 +2707,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[27
+[29
 
  <./Images/agilent.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[28 <./Images/X200-180220-TT250-2-real.png (PNG copy)>]
+[30 <./Images/X200-180220-TT250-2-real.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
@@ -3028,255 +2729,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[29]
-<<<<<<< HEAD
-<Images/ImageJ-cub1.jpg, id=1202, 1704.3675pt x 569.12625pt>
-=======
-<<<<<<< HEAD
-<Images/ImageJ-cub1.jpg, id=1176, 1704.3675pt x 569.12625pt>
-=======
-<Images/ImageJ-cub1.jpg, id=1192, 1704.3675pt x 569.12625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[31]
+<Images/ImageJ-cub1.jpg, id=1214, 1704.3675pt x 569.12625pt>
 File: Images/ImageJ-cub1.jpg Graphic file (type jpg)
 <use Images/ImageJ-cub1.jpg>
 Package pdftex.def Info: Images/ImageJ-cub1.jpg  used on input line 227.
 (pdftex.def)             Requested size: 494.25392pt x 165.04239pt.
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[32 <./Images/ImageJ-cub1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-[30 <./Images/ImageJ-cub1.jpg>]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[31]
-<Images/Vickers.jpg, id=1193, 811.53188pt x 835.62187pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+[33]
+<Images/Vickers.jpg, id=1230, 811.53188pt x 835.62187pt>
 File: Images/Vickers.jpg Graphic file (type jpg)
 <use Images/Vickers.jpg>
-Package pdftex.def Info: Images/Vickers.jpg  used on input line 275.
+Package pdftex.def Info: Images/Vickers.jpg  used on input line 274.
 (pdftex.def)             Requested size: 235.33821pt x 242.32413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-<Images/Trac.jpg, id=1196, 1094.58937pt x 1062.97125pt>
+<Images/Trac.jpg, id=1233, 1094.58937pt x 1062.97125pt>
 File: Images/Trac.jpg Graphic file (type jpg)
 <use Images/Trac.jpg>
-Package pdftex.def Info: Images/Trac.jpg  used on input line 300.
+Package pdftex.def Info: Images/Trac.jpg  used on input line 299.
 (pdftex.def)             Requested size: 328.37935pt x 318.89384pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-<Images/Vickers.jpg, id=1212, 811.53188pt x 835.62187pt>
-File: Images/Vickers.jpg Graphic file (type jpg)
-<use Images/Vickers.jpg>
-Package pdftex.def Info: Images/Vickers.jpg  used on input line 270.
-(pdftex.def)             Requested size: 235.33821pt x 242.32413pt.
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[34 <./Images/Vickers.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
-<Images/Trac.jpg, id=1224, 1094.58937pt x 1062.97125pt>
-File: Images/Trac.jpg Graphic file (type jpg)
-<use Images/Trac.jpg>
-Package pdftex.def Info: Images/Trac.jpg  used on input line 295.
-(pdftex.def)             Requested size: 328.37935pt x 318.89384pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-[32 <./Images/Vickers.jpg>]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-
- []
-
-[33 <./Images/Trac.jpg>]
-<<<<<<< HEAD
-<Images/Tract.jpg, id=1239, 495.8525pt x 404.51125pt>
-=======
-<<<<<<< HEAD
-<Images/Tract.jpg, id=1211, 495.8525pt x 404.51125pt>
+[35 <./Images/Trac.jpg>]
+<Images/Tract.jpg, id=1248, 495.8525pt x 404.51125pt>
 File: Images/Tract.jpg Graphic file (type jpg)
 <use Images/Tract.jpg>
-Package pdftex.def Info: Images/Tract.jpg  used on input line 355.
-=======
-<Images/Tract.jpg, id=1229, 495.8525pt x 404.51125pt>
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
-File: Images/Tract.jpg Graphic file (type jpg)
-<use Images/Tract.jpg>
-Package pdftex.def Info: Images/Tract.jpg  used on input line 350.
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
+Package pdftex.def Info: Images/Tract.jpg  used on input line 354.
 (pdftex.def)             Requested size: 347.09438pt x 283.15593pt.
-) [34] [35 <./Images/Tract.jpg>]
+) [36] [37 <./Images/Tract.jpg>]
 \openout2 = `Chapitres/Resultats.aux'.
 
 
-(Chapitres/Resultats.tex [36
+(Chapitres/Resultats.tex [38
 
 
 
 ]
 Chapter 4.
 
+LaTeX Warning: Reference `tab:detcyc' on page 39 undefined on input line 7.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<<<<<<< HEAD
-<Images/Granulo.png, id=1254, 356.83313pt x 293.59688pt>
-=======
-<<<<<<< HEAD
-<Images/Granulo.png, id=1225, 356.83313pt x 293.59688pt>
-=======
-<Images/Granulo.png, id=1244, 356.83313pt x 293.59688pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/Granulo.png, id=1264, 356.83313pt x 293.59688pt>
 File: Images/Granulo.png Graphic file (type png)
 <use Images/Granulo.png>
 Package pdftex.def Info: Images/Granulo.png  used on input line 11.
 (pdftex.def)             Requested size: 356.83224pt x 293.59615pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+1: section
+[39 <./Images/Granulo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-1: section
-[37 <./Images/Granulo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<<<<<<< HEAD
-<Images/Compo.jpg, id=1264, 886.06032pt x 636.87938pt>
-=======
-<<<<<<< HEAD
-1: section
-[37 <./Images/Granulo.png>]
-<Images/Compo.jpg, id=1235, 886.06032pt x 636.87938pt>
-=======
-<Images/Compo.jpg, id=1254, 886.06032pt x 636.87938pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[40]
+<Images/Compo.jpg, id=1280, 886.06032pt x 636.87938pt>
 File: Images/Compo.jpg Graphic file (type jpg)
 <use Images/Compo.jpg>
-Package pdftex.def Info: Images/Compo.jpg  used on input line 71.
+Package pdftex.def Info: Images/Compo.jpg  used on input line 93.
 (pdftex.def)             Requested size: 443.02908pt x 318.4389pt.
-[38] [39 <./Images/Compo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+ [41 <./Images/Compo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<Images/HD2-171024.jpg, id=1280, 976.39781pt x 486.31688pt>
-=======
-<<<<<<< HEAD
-<Images/HD2-171024.jpg, id=1245, 976.39781pt x 486.31688pt>
-=======
-<Images/HD2-171024.jpg, id=1269, 976.39781pt x 486.31688pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[42]
+<Images/HD2-171024.jpg, id=1302, 976.39781pt x 486.31688pt>
 File: Images/HD2-171024.jpg Graphic file (type jpg)
 <use Images/HD2-171024.jpg>
-Package pdftex.def Info: Images/HD2-171024.jpg  used on input line 137.
+Package pdftex.def Info: Images/HD2-171024.jpg  used on input line 158.
 (pdftex.def)             Requested size: 488.19771pt x 243.15784pt.
-[40
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<<<<<<< HEAD
-[41 <./Images/HD2-171024.jpg>]
-<Images/180109-HD.jpg, id=1299, 817.55438pt x 653.44125pt>
-=======
-<<<<<<< HEAD
-[40 <./Images/HD2-171024.jpg>]
-<Images/180109-HD.jpg, id=1262, 817.55438pt x 653.44125pt>
-=======
-[41]
-<Images/180109-HD.jpg, id=1286, 817.55438pt x 653.44125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[43 <./Images/HD2-171024.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+<Images/180109-HD.jpg, id=1319, 817.55438pt x 653.44125pt>
 File: Images/180109-HD.jpg Graphic file (type jpg)
 <use Images/180109-HD.jpg>
-Package pdftex.def Info: Images/180109-HD.jpg  used on input line 228.
+Package pdftex.def Info: Images/180109-HD.jpg  used on input line 249.
 (pdftex.def)             Requested size: 506.8785pt x 405.12938pt.
 
-Overfull \hbox (2.41904pt too wide) in paragraph at lines 225--233
+Overfull \hbox (2.41904pt too wide) in paragraph at lines 246--254
 \T1/ppl/m/n/10.95 The res-ults are dis-played in fig-ure [][]4.4[][] as func-ti
 ons of the (x,y) po-s-i-tions of the samples
  []
@@ -3284,300 +2887,184 @@ ons of the (x,y) po-s-i-tions of the samples
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43 <./Images/180109-HD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[44] [45 <./Images/180109-HD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-<<<<<<< HEAD
-<Images/180109-SO.jpg, id=1313, 841.64438pt x 380.17032pt>
-=======
-<<<<<<< HEAD
-<Images/180109-SO.jpg, id=1280, 841.64438pt x 380.17032pt>
-=======
-<Images/180109-SO.jpg, id=1295, 841.64438pt x 380.17032pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-SO.jpg, id=1334, 841.64438pt x 380.17032pt>
 File: Images/180109-SO.jpg Graphic file (type jpg)
 <use Images/180109-SO.jpg>
-Package pdftex.def Info: Images/180109-SO.jpg  used on input line 286.
+Package pdftex.def Info: Images/180109-SO.jpg  used on input line 307.
 (pdftex.def)             Requested size: 521.81413pt x 235.70316pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-<<<<<<< HEAD
-[44 <./Images/180109-SO.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[47 <./Images/180109-SO.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-<<<<<<< HEAD
-<Images/B1.jpg, id=1329, 3931.488pt x 2522.223pt>
-=======
-<<<<<<< HEAD
-<Images/B1.jpg, id=1297, 3943.23187pt x 2646.88875pt>
-=======
-<Images/B1.jpg, id=1319, 3943.23187pt x 2646.88875pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/B1.jpg, id=1360, 3931.488pt x 2522.223pt>
 File: Images/B1.jpg Graphic file (type jpg)
 <use Images/B1.jpg>
-Package pdftex.def Info: Images/B1.jpg  used on input line 328.
+Package pdftex.def Info: Images/B1.jpg  used on input line 349.
 (pdftex.def)             Requested size: 471.75821pt x 302.6537pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<<<<<<< HEAD
-<Images/HistB1.jpg, id=1332, 743.02594pt x 330.48468pt>
-=======
-<<<<<<< HEAD
-<Images/HistB1.jpg, id=1299, 743.02594pt x 330.48468pt>
-=======
-<Images/HistB1.jpg, id=1321, 743.02594pt x 330.48468pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/HistB1.jpg, id=1363, 743.02594pt x 330.48468pt>
 File: Images/HistB1.jpg Graphic file (type jpg)
 <use Images/HistB1.jpg>
-Package pdftex.def Info: Images/HistB1.jpg  used on input line 338.
+Package pdftex.def Info: Images/HistB1.jpg  used on input line 359.
 (pdftex.def)             Requested size: 520.11461pt x 231.33769pt.
-[45] [46 <./Images/B1.jpg>] [47 <./Images/HistB1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+[48 <./Images/B1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
-<<<<<<< HEAD
-<Images/Saus.jpg, id=1351, 849.1725pt x 1448.41125pt>
-=======
-<<<<<<< HEAD
-<Images/Saus.jpg, id=1313, 849.1725pt x 1448.41125pt>
-=======
-<Images/Saus.jpg, id=1329, 849.1725pt x 1448.41125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/Saus.jpg, id=1371, 849.1725pt x 1448.41125pt>
 File: Images/Saus.jpg Graphic file (type jpg)
 <use Images/Saus.jpg>
-Package pdftex.def Info: Images/Saus.jpg  used on input line 367.
+Package pdftex.def Info: Images/Saus.jpg  used on input line 388.
 (pdftex.def)             Requested size: 195.30556pt x 333.12758pt.
 
-Overfull \hbox (17.48254pt too wide) in paragraph at lines 377--386
+Overfull \hbox (17.48254pt too wide) in paragraph at lines 398--407
 [][] 
  []
 
-<<<<<<< HEAD
-<Images/SausHD.jpg, id=1354, 652.68843pt x 275.52937pt>
-=======
-<<<<<<< HEAD
-<Images/SausHD.jpg, id=1316, 790.45313pt x 275.52937pt>
-=======
-<Images/SausHD.jpg, id=1332, 790.45313pt x 275.52937pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/SausHD.jpg, id=1374, 652.68843pt x 275.52937pt>
 File: Images/SausHD.jpg Graphic file (type jpg)
 <use Images/SausHD.jpg>
-Package pdftex.def Info: Images/SausHD.jpg  used on input line 395.
+Package pdftex.def Info: Images/SausHD.jpg  used on input line 416.
 (pdftex.def)             Requested size: 469.93532pt x 198.38098pt.
-[48
-
- <./Images/Saus.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+[49 <./Images/HistB1.jpg>] [50 <./Images/Saus.jpg>] [51 <./Images/SausHD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
-<Images/trac2.jpg, id=1363, 516.93124pt x 402.50375pt>
+<Images/trac2.jpg, id=1398, 516.93124pt x 402.50375pt>
 File: Images/trac2.jpg Graphic file (type jpg)
 <use Images/trac2.jpg>
-Package pdftex.def Info: Images/trac2.jpg  used on input line 429.
+Package pdftex.def Info: Images/trac2.jpg  used on input line 450.
 (pdftex.def)             Requested size: 351.50859pt x 273.69893pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
-
- []
-
-[49 <./Images/SausHD.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
-<<<<<<< HEAD
-[50 <./Images/trac2.jpg>]
-<Images/hardness.png, id=1375, 578.16pt x 433.62pt>
-=======
-<<<<<<< HEAD
-[48 <./Images/SausHD.jpg>]
-<Images/hardness.png, id=1329, 578.16pt x 433.62pt>
-File: Images/hardness.png Graphic file (type png)
-<use Images/hardness.png>
-Package pdftex.def Info: Images/hardness.png  used on input line 404.
-(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
-[49 <./Images/hardness.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
-=======
-[49
+[52
 
-]
-<Images/hardness.png, id=1355, 578.16pt x 433.62pt>
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
-File: Images/hardness.png Graphic file (type png)
-<use Images/hardness.png>
-Package pdftex.def Info: Images/hardness.png  used on input line 489.
-(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+ <./Images/trac2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
-<<<<<<< HEAD
-[51 <./Images/hardness.png (PNG copy)>]
-<Images/TracTT.jpg, id=1383, 491.8375pt x 398.48875pt>
+<Images/hardness.png, id=1409, 578.16pt x 433.62pt>
+File: Images/hardness.png Graphic file (type png)
+<use Images/hardness.png>
+Package pdftex.def Info: Images/hardness.png  used on input line 510.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+<Images/TracTT.jpg, id=1422, 491.8375pt x 398.48875pt>
 File: Images/TracTT.jpg Graphic file (type jpg)
 <use Images/TracTT.jpg>
-Package pdftex.def Info: Images/TracTT.jpg  used on input line 523.
+Package pdftex.def Info: Images/TracTT.jpg  used on input line 544.
 (pdftex.def)             Requested size: 344.28389pt x 278.94022pt.
-=======
-[50 <./Images/hardness.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--531
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
-<<<<<<< HEAD
-[52 <./Images/TracTT.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 532--534
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[54 <./Images/hardness.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
-<Images/MeanTrac.jpg, id=1338, 562.1pt x 421.575pt>
+<Images/MeanTrac.jpg, id=1431, 562.1pt x 421.575pt>
 File: Images/MeanTrac.jpg Graphic file (type jpg)
 <use Images/MeanTrac.jpg>
-Package pdftex.def Info: Images/MeanTrac.jpg  used on input line 447.
-(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
-[50]
-
-pdfTeX warning: pdflatex.exe: arithmetic: number too big
-
-
-pdfTeX warning: pdflatex.exe: arithmetic: number too big
-<Images/171024-7b_7.png, id=1344, --32768.0pt x 0.0pt>
-File: Images/171024-7b_7.png Graphic file (type png)
-<use Images/171024-7b_7.png>
-Package pdftex.def Info: Images/171024-7b_7.png  used on input line 473.
-(pdftex.def)             Requested size: -55.33133pt x 0.0pt.
-<Images/XRD.png, id=1349, 591.71063pt x 302.63063pt>
-File: Images/XRD.png Graphic file (type png)
-<use Images/XRD.png>
-Package pdftex.def Info: Images/XRD.png  used on input line 486.
-(pdftex.def)             Requested size: 355.02911pt x 181.57977pt.
-<Images/XRD_zoom.png, id=1350, 599.99156pt x 337.26pt>
-File: Images/XRD_zoom.png Graphic file (type png)
-<use Images/XRD_zoom.png>
-Package pdftex.def Info: Images/XRD_zoom.png  used on input line 494.
-(pdftex.def)             Requested size: 359.99771pt x 202.35756pt.
-[51 <./Images/MeanTrac.jpg> <./Images/171024-7b_7.png>]
-<Images/result_rs1.png, id=1358, 526.21594pt x 693.34032pt>
-File: Images/result_rs1.png Graphic file (type png)
-<use Images/result_rs1.png>
-Package pdftex.def Info: Images/result_rs1.png  used on input line 521.
-(pdftex.def)             Requested size: 315.732pt x 416.0074pt.
-) [52 <./Images/XRD.png (PNG copy)>] [53 <./Images/XRD_zoom.png (PNG copy)>] [5
-4 <./Images/result_rs1.png>]
-\openout2 = `Chapitres/Discussion.aux'.
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
-
- []
-
-<Images/MeanTrac.jpg, id=1389, 562.1pt x 421.575pt>
-File: Images/MeanTrac.jpg Graphic file (type jpg)
-<use Images/MeanTrac.jpg>
-Package pdftex.def Info: Images/MeanTrac.jpg  used on input line 542.
+Package pdftex.def Info: Images/MeanTrac.jpg  used on input line 563.
 (pdftex.def)             Requested size: 393.46732pt x 295.10048pt.
-<Images/171024-7b_7.png, id=1390, 770.88pt x 578.16pt>
+[55 <./Images/TracTT.jpg>]
+
+pdfTeX warning: pdflatex: arithmetic: number too big
+
+
+pdfTeX warning: pdflatex: arithmetic: number too big
+<Images/171024-7b_7.png, id=1438, --32768.0pt x 0.0pt>
 File: Images/171024-7b_7.png Graphic file (type png)
 <use Images/171024-7b_7.png>
-Package pdftex.def Info: Images/171024-7b_7.png  used on input line 568.
-(pdftex.def)             Requested size: 346.89279pt x 260.16959pt.
-[53 <./Images/MeanTrac.jpg>]
-<Images/XRD.png, id=1400, 591.71063pt x 302.63063pt>
+Package pdftex.def Info: Images/171024-7b_7.png  used on input line 589.
+(pdftex.def)             Requested size: -0.61539pt x 0.0pt.
+<Images/XRD.png, id=1443, 591.71063pt x 302.63063pt>
 File: Images/XRD.png Graphic file (type png)
 <use Images/XRD.png>
-Package pdftex.def Info: Images/XRD.png  used on input line 581.
+Package pdftex.def Info: Images/XRD.png  used on input line 602.
 (pdftex.def)             Requested size: 355.02911pt x 181.57977pt.
-<Images/XRD_zoom.png, id=1401, 599.99156pt x 337.26pt>
+<Images/XRD_zoom.png, id=1444, 599.99156pt x 337.26pt>
 File: Images/XRD_zoom.png Graphic file (type png)
 <use Images/XRD_zoom.png>
-Package pdftex.def Info: Images/XRD_zoom.png  used on input line 589.
+Package pdftex.def Info: Images/XRD_zoom.png  used on input line 610.
 (pdftex.def)             Requested size: 359.99771pt x 202.35756pt.
- [54 <./Images/171024-7b_7.png> <./Images/XRD.png (PNG copy)>]
-<Images/result_rs1.png, id=1409, 526.21594pt x 693.34032pt>
+[56 <./Images/MeanTrac.jpg> <./Images/171024-7b_7.png>]
+<Images/result_rs1.png, id=1456, 526.21594pt x 693.34032pt>
 File: Images/result_rs1.png Graphic file (type png)
 <use Images/result_rs1.png>
-Package pdftex.def Info: Images/result_rs1.png  used on input line 616.
+Package pdftex.def Info: Images/result_rs1.png  used on input line 637.
 (pdftex.def)             Requested size: 315.732pt x 416.0074pt.
-) [55 <./Images/XRD_zoom.png (PNG copy)>] [56 <./Images/result_rs1.png>]
+) [57 <./Images/XRD.png (PNG copy)>] [58 <./Images/XRD_zoom.png (PNG copy)>] [5
+9 <./Images/result_rs1.png>]
 \openout2 = `Chapitres/Discussion.aux'.
 
- (Chapitres/Discussion.tex
+ (Chapitres/Discussion.tex [60
+
+
+
+]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
+ []
+
+
+Overfull \hbox (1.7454pt too wide) in paragraph at lines 10--11
+[]\T1/ppl/m/n/10.95 The ag-glom-er-a-tion phe-nom-ena can ex-plain the di-minu-
+tion of the av-er-age particle
  []
 
 
@@ -3586,91 +3073,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 1: section
-[57
-
-
-
-]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<Images/RODIA1.jpg, id=1427, 4625.28pt x 3468.96pt>
-=======
-<<<<<<< HEAD
-<Images/RODIA1.jpg, id=1373, 4625.28pt x 3468.96pt>
-=======
-<Images/RODIA1.jpg, id=1409, 4625.28pt x 3468.96pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+<Images/RODIA1.jpg, id=1487, 4625.28pt x 3468.96pt>
 File: Images/RODIA1.jpg Graphic file (type jpg)
 <use Images/RODIA1.jpg>
-Package pdftex.def Info: Images/RODIA1.jpg  used on input line 34.
+Package pdftex.def Info: Images/RODIA1.jpg  used on input line 36.
 (pdftex.def)             Requested size: 346.88104pt x 260.16078pt.
-<<<<<<< HEAD
-<Images/CumSum.jpg, id=1428, 739.3221pt x 319.4334pt>
+<Images/CumSum.jpg, id=1488, 739.3221pt x 319.4334pt>
 File: Images/CumSum.jpg Graphic file (type jpg)
 <use Images/CumSum.jpg>
-Package pdftex.def Info: Images/CumSum.jpg  used on input line 42.
+Package pdftex.def Info: Images/CumSum.jpg  used on input line 44.
 (pdftex.def)             Requested size: 517.52194pt x 223.60184pt.
-=======
-<<<<<<< HEAD
-<Images/RODIAHist.jpg, id=1374, 1067.48813pt x 989.94844pt>
-=======
-<Images/RODIAHist.jpg, id=1410, 1067.48813pt x 989.94844pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
-File: Images/RODIAHist.jpg Graphic file (type jpg)
-<use Images/RODIAHist.jpg>
-Package pdftex.def Info: Images/RODIAHist.jpg  used on input line 41.
-(pdftex.def)             Requested size: 459.01096pt x 425.66954pt.
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<<<<<<< HEAD
-<Images/RODIA2.png, id=1431, 1000.4577pt x 991.0626pt>
-=======
-<<<<<<< HEAD
-1: section
-[55
-
-
-
-]
-<Images/RODIA2.png, id=1382, 1000.4577pt x 991.0626pt>
-=======
-<Images/RODIA2.png, id=1413, 1000.4577pt x 991.0626pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/RODIA2.png, id=1491, 1000.4577pt x 991.0626pt>
 File: Images/RODIA2.png Graphic file (type png)
 <use Images/RODIA2.png>
-Package pdftex.def Info: Images/RODIA2.png  used on input line 53.
+Package pdftex.def Info: Images/RODIA2.png  used on input line 55.
 (pdftex.def)             Requested size: 440.20274pt x 436.0689pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-[58 <./Images/RODIA1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
@@ -3679,89 +3128,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-<<<<<<< HEAD
-[59 <./Images/CumSum.jpg>]
-<Images/DDD.jpg, id=1442, 195.73125pt x 197.98969pt>
-=======
-<<<<<<< HEAD
-<Images/DDD.jpg, id=1389, 195.73125pt x 197.98969pt>
-=======
-[59 <./Images/RODIAHist.jpg>]
-<Images/DDD.jpg, id=1424, 195.73125pt x 197.98969pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
-File: Images/DDD.jpg Graphic file (type jpg)
-<use Images/DDD.jpg>
-Package pdftex.def Info: Images/DDD.jpg  used on input line 87.
-(pdftex.def)             Requested size: 125.26756pt x 126.71295pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
+<Images/DDD.jpg, id=1500, 195.73125pt x 197.98969pt>
+File: Images/DDD.jpg Graphic file (type jpg)
+<use Images/DDD.jpg>
+Package pdftex.def Info: Images/DDD.jpg  used on input line 89.
+(pdftex.def)             Requested size: 125.26756pt x 126.71295pt.
 
-Overfull \hbox (2.65417pt too wide) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[63 <./Images/RODIA1.jpg>]
+Overfull \hbox (2.65417pt too wide) in paragraph at lines 103--104
 []\T1/ppl/m/n/10.95 It can thus be con-cluded that the method to meas-ure the r
 e-l-at-ive dens-ity is slightly
  []
 
-[60] [61 <./Images/RODIA2.png> <./Images/DDD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[64 <./Images/CumSum.jpg>] [65 <./Images/RODIA2.png> <./Images/DDD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-<<<<<<< HEAD
-<Images/7comp.jpg, id=1456, 562.1pt x 421.575pt>
-=======
-<<<<<<< HEAD
-<Images/7comp.jpg, id=1406, 562.1pt x 421.575pt>
-=======
-<Images/7comp.jpg, id=1438, 562.1pt x 421.575pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/7comp.jpg, id=1520, 562.1pt x 421.575pt>
 File: Images/7comp.jpg Graphic file (type jpg)
 <use Images/7comp.jpg>
-Package pdftex.def Info: Images/7comp.jpg  used on input line 108.
+Package pdftex.def Info: Images/7comp.jpg  used on input line 110.
 (pdftex.def)             Requested size: 359.74277pt x 269.80707pt.
-<<<<<<< HEAD
-<Images/2comp.jpg, id=1457, 759.58781pt x 350.05782pt>
-=======
-<<<<<<< HEAD
-<Images/2comp.jpg, id=1407, 759.58781pt x 350.05782pt>
-=======
-<Images/2comp.jpg, id=1439, 759.58781pt x 350.05782pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/2comp.jpg, id=1521, 759.58781pt x 350.05782pt>
 File: Images/2comp.jpg Graphic file (type jpg)
 <use Images/2comp.jpg>
-Package pdftex.def Info: Images/2comp.jpg  used on input line 116.
+Package pdftex.def Info: Images/2comp.jpg  used on input line 118.
 (pdftex.def)             Requested size: 486.13454pt x 224.03622pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[62
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[66
 
  <./Images/7comp.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-[63 <./Images/2comp.jpg>]
-Overfull \hbox (0.27147pt too wide) in paragraph at lines 150--151
-\T1/ppl/m/n/10.95 haps not the most per-tin-ent to con-duct. [][TAILLE MAX DES 
-PORES, CON-TRAINTES
  []
 
 
@@ -3769,42 +3186,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
+[67 <./Images/2comp.jpg>]
+Overfull \hbox (0.27147pt too wide) in paragraph at lines 152--153
+\T1/ppl/m/n/10.95 haps not the most per-tin-ent to con-duct. [][TAILLE MAX DES 
+PORES, CON-TRAINTES
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-LaTeX Warning: Reference `AerAB' on page 64 undefined on input line 164.
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
-<<<<<<< HEAD
-<Images/AerAB.jpg, id=1479, 562.1pt x 421.575pt>
-=======
-<<<<<<< HEAD
-<Images/AerAB.jpg, id=1430, 562.1pt x 421.575pt>
-=======
-<Images/AerAB.jpg, id=1461, 562.1pt x 421.575pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ []
+
+
+LaTeX Warning: Reference `AerAB' on page 68 undefined on input line 166.
+
+<Images/AerAB.jpg, id=1549, 562.1pt x 421.575pt>
 File: Images/AerAB.jpg Graphic file (type jpg)
 <use Images/AerAB.jpg>
-Package pdftex.def Info: Images/AerAB.jpg  used on input line 168.
+Package pdftex.def Info: Images/AerAB.jpg  used on input line 170.
 (pdftex.def)             Requested size: 359.74277pt x 269.80707pt.
-[64] [65 <./Images/AerAB.jpg>]) [66]
+[68] [69 <./Images/AerAB.jpg>]) [70]
 \openout2 = `Chapitres/Conclusion.aux'.
 
  (Chapitres/Conclusion.tex
 Chapter 6.
 )
 1: section
-[67
+[71
 
 
 
 ]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (Appendices/AppendixA.tex [68
+ (Appendices/AppendixA.tex [72
 
 
 
@@ -3821,121 +3241,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 1: section
-<<<<<<< HEAD
-[67] [68
+[73] [74
 
-] [69] [70] [71]
-<Images/171024-cad.jpg, id=1481, 821.31844pt x 452.4403pt>
-=======
-[69] [70
-
-] [71] [72] [73]
-<<<<<<< HEAD
-<Images/171024-cad.jpg, id=1531, 821.31844pt x 452.4403pt>
-=======
-<Images/171024-cad.jpg, id=1513, 821.31844pt x 452.4403pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+] [75] [76] [77]
+<Images/171024-cad.jpg, id=1612, 821.31844pt x 452.4403pt>
 File: Images/171024-cad.jpg Graphic file (type jpg)
 <use Images/171024-cad.jpg>
 Package pdftex.def Info: Images/171024-cad.jpg  used on input line 140.
 (pdftex.def)             Requested size: 484.57367pt x 266.93747pt.
-<<<<<<< HEAD
-<Images/171024-real.jpg, id=1532, 534.49687pt x 551.05875pt>
-=======
-<<<<<<< HEAD
-<Images/171024-real.jpg, id=1482, 534.49687pt x 551.05875pt>
-=======
-<Images/171024-real.jpg, id=1514, 534.49687pt x 551.05875pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/171024-real.jpg, id=1613, 534.49687pt x 551.05875pt>
 File: Images/171024-real.jpg Graphic file (type jpg)
 <use Images/171024-real.jpg>
 Package pdftex.def Info: Images/171024-real.jpg  used on input line 148.
 (pdftex.def)             Requested size: 224.48715pt x 231.44308pt.
- [74
+ [78
 
  <./Images/171024-cad.jpg> <./Images/171024-real.jpg>]
-<<<<<<< HEAD
-<Images/180109-cad.jpg, id=1537, 837.6093pt x 437.9562pt>
-=======
-<<<<<<< HEAD
-<Images/180109-cad.jpg, id=1487, 837.6093pt x 437.9562pt>
-=======
-<Images/180109-cad.jpg, id=1519, 837.6093pt x 437.9562pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-cad.jpg, id=1621, 837.6093pt x 437.9562pt>
 File: Images/180109-cad.jpg Graphic file (type jpg)
 <use Images/180109-cad.jpg>
 Package pdftex.def Info: Images/180109-cad.jpg  used on input line 159.
 (pdftex.def)             Requested size: 485.81374pt x 254.01477pt.
-<<<<<<< HEAD
-<Images/180109-real.jpg, id=1538, 573.64313pt x 563.85657pt>
-=======
-<<<<<<< HEAD
-<Images/180109-real.jpg, id=1488, 573.64313pt x 563.85657pt>
-=======
-<Images/180109-real.jpg, id=1520, 573.64313pt x 563.85657pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-real.jpg, id=1622, 573.64313pt x 563.85657pt>
 File: Images/180109-real.jpg Graphic file (type jpg)
 <use Images/180109-real.jpg>
 Package pdftex.def Info: Images/180109-real.jpg  used on input line 167.
 (pdftex.def)             Requested size: 258.13702pt x 253.73311pt.
-<<<<<<< HEAD
- [73 <./Images/180109-cad.jpg> <./Images/180109-real.jpg>]
-<Images/180220-cad.jpg, id=1494, 971.88094pt x 727.96968pt>
-=======
- [75 <./Images/180109-cad.jpg> <./Images/180109-real.jpg>]
-<<<<<<< HEAD
-<Images/180220-cad.jpg, id=1543, 971.88094pt x 727.96968pt>
-=======
-<Images/180220-cad.jpg, id=1525, 971.88094pt x 727.96968pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [79 <./Images/180109-cad.jpg> <./Images/180109-real.jpg>]
+<Images/180220-cad.jpg, id=1630, 971.88094pt x 727.96968pt>
 File: Images/180220-cad.jpg Graphic file (type jpg)
 <use Images/180220-cad.jpg>
 Package pdftex.def Info: Images/180220-cad.jpg  used on input line 177.
 (pdftex.def)             Requested size: 466.49756pt x 349.42148pt.
-<<<<<<< HEAD
- [74 <./Images/180220-cad.jpg>]
-<Images/180222-cad.jpg, id=1499, 628.59843pt x 303.38344pt>
-=======
- [76 <./Images/180220-cad.jpg>]
-<<<<<<< HEAD
-<Images/180222-cad.jpg, id=1548, 628.59843pt x 303.38344pt>
-=======
-<Images/180222-cad.jpg, id=1530, 628.59843pt x 303.38344pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [80 <./Images/180220-cad.jpg>]
+<Images/180222-cad.jpg, id=1637, 628.59843pt x 303.38344pt>
 File: Images/180222-cad.jpg Graphic file (type jpg)
 <use Images/180222-cad.jpg>
 Package pdftex.def Info: Images/180222-cad.jpg  used on input line 188.
 (pdftex.def)             Requested size: 408.58414pt x 197.19688pt.
-<<<<<<< HEAD
-<Images/180222-real.jpg, id=1549, 1228.59pt x 1380.15625pt>
-=======
-<<<<<<< HEAD
-<Images/180222-real.jpg, id=1500, 1228.59pt x 1380.15625pt>
-=======
-<Images/180222-real.jpg, id=1531, 1228.59pt x 1380.15625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180222-real.jpg, id=1638, 1228.59pt x 1380.15625pt>
 File: Images/180222-real.jpg Graphic file (type jpg)
 <use Images/180222-real.jpg>
 Package pdftex.def Info: Images/180222-real.jpg  used on input line 196.
 (pdftex.def)             Requested size: 270.29063pt x 303.63531pt.
-<<<<<<< HEAD
- [75 <./Images/180222-cad.jpg> <./Images/180222-real.jpg>]
-<Images/180228-cad.jpg, id=1505, 705.38531pt x 389.20406pt>
-=======
- [77 <./Images/180222-cad.jpg> <./Images/180222-real.jpg>]
-<<<<<<< HEAD
-<Images/180228-cad.jpg, id=1554, 705.38531pt x 389.20406pt>
-=======
-<Images/180228-cad.jpg, id=1536, 705.38531pt x 389.20406pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [81 <./Images/180222-cad.jpg> <./Images/180222-real.jpg>]
+<Images/180228-cad.jpg, id=1645, 705.38531pt x 389.20406pt>
 File: Images/180228-cad.jpg Graphic file (type jpg)
 <use Images/180228-cad.jpg>
 Package pdftex.def Info: Images/180228-cad.jpg  used on input line 207.
@@ -3945,134 +3295,66 @@ Overfull \hbox (5.09468pt too wide) in paragraph at lines 207--209
  [][] 
  []
 
-<<<<<<< HEAD
-<Images/180228-real.jpg, id=1555, 1228.59pt x 1368.11125pt>
-=======
-<<<<<<< HEAD
-<Images/180228-real.jpg, id=1506, 1228.59pt x 1368.11125pt>
-=======
-<Images/180228-real.jpg, id=1537, 1228.59pt x 1368.11125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180228-real.jpg, id=1646, 1228.59pt x 1368.11125pt>
 File: Images/180228-real.jpg Graphic file (type jpg)
 <use Images/180228-real.jpg>
 Package pdftex.def Info: Images/180228-real.jpg  used on input line 215.
 (pdftex.def)             Requested size: 1228.587pt x 1368.10793pt.
-<<<<<<< HEAD
-[76 <./Images/180228-cad.jpg> <./Images/180228-real.jpg>]
-<Images/180313-cad.jpg, id=1511, 767.86874pt x 350.81062pt>
-=======
-[78 <./Images/180228-cad.jpg> <./Images/180228-real.jpg>]
-<<<<<<< HEAD
-<Images/180313-cad.jpg, id=1560, 767.86874pt x 350.81062pt>
-=======
-<Images/180313-cad.jpg, id=1542, 767.86874pt x 350.81062pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+[82 <./Images/180228-cad.jpg> <./Images/180228-real.jpg>]
+<Images/180313-cad.jpg, id=1653, 767.86874pt x 350.81062pt>
 File: Images/180313-cad.jpg Graphic file (type jpg)
 <use Images/180313-cad.jpg>
 Package pdftex.def Info: Images/180313-cad.jpg  used on input line 226.
 (pdftex.def)             Requested size: 445.36418pt x 203.47029pt.
-<<<<<<< HEAD
-<Images/180313-real.jpg, id=1561, 1228.59pt x 1274.7625pt>
-=======
-<<<<<<< HEAD
-<Images/180313-real.jpg, id=1512, 1228.59pt x 1274.7625pt>
-=======
-<Images/180313-real.jpg, id=1543, 1228.59pt x 1274.7625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180313-real.jpg, id=1654, 1228.59pt x 1274.7625pt>
 File: Images/180313-real.jpg Graphic file (type jpg)
 <use Images/180313-real.jpg>
 Package pdftex.def Info: Images/180313-real.jpg  used on input line 234.
 (pdftex.def)             Requested size: 1228.587pt x 1274.7594pt.
-<<<<<<< HEAD
- [77 <./Images/180313-cad.jpg> <./Images/180313-real.jpg>]
-<Images/180315-cad.jpg, id=1517, 635.37375pt x 286.82156pt>
-=======
- [79 <./Images/180313-cad.jpg> <./Images/180313-real.jpg>]
-<<<<<<< HEAD
-<Images/180315-cad.jpg, id=1567, 635.37375pt x 286.82156pt>
-=======
-<Images/180315-cad.jpg, id=1549, 635.37375pt x 286.82156pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [83 <./Images/180313-cad.jpg> <./Images/180313-real.jpg>]
+<Images/180315-cad.jpg, id=1661, 635.37375pt x 286.82156pt>
 File: Images/180315-cad.jpg Graphic file (type jpg)
 <use Images/180315-cad.jpg>
 Package pdftex.def Info: Images/180315-cad.jpg  used on input line 244.
 (pdftex.def)             Requested size: 438.40836pt x 197.90707pt.
-<<<<<<< HEAD
-<Images/180315-real.jpg, id=1568, 1188.44pt x 1179.40625pt>
-=======
-<<<<<<< HEAD
-<Images/180315-real.jpg, id=1518, 1188.44pt x 1179.40625pt>
-=======
-<Images/180315-real.jpg, id=1550, 1188.44pt x 1179.40625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180315-real.jpg, id=1662, 1188.44pt x 1179.40625pt>
 File: Images/180315-real.jpg Graphic file (type jpg)
 <use Images/180315-real.jpg>
 Package pdftex.def Info: Images/180315-real.jpg  used on input line 252.
 (pdftex.def)             Requested size: 1188.43712pt x 1179.40338pt.
-<<<<<<< HEAD
- [78 <./Images/180315-cad.jpg> <./Images/180315-real.jpg>]
-<Images/180319-cad.jpg, id=1523, 773.13844pt x 364.36125pt>
-=======
- [80 <./Images/180315-cad.jpg> <./Images/180315-real.jpg>]
-<<<<<<< HEAD
-<Images/180319-cad.jpg, id=1573, 773.13844pt x 364.36125pt>
-=======
-<Images/180319-cad.jpg, id=1555, 773.13844pt x 364.36125pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [84 <./Images/180315-cad.jpg> <./Images/180315-real.jpg>]
+<Images/180319-cad.jpg, id=1669, 773.13844pt x 364.36125pt>
 File: Images/180319-cad.jpg Graphic file (type jpg)
 <use Images/180319-cad.jpg>
 Package pdftex.def Info: Images/180319-cad.jpg  used on input line 262.
 (pdftex.def)             Requested size: 533.46611pt x 251.40953pt.
-<<<<<<< HEAD
-<Images/180319-real.jpg, id=1574, 1187.43625pt x 1171.37625pt>
-=======
-<<<<<<< HEAD
-<Images/180319-real.jpg, id=1524, 1187.43625pt x 1171.37625pt>
-=======
-<Images/180319-real.jpg, id=1556, 1187.43625pt x 1171.37625pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180319-real.jpg, id=1670, 1187.43625pt x 1171.37625pt>
 File: Images/180319-real.jpg Graphic file (type jpg)
 <use Images/180319-real.jpg>
 Package pdftex.def Info: Images/180319-real.jpg  used on input line 270.
 (pdftex.def)             Requested size: 1187.43336pt x 1171.3734pt.
-<<<<<<< HEAD
- [79 <./Images/180319-cad.jpg> <./Images/180319-real.jpg>]
-<Images/180417-real.jpg, id=1530, 1778.645pt x 1766.6pt>
-=======
- [81 <./Images/180319-cad.jpg> <./Images/180319-real.jpg>]
-<<<<<<< HEAD
-<Images/180417-real.jpg, id=1579, 1778.645pt x 1766.6pt>
-=======
-<Images/180417-real.jpg, id=1561, 1778.645pt x 1766.6pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ [85 <./Images/180319-cad.jpg> <./Images/180319-real.jpg>]
+<Images/180417-real.jpg, id=1678, 1778.645pt x 1766.6pt>
 File: Images/180417-real.jpg Graphic file (type jpg)
 <use Images/180417-real.jpg>
 Package pdftex.def Info: Images/180417-real.jpg  used on input line 288.
 (pdftex.def)             Requested size: 391.30312pt x 388.6532pt.
 )
-[82 <./Images/180417-real.jpg>]
+[86 <./Images/180417-real.jpg>]
 \openout2 = `Appendices/AppendixAbis.aux'.
 
  (Appendices/AppendixAbis.tex
 Appendix B.
 )
 1: section
-[83
+[87
 
 
 
 ]
 \openout2 = `Appendices/AppendixTT.aux'.
 
- (Appendices/AppendixTT.tex [84
+ (Appendices/AppendixTT.tex [88
 
 
 
@@ -4085,10 +3367,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 )
 1: section
-[85]
+[89]
 \openout2 = `Appendices/AppendixB.aux'.
 
- (Appendices/AppendixB.tex [86
+ (Appendices/AppendixB.tex [90
 
 
 
@@ -4096,10 +3378,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Appendix D.
 )
 1: section
-[87]
+[91]
 \openout2 = `Appendices/AppendixC.aux'.
 
- (Appendices/AppendixC.tex [88
+ (Appendices/AppendixC.tex [92
 
 
 
@@ -4107,70 +3389,38 @@ Appendix D.
 Appendix E.
 )
 1: section
-[89] [90]
+[93] [94]
 \openout2 = `Appendices/AppendixD.aux'.
 
  (Appendices/AppendixD.tex
 Appendix F.
-<<<<<<< HEAD
-<Images/180109-7Dxy.jpg, id=1621, 793.46437pt x 341.77687pt>
-=======
-<<<<<<< HEAD
-<Images/180109-7Dxy.jpg, id=1572, 793.46437pt x 341.77687pt>
-=======
-<Images/180109-7Dxy.jpg, id=1603, 793.46437pt x 341.77687pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-7Dxy.jpg, id=1731, 793.46437pt x 341.77687pt>
 File: Images/180109-7Dxy.jpg Graphic file (type jpg)
 <use Images/180109-7Dxy.jpg>
 Package pdftex.def Info: Images/180109-7Dxy.jpg  used on input line 9.
 (pdftex.def)             Requested size: 412.60385pt x 177.72499pt.
-<<<<<<< HEAD
-<Images/180109-7Hxy.jpg, id=1622, 779.16093pt x 342.5297pt>
-=======
-<<<<<<< HEAD
-<Images/180109-7Hxy.jpg, id=1573, 779.16093pt x 342.5297pt>
-=======
-<Images/180109-7Hxy.jpg, id=1604, 779.16093pt x 342.5297pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-7Hxy.jpg, id=1732, 779.16093pt x 342.5297pt>
 File: Images/180109-7Hxy.jpg Graphic file (type jpg)
 <use Images/180109-7Hxy.jpg>
 Package pdftex.def Info: Images/180109-7Hxy.jpg  used on input line 17.
 (pdftex.def)             Requested size: 405.16602pt x 178.11646pt.
-<<<<<<< HEAD
-<Images/180109-8Dxy.jpg, id=1623, 793.46437pt x 341.77687pt>
-=======
-<<<<<<< HEAD
-<Images/180109-8Dxy.jpg, id=1574, 793.46437pt x 341.77687pt>
-=======
-<Images/180109-8Dxy.jpg, id=1605, 793.46437pt x 341.77687pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-8Dxy.jpg, id=1733, 793.46437pt x 341.77687pt>
 File: Images/180109-8Dxy.jpg Graphic file (type jpg)
 <use Images/180109-8Dxy.jpg>
 Package pdftex.def Info: Images/180109-8Dxy.jpg  used on input line 25.
 (pdftex.def)             Requested size: 412.60385pt x 177.72499pt.
 1: section
-[91
+[95
 
 
 
  <./Images/180109-7Dxy.jpg> <./Images/180109-7Hxy.jpg>]
-<<<<<<< HEAD
-<Images/180109-8Hxy.jpg, id=1629, 779.16093pt x 342.5297pt>
-=======
-<<<<<<< HEAD
-<Images/180109-8Hxy.jpg, id=1579, 779.16093pt x 342.5297pt>
-=======
-<Images/180109-8Hxy.jpg, id=1611, 779.16093pt x 342.5297pt>
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+<Images/180109-8Hxy.jpg, id=1739, 779.16093pt x 342.5297pt>
 File: Images/180109-8Hxy.jpg Graphic file (type jpg)
 <use Images/180109-8Hxy.jpg>
 Package pdftex.def Info: Images/180109-8Hxy.jpg  used on input line 33.
 (pdftex.def)             Requested size: 405.16602pt x 178.11646pt.
-) [92 <./Images/180109-8Dxy.jpg> <./Images/180109-8Hxy.jpg>]
+) [96 <./Images/180109-8Dxy.jpg> <./Images/180109-8Hxy.jpg>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 352.
 
 
@@ -4196,18 +3446,8 @@ Overfull \hbox (8.81487pt too wide) in paragraph at lines 352--352
 ]$\T1/cmtt/m/n/10.95 http :
  []
 
-<<<<<<< HEAD
-=======
-
-Overfull \hbox (32.85002pt too wide) in paragraph at lines 352--352
-\T1/ppl/m/it/10.95 eX-PRESS Poly-mer Let-ter \T1/ppl/m/n/10.95 10 (2016), pp. 4
-93 505. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 http
- : / / www . expresspolymlett .
- []
-
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
 1: section
-[93
+[97
 
 
 ]
@@ -4257,7 +3497,7 @@ w . sciencedirect . com / science / article / pii / S0921509316303033$[][]\T1/p
 pl/m/n/10.95 . 
  []
 
-[94]
+[98]
 Overfull \hbox (3.60072pt too wide) in paragraph at lines 352--352
 []\T1/ppl/m/it/10.95 Los Alamos Na-tional Labor-at-ory - The Con-tour Method fo
 r Meas-ur-ing Re-sid-ual Stress\T1/ppl/m/n/10.95 .
@@ -4276,7 +3516,7 @@ Overfull \hbox (1.94786pt too wide) in paragraph at lines 352--352
 sources . renishaw . com / en / download / data -[] sheet -[] alsi10mg -[]
  []
 
-[95]
+[99]
 Overfull \hbox (1.56941pt too wide) in paragraph at lines 352--352
 []\T1/ppl/m/n/10.95 Alessandro Salmi et al. `  Ex-per-i-mental ana-lysis of re-
 sid-ual stresses on AlSi10Mg
@@ -4301,7 +3541,7 @@ Overfull \hbox (8.27437pt too wide) in paragraph at lines 352--352
 oys -[] deasa -[] an -[] undercooled -[]
  []
 
-[96]
+[100]
 Overfull \hbox (15.9613pt too wide) in paragraph at lines 352--352
 []\T1/ppl/m/it/10.95 XRF Sci-entific - What is ICP Spec-tro-scopy? \T1/ppl/m/n/
 10.95 2015. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 h
@@ -4315,7 +3555,7 @@ Overfull \hbox (2.0027pt too wide) in paragraph at lines 352--352
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-[97]
+[101]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
  (main.aux (Chapitres/Introduction.aux) (Chapitres/Etat_de_l_art.aux)
 (Chapitres/Materiel_et_methodes.aux) (Chapitres/Resultats.aux)
@@ -4325,85 +3565,327 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
 ))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
-Package rerunfilecheck Info: File `main.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: D973B1B7D118E99D4BD92D28DA2388F6;13713.
-=======
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: F8B17AC34ED33039F1AF32DF93743A41;13543.
-=======
-(rerunfilecheck)             Checksum: 490D8783CE02B29C35DB977CE9F0567C;13543.
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D973B1B7D118E99D4BD92D28DA2388F6;13713
+(rerunfilecheck)             After:  66C5114551B58B95160C548686BF7F4F;13713.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 36738 strings out of 493312
- 735837 string characters out of 3138899
+ 36838 strings out of 493312
+ 737279 string characters out of 3138899
  1133745 words of memory out of 3000000
- 39308 multiletter control sequences out of 15000+200000
-=======
-<<<<<<< HEAD
- 36853 strings out of 493305
- 740755 string characters out of 3136283
- 1139266 words of memory out of 3000000
- 39439 multiletter control sequences out of 15000+200000
-=======
- 36721 strings out of 493312
- 735565 string characters out of 3138899
- 1133745 words of memory out of 3000000
- 39297 multiletter control sequences out of 15000+200000
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
+ 39309 multiletter control sequences out of 15000+200000
  598048 words of font info for 154 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,20n,94p,10379b,3120s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.169} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.170} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.168} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.169} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.102} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.105} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.104} has been referenced but does not exi
+pdfTeX warning (dest): name{table.caption.204} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.201} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.199} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.167} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.152} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.145} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.134} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.126} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.122} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.117} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.113} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.110} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.103} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.98} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.93} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.87} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.85} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.82} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.209} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.196} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.193} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.190} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.187} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.184} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.181} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.179} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.176} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.173} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.156} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.148} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.146} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.142} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.135} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.132} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.127} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.124} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.118} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.114} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.112} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.108} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.101} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.97} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.90} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.84} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.213} has been referenced but does not exi
 st, replaced by a fixed one
 
-<<<<<<< HEAD
- <C:\Users\bouil\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-tt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
-/palatino/uplri8a.pfb>
-Output written on main.pdf (113 pages, 40952779 bytes).
-PDF statistics:
- 1869 PDF objects out of 2073 (max. 8388607)
- 376 named destinations out of 1000 (max. 500000)
- 1008 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
+pdfTeX warning (dest): name{appendix.208} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.206} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.205} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.202} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.200} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.198} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.197} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.195} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.192} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.189} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.186} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.183} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.180} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.178} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.175} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.172} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.171} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.166} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.165} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.164} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.159} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.158} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.157} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.155} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.154} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.153} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.151} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.150} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.147} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.141} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.140} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.138} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.137} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.136} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.131} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.129} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.125} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.123} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.121} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.120} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.119} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.116} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.115} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.111} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.91} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.89} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.88} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.80} has been referenced but does not exi
+st, replaced by a fixed one
+
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Progr
 am Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
@@ -4416,16 +3898,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files
 nts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on main.pdf (115 pages, 41204469 bytes).
+Output written on main.pdf (119 pages, 41214693 bytes).
 PDF statistics:
-<<<<<<< HEAD
- 1859 PDF objects out of 2073 (max. 8388607)
- 387 named destinations out of 1000 (max. 500000)
+ 1992 PDF objects out of 2073 (max. 8388607)
+ 486 named destinations out of 1000 (max. 500000)
  1023 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 1840 PDF objects out of 2073 (max. 8388607)
- 383 named destinations out of 1000 (max. 500000)
- 1013 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 9ae8639b09746854a78d8b48e9c047eceff6bb70
->>>>>>> 65ff94b797b5125d63f399f9f9389c5c5fe0f490
 
