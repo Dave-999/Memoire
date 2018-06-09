@@ -22,71 +22,73 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces (a) True strain-stress curves for an AB AlSi12 sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties}}{17}{figure.caption.37}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.}}{20}{figure.caption.39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic of the inductively coupled plasma spectroscopy technique set up.}}{24}{figure.caption.45}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ProX DMP 200 printer}}{25}{figure.caption.47}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Melt pool contours with and without laser compensation (exaggeration)}}{26}{figure.caption.48}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Laser compensations as a function of the scanning speed (as recommended by the manufacturer)}}{26}{figure.caption.49}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimen}}{27}{figure.caption.50}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Schematic representation of the hexagonal pattern scanning strategy}}{27}{figure.caption.51}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Screen capture of the laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$}}{28}{figure.caption.52}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Screen capture of the laser path for a cylindric sample (a) with contour scanning strategy (b) without contour scanning strategy}}{28}{figure.caption.53}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Pictures of (a) \textit {Labfacility L60 Thermocouple \& Fine Wire Welder} and (b) \textit {Agilent 34972A LXI Data Acquisition/Switching Unit}.}}{29}{figure.caption.55}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Temperature curve measured by the T-type thermocouple for the cubic sample annealed at 250$^\circ $C for 2 hours.}}{30}{figure.caption.56}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}}}{32}{figure.caption.63}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Implementation of the mean linear intercept method on a SEM picture of an as-built sample.}}{33}{figure.caption.67}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic representation of the Vickers hardness test}}{34}{figure.caption.71}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic representation of the tensile test mounting}}{36}{figure.caption.73}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{37}{figure.caption.75}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic of the inductively coupled plasma spectroscopy technique set up.}}{22}{figure.caption.45}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ProX DMP 200 printer}}{23}{figure.caption.47}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Melt pool contours with and without laser compensation (exaggeration)}}{24}{figure.caption.48}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Laser compensations as a function of the scanning speed (as recommended by the manufacturer)}}{24}{figure.caption.49}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Dimensions notations for (a) cubic specimens (b) cylindrical specimens (c) parallelepiped specimens (d) tensile specimen}}{25}{figure.caption.50}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schematic representation of the hexagonal pattern scanning strategy}}{25}{figure.caption.51}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Screen capture of the laser scanning pattern for a parallelepiped sample: (a) Layer $n$ (b) Layer $n+1$ (c) Layer $n+2$}}{26}{figure.caption.52}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Screen capture of the laser path for a cylindric sample (a) with contour scanning strategy (b) without contour scanning strategy}}{26}{figure.caption.53}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Pictures of (a) \textit {Labfacility L60 Thermocouple \& Fine Wire Welder} and (b) \textit {Agilent 34972A LXI Data Acquisition/Switching Unit}.}}{27}{figure.caption.55}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Temperature curve measured by the T-type thermocouple for the cubic sample annealed at 250$^\circ $C for 2 hours.}}{28}{figure.caption.56}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}}}{30}{figure.caption.63}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Implementation of the mean linear intercept method on a SEM picture of an as-built sample.}}{31}{figure.caption.67}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic representation of the Vickers hardness test}}{32}{figure.caption.71}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic representation of the tensile test mounting}}{34}{figure.caption.73}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{35}{figure.caption.75}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Powder size distributions for different batches before ultrasonic treatments.}}{39}{figure.caption.79}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}}{41}{figure.caption.86}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Batch X200-171024 samples properties as a function of the energy density: (a) as-built apparent relative density (b) Vickers hardness}}{43}{figure.caption.92}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Batch X200-180109 scatter plots as functions of the (x,y) position on the manufacturing plate: (a) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) apparent relative densities (b) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) hardnesses (c) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) apparent relative densities (d) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) hardnesses}}{45}{figure.caption.99}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Batch X200-180109 scatter plots as functions of the scan order of (a) the apparent relative densities (b) the Vickers hardnesses}}{47}{figure.caption.103}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit {ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit {ImageJ} partitioning from the same picture of specimen "8b"}}{49}{figure.caption.110}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Histograms of melt pools areas occurrences from \textit {ImageJ} partitioning of (a) sample "8a" b) sample "8b"}}{49}{figure.caption.111}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Specimen X200-180417-25 sub-parts and surfaces denomination}}{50}{figure.caption.114}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Scatter plots of the results for specimen X200-180417-25 surfaces as a function of the vertical position: (a) RODIA based relative density (b) Vickers hardness}}{51}{figure.caption.116}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Engineering tensile stress-strain curve for specimen X200-180417-2}}{52}{figure.caption.120}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Microstructure of an as-built sample with the 3 different zones visible, indicating the edge of the melting pool}}{53}{figure.caption.122}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of the heat-treated samples hardness with the as-built.}}{54}{figure.caption.127}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Engineering stress-strain curves of heat treated tensile specimens of batch X200-180417.}}{55}{figure.caption.130}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Average stress-strain curves of the tensile specimens of batch X200-180417.}}{56}{figure.caption.131}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces X-Ray diffractogram of a X200-180109 as-built sample}}{57}{figure.caption.135}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Close-up view on the highest Al peak, for the 5 different samples}}{58}{figure.caption.136}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Magnitude of principal residual stresses along depth in both the 300$^\circ $C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method}}{59}{figure.caption.138}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Powder size distributions for different batches before ultrasonic treatments.}}{37}{figure.caption.79}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}}{39}{figure.caption.86}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Batch X200-171024 samples properties as a function of the energy density: (a) as-built apparent relative density (b) Vickers hardness}}{41}{figure.caption.92}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Batch X200-180109 scatter plots as functions of the (x,y) position on the manufacturing plate: (a) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) apparent relative densities (b) type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) hardnesses (c) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) apparent relative densities (d) type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) hardnesses}}{43}{figure.caption.99}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Batch X200-180109 scatter plots as functions of the scan order of (a) the apparent relative densities (b) the Vickers hardnesses}}{45}{figure.caption.103}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Screen captures of (a) melt pools subdivision from a picture of specimen "8a" (b) \textit {ImageJ} partitioning from the same picture of specimen "8a" (c) melt pools subdivision from a picture of specimen "8b" (d) \textit {ImageJ} partitioning from the same picture of specimen "8b"}}{47}{figure.caption.110}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Histograms of melt pools areas occurrences from \textit {ImageJ} partitioning of (a) sample "8a" b) sample "8b"}}{47}{figure.caption.111}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Specimen X200-180417-25 sub-parts and surfaces denomination}}{48}{figure.caption.114}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Scatter plots of the results for specimen X200-180417-25 surfaces as a function of the vertical position: (a) RODIA based relative density (b) Vickers hardness}}{49}{figure.caption.116}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Engineering tensile stress-strain curve for specimen X200-180417-2}}{50}{figure.caption.120}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Microstructure of an as-built sample with the 3 different zones visible, indicating the edge of the melting pool}}{51}{figure.caption.122}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of the heat-treated samples hardness with the as-built.}}{52}{figure.caption.127}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Engineering stress-strain curves of heat treated tensile specimens of batch X200-180417.}}{53}{figure.caption.130}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Average stress-strain curves of the tensile specimens of batch X200-180417.}}{54}{figure.caption.131}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces X-Ray diffractogram of a X200-180109 as-built sample}}{55}{figure.caption.135}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Close-up view on the highest Al peak, for the 5 different samples}}{56}{figure.caption.136}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Magnitude of principal residual stresses along depth in both the 300$^\circ $C-2h and the as-built sample, calculated with (a) the power series method, (b) the integral method}}{57}{figure.caption.138}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 5x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B}}{63}{figure.caption.145}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Cumulative porosity fraction bar chart as function of the porosity area from picture of specimen X200-180319 on zone A under (a) 5x magnification (b) 10x magnification}}{64}{figure.caption.146}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 5x magnification (b) Porosities isolation from 5x magnification picture (c) Original picture under 10x magnification (d) Porosities isolation of 10x magnification picture}}{65}{figure.caption.147}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Schematic of a spheric porosity of diameter D in a cubic cell of size length D}}{65}{figure.caption.149}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Bar chart of the density measurements with the HW (AB and after polishing) and RODIA methods for samples of batch X200-180109}}{66}{figure.caption.151}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Bar charts of the density measurements with the HW (after polishing) and RODIA methods for samples of (a) batch X200-180319 (b) batch X200-180417}}{67}{figure.caption.152}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Engineering stress-strain tensile curves for as-built specimens of this work (in average) and of \textit {Aerostream} project}}{69}{figure.caption.159}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-171024}}{78}{figure.caption.174}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-171024}}{78}{figure.caption.175}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180109}}{79}{figure.caption.177}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180109}}{79}{figure.caption.178}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180220}}{80}{figure.caption.180}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180222}}{81}{figure.caption.182}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180109}}{81}{figure.caption.183}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180228}}{82}{figure.caption.185}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180228}}{82}{figure.caption.186}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180313}}{83}{figure.caption.188}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180313}}{83}{figure.caption.189}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180315}}{84}{figure.caption.191}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180315}}{84}{figure.caption.192}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180319}}{85}{figure.caption.194}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180319}}{85}{figure.caption.195}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180417}}{86}{figure.caption.197}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 5x magnification picture of specimen X200-180319-cub1 and delimitation of the zones A and B}}{61}{figure.caption.145}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Cumulative porosity fraction bar chart as function of the porosity area from picture of specimen X200-180319 on zone A under (a) 5x magnification (b) 10x magnification}}{62}{figure.caption.146}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Zone A of specimen X200-180319-cub1: (a) Delimitation from original picture under 5x magnification (b) Porosities isolation from 5x magnification picture (c) Original picture under 10x magnification (d) Porosities isolation of 10x magnification picture}}{63}{figure.caption.147}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Schematic of a spheric porosity of diameter D in a cubic cell of size length D}}{63}{figure.caption.149}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bar chart of the density measurements with the HW (AB and after polishing) and RODIA methods for samples of batch X200-180109}}{64}{figure.caption.151}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Bar charts of the density measurements with the HW (after polishing) and RODIA methods for samples of (a) batch X200-180319 (b) batch X200-180417}}{65}{figure.caption.152}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The diagram of keyhole collapse caused by the keyhole instability.}}{67}{figure.caption.158}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Solubility of hydrogen in aluminium.}}{68}{figure.caption.159}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Engineering stress-strain tensile curves for as-built specimens of this work (in average) and of \textit {Aerostream} project}}{69}{figure.caption.161}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-171024}}{78}{figure.caption.175}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-171024}}{78}{figure.caption.176}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180109}}{79}{figure.caption.178}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180109}}{79}{figure.caption.179}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180220}}{80}{figure.caption.181}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180222}}{81}{figure.caption.183}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180109}}{81}{figure.caption.184}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180228}}{82}{figure.caption.186}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180228}}{82}{figure.caption.187}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180313}}{83}{figure.caption.189}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180313}}{83}{figure.caption.190}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180315}}{84}{figure.caption.192}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180315}}{84}{figure.caption.193}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Specimens positions, order of fabrication and sintering times for batch X200-180319}}{85}{figure.caption.195}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180319}}{85}{figure.caption.196}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Photography of the manufacturing plate after completion of the fabrication of batch X200-180417}}{86}{figure.caption.198}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Average apparent relative density of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{95}{figure.caption.210}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{95}{figure.caption.211}
-\contentsline {figure}{\numberline {F.3}{\ignorespaces Average apparent relative density of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{96}{figure.caption.212}
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{96}{figure.caption.213}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Average apparent relative density of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{95}{figure.caption.211}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=1200 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{95}{figure.caption.212}
+\contentsline {figure}{\numberline {F.3}{\ignorespaces Average apparent relative density of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{96}{figure.caption.213}
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Average Vickers hardness of batch X200-180109 type (P=0.75 $Pmax$; $v_s$=900 $\frac {mm}{sec}$) samples as a function of the (a) x coordinate (b) y coordinate}}{96}{figure.caption.214}
