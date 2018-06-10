@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {3.4.2}Microstructure}{30}{subsection.64}
 \contentsline {subsubsection}{Optical microscopy}{30}{section*.65}
 \contentsline {subsubsection}{Scanning electron microscopy}{31}{section*.66}
-\contentsline {subsection}{\numberline {3.4.3}Residual stresses}{32}{subsection.68}
+\contentsline {subsection}{\numberline {3.4.3}Residual stresses}{31}{subsection.68}
 \contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{32}{subsection.69}
 \contentsline {subsubsection}{Hardness test}{32}{section*.70}
 \contentsline {subsubsection}{Tensile tests}{33}{section*.72}
