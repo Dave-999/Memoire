@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  6 JUN 2018 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  11 JUN 2018 01:09
 entering extended mode
 **./Couv+Dos.tex
 (Couv+Dos.tex
@@ -329,144 +329,19 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
-* v-part:(T,H,B)=(35.56593pt, 773.91498pt, 35.56593pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=526.376pt
-* \textheight=773.91498pt
-* \oddsidemargin=-36.70406pt
-* \evensidemargin=-36.70406pt
-* \topmargin=-73.70406pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=11.0pt
-* \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-<EPL_TFEbanner.jpg, id=1, 526.3665pt x 256.0767pt>
-File: EPL_TFEbanner.jpg Graphic file (type jpg)
-<use EPL_TFEbanner.jpg>
-Package pdftex.def Info: EPL_TFEbanner.jpg  used on input line 31.
-(pdftex.def)             Requested size: 526.36522pt x 256.07608pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 31.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 31.
-LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 31.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 31.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 31.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 31.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 31.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 31.
- [1
-
-
-{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./EPL_TFEba
-nner.jpg>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
-* v-part:(T,H,B)=(35.56593pt, 773.91498pt, 35.56593pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=526.376pt
-* \textheight=773.91498pt
-* \oddsidemargin=-36.70406pt
-* \evensidemargin=-36.70406pt
-* \topmargin=-73.70406pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=11.0pt
-* \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
-
-Overfull \hbox (1.90796pt too wide) in paragraph at lines 35--36
- [][][] 
- []
-
-[1
-
-] (Couv+Dos.aux) ) 
+(Couv+Dos.aux) ) 
 Here is how much of TeX's memory you used:
- 4986 strings out of 493312
- 77540 string characters out of 3138899
- 190466 words of memory out of 3000000
- 8414 multiletter control sequences out of 15000+200000
- 46069 words of font info for 49 fonts, out of 3000000 for 9000
+ 4790 strings out of 493312
+ 74007 string characters out of 3138899
+ 188169 words of memory out of 3000000
+ 8274 multiletter control sequences out of 15000+200000
+ 7865 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,40p,821b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Couv+Dos.pdf (2 pages, 82924 bytes).
+ 41i,1n,40p,821b,106s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
+ 0 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11270 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 2049 words of extra memory for PDF output out of 10000 (max. 10000000)
 
