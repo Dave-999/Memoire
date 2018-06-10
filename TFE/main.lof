@@ -9,18 +9,18 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Phase diagram of Al-Si alloy near the eutectic}}{6}{figure.caption.17}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Common microstructure of an Al-Si cast alloy}}{6}{figure.caption.18}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Top view of the microstructure of an Al-Si alloy manufactured by SLM at different scales. Locations of pictures (a), (b) and (c) appear on the top left picture}}{7}{figure.caption.19}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces (a) The microstructure of selective laser melted AlSi10Mg after annealing heat treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat treatments promoted spheroidization phase transformation. }}{8}{figure.caption.20}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Process window for SLM of AlSi10Mg, based on the top view of single track scans}}{9}{figure.caption.22}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Process window for SLM of AlSi10Mg, based on the front view of single track scans}}{9}{figure.caption.23}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands}}{10}{figure.caption.24}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Samples (static tensile) built in different directions: (a) $0^\circ $, (b) $45^\circ $, and (c) $90^\circ $}}{11}{figure.caption.25}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Measured room-temperature stress-life (S\IeC {\textendash }N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. }}{13}{figure.caption.30}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces 2D plot of vertical internal stresses measured by the contour method at mid-height, in a vertically-built parallelipiped Inconel718 sample. Vertical stresses are null along the dashed line.}}{14}{figure.caption.32}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Principal residual stresses as a function of the depth relative to the surface in a AlSi10Mg part. Sample B is built onto an undefined hollow support, while A is not}}{15}{figure.caption.33}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Non-exhaustive list of residual stresses measurement methods.}}{16}{figure.caption.34}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Thought process of the contour method analytical step}}{17}{figure.caption.35}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces (a) True strain-stress curves for an AB AlSi12 sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties}}{18}{figure.caption.37}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.}}{20}{figure.caption.39}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Process window for SLM of AlSi10Mg, based on the top view of single track scans}}{8}{figure.caption.21}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Process window for SLM of AlSi10Mg, based on the front view of single track scans}}{9}{figure.caption.22}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Schematic representation of scanning strategies commonly used in LSM (a) unidirectional long scan track; (b) bi-directional long scan track, and (c) islands}}{10}{figure.caption.23}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Samples (static tensile) built in different directions: (a) $0^\circ $, (b) $45^\circ $, and (c) $90^\circ $}}{10}{figure.caption.24}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Measured room-temperature stress-life (S\IeC {\textendash }N) of SLM AlSi10Mg, compared to that of conventional Al 6061. Bending fatigue (rotating beam) at a frequency of 25 Hz. }}{12}{figure.caption.29}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces 2D plot of vertical internal stresses measured by the contour method at mid-height, in a vertically-built parallelipiped Inconel718 sample. Vertical stresses are null along the dashed line.}}{13}{figure.caption.31}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Principal residual stresses as a function of the depth relative to the surface in a AlSi10Mg part. Sample B is built onto an undefined hollow support, while A is not}}{14}{figure.caption.32}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Non-exhaustive list of residual stresses measurement methods.}}{15}{figure.caption.33}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Thought process of the contour method analytical step}}{16}{figure.caption.34}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces (a) True strain-stress curves for an AB AlSi12 sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties}}{17}{figure.caption.36}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces (a) The microstructure of selective laser melted AlSi10Mg after annealing heat treatment and (b) solution heat treatment followed by artificial aging. (c) Schematic representation of the spheroidization process. Si particles gradually grow and concentrate along the cell boundaries, which become less visible}}{19}{figure.caption.38}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Influence of the cutting parameters on the residual stresses of machined forged aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.}}{20}{figure.caption.39}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic of the inductively coupled plasma spectroscopy technique set up.}}{22}{figure.caption.45}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces ProX DMP 200 printer}}{23}{figure.caption.47}

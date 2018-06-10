@@ -5,10 +5,10 @@
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
 \contentsline {section}{\numberline {2.1}Selective laser melting technology}{3}{section.12}
 \contentsline {section}{\numberline {2.2}AlSi10Mg alloy}{5}{section.16}
-\contentsline {section}{\numberline {2.3}Fabrication process parameters}{8}{section.21}
-\contentsline {section}{\numberline {2.4}As-built mechanical properties}{11}{section.26}
-\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{13}{section.31}
-\contentsline {section}{\numberline {2.6}Post treatments}{17}{section.36}
+\contentsline {section}{\numberline {2.3}Fabrication process parameters}{7}{section.20}
+\contentsline {section}{\numberline {2.4}As-built mechanical properties}{11}{section.25}
+\contentsline {section}{\numberline {2.5}Residual stresses in SLM parts}{12}{section.30}
+\contentsline {section}{\numberline {2.6}Post treatments}{16}{section.35}
 \contentsline {chapter}{\numberline {3}Materials and methods}{21}{chapter.40}
 \contentsline {section}{\numberline {3.1}Powder follow-up}{21}{section.41}
 \contentsline {subsection}{\numberline {3.1.1}Sieving}{21}{subsection.42}

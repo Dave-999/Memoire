@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.2)  10 JUN 2018 12:29
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  10 JUN 2018 13:19
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 entering extended mode
 **./main.tex
 (main.tex
@@ -2240,7 +2244,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
+<<<<<<< HEAD
+<Images/SLM.png, id=822, 292.09125pt x 227.34938pt>
+=======
 <Images/SLM.png, id=827, 292.09125pt x 227.34938pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/SLM.png Graphic file (type png)
 <use Images/SLM.png>
 Package pdftex.def Info: Images/SLM.png  used on input line 9.
@@ -2259,12 +2267,20 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 
 1: section
 [3 <./Images/SLM.png>]
+<<<<<<< HEAD
+<Images/Evol.jpg, id=841, 777.65532pt x 334.24875pt>
+=======
 <Images/Evol.jpg, id=846, 777.65532pt x 334.24875pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Evol.jpg Graphic file (type jpg)
 <use Images/Evol.jpg>
 Package pdftex.def Info: Images/Evol.jpg  used on input line 28.
 (pdftex.def)             Requested size: 427.71175pt x 183.83737pt.
+<<<<<<< HEAD
+<Images/Param.png, id=844, 909.3975pt x 557.08125pt>
+=======
 <Images/Param.png, id=849, 909.3975pt x 557.08125pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Param.png Graphic file (type png)
 <use Images/Param.png>
 Package pdftex.def Info: Images/Param.png  used on input line 39.
@@ -2284,7 +2300,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
+<<<<<<< HEAD
+<Images/phase_diagram.png, id=863, 622.57594pt x 642.14906pt>
+=======
 <Images/phase_diagram.png, id=868, 622.57594pt x 642.14906pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/phase_diagram.png Graphic file (type png)
 <use Images/phase_diagram.png>
 Package pdftex.def Info: Images/phase_diagram.png  used on input line 70.
@@ -2300,7 +2320,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 [5 <./Images/Param.png>]
+<<<<<<< HEAD
+<Images/micro_cast.png, id=879, 729.47531pt x 518.6878pt>
+=======
 <Images/micro_cast.png, id=884, 729.47531pt x 518.6878pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/micro_cast.png Graphic file (type png)
 <use Images/micro_cast.png>
 Package pdftex.def Info: Images/micro_cast.png  used on input line 82.
@@ -2311,66 +2335,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 [6 <./Images/phase_diagram.png> <./Images/micro_cast.png>]
+<<<<<<< HEAD
+<Images/micro_am.png, id=892, 800.9925pt x 928.97063pt>
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 <Images/micro_am.png, id=900, 800.9925pt x 928.97063pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/micro_am.png Graphic file (type png)
 <use Images/micro_am.png>
-Package pdftex.def Info: Images/micro_am.png  used on input line 95.
+Package pdftex.def Info: Images/micro_am.png  used on input line 92.
 (pdftex.def)             Requested size: 320.39133pt x 371.58167pt.
+<<<<<<< HEAD
+=======
 <Images/microTT.jpg, id=903, 633.11531pt x 408.02437pt>
 File: Images/microTT.jpg Graphic file (type jpg)
 <use Images/microTT.jpg>
 Package pdftex.def Info: Images/microTT.jpg  used on input line 103.
 (pdftex.def)             Requested size: 379.87212pt x 244.81651pt.
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 
-Underfull \hbox (badness 2790) in paragraph at lines 109--109
- []\T1/ppl/m/sc/10 Figure 2.7: |\T1/ppl/m/n/10 (a) The mi-cro-struc-ture of se-
-lect-ive laser melted 
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
  []
 
 [7 <./Images/micro_am.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
-
- []
-
+<<<<<<< HEAD
+<Images/Pvs.png, id=913, 1038.88126pt x 592.46344pt>
+=======
 [8 <./Images/microTT.jpg>]
 <Images/Pvs.png, id=933, 1038.88126pt x 592.46344pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Pvs.png Graphic file (type png)
 <use Images/Pvs.png>
-Package pdftex.def Info: Images/Pvs.png  used on input line 123.
+Package pdftex.def Info: Images/Pvs.png  used on input line 108.
 (pdftex.def)             Requested size: 353.21495pt x 201.4349pt.
+<<<<<<< HEAD
+<Images/Pvs2.png, id=916, 988.44281pt x 548.80031pt>
+=======
 <Images/Pvs2.png, id=936, 988.44281pt x 548.80031pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Pvs2.png Graphic file (type png)
 <use Images/Pvs2.png>
-Package pdftex.def Info: Images/Pvs2.png  used on input line 131.
+Package pdftex.def Info: Images/Pvs2.png  used on input line 116.
 (pdftex.def)             Requested size: 336.0661pt x 186.58963pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[9 <./Images/Pvs.png> <./Images/Pvs2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[8 <./Images/Pvs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
+<<<<<<< HEAD
+<Images/Strat.png, id=941, 612.03656pt x 222.8325pt>
+=======
 <Images/Strat.png, id=959, 612.03656pt x 222.8325pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Strat.png Graphic file (type png)
 <use Images/Strat.png>
-Package pdftex.def Info: Images/Strat.png  used on input line 143.
+Package pdftex.def Info: Images/Strat.png  used on input line 128.
 (pdftex.def)             Requested size: 367.22476pt x 133.70053pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 145--145
+Underfull \hbox (badness 1400) in paragraph at lines 130--130
  \T1/ppl/m/n/10 monly used in LSM (a) uni-direc-tional long scan track; (b) bi-
  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+<<<<<<< HEAD
+<Images/Build.png, id=949, 637.63219pt x 168.63pt>
+=======
+<Images/Build.png, id=967, 637.63219pt x 168.63pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
+File: Images/Build.png Graphic file (type png)
+<use Images/Build.png>
+Package pdftex.def Info: Images/Build.png  used on input line 138.
+(pdftex.def)             Requested size: 369.82692pt x 97.80545pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+[9 <./Images/Pvs2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
  []
 
 
@@ -2378,191 +2439,233 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-<Images/Build.png, id=967, 637.63219pt x 168.63pt>
-File: Images/Build.png Graphic file (type png)
-<use Images/Build.png>
-Package pdftex.def Info: Images/Build.png  used on input line 153.
-(pdftex.def)             Requested size: 369.82692pt x 97.80545pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-[10 <./Images/Strat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-[11 <./Images/Build.png>]
-Overfull \hbox (9.75034pt too wide) in paragraph at lines 219--221
+[10 <./Images/Strat.png> <./Images/Build.png>]
+Overfull \hbox (9.75034pt too wide) in paragraph at lines 204--206
 []\T1/ppl/m/n/10.95 SLM AlSi10Mg is some-times com-pared to wrought Al6061. It 
 is also an aluminium-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
+<<<<<<< HEAD
+[11]
+<Images/Fat.jpg, id=1012, 599.23875pt x 435.87843pt>
+=======
 <Images/Fat.jpg, id=1022, 599.23875pt x 435.87843pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Fat.jpg Graphic file (type jpg)
 <use Images/Fat.jpg>
-Package pdftex.def Info: Images/Fat.jpg  used on input line 241.
+Package pdftex.def Info: Images/Fat.jpg  used on input line 226.
 (pdftex.def)             Requested size: 299.61864pt x 217.93867pt.
-[12]
-Overfull \hbox (4.26936pt too wide) in paragraph at lines 270--271
+
+Overfull \hbox (4.26936pt too wide) in paragraph at lines 255--256
 \T1/ppl/m/n/10.95 After most man-u-fac-tur-ing pro-cesses, the fab-ric-ated pie
 ce can present re-sid-ual stresses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[12 <./Images/Fat.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
+<<<<<<< HEAD
+<Images/rs_section.png, id=1024, 482.55281pt x 380.92313pt>
+=======
 [13 <./Images/Fat.jpg>]
 <Images/rs_section.png, id=1041, 482.55281pt x 380.92313pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/rs_section.png Graphic file (type png)
 <use Images/rs_section.png>
-Package pdftex.def Info: Images/rs_section.png  used on input line 278.
+Package pdftex.def Info: Images/rs_section.png  used on input line 263.
 (pdftex.def)             Requested size: 241.2758pt x 190.46109pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[13 <./Images/rs_section.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
+<<<<<<< HEAD
+<Images/Rs-support.png, id=1037, 749.04843pt x 525.46312pt>
+=======
 <Images/Rs-support.png, id=1048, 749.04843pt x 525.46312pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Rs-support.png Graphic file (type png)
 <use Images/Rs-support.png>
-Package pdftex.def Info: Images/Rs-support.png  used on input line 290.
+Package pdftex.def Info: Images/Rs-support.png  used on input line 275.
 (pdftex.def)             Requested size: 374.5233pt x 262.73091pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
+<<<<<<< HEAD
+<Images/rs_measure.png, id=1045, 379.4175pt x 248.42813pt>
+=======
 [14 <./Images/rs_section.png>]
 <Images/rs_measure.png, id=1064, 379.4175pt x 248.42813pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/rs_measure.png Graphic file (type png)
 <use Images/rs_measure.png>
-Package pdftex.def Info: Images/rs_measure.png  used on input line 302.
+Package pdftex.def Info: Images/rs_measure.png  used on input line 287.
 (pdftex.def)             Requested size: 303.53441pt x 198.74277pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+[14 <./Images/Rs-support.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
+<<<<<<< HEAD
+<Images/contour_meth.png, id=1062, 487.8225pt x 447.17062pt>
+=======
 [15 <./Images/Rs-support.png>]
 <Images/contour_meth.png, id=1080, 487.8225pt x 447.17062pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/contour_meth.png Graphic file (type png)
 <use Images/contour_meth.png>
-Package pdftex.def Info: Images/contour_meth.png  used on input line 314.
+Package pdftex.def Info: Images/contour_meth.png  used on input line 299.
 (pdftex.def)             Requested size: 292.69576pt x 268.30444pt.
- [16 <./Images/rs_measure.png>]
-Overfull \hbox (3.85344pt too wide) in paragraph at lines 344--345
+[15 <./Images/rs_measure.png>]
+Overfull \hbox (3.85344pt too wide) in paragraph at lines 329--330
 \T1/ppl/m/n/10.95 Unfortunately, al-though re-sid-ual stresses can be at-ten-u-
 ated as it was dis-cussed above,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
+<<<<<<< HEAD
+<Images/mech_annealing.png, id=1078, 1251.17438pt x 546.54187pt>
+=======
 <Images/mech_annealing.png, id=1092, 1251.17438pt x 546.54187pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/mech_annealing.png Graphic file (type png)
 <use Images/mech_annealing.png>
-Package pdftex.def Info: Images/mech_annealing.png  used on input line 350.
+Package pdftex.def Info: Images/mech_annealing.png  used on input line 335.
 (pdftex.def)             Requested size: 375.35521pt x 163.96382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-[17 <./Images/contour_meth.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+[16 <./Images/contour_meth.png>]
+<Images/ABvsT6.png, id=1089, 490.08093pt x 228.10219pt>
+File: Images/ABvsT6.png Graphic file (type png)
+<use Images/ABvsT6.png>
+Package pdftex.def Info: Images/ABvsT6.png  used on input line 345.
+(pdftex.def)             Requested size: 343.05432pt x 159.67043pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
+<<<<<<< HEAD
+[17 <./Images/mech_annealing.png>]
+Overfull \hbox (11.32666pt too wide) in paragraph at lines 355--356
+[]\T1/ppl/m/n/10.95 Annealing, as well as other heat treat-ments, al-ter the me
+ch-an-ical prop-er-ties through
+ []
+
+=======
 <Images/ABvsT6.png, id=1104, 490.08093pt x 228.10219pt>
 File: Images/ABvsT6.png Graphic file (type png)
 <use Images/ABvsT6.png>
 Package pdftex.def Info: Images/ABvsT6.png  used on input line 364.
 (pdftex.def)             Requested size: 343.05432pt x 159.67043pt.
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
-
- []
-
-[18 <./Images/mech_annealing.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
-[19 <./Images/ABvsT6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+<Images/microTT.jpg, id=1106, 633.11531pt x 408.02437pt>
+File: Images/microTT.jpg Graphic file (type jpg)
+<use Images/microTT.jpg>
+Package pdftex.def Info: Images/microTT.jpg  used on input line 363.
+(pdftex.def)             Requested size: 379.87212pt x 244.81651pt.
+
+Underfull \hbox (badness 1810) in paragraph at lines 367--367
+ []\T1/ppl/m/sc/10 Figure 2.17: |\T1/ppl/m/n/10 (a) The mi-cro-struc-ture of se
+-lect-ive laser melted 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
+[18 <./Images/ABvsT6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+<<<<<<< HEAD
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+[19 <./Images/microTT.jpg>]
+<Images/Mach.jpg, id=1128, 1738.24406pt x 1071.25218pt>
+=======
 <Images/Mach.jpg, id=1133, 1738.24406pt x 1071.25218pt>
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 File: Images/Mach.jpg Graphic file (type jpg)
 <use Images/Mach.jpg>
-Package pdftex.def Info: Images/Mach.jpg  used on input line 382.
+Package pdftex.def Info: Images/Mach.jpg  used on input line 379.
 (pdftex.def)             Requested size: 486.70503pt x 299.94856pt.
 ) [20 <./Images/Mach.jpg>]
 \openout2 = `Chapitres/Materiel_et_methodes.aux'.
 
- (Chapitres/Materiel_et_methodes.tex
+
+(Chapitres/Materiel_et_methodes.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
@@ -3734,7 +3837,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
+(rerunfilecheck)             Checksum: 5A98AB5972CC5AEC23DCB819D5D99399;12883.
+=======
 (rerunfilecheck)             Checksum: C27472C37FF367DE65916ABF5F6842EC;12883.
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 
 
 LaTeX Warning: There were undefined references.
@@ -3747,10 +3854,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 36999 strings out of 493305
+ 743789 string characters out of 3136283
+ 1139266 words of memory out of 3000000
+ 39531 multiletter control sequences out of 15000+200000
+=======
  36870 strings out of 493312
  738725 string characters out of 3138899
  1134745 words of memory out of 3000000
  39396 multiletter control sequences out of 15000+200000
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
  598048 words of font info for 154 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,20n,94p,10379b,3120s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3766,6 +3880,21 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
 st, replaced by a fixed one
 
+<<<<<<< HEAD
+ <C:\Users\bouil\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+tt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on main.pdf (126 pages, 44083577 bytes).
+=======
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Progr
 am Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
@@ -3779,6 +3908,7 @@ nts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
 Output written on main.pdf (124 pages, 44233219 bytes).
+>>>>>>> 8d4487744de9b4d4395fcbec56508156c055a079
 PDF statistics:
  2010 PDF objects out of 2073 (max. 8388607)
  420 named destinations out of 1000 (max. 500000)
