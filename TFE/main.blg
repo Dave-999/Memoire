@@ -14,11 +14,4 @@ A level-1 auxiliary file: Appendices/AppendixC.aux
 A level-1 auxiliary file: Appendices/AppendixD.aux
 Database file #1: main-blx.bib
 Database file #2: biblio.bib
-<<<<<<< HEAD
-I was expecting an "="---line 582 of file biblio.bib
- : <<<<<<< 
- :         HEAD
-I'm skipping whatever remains of this entry
-=======
->>>>>>> 549afca2e23c9ec81b401bf2f7455b8628189f1d
 Biblatex version: 3.8
