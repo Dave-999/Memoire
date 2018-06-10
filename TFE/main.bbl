@@ -1074,6 +1074,50 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Lam15}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LL}{%
+         family={Lam},
+         familyi={L\bibinitperiod},
+         given={L.P.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={D.Q.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Z.H.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chua},
+         familyi={C\bibinitperiod},
+         given={C.K.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LL+1}
+    \strng{fullhash}{LLZDLZCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{207\bibrangedash 215}
+    \field{title}{Phase analysis and microstructure characterisation of
+  AlSi10Mg parts produced by Selective Laser Melting}
+    \verb{url}
+    \verb https://www.tandfonline.com/doi/full/10.1080/17452759.2015.1110868
+    \endverb
+    \field{volume}{10}
+    \field{journaltitle}{Virtual and Physical Prototyping}
+    \field{year}{2015}
+  \endentry
+
   \entry{LEITZ2017331}{article}{}
     \name{author}{6}{}{%
       {{hash=LKH}{%
@@ -2165,6 +2209,41 @@
     \field{volume}{704}
     \field{journaltitle}{Materials Science and Engineering: A}
     \field{year}{2017}
+  \endentry
+
+  \entry{Vashista12}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VM}{%
+         family={Vashista},
+         familyi={V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Paul},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VMPS1}
+    \strng{fullhash}{VMPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{33}
+    \field{pages}{4194\bibrangedash 4204}
+    \field{title}{Correlation between full width at half maximum (FWHM) of XRD
+  peak with residual stress on ground surfaces}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/287922828_Correlation_betwee
+    \verb n_full_width_at_half_maximum_FWHM_of_XRD_peak_with_residual_stress_on
+    \verb _ground_surfaces
+    \endverb
+    \field{volume}{92}
+    \field{journaltitle}{Philosophical Magazine}
+    \field{year}{2012}
   \endentry
 
   \entry{Vrancken2016}{thesis}{}
