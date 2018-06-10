@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  10 JUN 2018 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.10)  10 JUN 2018 18:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -2220,8 +2220,24 @@ Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
+ []
+
+
+Overfull \hbox (0.83754pt too wide) in paragraph at lines 10--11
+[]\T1/ppl/m/n/10.95 Although great pro-gress was made in ad-dit-ive man-u-fac-t
+ur-ing of AlSi10Mg, some
  []
 
 
@@ -2229,12 +2245,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+)
+Underfull \hbox (badness 10000) in paragraph at lines 12--322
 
  []
 
-)
 1: section
 [1
 
@@ -3753,15 +3768,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
 ))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E5A7BB6306A2379803BC7E07EDBA2D93;12893.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F21A30500363AD50897BB1360EFE577E;12883
-(rerunfilecheck)             After:  E5A7BB6306A2379803BC7E07EDBA2D93;12893.
 
 LaTeX Warning: There were undefined references.
 
@@ -3804,7 +3813,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files
 nts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on main.pdf (124 pages, 44234841 bytes).
+Output written on main.pdf (124 pages, 44235319 bytes).
 PDF statistics:
  2010 PDF objects out of 2073 (max. 8388607)
  420 named destinations out of 1000 (max. 500000)
