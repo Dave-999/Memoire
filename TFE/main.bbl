@@ -451,6 +451,19 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Conceptlaser}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Concept Laser - The technology}
+    \verb{url}
+    \verb https://www.concept-laser.de/en/technology.html
+    \endverb
+    \field{urlday}{10}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{ADictionaryofPhysics}{book}{}
     \name{author}{1}{}{%
       {{hash=DJ}{%
@@ -706,6 +719,47 @@
     \field{volume}{27}
     \field{journaltitle}{Materials Science and Engineering}
     \field{year}{1977}
+  \endentry
+
+  \entry{Maamoud18}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HA}{%
+         family={H.Maamoun},
+         familyi={H\bibinitperiod},
+         given={Ahmed},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Elbestawi},
+         familyi={E\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={K.Dosbaeva},
+         familyi={K\bibinitperiod},
+         given={Goulnara},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={C.Veldhuis},
+         familyi={C\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAEMKGCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{509–517}
+    \field{title}{Thermal post-processing of AlSi10Mg parts produced by
+  Selective Laser Melting using recycled powder}
+    \field{volume}{682}
+    \field{journaltitle}{Mater. Sci. Eng. A}
+    \field{year}{2017}
   \endentry
 
   \entry{Hodge2014}{article}{}
@@ -1186,6 +1240,53 @@
   28th Annual International}
     \field{month}{08}
     \field{year}{2017}
+  \endentry
+
+  \entry{Li14}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={X.P.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={C.W.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sercombe},
+         familyi={S\bibinitperiod},
+         given={T.B.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LX+1}
+    \strng{fullhash}{LXKCHHST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{407–411}
+    \field{title}{The role of a low-energy–density re-scan in fabricating
+  crack-free Al85Ni5Y6Co2Fe2 bulk metallic glass composites via selective laser
+  melting}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/263968566_The_role_of_a_low-
+    \verb energy-density_re-scan_in_fabricating_crack-free_Al85Ni5Y6Co2Fe2_bulk
+    \verb _metallic_glass_composites_via_selective_laser_melting
+    \endverb
+    \field{volume}{63}
+    \field{journaltitle}{Mater. Des.}
+    \field{year}{2014}
   \endentry
 
   \entry{Lippert}{article}{}
@@ -1827,6 +1928,63 @@
     \field{urlday}{30}
     \field{urlmonth}{05}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Tradowsky16}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TU}{%
+         family={Tradowsky},
+         familyi={T\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WRM}{%
+         family={Ward},
+         familyi={W\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Read},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Reimers},
+         familyi={R\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AMM}{%
+         family={Attalah},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TU+1}
+    \strng{fullhash}{TUWJWRMRNRWAMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{212–222}
+    \field{title}{Selective laser melting of AlSi10Mg: Influence of
+  post-processing on the microstructural and tensile properties development}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0264127516306712?v
+    \verb ia%3Dihub
+    \endverb
+    \field{volume}{105}
+    \field{journaltitle}{Mater. Des.}
+    \field{year}{2016}
   \endentry
 
   \entry{Trebuna08}{online}{}

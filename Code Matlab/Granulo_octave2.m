@@ -202,9 +202,9 @@ plot(xx,P5s,'b')
 %plot(xx,PNs)
 %plot(xx,PNE80s)
 %plot(xx,PNE100s)
-legend('23{th} October 2017','9{th} January 2018','21{st} February 2018','13{th} March 2018','17{th} April 2018')%TOUT
+legend('1 iteration','2 iterations','2 iterations & fresh powder','3 iterations','4 iterations')%TOUT
 xlabel('Diameter [\mu m]')
-ylabel('Percentage [%]')
+ylabel('Volumetric percentage [%]')
 xlim([0 92]);
 
 % figure;
