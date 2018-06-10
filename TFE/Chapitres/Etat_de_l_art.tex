@@ -87,27 +87,12 @@ By zooming in, we see that those scan tracks are characterised by a very fine mi
 
 First, there is the fine zone which is the result of the melt pool core solidification. The cellular dendrites start to grow from the melt pool edge resulting in elongated  cells, and converge towards the centre where they are more isotropic. Around it, near the boundary, lies the coarse zone with larger cells and thicker lamellae. According to Uzan et al. (2017) \cite{UZAN2017229}, the difference of microstructure is simply due to lower solidification rates ; the hot zones in the previous layer reduce the temperature gradient. Just outside the melt pool, in previously solidified tracks, lies a heat-affected zone(HAZ). Although it remains at least partially solid during the previous laser passage, temperature rises enough to allow Si to diffuse and coarsen into globular particles, breaking the cellular structure. It is from this specific microstructure that arise all the mechanical properties of the fabricated part, which will be presented in Section \ref{MMABMP}.\\
 
-The impact of heat treatments on the microstructure is well known. The higher the temperature at which the material is exposed, the more pronounced the silicon spheroidization (see figure \ref{fig:microTT}) \parencite{aboulkhair2017}. This microstructure change heavily impacts the material mechanical properties, as discussed in section \ref{SOTAPT}.\\
-
-
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.40]{Images/micro_am}
 	\decoRule
 	\caption[Top view of the microstructure of an Al-Si alloy manufactured by SLM at different scales. Locations of pictures (a), (b) and (c) appear on the top left picture]{Top view of the microstructure of an Al-Si alloy manufactured by SLM at different scales. Locations of pictures (a), (b) and (c) appear on the top left picture (from Thijs et al., 2013 \parencite{Thijs13}).}
 	\label{fig:micro_am}
-\end{figure}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[scale=0.60]{Images/microTT}
-	\decoRule
-	\caption[(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
-treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
-treatments promoted spheroidization phase transformation. ]{(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
-treatment and (b) solution heat treatment followed by artifi cial aging. (c) Both heat
-treatments promoted spheroidization phase transformation (from Aboulkhair et al., 2017 \parencite{aboulkhair2017}).}
-	\label{fig:microTT}
 \end{figure}
 
 \section{Fabrication process parameters}
@@ -343,7 +328,7 @@ A fairly recent destructive technique is the contour method (illustrated in figu
 
 Unfortunately, although residual stresses can be attenuated as it was discussed above, their presence after the fabrication seems unavoidable. However, cast alloys have known the same problems for their whole history. Various treatments have thus been developed over the years to try to reduce and modify these stresses after the initial manufacturing process. An important part of the literature on SLM alloys has simply studied the effects of those classical heat treatments on AM alloys \cite{Mertens170406}.\\
 
-If the aim is to remove residual stresses, the go-to treatment for aluminium alloys is an annealing at 300$^\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature. Its qualitative effect on the mechanical properties of AM parts is pretty well known and consistent in the literature, at least compared to other treatments. A summary of its effects is presented in Fig. \ref{fig:mech_annealing} \cite{PRASHANTH14}, for different temperatures. The annealing temperature can be varied to obtain a wide spectrum of properties, in order to be better suited for new applications. This treatment reduces strength, both ultimate and yield, while increasing ductility, and this effect is reinforced with rising temperature (at least below 500$^\circ$C). \\
+If the aim is to remove residual stresses, the go-to treatment for aluminium alloys is an annealing at 300$^\circ$C during 2 hours. Data on the heating and cooling speeds are scarce in the literature. Its qualitative effect on the mechanical properties of AM parts is pretty well known and consistent in the literature, at least compared to other treatments. A summary of its effects is presented in Fig. \ref{fig:mech_annealing} \cite{PRASHANTH14}, for different temperatures. The annealing temperature can be varied to obtain a wide spectrum of properties, in order to be better suited for new applications. This treatment reduces strength, both ultimate and yield, while increasing ductility, and this effect is reinforced with rising temperature (at least below 500$^\circ$C). Mertens et al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours with a loss of only 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%. \\
 
 \begin{figure}[ht]
 	\centering
@@ -352,10 +337,6 @@ If the aim is to remove residual stresses, the go-to treatment for aluminium all
 	\caption[(a) True strain-stress curves for an AB AlSi12 sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties]{(a) True strain-stress curves for an AB AlSi12 sample and several heat-treated ones at different temperatures and (b) corresponding mechanical properties (from Prashanth et al., 2014 \parencite{PRASHANTH14}).}
 	\label{fig:mech_annealing}
 \end{figure}
-
-The annealing, as well as other heat treatments, alter the mechanical properties through 2 different processes. First, it relieves residual stresses. Indeed, yield strength of materials is temperature dependant: in metals, it decreases with it. During heating, residual stresses at some points in the material surpass the declining yield strength. Those points thus deform plastically, lowering the stress they undergo. In the end, the maximum stress remaining in the material is equal to the yield strength at the highest temperature reached. The resulting residual stresses require specific techniques to be assessed as we saw in section \ref{EARSSP}.\\
-
-Annealing at a sufficient temperature can also modify the microstructure of the alloy. This can be directly observed by optical or electronic microscopy. Mertens et al. (2015)\cite{Mertens15} obtained a very good trade-off, when applying an annealing at 250$^\circ$C for 2 hours with a loss of only 10\% of yield strength and barely 2\% of UTS, the elongation at break increased by 80\%. \\
 
 A very common heat treatment of aluminium alloys is designated by the T6 acronym. It consists of a solution heat treatment around 520$^\circ$C for a variable duration, followed by a water quenching to room temperature and an artificial ageing for several hours between 150 and 190$^\circ$C. When applied to conventionally processed aluminium-based materials, this treatment usually has a hardening effect. The principle is the following \cite{T6}: first step increases solubility of alloying elements in the Al-phase. Water quenching prevents these elements from exiting the phase during cooling, creating a roughly homogeneous super-saturated solution. The artificial ageing finally allows them to slowly diffuse out of the aluminium lattice, forming homogeneously distributed very fine precipitates, hardening the alloy. However, Aboulkhair et al. (2015) \cite{aboulkhair2015}, as well as others, have shown that AM alloys react very differently to this treatment: softening was observed rather than hardening. They suggested that it is due to the dissimilar starting microstructures. T6 heat treatment forms precipitates, but coarsen the AM alloy microstructure at the same time. The strengthening due to the microstructure refinement outweighs in fact the one due to precipitation. This softening means however a higher ductility, and thus a better fatigue strength. A summary of the consequences of T6 heat treatment can be found in Table \ref{tab:ABvsT6}. \\
 
@@ -369,19 +350,35 @@ A very common heat treatment of aluminium alloys is designated by the T6 acronym
 
 The time and temperature parameters during the solutionizing and the ageing seem to remain determinant in the prediction of the final properties of the treated part. Indeed, according to Mertens et al. (2015)\cite{Mertens15}, a T6-like treatment can result in an increase of ductility - of course - but also of yield strength. To be complete, they obtained a decrease of hardness of 28\%, a decrease of ultimate tensile strength by 13\%, but an increase of elongation at break of 220\% and of yield strength of 30\%. The distinct process parameters could explain the differences: 510$^\circ$ C during 6 hours followed by 4 hours at 170$^\circ$ C for Mertens et al. (2015)\cite{Mertens15}, compared to 1 hour at 520$^\circ$ C and then 6 hours at 160$^\circ$ C. Differences in manufacturing parameters, such as layer thickness and substrate heating, can as well be at cause.\\
 
-\textcolor{red}{J'en veux PLUS}Hot isostatic pressing (HIP) post-treatment is commercially used for cast aluminium and some have tried to transpose it to SLM AlSi10Mg. Sample is put in a furnace at high pressure ($\simeq 100$ [MPa]) and high temperature (above 500$^\circ C$). These conditions lead to the emergence of plastic flow which heal the internal porosity. This can enhance the mechanical properties of the alloy and reduce the properties scatter \parencite{HIP}. Mower et al. (2016) \cite{MOWER2016198} applied HIP at 900$^\circ$C and 102 [MPa] to a Ti6Al4V AM alloy and obtained a large increase of fracture strain and enhanced fatigue strength. Tradowsky et al. (2016) \cite{Tradowsky16} reported the same fracture strain increase for the AlSi10Mg alloy. \\
+Hot isostatic pressing (HIP) post-treatment is commercially used for cast aluminium and some have tried to transpose it to SLM AlSi10Mg. Sample is put in a furnace at high pressure ($\simeq 100$ [MPa]) and high temperature (above 500$^\circ C$). These conditions lead to the emergence of plastic flow which heal the internal porosity. This can enhance the mechanical properties of the alloy and reduce the properties scatter \parencite{HIP}. Mower et al. (2016) \cite{MOWER2016198} applied HIP at 900$^\circ$C and 102 [MPa] to a Ti6Al4V AM alloy and obtained a large increase of fracture strain and enhanced fatigue strength. Tradowsky et al. (2016) \cite{Tradowsky16} reported the same fracture strain increase for the AlSi10Mg alloy. \\
+
+Annealing, as well as other heat treatments, alter the mechanical properties through 2 different processes. First, it relieves residual stresses. Indeed, yield strength of materials is temperature dependant: in metals, it decreases with it. During heating, residual stresses at some points in the material surpass the declining yield strength. Those points thus deform plastically, lowering the stress they undergo. In the end, the maximum stress remaining in the material is equal to the yield strength at the highest temperature reached. The resulting residual stresses require specific techniques to be assessed as we saw in section \ref{EARSSP}.\\
+
+Secondly, heat-treating at a sufficient temperature can also modify the microstructure of the alloy. This can be directly observed by optical or electronic microscopy. As described in Fig. \ref{fig:microTT}, increasing the temperature allows the diffusion of Si. It is caused by the fast solidification of the alloy during fabrication, which leaves it in a metastable state. Decrease of Si solubility in the Al-phase during cooling and rate of the process traps Si inside the Al solid phase, which becomes super-saturated \cite{PRASHANTH14}. \\
+
+Temperature rise allows the ejection of Si out the Al-phase to form small particles. These particles as well as the Si present at the cells boundaries further diffuse with increase of temperature or holding time. They tend to agglomerate, reducing the total number of particles but increasing their size. This process is called spheroidization. \\
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.60]{Images/microTT}
+	\decoRule
+	\caption[(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+	treatment and (b) solution heat treatment followed by artificial aging. (c) Schematic representation of the spheroidization process. Si particles gradually grow and concentrate along the cell boundaries, which become less visible]{(a) The microstructure of selective laser melted AlSi10Mg after annealing heat
+		treatment and (b) solution heat treatment followed by artificial aging. (c) Schematic representation of the spheroidization process. Si particles gradually grow and concentrate along the cell boundaries, which become less visible (from Aboulkhair et al., 2017 \parencite{aboulkhair2017}).}
+	\label{fig:microTT}
+\end{figure}
 
 Non-thermal processes affecting the residual stresses also exist. As we saw in the previous section, tensile stresses near the surface are the most problematic. A purely mechanical treatment able to cancel these is shot-peening. High velocity projectiles, usually metallic or ceramic beads, are used to hit a surface. The impacts deform plastically the top of the part, which tries to stretch in the horizontal direction. This is prevented by the material below, which remains undeformed. The surface layer thus finds itself in a compressive state \cite{Vrancken2016}. If tensile stresses where present near the surface, they get cancelled by the important compressive stresses included in the material. While injecting compression near the surface can already be beneficial, by hindering crack initiation for example, Salmi et al. (2017) \cite{Salmi2017} also obtained a certain degree of homogenization of the stresses all along the examined depth. \\
 
 Lastly, another well-known drawback of AM parts is their mediocre surface finish compared to cast parts. This roughness, as well as the presence of open porosities, is an important cause of the relatively poor fatigue strength because they constitute privileged points of fracture initiation. However, polishing and machining have shown themselves not very efficient at enhancing fatigue behaviour of AM samples. Mower et al. (2016)\cite{MOWER2016198} had mixed results, where Ti6Al4V parts were improved by machining, while AlSi10Mg ones kept poor fatigue properties after mechanical electrochemical polishing. Aboulkhair et al. (2016) \cite{ABOULKHAIR2016bis} obtained lukewarm results as well, with only some improvement at lower stress levels, whereas heat treatments had a much more significant influence. Both concluded that this lack of enhancement was probably due to the numerous defects near the surface, as well as in the bulk, that were impossible to remove through polishing. \\
 
-Although machining the surface does indeed reduce its roughness, it can also expose buried porosities at the same time which creates sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts. They most probably also impact the residual stresses. Machining was observed to have a tremendous influence for wrought aluminium \parencite{Denkena2007}. Cutting speed, feed per tooth and cooling were observed to have notable effects but not as critical as the corner radius's (see figure \ref{fig:Mach}). High compression stresses were induced, going up to nearly 300 [MPa].\\
+Although machining the surface does indeed reduce its roughness, it can also expose buried porosities at the same time which creates sites of choice for fatigue cracking. On top of it, polishing and machining may not always prove themselves easy, fast or cheap to apply to complex-shaped AM parts. They most probably also impact the residual stresses. Machining was observed to have a tremendous influence for forged aluminium \parencite{Denkena2007}. Cutting speed, feed per tooth and cooling were observed to have notable effects but not as critical as the corner radius's (see figure \ref{fig:Mach}). High compression stresses were induced, going up to nearly 300 [MPa].\\
 
 \begin{figure}[ht]
 	\centering
 	\noindent\makebox[\textwidth]{\includegraphics[scale=0.28]{Images/Mach}}
 	\decoRule
-	\caption[Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.]{Influence of the cutting parameters on the residual stresses of machined wrought aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius (from Denkena et al., 2007 \parencite{Denkena2007}).}
+	\caption[Influence of the cutting parameters on the residual stresses of machined forged aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius.]{Influence of the cutting parameters on the residual stresses of machined forged aluminium: (a) cutting speed (b) feed per tooth (c) cooling (d) corner radius (from Denkena et al., 2007 \parencite{Denkena2007}).}
 	\label{fig:Mach}
 \end{figure}
 
