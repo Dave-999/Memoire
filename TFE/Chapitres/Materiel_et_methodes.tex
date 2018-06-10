@@ -102,7 +102,8 @@ An island scanning strategy was chosen on account of research done on the subjec
 
 \section{Heat treatments}
 \label{MMHT}
-The heat treatments were conducted inside a unique oven of the VT 5050 EKP model manufactured by Heraeus, which is able to reach a temperature of 400$^\circ$ C. The samples were introduced in the cold oven under an air atmosphere, and after the annealing, were left to cool down in the turned off oven with the door open. Samples temperature data was obtained through a T-type thermocouple arc-welded to the sample surface, thanks to a \textit{Labfacility L60 Thermocouple \& Fine Wire Welder}. \textcolor{gray}{[Méthode de soudage=> C'est plutot du brasage faible (=soldering) , élévation de la température durant l'opération]} The data was displayed and saved every 10 seconds with a precision of 0.1$^\circ$ C, thanks to a \textit{Agilent 34972A LXI Data Acquisition/Switching Unit} connected to the thermocouple (see Fig.\ref{fig:agilent} for both devices). For reasons that can not be explained only by thermal inertia, setting the oven to the target temperature was not efficient to heat the specimens to the same temperature. After a couple of tests, the oven was then set at a temperature about 20$^\circ$ C above the target so that the temperature measured by the thermocouple welded on the sample reached the target temperature.\\
+%\textcolor{gray}{[Méthode de soudage=> C'est plutot du brasage faible (=soldering) , élévation de la température durant l'opération]} 
+The heat treatments were conducted inside a unique oven of the VT 5050 EKP model manufactured by Heraeus, which is able to reach a temperature of 400$^\circ$ C. The samples were introduced in the cold oven under an air atmosphere, and after the annealing, were left to cool down in the turned off oven with the door open. Samples temperature data was obtained through a T-type thermocouple soldered to the sample surface, thanks to a \textit{Labfacility L60 Thermocouple \& Fine Wire Welder}. The data was displayed and saved every 10 seconds with a precision of 0.1$^\circ$ C, thanks to a \textit{Agilent 34972A LXI Data Acquisition/Switching Unit} connected to the thermocouple (see Fig.\ref{fig:agilent} for both devices). For reasons that can not be explained only by thermal inertia, setting the oven to the target temperature was not efficient to heat the specimens to the same temperature. After a couple of tests, the oven was then set at a temperature about 20$^\circ$ C above the target so that the temperature measured by the thermocouple welded on the sample reached the target temperature.\\
 
 \begin{figure}[ht]
 	\centering
@@ -236,20 +237,15 @@ An optimal threshold was sought for porosities isolation so as to include only h
 \subsubsection{Optical microscopy}
 \label{MMOM}
 
-\textcolor{red}{[...]}\\
+In order to make the identification of the melt pools boundaries possible, the samples underwent the polishing routine detailed in table \ref{tab:pol}. They were then etched with a Keller's reagent. It is a popular etchant containing hydrochloric acid, hydrofluoric acid and nitric acid diluted in distilled water.\\
 
-In order to make the identification of the melt pools boundaries possible, the samples underwent the polishing routine detailed in table \ref{tab:pol}. They were then etched with	a Keller's reagent. It is a popular etchant containing hydrochloric acid, hydrofluoric acid and nitric acid diluted in distilled water. [Attaque préférentielle->distinction à l'optique] \\
-
-A study of the melt pool sizes was conducted. [Méthode ImageJ]. As SLM involves melt pools overlapping to ensure consolidation, one cannot measure the actual original melt pools dimensions. The method has thus only been used as a tool to compare samples.
-
-Densité
-Autre chose?
+A study of the melt pool sizes was conducted (see section \ref{rs_mps}). As SLM involves melt pools overlapping to ensure consolidation, one cannot measure the actual original melt pools dimensions. The method has thus only been used as a tool to compare samples. 
 
 \subsubsection{Scanning electron microscopy}
 
-Microstructure and fracture surfaces were observed thanks to a \textit{Zeiss Ultra-55} Scanning Electron Microscope with a field emission gun, both through secondary electrons imaging. Microstructure observation required the same polishing routine as for optical microscopy, with the exception of the step (etching) which was replaced by a smooth mechano-chemical polishing with an Oxide Polishing Suspension (\textit{Struers Op-S NonDry}).\\
+Microstructure and fracture surfaces were observed thanks to a \textit{Zeiss Ultra-55} Scanning Electron Microscope with a field emission gun, both through secondary electrons imaging. Microstructure observation required the same polishing routine as for optical microscopy, with the exception of the last step (etching) which was replaced by a smooth mechano-chemical polishing with an Oxide Polishing Suspension (\textit{Struers Op-S NonDry}).\\
 
-Size of cells and ductile dimples were measured by the mean linear intercept method, as well as interdistance between globular Si particles in heat-treated samples. An example of this method is available in Fig. \ref{fig:mm_sem}. The size of these particles was measured via image treatment, with the help of the \textit{ImageJ} software.\\
+Size of cells and ductile dimples were measured with the linear intercept method, as well as the interdistances between the globular Si particles in heat-treated samples. An example of this method is available in figure \ref{fig:mm_sem}. The size of these particles was measured via image analysis, with the help of the \textit{ImageJ} software.\\
 
 \begin{figure}[h]
 	\centering
@@ -261,7 +257,7 @@ Size of cells and ductile dimples were measured by the mean linear intercept met
 
 \subsection{Residual stresses}
 
-Measurements of residual stresses were performed by Dr Ing. Pierluigi Mollicone, at University of Malta. Two parallelepiped specimens were specifically built to undergo the semi-destructive method of hole drilling. One was tested as-built, while the other was heat-treated at 300$^\circ$C for 2h. Their dimensions are 10 x 40 x 120 [mm$^3$]. Machining of the sample was performed after the eventual heat treatment, removing the least matter possible, before shipping to Malta. This was done in order to reduce rugosity on the top and bottom faces of the samples, because smooth surfaces are necessary for the correct fixation of the gauges. \\
+Measurements of residual stresses were performed by Dr Ing. Pierluigi Mollicone, at University of Malta. Two parallelepiped specimens were specifically built to undergo the semi-destructive method of hole drilling. Their dimensions are 10 x 40 x 120 [mm$^3$]. One was tested as-built, while the other was heat-treated at 300$^\circ$C for 2h. Machining of the latter was performed after the heat treatment, removing the least matter possible, before shipping to Malta. This was done in order to reduce rugosity on the top and bottom faces of the samples, because smooth surfaces are necessary for the correct fixation of the gauges. \\
 
 From the deformation measured by the strain gauges during the hole drilling, residual stresses were calculated with the integral method, as well as with its simplified approximation \cite{Trebuna08}, the power series method.\\
 

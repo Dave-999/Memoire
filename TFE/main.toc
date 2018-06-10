@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {british}{}
+\defcounter {refsection}{0}\relax 
+\select@language {british}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
 \contentsline {chapter}{\numberline {2}State of the art}{3}{chapter.11}
 \contentsline {section}{\numberline {2.1}Selective laser melting technology}{3}{section.12}
@@ -22,7 +23,7 @@
 \contentsline {subsection}{\numberline {3.4.2}Microstructure}{30}{subsection.64}
 \contentsline {subsubsection}{Optical microscopy}{30}{section*.65}
 \contentsline {subsubsection}{Scanning electron microscopy}{31}{section*.66}
-\contentsline {subsection}{\numberline {3.4.3}Residual stresses}{32}{subsection.68}
+\contentsline {subsection}{\numberline {3.4.3}Residual stresses}{31}{subsection.68}
 \contentsline {subsection}{\numberline {3.4.4}Mechanical properties}{32}{subsection.69}
 \contentsline {subsubsection}{Hardness test}{32}{section*.70}
 \contentsline {subsubsection}{Tensile tests}{33}{section*.72}

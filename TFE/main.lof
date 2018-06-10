@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {british}{}
+\defcounter {refsection}{0}\relax 
+\select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Selective laser melting technology principle}}{3}{figure.caption.13}
@@ -33,9 +34,9 @@
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Temperature curve measured by the T-type thermocouple for the cubic sample annealed at 250$^\circ $C for 2 hours.}}{28}{figure.caption.56}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces RODIA procedure for specimen X200-180319-cub 1: (a) Original picture of polished section (b) Whole surface isolation with \textit {ImageJ} (c) Porosities isolation with \textit {ImageJ}}}{30}{figure.caption.63}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Implementation of the mean linear intercept method on a SEM picture of an as-built sample.}}{31}{figure.caption.67}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic representation of the Vickers hardness test}}{33}{figure.caption.71}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic representation of the tensile test mounting}}{34}{figure.caption.73}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{36}{figure.caption.75}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic representation of the Vickers hardness test}}{32}{figure.caption.71}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic representation of the tensile test mounting}}{33}{figure.caption.73}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tensile stress-strain curve for specimen X200-180417-5 with annotated key features}}{35}{figure.caption.75}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of powder size distributions with recycling iterations before ultrasonic treatments.}}{37}{figure.caption.79}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Evolution of concentration of the recycled powder constituting elements: (a) aluminium mass fraction (b) silicon mass fraction (c) magnesium mass fraction (d) iron mass fraction}}{39}{figure.caption.86}
