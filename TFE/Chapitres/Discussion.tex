@@ -193,7 +193,7 @@ The hypothesis of thermal influence do not seem to stand for the specimens made 
 
 \section{Mechanical properties}
 \label{DMPP}
-The average tensile properties measures for AB specimens fell a bit short of the expectations. While $\sigma_y$ was elavated compared to the standards, $\sigma_u$ was less satisfactory ($\simeq 17\%$ beneath the highest value \parencite{EOS}). In addition, $\epsilon_f$ was lower than most values in table \ref{tab:Kemp1}: up to $\simeq 58\%$ less than other results for samples built along z.  Furthermore, while $E$ varies a lot in literature, it is extremely rare that it reaches an average value as low as 65. \\
+The average tensile properties measures for AB specimens fell a bit short of the expectations. While $\sigma_y$ was elavated compared to the standards, $\sigma_u$ was less satisfactory ($\simeq 17\%$ beneath the highest value \parencite{EOS}). In addition, $\epsilon_f$ was lower than most values in table \ref{tab:Kemp1}: up to $\simeq 58\%$ less than other results for samples built along z. \\%Furthermore, while $E$ varies a lot in literature, it is extremely rare that it reaches an average value as low as 65. \\
 
 Results were compared to the \textit{Aerostream} project's carried out by ULB, VUB and UCL universities in which AlSi10Mg tensile specimens were also fabricated vertically and tested. The process parameters used for the project are unfortunately undisclosed. The comparison of the AB specimens is presented on figure \ref{fig:AerAB}. The properties obtained with the \textit{Aerostream} project are obviously far better than what was obtained in this thesis for as-built specimens (and to what can be found in literature). The fracture strain was indeed three times bigger and the ultimate tensile strength 24\% superior. \\
 
@@ -205,11 +205,37 @@ Results were compared to the \textit{Aerostream} project's carried out by ULB, V
 	\label{fig:AerAB}
 \end{figure}
 
-...Effect of residual stress
+The shortcomings of the manufactured samples can be attributed at least partially to the presence of residual stresses. Consequent tension residual stresses were measured in the material. The actual stress during the tensile tests was thus greater than what was measured. In addition, there is a stress concentration due to the porosities. For spherical porosities, it is given by:
 
-An increase of ultimate tensile strength was observed for the specimens that underwent a heat treatment at 150$^\circ$C. ...
+$$\sigma_{loc}=K_t \cdot \sigma_{t} $$
 
-A noteworthy parallel can be made between the Vickers hardness and the ultimate tensile strength for AB and heat treated samples. The two are connected via a quasi-linear relationship as shown in table{tab:HVUTS} and figure \ref{fig:HVUTS}. A good approximation can thus be obtained with $\sigma_u \simeq 2.88 H_v$. Data was taken from sections \ref{RCHTS} and \ref{RCABS}.
+where $\sigma_t$ is the applied stress and $K_t=\frac{3}{2}(1+\frac{2}{7-5\nu}) \simeq 2$ [-] is the stress intensity factor \parencite{Paris}. \\
+
+The combination of the effects must have caused a shift of the actual local stress. The critical stress  $\sigma_c$ causing crack propagation was thus attained before the start of the voids coalescence, as illustrated in figure \ref{fig:RSTrac}. As a result, the apparent tensile curve was truncated, reducing slightly $\sigma_u$ and greatly $\epsilon_f$. The yield strength, however, was the same as a residual stress free sample. \\
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.53]{Images/RSTrac}}
+	\decoRule
+	\caption[Illustration of the impact of residual stress on the observed tensile stress-strain curve]{Illustration of the impact of residual stress on the observed tensile stress-strain curve}
+	\label{fig:RSTrac}
+\end{figure}
+
+This concurs with the data of table \ref{tab:Wang}: the heating of the plate during the manufacturing process at 160$^\circ C$, while reducing the residual stresses, increased the fracture strain by 77\%. This could explain the differences with the better properties found in literature: as all the sources that obtained both high $\sigma_u$ and $\epsilon_f$ did not specify the used process conditions, it is conceivable that they all used plate heating. \\
+
+A consequent increase of ductility was observed for samples heat treated at 250$\sigma$ and higher temperatures. This is due to the softening of the material induced by the microstructure modifications (see section \ref{DMMM}). It could also be due to stress relief (SR). However, SR is not necessary to explain the results: the lowered maximal stress due to the softening could simply have been insufficient to reach the critical value $\sigma_c$ impeding the ductile damage mechanism. The curves can thus not enable to certify if there was stress relief or not. Nevertheless, the heat treatment at 250$^\circ C$ permitted to have a good trade-off for the tensile properties: there was an increase of 250\% of $\epsilon_f$ for decreases of only 12\% and 11\% of $\sigma_y$ and $\sigma_u$ respectively. This is quiet different from what Mertens et al. observed for the same treatment (80\% increase for $\epsilon_f$ and decreases of 10\% and 2\% for $\sigma_y$ and $\sigma_u$) \parencite{Mertens15}.\\
+
+An increase of ultimate tensile strength was observed for the specimens that underwent a heat treatment at 150$^\circ$C. This is seemingly due to artificial ageing: precipitated $Mg_2Si$ particles constrain the dislocations displacement through the Orowan bowing phenomena as shown in figure \ref{fig:Oro}, which induces hardening \parencite{Ghosh}. Artificial ageing can take place at 160$^\circ$C (see section \ref{SOTAPT}), it thus do not seem far-fetched that it could happen ten degrees below. Sample heated at 200$^\circ C$ demonstrated properties similar to the as-built ones. This is probably due to the compensation of the age-hardening effect with the microstructure softening.\\
+
+\begin{figure}[ht]
+	\centering
+	\centerline{\includegraphics[scale=0.45]{Images/Orowan}}
+	\decoRule
+	\caption[Schematic representation of dislocation/precipitate interaction under different tempering condition (a) underaged, (b) peak aged]{Schematic representation of dislocation/precipitate interaction under different tempering condition (a) underaged, (b) peak aged (from Ghosh et al., 2015 \parencite{Ghosh})}
+	\label{fig:Oro}
+\end{figure}
+
+A noteworthy parallel can be made between the Vickers hardness and the ultimate tensile strength for AB and heat treated samples. The two are connected via a quasi-linear relationship as shown in table \ref{tab:HVUTS} and figure \ref{fig:HVUTS}. A good empirical approximation can thus be obtained with $\sigma_u \simeq 2.88 H_v$. Data was taken from sections \ref{RCABS} and \ref{RCHTS}.
 
 \begin{center}
 	\begin{table}[ht]
@@ -237,18 +263,8 @@ A noteworthy parallel can be made between the Vickers hardness and the ultimate 
 	\label{fig:HVUTS}
 \end{figure}
 
-
-The mechanical properties of the specimens heat treated at 150$^\circ C$ provided insight concerning the as-bu.	
-
-[Propriétés as-built moins bonnes que dans la litérature car contraintes résiduelles. On a pas les conditions de fabrication des meilleurs -> Ils avaient surement un controle de la température de la plaque] 
-[Faire le dessin de courbe "montée" par les contraintes]
-[Augmentation de ductilité = disparition des	limites entres bains de fusion? ou compensation du matériau ductile autours des trous? A confirmer/infirmer via les images du SEM de la section d'après]
-[Différence de porosité avant/ après TT qui explique quelque chose? -> Analyse image J des résultats]
-[Lien avec la dureté -> Résultats]
-
-
 \section{Microstructure}
-
+\label{DMMM}
 [Mécanisme d'endommagement: deux populations de porosités? A confirmer/ infirmer avec les articles envoyés par AS]
 [Taille des cupules= ordre de grandeur des éléments de la microstructure?] 
 
@@ -277,7 +293,7 @@ Quand on chauffe à 300 deg, on chauffe déjà longtemps à plus de 200 deg.
 
 According to Vashista et al. (2012) \cite{Vashista12}, direct mathematical relation between FWHM and residual stresses is difficult to obtain, because FWHM is known to increase with plastic deformation and grain refinement besides residual stress. They however observed experimentally a non-linear increase of FWHM with residual stresses.\\
 
-We indeed observe a decrease of FWHM with the temperature of the heat treatment. It would mean that the heat treatment relieves stresses as intended. Only the as-built sample seems to defy this logic and present a FWHM lower than some heat-treated samples. However this could be explained by the geometrical difference of the as-built. While the heat-treated samples used for XRD are complete 5 x 5 x 5 [mm$^3$] cubes, the as-built is 1 x 1 x 1 [cm$^3$] cube cut in half. The higher volume explains the higher peak, and the cut may have allow a part of the residual stresses to relax by deforming the part, and thus causing the narrowing of the peak. \\
+We indeed observe a decrease of FWHM with the temperature of the heat treatment. It would mean that the heat treatment relieves stresses as intended. Only the as-built sample seems to defy this logic and present a FWHM lower than some heat-treated samples. However this could be explained by the geometrical difference of the as-built. While the heat-treated samples used for XRD are complete 5 x 5 x 5 [mm$^3$] cubes, the as-built is 1 x 1 x 1 [cm$^3$] cube cut in half. The higher volume explains the higher peak, and the cut may have allow a part of the residual stresses to relax by deforming the part, and thus causing the narrowing of the peak.\\
 
 Nonetheless, the sample heat-treated at 300$^\circ$C for 2 hours remains far from stress-free according to the results from Lam et al. (2015) \cite{Lam15}. They obtained for the same peak a FWHM of 0.361, which much smaller than everything we managed to obtain. However, as discussed above, other parameters could play a role in this difference.
 

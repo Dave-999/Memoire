@@ -648,6 +648,58 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Ghosh}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GA}{%
+         family={Ghosh},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Adesola},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Szpunar},
+         familyi={S\bibinitperiod},
+         given={J.A.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Odeshi},
+         familyi={O\bibinitperiod},
+         given={A.G.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Gurao},
+         familyi={G\bibinitperiod},
+         given={N.P.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{Aluminium alloy, Tempering, High strain rate, Texture, Electron back
+  scatter diffraction}
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAAASJOAGN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{1 \bibrangedash  10}
+    \field{title}{Effect of tempering conditions on dynamic deformation
+  behaviour of an aluminium–lithium alloy}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0261306915002320
+    \endverb
+    \field{volume}{81}
+    \field{journaltitle}{Materials \& Design}
+    \field{year}{2015}
+  \endentry
+
   \entry{Haase}{article}{}
     \name{author}{4}{}{%
       {{hash=HC}{%
@@ -1586,6 +1638,48 @@
     \field{urlday}{02}
     \field{urlmonth}{06}
     \field{urlyear}{2018}
+  \endentry
+
+  \entry{Paris}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PP}{%
+         family={Paris},
+         familyi={P\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PLT}{%
+         family={Palin-Luc},
+         familyi={P\bibinitperiod-L\bibinitperiod},
+         given={Thierry},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Tada},
+         familyi={T\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=SN}{%
+         family={Saintier},
+         familyi={S\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PP+1}
+    \strng{fullhash}{PPPLTTHSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Int Conf Crack Paths}
+    \field{pages}{485\bibrangedash 502}
+    \field{title}{Stresses and crack tip stress intensity factors around
+  spherical and cylindrical voids and inclusions of differing elastic
+  properties and with misfit sizes}
+    \field{month}{01}
+    \field{year}{2009}
   \endentry
 
   \entry{PRASHANTH170205}{article}{}
